@@ -12,6 +12,7 @@
 
 ## Print the current prototype
 
+- **整盘打印：[P2S 两盘排版与导入说明](plates/v2/README.zh-CN.md)**。每盘一个 STL / 3MF，无需逐件摆放；普通攻牙版和侧面嵌件版分别提供替代第一盘。
 - Browse [v2 STL files](models/v2), or use GitHub **Code → Download ZIP** on the branch you intend to print. [V1 files](models/v1) remain available as a historical baseline.
 - **先阅读：[v2 中文打印与装配说明](docs/v2.zh-CN.md)**。尺寸出处和原始硬盘孔位来源另见 [v1 基准说明](docs/printing.zh-CN.md)。
 - Print one `fit-coupon-1-slot-print-3.stl` first, then three total plus `stack-coupon-cap.stl` for stack fitting. If choosing side inserts, also print `side-insert-coupon.stl` before the body.

@@ -1,0 +1,132 @@
+{
+  "bed_mm": [
+    256.0,
+    256.0
+  ],
+  "part_gap_mm": 8.0,
+  "case_plate_count": 2,
+  "optional_test_plate_separate": true,
+  "source_projection_area_mm2": {
+    "body-pilot": 14935.1997756958,
+    "lid": 14920.018899635947,
+    "tray-bottom-2": 9070.459587707497,
+    "tray-middle-3": 13493.538489208264,
+    "tray-top-3": 13493.538489208264
+  },
+  "total_projection_area_mm2": 65912.75524145577,
+  "bed_area_mm2": 65536.0,
+  "single_flat_plate_impossible_by_area": true,
+  "plates": [
+    {
+      "plate": "plate-1-pilot",
+      "objects": [
+        "body-pilot",
+        "lid",
+        "tray-bottom-2"
+      ],
+      "bounds_mm": [
+        [
+          17.8,
+          22.4,
+          0.0
+        ],
+        [
+          238.20000152587892,
+          233.5999984741211,
+          24.399999618530273
+        ]
+      ],
+      "minimum_bbox_gap_mm": 8.0,
+      "minimum_bed_edge_margin_mm": 17.799998474121082,
+      "shell_count": 3,
+      "roundtrip_verified": true
+    },
+    {
+      "plate": "plate-1-side-inserts",
+      "objects": [
+        "body-side-inserts",
+        "lid",
+        "tray-bottom-2"
+      ],
+      "bounds_mm": [
+        [
+          17.8,
+          22.4,
+          0.0
+        ],
+        [
+          238.20000152587892,
+          233.5999984741211,
+          24.399999618530273
+        ]
+      ],
+      "minimum_bbox_gap_mm": 8.0,
+      "minimum_bed_edge_margin_mm": 17.799998474121082,
+      "shell_count": 3,
+      "roundtrip_verified": true
+    },
+    {
+      "plate": "plate-2-middle-top",
+      "objects": [
+        "tray-middle-3",
+        "tray-top-3"
+      ],
+      "bounds_mm": [
+        [
+          56.6,
+          26.2,
+          0.0
+        ],
+        [
+          199.39998779296874,
+          229.79999542236328,
+          6.800000190734863
+        ]
+      ],
+      "minimum_bbox_gap_mm": 8.000004577636716,
+      "minimum_bed_edge_margin_mm": 26.2,
+      "shell_count": 2,
+      "roundtrip_verified": true
+    },
+    {
+      "plate": "optional-test-plate",
+      "objects": [
+        "fit-coupon-1-slot-print-3",
+        "fit-coupon-1-slot-print-3",
+        "fit-coupon-1-slot-print-3",
+        "stack-coupon-cap",
+        "side-insert-coupon"
+      ],
+      "bounds_mm": [
+        [
+          56.6,
+          43.0,
+          0.0
+        ],
+        [
+          199.39998779296874,
+          213.0,
+          10.399999618530273
+        ]
+      ],
+      "minimum_bbox_gap_mm": 7.999996185302734,
+      "minimum_bed_edge_margin_mm": 43.0,
+      "shell_count": 5,
+      "roundtrip_verified": true
+    }
+  ],
+  "source_sha256": {
+    "body-pilot.stl": "81450f32b3a043802ae5b11b6de72f063996e5fc35fe67a42460e2c0f6e47016",
+    "body-side-inserts.stl": "95ff4e7f7c2a9087551d37103abff03c0e347494314cdd49b48b6bf3277f00ce",
+    "fit-coupon-1-slot-print-3.stl": "e7cf172de70dbb8407d1228de3fdfe51593635dc2458e3cbe9e78a97cf86b9a6",
+    "lid.stl": "5e2f88820898b688e7d4b54904915b053279cc12f3859b9e270e0a4c7e9be36d",
+    "side-insert-coupon.stl": "5bf7aa475dd2fd5c2572112f99f743f65d15b686469c61d0793914af20d13d05",
+    "stack-coupon-cap.stl": "05a2c6f96635050136769348dba88d13fc797e22a5b2412f15b6d0c5291034e5",
+    "tray-bottom-2.stl": "8a9e343397b0f1cbeb274b07797797ec12d1d4cd5a1e2ff3dc0a77b819022e7b",
+    "tray-middle-3.stl": "b07f407c59a70cfb53c98d1b98f10cb721a93030a89bb371f5175c71529a2fec",
+    "tray-top-3.stl": "4b711e4b112ce43b81ff86b1d8f68e72eefb95773a99bcd1c1b5fcd2a7788807"
+  },
+  "printer_profile_embedded": false,
+  "sliced": false,
+  "physical_tested": false
+}
