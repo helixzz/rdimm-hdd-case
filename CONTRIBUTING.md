@@ -4,9 +4,9 @@ Issues and pull requests may be written in Chinese or English.
 
 1. Clone the repository on each computer, fetch current `main`, and create a descriptive branch for the change. Avoid concurrent edits to the same branch across agents.
 2. Install Python 3.12 dependencies with `python -m pip install -r requirements.txt` in a virtual environment.
-3. Edit `src/build_case.py`; this is the source of truth. Keep units in mm. Explain any changed dimensions, tolerance assumptions, or hardware interfaces.
-4. Run `python src/build_case.py`. Inspect the verification JSON, rendered preview, and affected STL files. If preparing a new printable baseline, run `python src/build_case.py --output-dir models/v1` and commit all corresponding artifacts together. Use a new version directory for an incompatible design.
-5. Update the printing guide and README for material changes to fit, printing, hardware, or capacity. Do not promote physical-test status based on numerical checks.
+3. Edit `src/build_case.py`; this is the v2 source of truth. `src/build_v1.py` and `models/v1/` preserve the historical v1 baseline. Keep units in mm. Explain any changed dimensions, tolerance assumptions, or hardware interfaces.
+4. Run `python src/build_case.py`. Inspect the verification JSON, rendered preview, and affected STL files. If preparing a new printable baseline, run `python src/build_case.py --output-dir models/v2` and commit all corresponding artifacts together. Use a new version directory for an incompatible design.
+5. Update `docs/v2.zh-CN.md`, the physical validation record, and README for material changes to fit, printing, hardware, or capacity. Do not promote physical-test status based on numerical checks.
 6. Open a pull request stating the problem, design change, checks performed, and remaining physical validation. Keep unrelated changes separate.
 
 The build itself checks manifold meshes, assembly intersections, reference module clearance, and screw intrusion. CI repeats that build on Windows and Linux. It does not slice the files or perform a print. Do not use optimized Python (`-O`), which disables assertions.

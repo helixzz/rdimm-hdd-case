@@ -1,0 +1,188 @@
+{
+  "version": "v2",
+  "outer_mm": [
+    147.0,
+    101.6,
+    26.0
+  ],
+  "capacity": 8,
+  "cavity_mm": [
+    134.4,
+    31.8,
+    6.2
+  ],
+  "parts": [
+    {
+      "part": "body-pilot",
+      "bbox_mm": [
+        147.0,
+        101.5999984741211,
+        24.399999618530273
+      ],
+      "volume_cm3": 79.17136673199415,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "part": "body-side-inserts",
+      "bbox_mm": [
+        147.0,
+        101.5999984741211,
+        24.399999618530273
+      ],
+      "volume_cm3": 78.78453959412752,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "part": "tray-bottom-2",
+      "bbox_mm": [
+        142.79998779296875,
+        65.4000015258789,
+        6.800000190734863
+      ],
+      "volume_cm3": 9.118927999999997,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -2.0999999046325684,
+        -18.100000381469727,
+        -0.0
+      ]
+    },
+    {
+      "part": "tray-middle-3",
+      "bbox_mm": [
+        142.79998779296875,
+        97.79999542236328,
+        6.800000190734863
+      ],
+      "volume_cm3": 12.94155200000001,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -2.0999999046325684,
+        -1.899999976158142,
+        -0.0
+      ]
+    },
+    {
+      "part": "tray-top-3",
+      "bbox_mm": [
+        142.79998779296875,
+        97.79999542236328,
+        6.800000190734863
+      ],
+      "volume_cm3": 12.94131200000001,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -2.0999999046325684,
+        -1.899999976158142,
+        -0.0
+      ]
+    },
+    {
+      "part": "lid",
+      "bbox_mm": [
+        147.0,
+        101.5999984741211,
+        2.4000000953674316
+      ],
+      "volume_cm3": 21.08196929771272,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -0.0,
+        101.5999984741211,
+        1.600000023841858
+      ]
+    },
+    {
+      "part": "fit-coupon-1-slot-print-3",
+      "bbox_mm": [
+        142.79998779296875,
+        33.000003814697266,
+        6.800000190734863
+      ],
+      "volume_cm3": 4.991119999999994,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -2.0999999046325684,
+        -34.29999923706055,
+        -0.0
+      ]
+    },
+    {
+      "part": "stack-coupon-cap",
+      "bbox_mm": [
+        137.89999389648438,
+        33.000003814697266,
+        1.600000023841858
+      ],
+      "volume_cm3": 7.281119999999999,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -4.550000190734863,
+        -34.29999923706055,
+        -0.0
+      ]
+    },
+    {
+      "part": "side-insert-coupon",
+      "bbox_mm": [
+        40.0,
+        6.0,
+        10.399999618530273
+      ],
+      "volume_cm3": 2.225772261590504,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -0.0,
+        -0.0,
+        -0.0
+      ]
+    }
+  ],
+  "base_mm": 4.0,
+  "tray_pitch_mm": 6.8,
+  "lid_nominal_mm": 1.6000000000000014,
+  "component_bottom_clearance_mm": 0.3,
+  "component_top_clearance_to_next_tray_mm": 0.33,
+  "lid_stack_relief_mm": 0.2,
+  "assembly_intersections": false,
+  "reference_module_intersections": false,
+  "component_translation_stress_mm": 0.2,
+  "component_translation_stress_cases": 64,
+  "alternate_body_intersections": false,
+  "max_insert_envelope_intersections": false,
+  "stack_coupon_intersections": false,
+  "reference_module_max_thickness_mm": 5.57,
+  "blank_short_edge_assumption_mm": 2.0,
+  "mount_screw_penetration_test_mm": 3.0,
+  "side_insert_part": "PEM IUTB-632-150",
+  "side_insert_bore_mm": 4.82,
+  "side_insert_depth_mm": 4.7,
+  "bottom_pilot_depth_mm": 3.3,
+  "bottom_thread_finishing_required": "6-32 UNC",
+  "lid_thread_finishing_required": "M2",
+  "physical_tested": false,
+  "sliced_in_bambu_studio": false,
+  "exact_samsung_component_placement_verified": false,
+  "arbitrary_orientation_retention_verified": false,
+  "heat_set_pullout_strength_verified": false,
+  "esd_verified": false
+}

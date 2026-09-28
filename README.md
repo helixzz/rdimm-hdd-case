@@ -4,33 +4,36 @@
 
 为服务器内存设计的硬盘位收纳盒：三层托盘，容量 2 + 3 + 3 条，优先保持标准 3.5 寸硬盘外形。目标参考内存为 Samsung M321RAJA0MB2-CCP / CCPKF，打印机参考为 Bambu Lab P2S。
 
-**Status: engineering prototype. Geometry checked; not sliced, printed, or physically fitted.** This is not a certified ESD enclosure. Mounting holes are unthreaded pilots requiring finishing.
+**Status: engineering prototype. Geometry checked; not sliced, printed, or physically fitted.** This is not a certified ESD enclosure. V2 offers either plastic mounting pilots or optional metal inserts on the six side holes; bottom and lid pilots still require tapping.
 
-![Mesh-derived assembly preview](models/v1/case-preview.png)
+![Mesh-derived assembly preview](models/v2/case-preview.png)
+
+**V2 prototype:** greater component-to-floor clearance, lid locating collars, tray pull eyes and tier marks, plus optional side inserts. See [changes and tradeoffs](CHANGELOG.md) and the [detail preview](models/v2/v2-details.png). Do not mix v1 and v2 parts.
 
 ## Print the current prototype
 
-- [Download all project files](https://github.com/helixzz/rdimm-hdd-case/archive/refs/heads/main.zip), or browse [v1 STL files](models/v1).
-- **先阅读：[中文打印与装配说明](docs/printing.zh-CN.md)**，包含孔位、螺丝、打印方向、材料及全部尺寸来源。
-- Print `fit-coupon-1-slot.stl` first. Check that the short PCB edges rest on the shelves without contacting components and that the module lifts out freely.
-- Full set: `body.stl` × 1, `tray-2-slots-print-1.stl` × 1, `tray-3-slots-print-2.stl` × 2, `lid.stl` × 1. STL units are mm; use 100% scale. The lid is already flipped exterior-face-down for printing.
+- Browse [v2 STL files](models/v2), or use GitHub **Code → Download ZIP** on the branch you intend to print. [V1 files](models/v1) remain available as a historical baseline.
+- **先阅读：[v2 中文打印与装配说明](docs/v2.zh-CN.md)**。尺寸出处和原始硬盘孔位来源另见 [v1 基准说明](docs/printing.zh-CN.md)。
+- Print one `fit-coupon-1-slot-print-3.stl` first, then three total plus `stack-coupon-cap.stl` for stack fitting. If choosing side inserts, also print `side-insert-coupon.stl` before the body.
+- Full set: choose **one** of `body-pilot.stl` / `body-side-inserts.stl`; add `tray-bottom-2.stl`, `tray-middle-3.stl`, `tray-top-3.stl`, and `lid.stl`, one each. STL units are mm; use 100% scale. The lid is already exterior-face-down for printing.
 
-HDD mounts require **6-32 UNC**, not M3: 2.7 mm pilot diameter, 3.7 mm blind depth; limit installed screw penetration to **3.0 mm**. The lid uses four M2 countersunk screws, with M2 pilot holes also requiring finishing. Follow the full guide before machining or installing hardware.
+HDD mounts use **6-32 UNC**, not M3. The optional metal-side version is dimensioned specifically for **PEM IUTB-632-150** inserts. Bottom holes remain 2.7 mm plastic pilots, now 3.3 mm deep. Limit installed screw intrusion to 3.0 mm and check actual effective thread depth. The lid uses four M2 countersunk screws; its plastic pilots still require tapping. Read the full guide before printing or installing hardware.
 
 ## Design basis and limitations
 
-| Item | v1 value |
+| Item | v2 value |
 | --- | --- |
 | Assembled envelope | 147 × 101.6 × 26 mm |
 | Capacity | 8 RDIMMs; not a proven maximum-density packing |
-| Nominal cavity per module | 134.4 × 31.8 × 6.0 mm |
+| Nominal cavity per module | 134.4 × 31.8 × 6.2 mm |
 | Reference maximum module envelope | 133.80 × 31.40 × 5.57 mm |
+| Nominal component clearance | 0.30 mm below, 0.33 mm to next tray above |
 | Mounting positions | 6 side, 4 bottom; traditional HDD pattern |
 | PCB contact assumption | 2 mm component-free region at each short edge |
 
 The envelope comes from Micron's DDR5 RDIMM reference drawing, cross-checked against another Samsung double-sided RDIMM drawing. It is **not a measured or verified mechanical drawing for the exact target Samsung part**. Sources and coordinate conventions are recorded in the [design/printing guide](docs/printing.zh-CN.md#设计基准与来源).
 
-Automated checks cover closed meshes, connected parts, assembly and simplified RAM interference, and 3 mm screw penetration. They do not establish print tolerances, tapping strength, exact component placement, chassis compatibility, or ESD performance. Ordinary PETG/ASA is not inherently static dissipative. A 38 mm upright variant is a future design direction; chassis clearance must be established before adopting it.
+Automated checks cover closed meshes, connected parts, both body assemblies, simplified RAM interference, 64 component-offset cases, insert envelopes, the coupon stack, and 3 mm screw penetration. They do not establish print tolerances, tapping strength, exact component placement, chassis compatibility, or ESD performance. There is no independent PCB latch: arbitrary-orientation retention and transport safety are not established. Ordinary PETG/ASA is not inherently static dissipative. Physical work remains explicitly tracked in the [v2 validation record](docs/validation-v2.md). A 38 mm upright variant is a future design direction; chassis clearance must be established before adopting it.
 
 ## Rebuild on another computer
 
@@ -46,9 +49,9 @@ python -m pip install -r requirements.txt
 python src/build_case.py
 ```
 
-The generator writes five STL files, `verification.json`, and a mesh-derived PNG preview to ignored `build/`. Geometric assertions run as part of generation; do **not** run Python with `-O`. To choose another directory, pass `--output-dir PATH`. The default preview labels are English; for Chinese labels supply `--font PATH_TO_CHINESE_FONT` (font not bundled).
+The v2 generator writes nine STL files, `verification.json`, and two mesh-derived PNG previews to ignored `build/`. Geometric assertions run as part of generation; do **not** run Python with `-O`. To choose another directory, pass `--output-dir PATH`. The default preview labels are English; for Chinese labels supply `--font PATH_TO_CHINESE_FONT` (font not bundled).
 
-The design parameters currently live near the top of `src/build_case.py`. Changing dimensions requires reviewing the construction and checks, not just editing a single number. Commit source changes and intentionally regenerated `models/v1/` artifacts together; normal rebuilds leave the tracked baseline untouched. GitHub Actions rebuilds on Windows and Linux and uploads the generated files.
+The design parameters currently live near the top of `src/build_case.py`. Changing dimensions requires reviewing the construction and checks, not just editing a single number. Commit source changes and intentionally regenerated `models/v2/` artifacts together; normal rebuilds leave the tracked baseline untouched. To refresh the v2 baseline, use `python src/build_case.py --output-dir models/v2`. Rebuild the untouched v1 design with `python src/build_v1.py --output-dir build/v1`. GitHub Actions rebuilds both versions on Windows and Linux and uploads the generated files.
 
 ## Collaborating
 
