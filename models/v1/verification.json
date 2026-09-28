@@ -1,0 +1,104 @@
+{
+  "outer_mm": [
+    147.0,
+    101.6,
+    26.0
+  ],
+  "capacity": 8,
+  "cavity_mm": [
+    134.4,
+    31.8,
+    6.0
+  ],
+  "parts": [
+    {
+      "part": "body",
+      "bbox_mm": [
+        147.0,
+        101.5999984741211,
+        24.200000762939453
+      ],
+      "volume_cm3": 84.3389621808249,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "part": "tray-2-slots-print-1",
+      "bbox_mm": [
+        142.79998779296875,
+        65.4000015258789,
+        6.599999904632568
+      ],
+      "volume_cm3": 8.91906,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -2.0999999046325684,
+        -18.100000381469727,
+        -0.0
+      ]
+    },
+    {
+      "part": "tray-3-slots-print-2",
+      "bbox_mm": [
+        142.79998779296875,
+        97.79999542236328,
+        6.599999904632568
+      ],
+      "volume_cm3": 12.691740000000015,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -2.0999999046325684,
+        -1.899999976158142,
+        -0.0
+      ]
+    },
+    {
+      "part": "lid",
+      "bbox_mm": [
+        147.0,
+        101.5999984741211,
+        1.7999999523162842
+      ],
+      "volume_cm3": 22.65025773022763,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -0.0,
+        101.5999984741211,
+        1.7999999523162842
+      ]
+    },
+    {
+      "part": "fit-coupon-1-slot",
+      "bbox_mm": [
+        142.79998779296875,
+        33.000003814697266,
+        6.599999904632568
+      ],
+      "volume_cm3": 4.850171999999995,
+      "watertight": true,
+      "one_component": true,
+      "translation_for_print": [
+        -2.0999999046325684,
+        -34.29999923706055,
+        -0.0
+      ]
+    }
+  ],
+  "assembly_intersections": false,
+  "reference_module_intersections": false,
+  "reference_module_max_thickness_mm": 5.57,
+  "blank_short_edge_assumption_mm": 2.0,
+  "mount_screw_penetration_test_mm": 3.0,
+  "mount_thread_finishing_required": "6-32 UNC",
+  "physical_tested": false,
+  "sliced_in_bambu_studio": false,
+  "exact_samsung_component_placement_verified": false
+}
