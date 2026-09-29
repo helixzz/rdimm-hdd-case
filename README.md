@@ -1,5 +1,7 @@
 # RDIMM HDD Case
 
+**最新盖板配合修订：[v4.1-rc3 替换盖板](docs/v4.1-rc3.zh-CN.md)**。针对 RC2 刚入槽就卡紧、越推越紧的实测反馈，增加斜面导入和全行程间隙，保留平面承托及按压止退。仅重打盖板约 37 分钟，RC1/RC2 外壳、托盘复用；局部减料影响承托面积，实际松紧和强度待验证。
+
 3D-printable storage for **8 bare DDR5 RDIMMs** inside a **147 × 101.6 × 26 mm** envelope, with traditional 3.5-inch HDD side and bottom mounting positions.
 
 为服务器内存设计的硬盘位收纳盒：三层托盘，容量 2 + 3 + 3 条，优先保持标准 3.5 寸硬盘外形。目标参考内存为 Samsung M321RAJA0MB2-CCP / CCPKF，打印机参考为 Bambu Lab P2S。

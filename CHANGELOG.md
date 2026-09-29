@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.1-rc3 — replacement lid for tight RC1/RC2 capture slots
+
+- Address reported entry and full-travel jamming with double entry chamfers, small exit chamfers and .2 -> .4 mm upper/lateral gaps. Preserve flat capture and release latch; RC1/RC2 body and trays unchanged.
+- Sliding tongue thins 1.4 -> 1.2 mm with full 1.4 mm root; upper riser narrows to 1.2. Flat bearing area decreases to 41.80 mm2. Upward clearance increases; explicit .55 mm stop probe preserves historical defaults. No unchanged-strength claim.
+- Full reference geometry and four replacement-lid support regions pass. One configured replacement-lid plate estimated 36m38 /24.25 g. Physical fit, force, fatigue and impact remain unverified.
+
 ## v4.1-rc2 — connect upper wall above bottom-release windows
 
 - Add two 45-degree arch roofs with R1 apex in the original 1.6 mm wall footprint; minimum upper link height 4.114 mm. Preserve lower latch/support access and all loading paths. RC1 lid/tray geometry is unchanged and reusable.

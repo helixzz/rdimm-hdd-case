@@ -1,5 +1,12 @@
 # Agent collaboration guide
 
+## Current lid-fit candidate: v4.1-rc3
+
+- RC2 physical feedback: entry jams, forced insertion gets tighter along travel and removal needs prying. Prior sloped grooves were easier. Do not recommend force; exact roughness/warp contributions not measured.
+- Only lid changed: .6 mm double entry chamfer, .3 mm exit chamfer; side gap .2 -> .4, upper gap .2 -> .4, lower .3 unchanged. Sliding tongue 1.4 -> 1.2 mm, root 1.4 with blend, upper riser 1.2. Bearing area 52.67 -> 41.80 mm2. Do not claim unchanged strength. Upward stop probe .55 reflects extra clearance; historical default .4 preserved.
+- RC1/RC2 bodies/trays reusable. Full geometry checks pass; closed lid +/-0.3 mm lateral perturbations interfere with RC2 and clear RC3. These are not force/warp tests. Fit, retention, fatigue and impact still unverified.
+- Deliver only configured `3-replacement-lid`, ONE job, ~36m38 /24.25 g (P2S .4 / PLA Basic /.2). Four support regions pass .2 Z / >=.159 XY. Full geometry snapshots exist but full new set was not sliced. `audit_v4.py --version 4.1-rc3 --geometry-version 4.1-rc3 --plates 3-replacement-lid --depth 7.5`; package `package_lid_fit.py` after commit. Docs `v4.1-rc3.zh-CN.md`.
+
 ## Current candidate: v4.1-rc2 / configured p2
 
 - User requested closure of the unnecessary upper sections of two bottom-release windows. `build_v4_1_rc2.py` adds only material in the original short-wall footprint X145.4..147, above Z11.2: 45-degree shoulders and R1 apex, minimum top link height 4.114 mm. Lower access through Z10.8 is preserved. All RC1 lid/tray geometry is unchanged and reusable; do not mix with v4.0/v3.

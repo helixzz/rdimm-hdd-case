@@ -6,14 +6,14 @@ from build_v4 import ROOT, v3, rc, SATA_Y
 from audit_v3_2_toolpaths import parse,select,grid,footprint,side_gap,STEP,transformed_rect,check_math
 
 
-def run(version='4.0-rc1',depth=6.,geometry_version=None):
+def run(version='4.0-rc1',depth=6.,geometry_version=None,plates=None):
     check_math()
     folder=ROOT/('build/v'+version+'-projects')
     records=json.loads((ROOT/('models/v'+(geometry_version or version))/'verification.json').read_text())['plate_records']
     reinforced=(geometry_version or version).startswith('4.1-')
     report={'version':version,'method':'Finite-width nominal G-code bead footprints; variable layer heights; 0.025 mm XY samples',
             'limits':'No thermal, sagging, bond, support removal, force or fatigue simulation','plates':[]}
-    for label in ('1-pin-clearance','2-upper-trays'):
+    for label in plates or ('1-pin-clearance','2-upper-trays'):
         path=folder/label/'plate_1.gcode';segs=parse(path)
         record=next(r for r in records if r['stem'].endswith('plate-'+label))
         rois=[];corridors=[]
@@ -22,9 +22,10 @@ def run(version='4.0-rc1',depth=6.,geometry_version=None):
             if name.startswith('lid'):
                 if reinforced:
                     for y,length in [(8.,6.),(95.6,4.2)]:
-                        for x in (3.4,140.4):
-                            rect=[x,y+.2,x+3.2,y+length-.2]
-                            rois.append((name,f'flat tongue {x}/{y}',transformed_rect(rect,t),2.2))
+                        fit_lid=(geometry_version or version)=='4.1-rc3'
+                        for x in ((3.5,140.8) if fit_lid else (3.4,140.4)):
+                            rect=[x,y+(.55 if fit_lid else .2),x+(2.7 if fit_lid else 3.2),y+length-(.85 if fit_lid else .2)]
+                            rois.append((name,f'flat tongue {x}/{y}',transformed_rect(rect,t),2.4 if fit_lid else 2.2))
                 continue
             local=[];free=[]
             if name.startswith('body'):
@@ -82,4 +83,5 @@ if __name__=='__main__':
     parser.add_argument('--version',default='4.0-rc1')
     parser.add_argument('--depth',type=float,default=6.)
     parser.add_argument('--geometry-version')
-    args=parser.parse_args();run(args.version,args.depth,args.geometry_version)
+    parser.add_argument('--plates',nargs='+')
+    args=parser.parse_args();run(args.version,args.depth,args.geometry_version,args.plates)

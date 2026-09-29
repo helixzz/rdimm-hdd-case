@@ -1,0 +1,58 @@
+{
+  "version": "4.1-rc3",
+  "baseline": "4.1-rc2",
+  "changes": {
+    "body-pin-clearance": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "body-thread-pilot": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "lid-slide-lift": {
+      "added_mm3": 4.440892098500626e-16,
+      "removed_mm3": 27.60677568601553
+    },
+    "tray-middle-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-top-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    }
+  },
+  "compatible_existing_body_and_trays": [
+    "4.1-rc1",
+    "4.1-rc2"
+  ],
+  "main_tongue_thickness_mm": 1.2,
+  "root_thickness_mm": 1.4,
+  "upper_riser_min_width_mm": 1.2,
+  "flange_to_riser_gap_mm": [
+    0.2,
+    0.4
+  ],
+  "main_vertical_clearance_above_mm": 0.4,
+  "main_vertical_clearance_below_mm": 0.3,
+  "leading_ramp_length_mm": 0.6,
+  "leading_edge_thickness_mm": 0.6,
+  "flat_bearing_area_mm2": 41.79747900260942,
+  "closed_lid_upward_stop_probe_mm": 0.55,
+  "lateral_perturbation_checks": [
+    {
+      "lateral_shift_mm": -0.3,
+      "old_body_overlap_mm3": 1.9919999694824322,
+      "new_body_overlap_mm3": 0.0
+    },
+    {
+      "lateral_shift_mm": 0.3,
+      "old_body_overlap_mm3": 1.6551770509015746,
+      "new_body_overlap_mm3": 6.725416204835289e-07
+    }
+  ],
+  "physical_fit_verified": false,
+  "physical_strength_verified": false,
+  "limits": "Fit candidate for reported entry and full-travel jamming. Material removal reduces some sections; no claim of unchanged strength, proven printed fit or operating force."
+}

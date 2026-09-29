@@ -80,7 +80,7 @@ def clear(a,b,label):
     assert volume<.001,(label,volume)
 
 
-def verify(p,fixed,leaves):
+def verify(p,fixed,leaves,lid_up_probe=.4):
     checks={'module_poses':0,'loaded_tray_entry_poses':0,'bottom_release_poses':0,'lid_poses':0}
     body=p['body-pin-clearance'];lid=p['lid-slide-lift']
     assembly=[body,lid,p['tray-middle-3'].translate((0,0,10.8)),p['tray-top-3'].translate((0,0,17.6))]
@@ -114,7 +114,7 @@ def verify(p,fixed,leaves):
     for dz in np.linspace(0,10,51):
         for a in [released]+assembly[2:]:clear(lid.translate((0,-8,float(dz))),a,('lift',dz))
         checks['lid_poses']+=1
-    for direction in [(0,-1,0),(0,1,0),(0,0,.4),(0,0,-.3)]:
+    for direction in [(0,-1,0),(0,1,0),(0,0,lid_up_probe),(0,0,-.3)]:
         assert (lid.translate(direction)^body).volume()>.01,('missing lid stop',direction)
     for rotation in [(2,0,0),(-2,0,0),(0,2,0),(0,-2,0)]:
         tipped=lid.translate((-73.5,-50.8,-24.4)).rotate(rotation).translate((73.5,50.8,24.4))
@@ -172,10 +172,10 @@ def verify(p,fixed,leaves):
     return checks
 
 
-def build(out):
+def build(out,lid_up_probe=.4):
     out.mkdir(parents=True,exist_ok=True)
     p,fixed,leaves=parts()
-    checks=verify(p,fixed,leaves)
+    checks=verify(p,fixed,leaves,lid_up_probe=lid_up_probe)
     meshes={};transforms={}
     for name,s in p.items():
         mesh=v3.meshof(s);t=np.eye(4)
