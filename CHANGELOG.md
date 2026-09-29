@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.0-rc1 — corrected connector side and integrated bottom
+
+- Move the single connector recess from Y=11–58 to Y=43.6–90.6 mm after correcting bottom/end-view interpretation. Preserve its width, mounting datums and published old artifacts.
+- Integrate two bottom slots into the body. Expose their release beams through end windows, isolate their feet above the floor and require removable support. Keep two removable three-slot upper trays.
+- Replace continuous lid rails with four corner retainers, a notched lid and an 8 mm slide-then-lift operation. Verify loaded upper-tray insertion, in-shell bottom DIMM removal, lid translation/tilting stops and module envelopes.
+- Deliver four parts on two comfortably spaced plates. P2S / PLA Basic / 0.20 mm estimate: 127 min body/lid + 62 min upper trays, about 125 g total. No speed increase or ten-set deadline promise.
+- Audit 28 supported regions and nine free corridors from actual Bambu toolpaths. Physical support cleanup, full assembly, dock fit, clip strength and transport reliability remain unverified.
+
 ## v3.2-rc2 — A coupon correction only
 
 - Record RC1 physical results: all coupon supports removed, shell leaf returns normally, actual DIMM fits without interference, tray retention feels weak. Full-set and transport validation remain pending.

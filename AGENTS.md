@@ -1,5 +1,14 @@
 # Agent collaboration guide
 
+## Current candidate: v4.0-rc1
+
+- `src/build_v4.py`, `models/v4.0-rc1/`, and `docs/v4.0-rc1.zh-CN.md` now supersede the no-v4/hold statements below. Complete candidate: four parts, integrated two-slot bottom, two three-slot upper trays, new slide-8-mm-then-lift lid. Do not mix its body/lid with older versions. Old fixed Release and model artifacts stay immutable.
+- Correct the SINGLE SATA recess to X=0..6, Y=43.6..90.6, Z=0..6.2. User explicitly rejected a dual-side widened recess. Top face upward, connector end away: recess on the right. SFF-8323 Fig 3-1 bottom/end views were previously misinterpreted; this corrects handedness, not universal socket-envelope certification. Empty actual dock fit is still pending.
+- Integrated bottom beams have full-length external access windows and support underneath; clear all support before flexing. PCB Z stays 7. New complete physical support removal, handling, lid/dock fit and strength are untested. Prior C coupon retention felt weak; no transport/force claim.
+- `src/audit_v4.py` checks 28 support regions and nine free corridors from Bambu nominal beads. Reference project generation: `src/prepare_v3_2_project.py --version 4.0-rc1 --models models/v4.0-rc1 --output-dir build/v4.0-rc1-projects --plates 1-pin-clearance 2-upper-trays` with installed Bambu/preset path flags. Full configured projects and G-code remain ignored/local; repository 3MFs are geometry only.
+- P2S 0.4 / PLA Basic / 0.20 standard reference: 7631 s + 3698 s (~3h09/set). Five sets ~15h44 printing, six ~18h53 before swaps/checks. User has one machine and accepts fewer than ten to meet deadline. Do not increase speed or promise ten sets. First complete physical set precedes repeat runs. Two conservatively spaced plates are provided; a global four-part plate-count minimum is not proven.
+- Later sections describe historical candidates and constraints, not new physical v4 success. Keep user photos private.
+
 ## Latest assembly-path finding
 
 - User tried the orange single-slot coupon inside the printed v3.1 body: upper rails block entry; flexing the body allowed entry but it hits the SATA mound. `src/check_loading_paths.py` reproduces straight-down entry collisions for ALL RC1 trays (143.2 mm length vs 140.6 mm top opening), despite collision-free final poses for production trays. Do not recommend shell flexing or claim assembly success from static fits.

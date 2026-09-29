@@ -30,6 +30,7 @@ OVERRIDES = {
 
 
 def prepare(args):
+    version=getattr(args,'version','3.2-rc1')
     def resolve(kind, name):
         data = json.loads((args.profiles/kind/(name+'.json')).read_text(encoding='utf8'))
         out = resolve(kind, data['inherits']) if data.get('inherits') else {}
@@ -44,10 +45,10 @@ def prepare(args):
     filament['override_process_overhang_speed'] = ['0']
     process = resolve('process', '0.20mm Standard @BBL P2S')
     process.update(OVERRIDES)
-    process.update(name='RDIMM v3.2 RC1 - supports required', **{'from': 'User', 'print_settings_id': 'RDIMM v3.2 RC1 - supports required'})
+    process.update(name='RDIMM '+version+' - supports required', **{'from': 'User', 'print_settings_id': 'RDIMM '+version+' - supports required'})
     reports = []
     for label in args.plates:
-        stem = 'rdimm-3.2-rc1-plate-'+label
+        stem = 'rdimm-'+version+'-plate-'+label
         folder = (args.output_dir/label).resolve()
         folder.mkdir(parents=True, exist_ok=True)
         for name, data in [('machine', machine), ('filament', filament), ('process', process)]:
@@ -81,13 +82,14 @@ def prepare(args):
                         'grams': p['filaments'][0]['total_used_g'], 'feature_seconds': p['feature_type_times'], 'warnings': p['warning_message']})
         print(json.dumps(reports[-1]), flush=True)
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    (args.output_dir/'slicing-report.json').write_text(json.dumps({'version': '3.2-rc1', 'overrides': OVERRIDES, 'results': reports,
+    (args.output_dir/'slicing-report.json').write_text(json.dumps({'version': version, 'overrides': OVERRIDES, 'results': reports,
                                                                 'physical_tested': False, 'support_removal_verified': False}, indent=2), encoding='utf8')
 
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--bambu', type=Path, required=True)
+    p.add_argument('--version', default='3.2-rc1')
     p.add_argument('--profiles', type=Path, required=True)
     p.add_argument('--models', type=Path, default=ROOT/'build/v3.2-rc1')
     p.add_argument('--output-dir', type=Path, default=ROOT/'build/v3.2-rc1-projects')
