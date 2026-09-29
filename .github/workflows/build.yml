@@ -30,6 +30,7 @@ jobs:
       - run: python src/build_simple_trays.py --models build/v2-retention --v3-models build/v3 --output-dir build/v3-simple
       - run: python src/build_v3_1.py --models build/v2-retention --v3-models build/v3 --output-dir build/v3.1
       - run: python src/build_v3_2.py --output-dir build/v3.2-rc1
+      - run: python src/build_latch_check_rc2.py --output-dir build/v3.2-rc2-latch-check
       - uses: actions/upload-artifact@v7.0.1
         with:
           name: rdimm-case-${{ matrix.os }}

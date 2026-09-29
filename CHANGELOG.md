@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.2-rc2 — A coupon correction only
+
+- Record RC1 physical results: all coupon supports removed, shell leaf returns normally, actual DIMM fits without interference, tray retention feels weak. Full-set and transport validation remain pending.
+- Reproduce the A slider tipping into its base: the cropped fixture omitted lower side bearings. Full-body bearing posts block the same rigid path, but do not establish physical success.
+- Add two lower rails only to the A coupon base, retaining the existing slider. Add pitch/roll regression checks alongside release and sliding sweeps; preserve all RC1 files and settings.
+- Provide a one-base P2S / PLA Basic project estimated at 13 minutes / 3.54 g. This is not a new full enclosure release; tray stiffness and support-cleanup improvements remain open.
+
 ## v3.2-rc1 — supported printability candidate
 
 - Record a real v3.1 shell latch fusion failure; trays have not yet been physically printed. Keep the v3.1 release immutable and mark this revision as awaiting physical validation.
