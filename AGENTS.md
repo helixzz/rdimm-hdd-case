@@ -1,5 +1,12 @@
 # Agent collaboration guide
 
+## Current candidate: v4.1-rc2 / configured p2
+
+- User requested closure of the unnecessary upper sections of two bottom-release windows. `build_v4_1_rc2.py` adds only material in the original short-wall footprint X145.4..147, above Z11.2: 45-degree shoulders and R1 apex, minimum top link height 4.114 mm. Lower access through Z10.8 is preserved. All RC1 lid/tray geometry is unchanged and reusable; do not mix with v4.0/v3.
+- Full geometry/motion checks pass. `--arch-windows` is explicitly restricted to RC2 in `prepare_side_hole_project.py` and produces p2: six bore blockers plus two arch interiors. Unpainted p1 is only an audit positive control and must not be delivered. Global settings/mesh unchanged; 361 faces survive re-save. Original 36 support/nine corridor checks, six bore checks and `audit_v4_1_windows.py` pass. No supports above Z10.8 in the two windows. Lower latch supports remain required.
+- P2S reference first plate 7993.41 s / 92.46 g; second 3532.65 s / 33.80 g; total 3h12m06, +30 seconds / +0.63 g vs RC1-p1. Same printer, material and speed. Arch surface, hand access, complete assembly and impact remain physically unverified.
+- Docs `docs/v4.1-rc2.zh-CN.md`, models `models/v4.1-rc2`, local package `build/rdimm-v4.1-rc2-P2S-print-projects.zip`. Preserve historical versions and private user photos. Use configured p2 projects, not plain repository geometry, for the support paint.
+
 ## Current structural candidate: v4.1-rc1 / configured p1
 
 - Latest user reports lid edge capture and release beam both weak; central lid flex secondary. No fracture/impact qualification reported. Improve general handling retention, keep screwless daily operation and avoid significant production-time growth.

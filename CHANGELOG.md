@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.1-rc2 — connect upper wall above bottom-release windows
+
+- Add two 45-degree arch roofs with R1 apex in the original 1.6 mm wall footprint; minimum upper link height 4.114 mm. Preserve lower latch/support access and all loading paths. RC1 lid/tray geometry is unchanged and reusable.
+- Configured p2 blocks support only on six side bores and the two arch roofs; re-sliced bead checks find no upper-window support, with all 36 required support areas and nine motion corridors passing. Automatic p1 arch supports retained only as an audit control.
+- Same-profile total estimate ~3h12m06, +30 seconds and +0.63 g versus RC1-p1. First physical arch finish, access and impact performance remain unverified.
+
 ## v4.1-rc1 — flat lid captures and reinforced clip roots
 
 - Replace four short sloped lid captures with 2 mm flat flanges and matching tongues; preserve the press/8 mm slide/lift operation. Adjust all tray end reliefs: matched complete set required.

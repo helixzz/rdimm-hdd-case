@@ -14,8 +14,9 @@ from check_bambu_v3 import read_mesh
 ROOT=Path(__file__).resolve().parents[1]
 
 
-def prepare(bambu,geometry_version):
-    version=geometry_version+'-p1'
+def prepare(bambu,geometry_version,arch_windows=False):
+    if arch_windows:assert geometry_version=='4.1-rc2','Arch paint is specific to RC2 geometry'
+    version=geometry_version+('-p2' if arch_windows else '-p1')
     source=ROOT/f'build/v{geometry_version}-projects'
     dest=ROOT/f'build/v{version}-projects';results=[]
     for plate in ('1-pin-clearance','2-upper-trays'):
@@ -36,10 +37,11 @@ def prepare(bambu,geometry_version):
                 'warnings':p['warning_message'],'project_sha256':hashlib.sha256(project.read_bytes()).hexdigest()})
             continue
         seed=out/'painted-input.3mf'
-        counts=paint(original,seed)
+        counts=paint(original,seed,arch_windows=arch_windows)
         with zipfile.ZipFile(seed) as z:data={n:z.read(n) for n in z.namelist()}
         settings=json.loads(data['Metadata/project_settings.config'])
         settings['print_settings_id']='RDIMM '+version+' - six side holes support blocked'
+        if arch_windows:settings['print_settings_id']+=' + two arch roofs'
         if 'name' in settings:settings['name']=settings['print_settings_id']
         data['Metadata/project_settings.config']=json.dumps(settings).encode()
         with zipfile.ZipFile(seed,'w',zipfile.ZIP_DEFLATED) as z:
@@ -75,6 +77,7 @@ def prepare(bambu,geometry_version):
     report={'version':version,'geometry_version':geometry_version,'scope':'Pin-clearance bodies only; upper cylindrical side-hole faces blocked; geometry unchanged',
             'results':results,'physical_hole_clearance_verified':False,
             'limits':'No support extrusion does not establish zero sagging or actual pin fit. Preserve all other supports.'}
+    if arch_windows:report['scope']+='; RC2 45-degree arch roofs with R1 apex also blocked (maximum apex chord 1.415 mm)'
     (dest/'slicing-report.json').write_text(json.dumps(report,indent=2),encoding='utf8')
     print(json.dumps(report),flush=True)
 
@@ -83,4 +86,5 @@ if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--bambu',type=Path,required=True)
     p.add_argument('--geometry-version',default='4.0-rc4')
-    a=p.parse_args();prepare(a.bambu,a.geometry_version)
+    p.add_argument('--arch-windows',action='store_true')
+    a=p.parse_args();prepare(a.bambu,a.geometry_version,a.arch_windows)

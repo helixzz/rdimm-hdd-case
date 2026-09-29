@@ -20,7 +20,7 @@ ET.register_namespace('p',PROD)
 ET.register_namespace('BambuStudio','http://schemas.bambulab.com/package/2021')
 
 
-def paint(source,target):
+def paint(source,target,arch_windows=False):
     with zipfile.ZipFile(source) as z:data={n:z.read(n) for n in z.namelist()}
     root=ET.fromstring(data['3D/3dmodel.model'])
     items=root.findall(f'{{{CORE}}}build/{{{CORE}}}item')
@@ -35,11 +35,21 @@ def paint(source,target):
     verts=np.array([[float(e.attrib[k]) for k in ('x','y','z')] for e in model.findall(f'.//{{{CORE}}}vertex')])
     verts+=t[9:]-[54.5,20.,0.]
     counts={f'{x}-{side}':0 for x in SIDE_X for side in ('front','back')}
+    if arch_windows:
+        counts.update({f'arch-{y}':0 for y in (19.7,55.1)})
     triangles=model.findall(f'.//{{{CORE}}}triangle')
     for tri in triangles:
         q=verts[[int(tri.attrib[k]) for k in ('v1','v2','v3')]]
         normal=np.cross(q[1]-q[0],q[2]-q[0])
         if normal[2]>=-1e-8:continue
+        if arch_windows:
+            for y in (19.7,55.1):
+                # RC2 arch interior only: sloped shoulders and R1 apex.
+                # Exclude vertical wall faces, lower latch and lid captures.
+                if (np.all(q[:,0]>=145.399) and np.all(q[:,0]<=147.001)
+                    and np.all(q[:,1]>=y-.001) and np.all(q[:,1]<=y+19.001)
+                    and np.all(q[:,2]>=11.199) and np.all(q[:,2]<=20.287)):
+                    tri.set('paint_supports','8');counts[f'arch-{y}']+=1
         for x in SIDE_X:
             radius=np.linalg.norm(q[:,[0,2]]-[x,6.35],axis=1)
             if not np.allclose(radius,1.8,atol=.0003):continue
@@ -47,7 +57,8 @@ def paint(source,target):
                 if np.all(q[:,1]>=lo) and np.all(q[:,1]<=hi):
                     assert tri.attrib.get('paint_supports','8')=='8'
                     tri.set('paint_supports','8');counts[f'{x}-{side}']+=1
-    assert all(n>=20 for n in counts.values()),counts
+    assert all(n>=20 for key,n in counts.items() if not key.startswith('arch')),counts
+    if arch_windows:assert all(counts[f'arch-{y}']>=18 for y in (19.7,55.1)),counts
     data[path]=ET.tostring(model,encoding='utf-8',xml_declaration=True)
     target.parent.mkdir(parents=True,exist_ok=True)
     with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED) as z:
