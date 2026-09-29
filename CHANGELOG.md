@@ -1,5 +1,12 @@
 # Changelog
 
+## v2-R — experimental carrying-retention retrofit
+
+- Respond to a user print of v2 with noticeable carrying rattle; preserve the printed body and original v2 meshes.
+- Replace trays/lid, add six PCB-edge keeper bars and short-edge guides, and connect the tray stack to the lid with two M2x20 screws. Add twelve M2x5 keeper screws; the existing four lid screws remain in use.
+- Retain intentional PCB clearance instead of force-clamping memory. Add 512 reference translation cases, 48 physical-stop negative controls and 64 single-slot cases.
+- Supply a first-test plate and two upgrade plates. Real fit, rattle reduction, thread strength and transport performance remain unverified.
+
 ## v2 — unprinted engineering prototype
 
 - Keep the 147 × 101.6 × 26 mm envelope, 8-module capacity and mounting coordinates.

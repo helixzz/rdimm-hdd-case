@@ -1,0 +1,138 @@
+{
+  "variant": "v2-retention",
+  "reuse": "v2 body only; replace all trays and lid",
+  "outer_mm": [
+    147.0,
+    101.6,
+    26.0
+  ],
+  "capacity": 8,
+  "parts": [
+    {
+      "part": "tray-bottom-2",
+      "extents_mm": [
+        143.20001220703125,
+        65.4000015258789,
+        6.800000190734863
+      ],
+      "volume_cm3": 10.45264230038772,
+      "single_closed_solid": true
+    },
+    {
+      "part": "tray-middle-3",
+      "extents_mm": [
+        143.20001220703125,
+        97.79999542236328,
+        6.800000190734863
+      ],
+      "volume_cm3": 14.74486963183268,
+      "single_closed_solid": true
+    },
+    {
+      "part": "tray-top-3",
+      "extents_mm": [
+        143.20001220703125,
+        97.79999542236328,
+        6.800000190734863
+      ],
+      "volume_cm3": 14.74486963183268,
+      "single_closed_solid": true
+    },
+    {
+      "part": "keeper-2-print-2",
+      "extents_mm": [
+        6.0,
+        65.4000015258789,
+        2.3000001907348633
+      ],
+      "volume_cm3": 0.5254571777303932,
+      "single_closed_solid": true
+    },
+    {
+      "part": "keeper-3-print-4",
+      "extents_mm": [
+        6.0,
+        97.79999542236328,
+        2.3000001907348633
+      ],
+      "volume_cm3": 0.7290371777303936,
+      "single_closed_solid": true
+    },
+    {
+      "part": "lid-retention",
+      "extents_mm": [
+        147.0,
+        101.5999984741211,
+        2.4000000953674316
+      ],
+      "volume_cm3": 21.072116425729924,
+      "single_closed_solid": true
+    },
+    {
+      "part": "test-tray-1",
+      "extents_mm": [
+        143.20001220703125,
+        33.000003814697266,
+        6.800000190734863
+      ],
+      "volume_cm3": 5.503677683733695,
+      "single_closed_solid": true
+    },
+    {
+      "part": "test-keeper-1-print-2",
+      "extents_mm": [
+        6.0,
+        33.000003814697266,
+        2.3000001907348633
+      ],
+      "volume_cm3": 0.25839313352205673,
+      "single_closed_solid": true
+    }
+  ],
+  "keeper_roof_above_tray_mm": 4.5,
+  "pcb_guide_opening_mm": [
+    134.0,
+    31.6
+  ],
+  "pcb_reference_thickness_range_mm": [
+    1.17,
+    1.37
+  ],
+  "pcb_vertical_play_range_mm": [
+    0.13,
+    0.33
+  ],
+  "minimum_component_gap_at_vertical_stop_mm": 0.2,
+  "minimum_component_gap_at_width_stop_mm": 0.1,
+  "reference_module_travel_cases": 512,
+  "assembly_intersections": false,
+  "pcb_six_direction_stop_checks": 48,
+  "single_slot_coupon_cases": 64,
+  "screw_intersections": false,
+  "max_installed_screw_lengths_mm": {
+    "keeper": 5,
+    "tie": 20
+  },
+  "blank_short_edge_assumption_mm": 2.0,
+  "fasteners_added": {
+    "M2x5_countersunk": 12,
+    "M2x20_countersunk": 2
+  },
+  "original_four_M2_lid_screws_reused": true,
+  "physical_tested": false,
+  "sliced": false,
+  "transport_certified": false,
+  "thread_strength_verified": false,
+  "exact_samsung_component_layout_verified": false,
+  "source_sha256": {
+    "body-pilot.stl": "81450f32b3a043802ae5b11b6de72f063996e5fc35fe67a42460e2c0f6e47016",
+    "body-side-inserts.stl": "95ff4e7f7c2a9087551d37103abff03c0e347494314cdd49b48b6bf3277f00ce",
+    "fit-coupon-1-slot-print-3.stl": "e7cf172de70dbb8407d1228de3fdfe51593635dc2458e3cbe9e78a97cf86b9a6",
+    "lid.stl": "5e2f88820898b688e7d4b54904915b053279cc12f3859b9e270e0a4c7e9be36d",
+    "side-insert-coupon.stl": "5bf7aa475dd2fd5c2572112f99f743f65d15b686469c61d0793914af20d13d05",
+    "stack-coupon-cap.stl": "05a2c6f96635050136769348dba88d13fc797e22a5b2412f15b6d0c5291034e5",
+    "tray-bottom-2.stl": "8a9e343397b0f1cbeb274b07797797ec12d1d4cd5a1e2ff3dc0a77b819022e7b",
+    "tray-middle-3.stl": "b07f407c59a70cfb53c98d1b98f10cb721a93030a89bb371f5175c71529a2fec",
+    "tray-top-3.stl": "4b711e4b112ce43b81ff86b1d8f68e72eefb95773a99bcd1c1b5fcd2a7788807"
+  }
+}

@@ -4,7 +4,7 @@
 
 为服务器内存设计的硬盘位收纳盒：三层托盘，容量 2 + 3 + 3 条，优先保持标准 3.5 寸硬盘外形。目标参考内存为 Samsung M321RAJA0MB2-CCP / CCPKF，打印机参考为 Bambu Lab P2S。
 
-**Status: engineering prototype. Geometry checked; not sliced, printed, or physically fitted.** This is not a certified ESD enclosure. V2 offers either plastic mounting pilots or optional metal inserts on the six side holes; bottom and lid pilots still require tapping.
+**Status: engineering prototype. A user printed v2 and reported noticeable movement when carrying it.** The experimental [v2-R retention retrofit](docs/retention.zh-CN.md) adds a screwed tray stack and PCB-edge keepers while reusing the v2 body; **the retrofit is not yet physically tested**. This is not a certified ESD or transport enclosure. V2 offers either plastic mounting pilots or optional metal inserts on the six side holes; bottom and lid pilots still require tapping.
 
 ![Mesh-derived assembly preview](models/v2/case-preview.png)
 
@@ -12,6 +12,7 @@
 
 ## Print the current prototype
 
+- **已有 v2 外壳且遇到晃动：[v2-R 固定升级件与小样说明](docs/retention.zh-CN.md)**。先打印 `models/v2-retention/first-test-plate.stl`；需额外 M2 螺丝，不能混用旧托盘。
 - **整盘打印：[P2S 两盘排版与导入说明](plates/v2/README.zh-CN.md)**。每盘一个 STL / 3MF，无需逐件摆放；普通攻牙版和侧面嵌件版分别提供替代第一盘。
 - Browse [v2 STL files](models/v2), or use GitHub **Code → Download ZIP** on the branch you intend to print. [V1 files](models/v1) remain available as a historical baseline.
 - **先阅读：[v2 中文打印与装配说明](docs/v2.zh-CN.md)**。尺寸出处和原始硬盘孔位来源另见 [v1 基准说明](docs/printing.zh-CN.md)。
