@@ -89,3 +89,49 @@ def preview(out, parts, assembly, plates, meshof, box, opposite):
     draw.text((30, 642), '100% scale, print by layer. Plate 2: 4 mm part gaps, 5.5 mm bed margin; other plates: >= 8 mm.', font=small, fill='#445566')
     draw.text((30, 679), 'Bodies/latch coupons need local removable support under the latch beam. Inspect thin 0.4 mm frame strips.', font=small, fill='#445566')
     im.save(out/'v3-plates.png')
+    guide_preview(out, parts, meshof)
+
+
+def guide_preview(out, parts, meshof):
+    """Orthographic surface views: pale areas are actual engraved recesses."""
+    im = Image.new('RGB', (1500, 1030), '#f4f6f8')
+    draw = ImageDraw.Draw(im)
+    font = ImageFont.load_default(size=25)
+    small = ImageFont.load_default(size=19)
+
+    def face(name, normal, plane, u, v, limits, origin, scale):
+        lo_u, hi_u, lo_v, hi_v = limits
+        panel = Image.new('RGB', (round((hi_u-lo_u)*scale), round((hi_v-lo_v)*scale)), '#dce5e9')
+        pen = ImageDraw.Draw(panel)
+        mesh = meshof(parts[name])
+        uv = mesh.vertices@np.array([u, v]).T
+        for i, tri in enumerate(mesh.faces):
+            if mesh.face_normals[i]@np.array(normal) < .999:
+                continue
+            if not np.allclose(mesh.vertices[tri]@np.array(normal), plane, atol=.0001):
+                continue
+            pen.polygon([((x-lo_u)*scale, (hi_v-y)*scale) for x, y in uv[tri]], fill='#64879a')
+        im.paste(panel, origin)
+
+    draw.text((35, 22), 'V3 operation guides - engraved into the printable geometry', font=font, fill='#172c40')
+    draw.text((35, 62), '0.30 mm recess | 0.55 mm stroke | 3.55 mm letters | no paint or multi-material printing required', font=small, fill='#445566')
+    draw.text((35, 115), 'Cover: 1 PRESS, 2 OPEN, KEEP LEVEL', font=font, fill='#172c40')
+    face('lid-slide', (0, 0, 1), 26., (1, 0, 0), (0, 1, 0), (25, 120, 0, 80), (35, 162), 6.5)
+    draw.text((35, 704), 'OPEN arrow points toward the release-button edge.', font=small, fill='#445566')
+    draw.text((35, 735), 'The PRESS pointer identifies the edge button.', font=small, fill='#445566')
+    draw.text((790, 115), 'Matching tray / frame pairs; grip rigid ends', font=font, fill='#172c40')
+    for i, (kind, n, label) in enumerate((('bottom', 2, 'Bottom: 1 BASE'), ('middle', 3, 'Middle: 2 MID'), ('top', 3, 'Top: 3 TOP'))):
+        top = 190+175*i
+        draw.text((790, top-35), label, font=small, fill='#445566')
+        face(f'frame-{kind}-{n}', (0, 0, 1), 6.8, (0, 1, 0), (-1, 0, 0),
+             (23, 60, -7.9, -1.9), (790, top), 16)
+    draw.text((790, 682), 'LIFT is on thick bars, never on the thin strips.', font=small, fill='#445566')
+
+    draw.text((35, 795), 'Fixed wall below button: PRESS down', font=small, fill='#172c40')
+    face('body-pin-clearance', (0, -1, 0), 0., (1, 0, 0), (0, 0, 1),
+         (62, 85, 11.5, 19.5), (35, 832), 15)
+    draw.text((790, 795), 'Connector end: SATA END', font=small, fill='#172c40')
+    face('body-pin-clearance', (-1, 0, 0), 0., (0, -1, 0), (0, 0, 1),
+         (-45, -18, 8, 14), (790, 832), 15)
+    draw.text((35, 987), 'Recesses shown light for readability. Actual contrast depends on filament, lighting and print quality.', font=small, fill='#445566')
+    im.save(out/'operation-guides.png')

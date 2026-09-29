@@ -189,7 +189,9 @@ def lid():
         a -= countersink(x, y, 26., 4.)
     # Shallow grip grooves, wholly inside the 26 mm envelope.
     for y in (6., 8., 10.):
-        a -= box((20., .8, .35), (63.5, y, 25.65))
+        # Leave a central lane for the engraved pointer to the release button.
+        for x in (63.5, 75.5):
+            a -= box((8., .8, .35), (x, y, 25.65))
     return a
 
 
@@ -207,6 +209,8 @@ def build(models, out):
         'retainer-test-tray': tray(models, 'test-tray-1', 1),
         'retainer-test-frame': retainer(1),
     }
+    from operation_marks import apply_guides
+    parts, guide_report = apply_guides(parts)
     parts = {name:s.set_tolerance(.0001) for name,s in parts.items()}
     assembly = [parts['body-thread-pilot'], parts['lid-slide']]
     for tier, kind in enumerate(('bottom', 'middle', 'top')):
@@ -415,6 +419,7 @@ def build(models, out):
                         'span_mm': span, 'pitch_mm': pitch}
         tilted.append({'free_height_mm': free_h, 'free_width_mm': 98.4, 'normal_gap_mm': .6, **best})
     report = {'variant': 'v3-slide-prototype', 'outer_mm': [L, W, H], 'capacity': 8,
+              'operation_guides': guide_report,
               'parts': records, 'reference_module_travel_cases': cases, 'pcb_stop_checks': stops,
               'frame_xy_clearance_cases': frame_offset_cases,
               'single_slot_coupon_cases': coupon_cases,

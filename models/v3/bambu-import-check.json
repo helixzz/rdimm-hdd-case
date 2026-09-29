@@ -12,51 +12,51 @@
     },
     {
       "source_stl": "first-test-retainer.stl",
-      "source_sha256": "4b6ef8feaf23abdcc228a78a59f362c2ad26f205e558b0bd009f5264fbab6ba4",
+      "source_sha256": "b767043c66b400a365a23d6cd78c805490c511e147fde60a902da4d891fe4f13",
       "closed_after_roundtrip": true,
       "component_count": 2,
       "maximum_bounds_delta_mm": 3.996484366552977e-06,
-      "volume_delta_mm3": -0.0004559655872071744
+      "volume_delta_mm3": -0.00048432982566737337
     },
     {
       "source_stl": "empty-fit-gauge-pin.stl",
-      "source_sha256": "f4d69cc46bd75d6e67a608fab5353fbe165dd909560d6db4521397aed923be6c",
+      "source_sha256": "d8c5be65530c043b7f78439b064a6b49d9906020208849bd8b36048248ddc195",
       "closed_after_roundtrip": true,
       "component_count": 1,
       "maximum_bounds_delta_mm": 7.412108971038833e-08,
-      "volume_delta_mm3": -0.006693552481010556
+      "volume_delta_mm3": -0.006766852937289514
     },
     {
       "source_stl": "plate-1-body-pin-clearance-lid.stl",
-      "source_sha256": "b3d17c455bbda9c6cb0f7a47a08157f013ddb1d9dd672bf123cabf0d7f9332d3",
+      "source_sha256": "f3223af1155d6bbf01d98f651163c4ea66a76e548564abfbc3df1a0dd950f727",
       "closed_after_roundtrip": true,
       "component_count": 2,
       "maximum_bounds_delta_mm": 1.844726568833721e-06,
-      "volume_delta_mm3": 0.02214155269030016
+      "volume_delta_mm3": 0.02193914535746444
     },
     {
       "source_stl": "plate-1-body-thread-pilot-lid.stl",
-      "source_sha256": "94d2c5a1295be9f8edf2e7539a9848f429162e577e546ff6742e9c8df95bcf14",
+      "source_sha256": "c7f6967310ee659802d743b766d04de279adf3728a3e1697bcaf9f4ce514b12a",
       "closed_after_roundtrip": true,
       "component_count": 2,
       "maximum_bounds_delta_mm": 1.844726568833721e-06,
-      "volume_delta_mm3": 0.022147974785184488
+      "volume_delta_mm3": 0.021945567379589193
     },
     {
       "source_stl": "plate-2-middle-top.stl",
-      "source_sha256": "77fb2ab7f2998722290f70d88c8e36773d0f055300f5c9b2b14557913f588513",
+      "source_sha256": "66d05466a4c476aaa559ab7b48abdee649ac287e92c7c1db10c04d439d53d068",
       "closed_after_roundtrip": true,
       "component_count": 3,
       "maximum_bounds_delta_mm": 5.237060548779482e-06,
-      "volume_delta_mm3": -0.003874988487950759
+      "volume_delta_mm3": -0.003791550887399353
     },
     {
       "source_stl": "plate-3-bottom-frames.stl",
-      "source_sha256": "d0cdefd6758ce10198ad07bc1d0517951f58bfbd399bf19091d93df385283ef4",
+      "source_sha256": "a4d6915266a8ff801845512f48fb0610d42b455c89aadd3caeb6af29f8a33b6b",
       "closed_after_roundtrip": true,
       "component_count": 3,
       "maximum_bounds_delta_mm": 4.044726551910571e-06,
-      "volume_delta_mm3": -0.0014077034993533744
+      "volume_delta_mm3": -0.0014856707475701114
     }
   ]
 }

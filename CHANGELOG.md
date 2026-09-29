@@ -2,6 +2,8 @@
 
 ## v3 — experimental tool-free storage and backplane-clearance design
 
+- Engrave simple operating instructions directly into the cover, fixed body walls, tray end rails and paired retainer frames: press/open arrows, level icon, layer numbers, lift points and connector-end orientation. Use original 0.55 mm stroke lettering, 0.30 mm recesses and no external font dependency. Regenerate all plates and retainer lettering samples; preserve assembly interfaces and the 26 mm envelope.
+
 - Remove mandatory interior hardware: three trays and three removable keyed PCB-edge retainer frames are captured by a closed sliding cover. Open trays must stay horizontal; they are not independently latching cartridges.
 - Add 45-degree slide rails, a press-down anti-slide latch, optional cover reinforcement screws and finger access. Keep the 26 mm CAD height and eight-module capacity.
 - Deepen side/bottom bores to 5.7/5.3 mm (+2 mm), with checked 5 mm intrusion. Offer separate thread-pilot and 3.6 mm locating-pin-clearance bodies.

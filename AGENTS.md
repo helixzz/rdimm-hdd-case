@@ -30,5 +30,7 @@ For the retrofit, run `python src/build_retention.py --output-dir models/v2-rete
 
 For v3 run `python src/build_v3.py` (default `build/v3`), or intentionally regenerate with `--output-dir models/v3`. `--models` must point to v2-R, not original v2. Its local latch supports, 0.4 mm frame connecting strips and 0.1 mm peg fit require first-print checks; do not present geometric tests as mechanical life/force simulation. Plate 2 has only 4 mm gaps / 5.5 mm bed margins; other complete plates retain at least 8 mm. Keep the limited single-row tilt calculation distinct from a global density bound. Update `docs/validation-v3.md` only from actual user evidence.
 
+V3 operating marks come from `src/operation_marks.py`: original rounded stroke glyphs, 0.55 mm stroke, 0.30 mm recess, about 3.55 mm letter height. No OS fonts. Preserve the physically correct opening direction (-Y) and press direction (-Z), layer pair labels and `LIFT` placement on rigid bars. Never engrave flexures, thin frame strips, locator holes or PCB contacts. The generator asserts each mark lies fully on a solid face. Keep `operation-guides.png`, print plates and the Bambu import report hashes in sync after changes.
+
 ## Provenance and publication
 Retain dimension citations and distinguish assumptions from measured data. Do not add third-party PDFs, private workspace files, credentials, machine-specific paths, or user conversations. The project uses MIT for original contributions. Do not claim unperformed physical tests or certification.
