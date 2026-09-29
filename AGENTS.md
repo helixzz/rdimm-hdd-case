@@ -1,6 +1,12 @@
 # Agent collaboration guide
 
-## Current candidate: v4.0-rc4 (floor fillet comparison)
+## Current process patch: v4.0-rc4-p1
+
+- User reports six side-hole support plugs very difficult to remove. `src/block_side_hole_supports.py` paints only upper cylindrical faces of six 3.6 mm pin-clearance side bores as blockers; CAD remains RC4. Do not globally disable support or apply blindly to pilot bores.
+- Bambu save/reload retains 288 blocked faces. First-plate vertices/indices unchanged; upper-plate coordinate re-save rounding <=0.000004 mm. Six bore bounding boxes have zero support extrusions; original 28 support regions and nine corridors pass. Unsupported roof sag/pin fit unprinted. No zero-risk claim.
+- First plate 7478.68 s / 89.98 g. Open configured P2S 3MF as project; STL and geometry-only 3MF omit this patch. Docs: `docs/v4.0-rc4-p1.zh-CN.md`. Build with `prepare_side_hole_project.py`, then `audit_side_hole_supports.py` and `audit_v4.py --version 4.0-rc4-p1 --depth 7.5 --geometry-version 4.0-rc4`.
+
+## Current geometry candidate: v4.0-rc4 (floor fillet comparison)
 
 - `src/build_v4_rc4.py` adds R2 only at the two long inner floor/wall edges; original side and bottom bore voids are subtracted from added material. Short-end SATA/release windows unchanged. Floor Z=4, fillet top Z=6, first removable tray bottom Z=10.8: 4.8 mm vertical clearance. Lowest reference bottom chips are Z=4.9; height alone is not a whole-assembly clearance proof.
 - `src/evaluate_floor_fillet.py` checks R1/1.5/2/3; all long-edge, bore-preserving versions pass full geometry checks. A naive full R2 ring fills 12.68 mm3 of mounting voids and 34.33 mm3 of release-window space. Do not blindly round all edges or omit bore preservation.

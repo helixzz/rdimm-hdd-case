@@ -6,10 +6,10 @@ from build_v4 import ROOT, v3, rc, SATA_Y
 from audit_v3_2_toolpaths import parse,select,grid,footprint,side_gap,STEP,transformed_rect,check_math
 
 
-def run(version='4.0-rc1',depth=6.):
+def run(version='4.0-rc1',depth=6.,geometry_version=None):
     check_math()
     folder=ROOT/('build/v'+version+'-projects')
-    records=json.loads((ROOT/('models/v'+version)/'verification.json').read_text())['plate_records']
+    records=json.loads((ROOT/('models/v'+(geometry_version or version))/'verification.json').read_text())['plate_records']
     report={'version':version,'method':'Finite-width nominal G-code bead footprints; variable layer heights; 0.025 mm XY samples',
             'limits':'No thermal, sagging, bond, support removal, force or fatigue simulation','plates':[]}
     for label in ('1-pin-clearance','2-upper-trays'):
@@ -70,4 +70,5 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--version',default='4.0-rc1')
     parser.add_argument('--depth',type=float,default=6.)
-    args=parser.parse_args();run(args.version,args.depth)
+    parser.add_argument('--geometry-version')
+    args=parser.parse_args();run(args.version,args.depth,args.geometry_version)

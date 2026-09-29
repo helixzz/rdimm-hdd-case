@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.0-rc4-p1 — local side-bore support blockers
+
+- Preserve RC4 round bores; block support only on six upper cylindrical side-hole surfaces after difficult support-removal feedback. Retain all other support settings.
+- Bambu save/reload preserves paint; six hole regions have zero support extrusion, with 28 other support regions and nine corridors passing nominal bead audits. First plate saves about 54 seconds. Physical unsupported-roof quality and pin fit remain untested.
+- Deliver configured projects as a separate process revision; STL cannot carry the support paint.
+
 ## v4.0-rc4 — R2 long-wall floor fillet candidate
 
 - Add R2 to the two long internal floor edges while preserving original mounting bores. Leave short-end release windows and SATA geometry unchanged; RC2/RC3 lid and upper trays remain compatible.
