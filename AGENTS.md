@@ -1,6 +1,12 @@
 # Agent collaboration guide
 
-## Current candidate: v4.0-rc3
+## Current candidate: v4.0-rc4 (floor fillet comparison)
+
+- `src/build_v4_rc4.py` adds R2 only at the two long inner floor/wall edges; original side and bottom bore voids are subtracted from added material. Short-end SATA/release windows unchanged. Floor Z=4, fillet top Z=6, first removable tray bottom Z=10.8: 4.8 mm vertical clearance. Lowest reference bottom chips are Z=4.9; height alone is not a whole-assembly clearance proof.
+- `src/evaluate_floor_fillet.py` checks R1/1.5/2/3; all long-edge, bore-preserving versions pass full geometry checks. A naive full R2 ring fills 12.68 mm3 of mounting voids and 34.33 mm3 of release-window space. Do not blindly round all edges or omit bore preservation.
+- RC4 lid/upper trays match RC3 and RC2; current prints continue. RC4 full geometry and nominal bead audits pass; no physical finish improvement or complete assembly success yet. P2S reference first plate 7532.69 s / 90.10 g, about +1.52 s and +0.127 g vs RC3. Same support/process settings. Use docs/v4.0-rc4.zh-CN.md; preserve historical models and projects.
+
+## Previous candidate: v4.0-rc3
 
 - `src/build_v4_rc3.py`, `models/v4.0-rc3/`, `docs/v4.0-rc3.zh-CN.md`: only fill exterior PRESS/arrow and SATA END engravings (0.3 mm). Boolean checks confirm no interior/interface changes and unchanged RC2 lid/upper trays. Existing RC2 body and current tray print remain usable for first assembly; no reprint required solely for cosmetic feedback.
 - No internal fillet was added: cause of the bottom transition line is unconfirmed, and finish improvement requires a same-settings printed comparison. Never promise that de-lettering cures the broad lower-wall line. RC3 is unprinted; all complete physical-fit/retention checks remain pending.

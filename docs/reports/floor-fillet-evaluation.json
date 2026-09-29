@@ -1,0 +1,73 @@
+{
+  "baseline": "4.0-rc3",
+  "floor_z_mm": 4.0,
+  "bottom_pcb_min_z_mm": 7.0,
+  "reference_bottom_component_min_z_mm": 4.9,
+  "rows": [
+    {
+      "radius_mm": 1.0,
+      "top_z_mm": 5.0,
+      "upper_tray_min_z_mm": 10.8,
+      "naive_full_ring_mount_void_fill_mm3": 2.32528,
+      "naive_full_ring_release_window_fill_mm3": 8.96659,
+      "long_walls_preserving_holes": "pass",
+      "checks": {
+        "module_poses": 512,
+        "loaded_tray_entry_poses": 242,
+        "bottom_release_poses": 1520,
+        "lid_poses": 132
+      },
+      "added_volume_mm3": 43.518,
+      "nominal_pla_mass_g_at_1_24": 0.054
+    },
+    {
+      "radius_mm": 1.5,
+      "top_z_mm": 5.5,
+      "upper_tray_min_z_mm": 10.8,
+      "naive_full_ring_mount_void_fill_mm3": 6.22197,
+      "naive_full_ring_release_window_fill_mm3": 19.60008,
+      "long_walls_preserving_holes": "pass",
+      "checks": {
+        "module_poses": 512,
+        "loaded_tray_entry_poses": 242,
+        "bottom_release_poses": 1520,
+        "lid_poses": 132
+      },
+      "added_volume_mm3": 97.915,
+      "nominal_pla_mass_g_at_1_24": 0.121
+    },
+    {
+      "radius_mm": 2.0,
+      "top_z_mm": 6.0,
+      "upper_tray_min_z_mm": 10.8,
+      "naive_full_ring_mount_void_fill_mm3": 12.68477,
+      "naive_full_ring_release_window_fill_mm3": 34.33496,
+      "long_walls_preserving_holes": "pass",
+      "checks": {
+        "module_poses": 512,
+        "loaded_tray_entry_poses": 242,
+        "bottom_release_poses": 1520,
+        "lid_poses": 132
+      },
+      "added_volume_mm3": 174.072,
+      "nominal_pla_mass_g_at_1_24": 0.216
+    },
+    {
+      "radius_mm": 3.0,
+      "top_z_mm": 7.0,
+      "upper_tray_min_z_mm": 10.8,
+      "naive_full_ring_mount_void_fill_mm3": 33.422,
+      "naive_full_ring_release_window_fill_mm3": 76.1089,
+      "long_walls_preserving_holes": "pass",
+      "checks": {
+        "module_poses": 512,
+        "loaded_tray_entry_poses": 242,
+        "bottom_release_poses": 1520,
+        "lid_poses": 132
+      },
+      "added_volume_mm3": 392.33,
+      "nominal_pla_mass_g_at_1_24": 0.486
+    }
+  ],
+  "limits": "Geometry and sampled paths only; no thermal or surface-finish prediction. PLA volume estimate is not sliced mass."
+}

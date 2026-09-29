@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.0-rc4 — R2 long-wall floor fillet candidate
+
+- Add R2 to the two long internal floor edges while preserving original mounting bores. Leave short-end release windows and SATA geometry unchanged; RC2/RC3 lid and upper trays remain compatible.
+- Evaluate R1/1.5/2/3 with sampled full-assembly checks; demonstrate why blindly adding a full perimeter ring fills mounting and release voids. R2 top is Z=6, 4.8 mm below the first removable tray.
+- Same-process Bambu first-plate estimate increases by 1.52 seconds and 0.127 g. Two plates and nominal support/corridor audit pass. Surface improvement and full physical assembly remain unverified.
+
 ## v4.0-rc3 — remove exterior side engravings
 
 - Fill vertical PRESS/arrow and SATA END cuts following the first RC2 body surface report. Preserve horizontal operation marks, all internal geometry, and RC2 lid/upper-tray compatibility. No internal fillet or slicing speed change.

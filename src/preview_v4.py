@@ -8,10 +8,11 @@ from support_removal_guide import render
 from audit_v3_2_toolpaths import parse
 
 
-def main(version='4.0-rc1',depth=6.,side_marks=True):
+def main(version='4.0-rc1',depth=6.,side_marks=True,fillet_radius=0.):
     import build_v4 as base
     base.VERSION=version;base.SATA_DEPTH=depth
     base.SIDE_MARKS=side_marks
+    base.FLOOR_FILLET_RADIUS=fillet_radius
     p,_,_=parts();out=ROOT/('models/v'+version)
     blue=(76,159,181);orange=(233,136,48);green=(64,120,82)
     im=Image.new('RGB',(1440,1170),'#fafafa');d=ImageDraw.Draw(im)
@@ -65,4 +66,5 @@ if __name__=='__main__':
     parser.add_argument('--version',default='4.0-rc1')
     parser.add_argument('--depth',type=float,default=6.)
     parser.add_argument('--no-side-marks',action='store_true')
-    args=parser.parse_args();main(args.version,args.depth,not args.no_side_marks)
+    parser.add_argument('--fillet-radius',type=float,default=0.)
+    args=parser.parse_args();main(args.version,args.depth,not args.no_side_marks,args.fillet_radius)

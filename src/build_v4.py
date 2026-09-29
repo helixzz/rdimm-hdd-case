@@ -18,6 +18,7 @@ v3=rc.v3
 VERSION='4.0-rc1'
 SATA_DEPTH=6.
 SIDE_MARKS=True
+FLOOR_FILLET_RADIUS=0.
 SATA_Y=v3.W-58.  # TOP view, X=0 connector end: mirror the mistaken bottom-view datum.
 
 
@@ -54,6 +55,9 @@ def parts():
             a-=v3.box((5.9,19.,24.),(141.1,y,2.2))
         # Cut after merging so the old tray cannot refill the new socket cavity.
         a-=v3.box((SATA_DEPTH+.1,47.,6.3),(-.1,SATA_Y,-.1))
+        if FLOOR_FILLET_RADIUS:
+            from floor_fillet import fillets,mount_voids
+            a+=fillets(FLOOR_FILLET_RADIUS)-mount_voids(pin)
         fixed[name]=a.set_tolerance(.0001)
         leaves[name]=bottom_leaves
         a+=rc.leaf()

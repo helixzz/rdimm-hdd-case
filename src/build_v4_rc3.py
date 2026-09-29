@@ -11,6 +11,7 @@ def configure():
     base.VERSION=VERSION
     base.SATA_DEPTH=7.5
     base.SIDE_MARKS=False
+    base.FLOOR_FILLET_RADIUS=0.
 
 
 def build(out):
