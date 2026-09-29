@@ -1,0 +1,56 @@
+{
+  "version": "4.1-rc1",
+  "baseline": "4.0-rc4",
+  "matched_complete_set_required": true,
+  "changes": {
+    "body-pin-clearance": {
+      "added_mm3": 1927.651536579226,
+      "removed_mm3": 341.87450423900873
+    },
+    "body-thread-pilot": {
+      "added_mm3": 1927.6516618218384,
+      "removed_mm3": 341.87451981099014
+    },
+    "lid-slide-lift": {
+      "added_mm3": 137.47366378761194,
+      "removed_mm3": 181.49028974647106
+    },
+    "tray-middle-3": {
+      "added_mm3": 80.41585672272184,
+      "removed_mm3": 469.3936711464328
+    },
+    "tray-top-3": {
+      "added_mm3": 80.41585672272184,
+      "removed_mm3": 469.3936711464328
+    }
+  },
+  "flat_vertical_bearing_area_mm2": 52.66976211565625,
+  "lid_release_beam_thickness_mm": [
+    1.0,
+    1.2
+  ],
+  "lid_release_root_radius_mm": 1.0,
+  "lid_lock_tooth_width_mm": [
+    5.0,
+    7.0
+  ],
+  "capture_flange_thickness_mm": 2.0,
+  "capture_tongue_thickness_mm": 1.4,
+  "capture_root_radius_mm": 0.8,
+  "lid_riser_root_radius_mm": 0.4,
+  "pcb_beam_thickness_mm": [
+    0.8,
+    1.0
+  ],
+  "pcb_root_radius_mm": 1.0,
+  "pcb_tooth_width_mm": [
+    4.0,
+    4.8
+  ],
+  "long_wall_belt_top_z_mm": 10.4,
+  "tray_entry_gap_above_belt_mm": 0.4,
+  "screw_clearance_checks": 6,
+  "physical_impact_verified": false,
+  "physical_cycles_verified": false,
+  "limits": "Bearing area and geometric motion checks do not predict load capacity, deflection, printed root strength, fatigue or impact damage."
+}

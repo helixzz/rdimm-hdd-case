@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.1-rc1 — flat lid captures and reinforced clip roots
+
+- Replace four short sloped lid captures with 2 mm flat flanges and matching tongues; preserve the press/8 mm slide/lift operation. Adjust all tray end reliefs: matched complete set required.
+- Thicken lid/DIMM springs, widen locking teeth and add root fillets. Brace the long walls with low triangular belts while preserving HDD bores and SATA clearance. Central lid skin stays unchanged to preserve component clearance.
+- Full reference geometry/motion, optional-screw, watertight mesh and 36 support/nine corridor audits pass. P1 projects retain local side-hole blockers. Supports on new tongues and ledges need removal; provide actual-path diagrams.
+- Same-profile total estimate ~3h11m36, +2.9% and +0.94 g versus RC4-p1. Impact, fatigue, opening force and support-removal ease are untested; not a drop rating.
+
 ## v4.0-rc4-p1 — local side-bore support blockers
 
 - Preserve RC4 round bores; block support only on six upper cylindrical side-hole surfaces after difficult support-removal feedback. Retain all other support settings.

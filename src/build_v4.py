@@ -19,6 +19,8 @@ VERSION='4.0-rc1'
 SATA_DEPTH=6.
 SIDE_MARKS=True
 FLOOR_FILLET_RADIUS=0.
+SHELL_LEAF=rc.leaf
+PART_MODIFIER=None
 SATA_Y=v3.W-58.  # TOP view, X=0 connector end: mirror the mistaken bottom-view datum.
 
 
@@ -60,7 +62,7 @@ def parts():
             a+=fillets(FLOOR_FILLET_RADIUS)-mount_voids(pin)
         fixed[name]=a.set_tolerance(.0001)
         leaves[name]=bottom_leaves
-        a+=rc.leaf()
+        a+=SHELL_LEAF()
         for _,s in bottom_leaves:a+=s
         p[name]=a.set_tolerance(.0001)
     lid=rc.old_part('lid-slide')
@@ -70,7 +72,7 @@ def parts():
     p['lid-slide-lift']=lid
     for name,tier in [('tray-middle-3','2'),('tray-top-3','3')]:
         p[name],fixed[name],leaves[name]=rc.revised_tray(name,3,False,tier)
-    return p,fixed,leaves
+    return PART_MODIFIER(p,fixed,leaves) if PART_MODIFIER else (p,fixed,leaves)
 
 
 def clear(a,b,label):
@@ -103,7 +105,7 @@ def verify(p,fixed,leaves):
     static=fixed['body-pin-clearance']
     for _,s in leaves['body-pin-clearance']:static+=s
     for t in np.linspace(0,2.5,26):
-        moved=rc.leaf().warp(lambda q:(q[0],q[1],q[2]-float(t)*max(0,min(1,(q[0]-47)/30))**2))
+        moved=SHELL_LEAF().warp(lambda q:(q[0],q[1],q[2]-float(t)*max(0,min(1,(q[0]-47)/30))**2))
         clear(moved,static,'shell leaf sweep')
     released=static+moved
     for dy in np.linspace(0,8,81):
@@ -121,7 +123,7 @@ def verify(p,fixed,leaves):
     assert (assembly[2].translate((0,0,.3))^assembly[3]).volume()>.01
     # Integrated bottom releases must work while still inside the shell.
     for i,(y,s) in enumerate(leaves['body-pin-clearance']):
-        other=fixed['body-pin-clearance']+rc.leaf()
+        other=fixed['body-pin-clearance']+SHELL_LEAF()
         for j,(_,q) in enumerate(leaves['body-pin-clearance']):
             if i!=j:other+=q
         for t in np.linspace(0,1.5,31):clear(rc.simple.bend(s,y,float(t)),other,('bottom beam',i,t))

@@ -12,6 +12,8 @@ def configure():
     base.SATA_DEPTH=7.5
     base.SIDE_MARKS=False
     base.FLOOR_FILLET_RADIUS=0.
+    base.SHELL_LEAF=base.rc.leaf
+    base.PART_MODIFIER=None
 
 
 def build(out):

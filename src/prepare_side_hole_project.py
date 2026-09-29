@@ -3,6 +3,7 @@ import argparse
 import hashlib
 import json
 import subprocess
+import shutil
 import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -20,11 +21,22 @@ def prepare(bambu,geometry_version):
     for plate in ('1-pin-clearance','2-upper-trays'):
         original=next((source/plate).glob('*P2S*.3mf'))
         out=dest/plate;out.mkdir(parents=True,exist_ok=True)
+        project=out/f'rdimm-{version}-plate-{plate}-P2S-PLA-Basic.3mf'
+        if plate=='2-upper-trays':
+            # No side holes here: retain the already sliced source byte-for-byte.
+            shutil.copy2(original,project)
+            for name in ('plate_1.gcode','result.json'):
+                shutil.copy2(source/plate/name,out/name)
+            result=json.loads((out/'result.json').read_text())
+            assert result['return_code']==0
+            p=result['sliced_plates'][0]
+            results.append({'plate':plate,'project':project.name,'geometry_version':geometry_version,
+                'source_project_bytes_identical':True,'changed_global_settings':[],
+                'estimated_seconds':p['total_predication'],'grams':p['filaments'][0]['total_used_g'],
+                'warnings':p['warning_message'],'project_sha256':hashlib.sha256(project.read_bytes()).hexdigest()})
+            continue
         seed=out/'painted-input.3mf'
-        if plate.startswith('1'):
-            counts=paint(original,seed)
-        else:
-            seed.write_bytes(original.read_bytes());counts={}
+        counts=paint(original,seed)
         with zipfile.ZipFile(seed) as z:data={n:z.read(n) for n in z.namelist()}
         settings=json.loads(data['Metadata/project_settings.config'])
         settings['print_settings_id']='RDIMM '+version+' - six side holes support blocked'
@@ -32,7 +44,6 @@ def prepare(bambu,geometry_version):
         data['Metadata/project_settings.config']=json.dumps(settings).encode()
         with zipfile.ZipFile(seed,'w',zipfile.ZIP_DEFLATED) as z:
             for n,b in data.items():z.writestr(n,b)
-        project=out/f'rdimm-{version}-plate-{plate}-P2S-PLA-Basic.3mf'
         for i,command in enumerate([
             [str(bambu),'--arrange','0','--export-3mf',str(project),str(seed)],
             [str(bambu),'--arrange','0','--slice','0','--outputdir',str(out),str(project)]

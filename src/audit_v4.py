@@ -10,6 +10,7 @@ def run(version='4.0-rc1',depth=6.,geometry_version=None):
     check_math()
     folder=ROOT/('build/v'+version+'-projects')
     records=json.loads((ROOT/('models/v'+(geometry_version or version))/'verification.json').read_text())['plate_records']
+    reinforced=(geometry_version or version).startswith('4.1-')
     report={'version':version,'method':'Finite-width nominal G-code bead footprints; variable layer heights; 0.025 mm XY samples',
             'limits':'No thermal, sagging, bond, support removal, force or fatigue simulation','plates':[]}
     for label in ('1-pin-clearance','2-upper-trays'):
@@ -18,18 +19,28 @@ def run(version='4.0-rc1',depth=6.,geometry_version=None):
         rois=[];corridors=[]
         for pose in record['poses']:
             name=pose['part'];t=np.array(pose['assembly_to_plate'])
-            if name.startswith('lid'):continue
+            if name.startswith('lid'):
+                if reinforced:
+                    for y,length in [(8.,6.),(95.6,4.2)]:
+                        for x in (3.4,140.4):
+                            rect=[x,y+.2,x+3.2,y+length-.2]
+                            rois.append((name,f'flat tongue {x}/{y}',transformed_rect(rect,t),2.2))
+                continue
             local=[];free=[]
             if name.startswith('body'):
-                local += [('shell leaf',[47.5,0,77,1.6],23.),('SATA roof',[0,SATA_Y,depth,SATA_Y+47],6.2)]
+                local += [('shell leaf',[49. if reinforced else 47.5,0,77,1.6],22.8 if reinforced else 23.),('SATA roof',[0,SATA_Y,depth,SATA_Y+47],6.2)]
+                if reinforced:
+                    for y,length in [(8.,6.),(95.6,4.2)]:
+                        for x in (3.4,140.6):
+                            local.append((f'flat capture {x}/{y}',[x,y+.2,x+3.,y+length-.2],24.))
                 free += [('shell free end',[77.3,.1,77.7,1.5],23.,26.)]
                 n=2;z=4.
             else:n=3;z=0.
             for i,sy in enumerate(v3.layout(n)[2]):
                 y=rc.simple.clip_start(n,i,sy)
                 local += [(f'fixed hood {i+1}',[6.3,sy+12,7.9,sy+20],4.6+z),
-                          (f'tooth {i+1}',[139.4,y+14,142.,y+18],4.6+z),
-                          (f'paddle {i+1}',[142.8,y+14,144.3,y+18],5.4+z)]
+                          (f'tooth {i+1}',[139.4,y+(13.6 if reinforced else 14),142.,y+(18.4 if reinforced else 18)],4.6+z),
+                          (f'paddle {i+1}',[143. if reinforced else 142.8,y+14,144.3,y+18],5.4+z)]
                 if z:local += [(f'bottom beam foot {i+1}',[142.,y+1,142.8,y+13],4.)]
                 free += [(f'beam slit {i+1}',[141.3,y+1,141.8,y+13],z,6.2+z)]
             for title,rect,zroof in local:

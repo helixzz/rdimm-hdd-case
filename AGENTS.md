@@ -1,6 +1,16 @@
 # Agent collaboration guide
 
-## Current process patch: v4.0-rc4-p1
+## Current structural candidate: v4.1-rc1 / configured p1
+
+- Latest user reports lid edge capture and release beam both weak; central lid flex secondary. No fracture/impact qualification reported. Improve general handling retention, keep screwless daily operation and avoid significant production-time growth.
+- `src/build_v4_1.py`: four flat captures (body flange 2 mm; lid tongue 1.4 mm; nominal horizontal bearing area 52.67 mm2), moved post locations, local tray travel reliefs. Full matched body/lid/trays required; never mix with RC4. Same press, slide 8 mm, lift sequence.
+- Shell beam 1.0 -> 1.2 mm with R1 root and 7 mm tooth; eight DIMM beams 0.8 -> 1.0 mm, R1 roots, 4.8 mm wide teeth. Long-wall triangular belt top Z10.4, first tray bottom Z10.8. Preserve mounting holes, single 7.5 mm SATA cavity, 26 mm envelope and 8 modules. Central lid unchanged because reference component gap is only ~0.3 mm; do not claim all sections are thicker or stiffer.
+- Base `SHELL_LEAF` and `PART_MODIFIER` default to original behavior; RC3/RC4 configure resets both before rebuilding historical models. New CAD requires <=0.001 mm manifold simplification tolerance to avoid float32 coincident slivers; full exported mesh checks pass.
+- Bambu configured `4.1-rc1-p1`: six side holes blocked, 289 painted faces survive re-save, no support in six bore boxes. 36 support areas and nine corridors pass. New flat captures and lid tongues REQUIRE support; diagrams in `models/v4.1-rc1/support-removal.png`. Removal ease is unverified.
+- Reference 7964.49 + 3531.97 s = 3h11m36; 125.63 g, +5m19/+0.94 g vs RC4-p1. No speed/material change. Physical impact, retention force, fatigue and pin fit unverified. Use substitutes for first impact screening, not precious DIMMs. No transport/ESD certification.
+- Docs `docs/v4.1-rc1.zh-CN.md`. Build script, source-backed previews, reports and two configured local plates stay in sync. Upper process-patch project is copied byte-for-byte from its validated source; patch is only for first-plate side holes.
+
+## Previous process patch: v4.0-rc4-p1
 
 - User reports six side-hole support plugs very difficult to remove. `src/block_side_hole_supports.py` paints only upper cylindrical faces of six 3.6 mm pin-clearance side bores as blockers; CAD remains RC4. Do not globally disable support or apply blindly to pilot bores.
 - Bambu save/reload retains 288 blocked faces. First-plate vertices/indices unchanged; upper-plate coordinate re-save rounding <=0.000004 mm. Six bore bounding boxes have zero support extrusions; original 28 support regions and nine corridors pass. Unsupported roof sag/pin fit unprinted. No zero-risk claim.
