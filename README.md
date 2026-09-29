@@ -4,6 +4,8 @@
 
 为服务器内存设计的硬盘位收纳盒：三层托盘，容量 2 + 3 + 3 条，优先保持标准 3.5 寸硬盘外形。目标参考内存为 Samsung M321RAJA0MB2-CCP / CCPKF，打印机参考为 Bambu Lab P2S。
 
+**New experimental v3: [免工具取放与固定背板避让](docs/v3.zh-CN.md).** No mandatory internal screws; sliding lid with a release latch, three keyed retainer frames, 2 mm deeper mounting holes, and a connector-end recess. Remains 147 × 101.6 × 26 mm / 8 modules. Print the mechanism/retainer coupons and empty bay-fit gauge first: **v3 has not been physically tested**, and the connector recess does not establish universal backplane compatibility. Closed cover required for inversion retention. Complete [three-plate STL layouts](models/v3) are supplied; v2 and v2-R remain unchanged and must not be mixed with v3.
+
 **Status: engineering prototype. A user printed v2 and reported noticeable movement when carrying it.** The experimental [v2-R retention retrofit](docs/retention.zh-CN.md) adds a screwed tray stack and PCB-edge keepers while reusing the v2 body; **the retrofit is not yet physically tested**. This is not a certified ESD or transport enclosure. V2 offers either plastic mounting pilots or optional metal inserts on the six side holes; bottom and lid pilots still require tapping.
 
 ![Mesh-derived assembly preview](models/v2/case-preview.png)

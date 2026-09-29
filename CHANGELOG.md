@@ -1,5 +1,15 @@
 # Changelog
 
+## v3 — experimental tool-free storage and backplane-clearance design
+
+- Remove mandatory interior hardware: three trays and three removable keyed PCB-edge retainer frames are captured by a closed sliding cover. Open trays must stay horizontal; they are not independently latching cartridges.
+- Add 45-degree slide rails, a press-down anti-slide latch, optional cover reinforcement screws and finger access. Keep the 26 mm CAD height and eight-module capacity.
+- Deepen side/bottom bores to 5.7/5.3 mm (+2 mm), with checked 5 mm intrusion. Offer separate thread-pilot and 3.6 mm locating-pin-clearance bodies.
+- Add a 6 x 47 x 6.2 mm connector-end bottom recess as a trial clearance envelope, with a matching bottom tray. Actual fixed-backplane compatibility is unverified.
+- Add mechanism/retainer first-test plates, a full-footprint empty fit gauge and three complete P2S plates. Local latch support and thin-wall slicing must be checked.
+- Validate 512 module poses, 2048 frame-offset cases, 48 PCB stop controls, 64 retainer coupon cases, lid release sweep and both body options. Record a limited parallel-tilt study (6 or 7 modules under the stated assumptions); do not claim a global packing optimum.
+- Preserve all previously printed v2 artifacts. No v3 physical, fatigue, impact, ESD or universal-bay-fit claims.
+
 ## v2-R — experimental carrying-retention retrofit
 
 - Respond to a user print of v2 with noticeable carrying rattle; preserve the printed body and original v2 meshes.

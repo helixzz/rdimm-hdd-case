@@ -5,6 +5,9 @@
 - `src/build_case.py` is the current v2 source of truth; `models/v2/` contains its printable baseline. `src/build_v1.py` and `models/v1/` preserve v1. Read `docs/v2.zh-CN.md` for v2 printing/assembly and `docs/printing.zh-CN.md` for original dimension references.
 - Work from the latest main branch in a task branch. Read the current diff before editing; preserve other contributors' changes. Keep generated scratch output under ignored `build/`.
 - User has physically printed v2 and reported carrying rattle. `src/build_retention.py` reads the unchanged v2 STL baseline and generates the experimental v2-R retrofit in `models/v2-retention/`; see `docs/retention.zh-CN.md`. Do not silently alter a previously printed v2 part to make the retrofit fit.
+- Latest independent prototype is v3: `src/build_v3.py`, `models/v3/`, `docs/v3.zh-CN.md`. It reads v2-R meshes but changes the complete set. Daily use must require NO internal screws/tools: three keyed retainer frames are captured by the CLOSED sliding cover. Open trays are not inversion-safe cartridges. Two external lid reinforcement screws are optional only. Do not reintroduce the abandoned screwed interior.
+- V3 must stay within 147 x 101.6 x 26 mm. Side/bottom hole depths are 5.7/5.3 mm with 5.0 mm occupied-probe checks; 3.6 mm pin-clearance and 2.7 mm thread-pilot bodies are alternatives, not interchangeable fastening methods. V3 does not include the old PEM insert variant.
+- User confirmed a fixed backplane receptacle must be cleared. V3's X=0..6, Y=11..58, Z=0..6.2 recess is a trial envelope informed by SFF-8323, NOT a verified universal SATA cavity. Require empty gauge fit evidence before claiming the target backplane accepts it. All v3 physical checks remain pending.
 
 ## Established design constraints
 - Current outer envelope: 147 x 101.6 x 26 mm. Current capacity: 8, arranged 2+3+3. Units: mm.
@@ -24,6 +27,8 @@ Use Python 3.12. Install `requirements.txt`, then run `python src/build_case.py`
 For an intentional baseline update run `python src/build_case.py --output-dir models/v2`, review generated changes, and update source, artifacts, and documentation together. New incompatible variants should use a new model directory. Describe changes and validation in the PR; automated geometry checks do not replace slicing, printing, or fit testing.
 
 For the retrofit, run `python src/build_retention.py --output-dir models/v2-retention`; optional `--models PATH` selects a freshly generated v2 source directory. The script also generates two upgrade print plates and a first-test plate. `src/retention_preview.py` renders mesh-based previews. Keep original v2 files intact and update the separate physical validation log with actual user evidence only.
+
+For v3 run `python src/build_v3.py` (default `build/v3`), or intentionally regenerate with `--output-dir models/v3`. `--models` must point to v2-R, not original v2. Its local latch supports, 0.4 mm frame connecting strips and 0.1 mm peg fit require first-print checks; do not present geometric tests as mechanical life/force simulation. Plate 2 has only 4 mm gaps / 5.5 mm bed margins; other complete plates retain at least 8 mm. Keep the limited single-row tilt calculation distinct from a global density bound. Update `docs/validation-v3.md` only from actual user evidence.
 
 ## Provenance and publication
 Retain dimension citations and distinguish assumptions from measured data. Do not add third-party PDFs, private workspace files, credentials, machine-specific paths, or user conversations. The project uses MIT for original contributions. Do not claim unperformed physical tests or certification.

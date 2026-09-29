@@ -1,0 +1,110 @@
+[
+  {
+    "file": "plate-1-body-thread-pilot-lid.stl",
+    "part_count": 2,
+    "bounds_mm": [
+      [
+        54.5,
+        18.200000762939453,
+        0.0
+      ],
+      [
+        201.5,
+        229.40000915527344,
+        26.0
+      ]
+    ],
+    "minimum_part_gap_mm": 8.0,
+    "minimum_bed_margin_mm": 8.0
+  },
+  {
+    "file": "plate-1-body-pin-clearance-lid.stl",
+    "part_count": 2,
+    "bounds_mm": [
+      [
+        54.5,
+        18.200000762939453,
+        0.0
+      ],
+      [
+        201.5,
+        229.40000915527344,
+        26.0
+      ]
+    ],
+    "minimum_part_gap_mm": 8.0,
+    "minimum_bed_margin_mm": 8.0
+  },
+  {
+    "file": "plate-2-middle-top.stl",
+    "part_count": 3,
+    "bounds_mm": [
+      [
+        5.5,
+        26.200000762939453,
+        0.0
+      ],
+      [
+        250.5,
+        229.79998779296875,
+        6.800000190734863
+      ]
+    ],
+    "minimum_part_gap_mm": 4.0,
+    "minimum_bed_margin_mm": 5.5
+  },
+  {
+    "file": "plate-3-bottom-frames.stl",
+    "part_count": 3,
+    "bounds_mm": [
+      [
+        19.700000762939453,
+        42.400001525878906,
+        0.0
+      ],
+      [
+        236.3000030517578,
+        213.59999084472656,
+        6.800000190734863
+      ]
+    ],
+    "minimum_part_gap_mm": 8.0,
+    "minimum_bed_margin_mm": 8.0
+  },
+  {
+    "file": "first-test-lid-mechanism.stl",
+    "part_count": 4,
+    "bounds_mm": [
+      [
+        70.0,
+        90.0,
+        0.0
+      ],
+      [
+        201.39999389648438,
+        157.60000610351562,
+        7.0
+      ]
+    ],
+    "minimum_part_gap_mm": 8.0,
+    "minimum_bed_margin_mm": 8.0
+  },
+  {
+    "file": "first-test-retainer.stl",
+    "part_count": 2,
+    "bounds_mm": [
+      [
+        56.400001525878906,
+        75.0,
+        0.0
+      ],
+      [
+        199.60000610351562,
+        158.0,
+        6.300000190734863
+      ]
+    ],
+    "minimum_part_gap_mm": 8.0,
+    "minimum_bed_margin_mm": 8.0
+  }
+]
