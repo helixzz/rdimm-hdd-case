@@ -1,5 +1,12 @@
 # Agent collaboration guide
 
+## Lid alternatives review (analysis only, no new printable version)
+
+- User explicitly requested parallel agents to compare alternative lid designs. Three independent roles reviewed retrofit, new architectures and print/operation risks; `docs/lid-options-review.zh-CN.md` records cross-review.
+- `evaluate_lid_pose_sensitivity.py` diagnoses RC3 combined X+.3/Z+.15 against RC2 fixed body: .124561 mm3 closed intersection, while individual offsets clear. Neck side relief begins at Z24, leaving a shoulder below; this is an exploratory sensitivity result, NOT measured distortion or proof the real lid must jam. No model changed.
+- Near-term recommendation: continuous neck working clearance and transition outside bearing area, preserving main tongue/root rather than further thinning. Must complete full path/section/slicing checks before printing a revision; not yet implemented. RC3 remains a physical-fit candidate.
+- Next-generation candidate: rigid rear hooks + captive manual slider, conditional on 26 mm/8 DIMM/path/hand access gates. Front wall-to-tray and central lid-to-component space ~.3 mm cannot house arbitrary latch. Body/lid and possibly trays need redesign. Fallback is loose short-travel captures with separate stop. Do not promise support-free, stronger or faster without CAD/slicing/physical evidence.
+
 ## Current lid-fit candidate: v4.1-rc3
 
 - RC2 physical feedback: entry jams, forced insertion gets tighter along travel and removal needs prying. Prior sloped grooves were easier. Do not recommend force; exact roughness/warp contributions not measured.
