@@ -384,11 +384,22 @@ def build(models, out):
     plates['first-test-lid-mechanism'] = [place('rail-test-base', 85., 90.), place('rail-test-slider', 110., 90.),
                                          place('latch-test-base', 70., 135.), place('latch-test-slider', 145., 135.)]
     plates['first-test-retainer'] = [place('retainer-test-tray', 56.4, 75.), place('retainer-test-frame', 56.4, 125.)]
+    # One print job for all three first-test groups; retain each tested print
+    # orientation and leave space around the gauge/latch for local supports.
+    plates['first-test-all'] = [place('empty-fit-gauge-pin', 15., 34.2),
+                                place('retainer-test-tray', 15., 145.8),
+                                place('retainer-test-frame', 15., 188.8),
+                                place('latch-test-base', 181., 34.2),
+                                place('latch-test-slider', 181., 67.2),
+                                place('rail-test-base', 181., 104.2),
+                                place('rail-test-slider', 211., 104.2)]
     plate_reports = []
     for name, meshes in plates.items():
         for i, mesh in enumerate(meshes):
             margin = 5.5 if name == 'plate-2-middle-top' else 8.
             minimum_gap = 4. if name == 'plate-2-middle-top' else 8.
+            if name == 'first-test-all':
+                margin, minimum_gap = 15., 10.
             assert mesh.bounds[0, :2].min() >= margin-.0001 and mesh.bounds[1, :2].max() <= 256-margin+.0001
             assert abs(mesh.bounds[0, 2]) < .0001
             for other in meshes[:i]:

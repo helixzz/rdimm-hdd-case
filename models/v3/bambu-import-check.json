@@ -3,6 +3,14 @@
   "operation": "CLI import/export only; not sliced",
   "checks": [
     {
+      "source_stl": "first-test-all.stl",
+      "source_sha256": "3949eca24fc88f7e9e224f24efd3738ea2e22665c963ee191261ddea4c79149f",
+      "closed_after_roundtrip": true,
+      "component_count": 7,
+      "maximum_bounds_delta_mm": 2.0482421803080797e-06,
+      "volume_delta_mm3": 0.024814061529468745
+    },
+    {
       "source_stl": "first-test-lid-mechanism.stl",
       "source_sha256": "dbafdc09fda69c490514b270ce25a1f0298d9689f70b9cf80af0598b77b5f2f0",
       "closed_after_roundtrip": true,

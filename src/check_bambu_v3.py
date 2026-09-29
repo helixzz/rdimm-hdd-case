@@ -68,7 +68,7 @@ if __name__ == '__main__':
     folder = args.output_dir.resolve()
     folder.mkdir(parents=True, exist_ok=True)
     reports = []
-    names = ('first-test-lid-mechanism', 'first-test-retainer', 'empty-fit-gauge-pin',
+    names = ('first-test-all', 'first-test-lid-mechanism', 'first-test-retainer', 'empty-fit-gauge-pin',
              'plate-1-body-pin-clearance-lid', 'plate-1-body-thread-pilot-lid', 'plate-2-middle-top', 'plate-3-bottom-frames')
     for name in names:
         source = (args.models/(name+'.stl')).resolve()

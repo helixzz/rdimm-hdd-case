@@ -8,6 +8,8 @@
 
 V3 now includes [engraved operation guides](models/v3/operation-guides.png): `1 PRESS`, `2 OPEN`, `KEEP LEVEL`, matching layer numbers, `LIFT` at the thick end bars, and `SATA END`. These are shallow recesses in the printable geometry, with no external font dependency; the assembly interfaces remain compatible with the earlier unmarked v3.
 
+**V3 首次试打只需一盘：[first-test-all.stl](models/v3/first-test-all.stl)**。空壳、单槽托盘与框、滑轨及锁扣小样共 7 件已排好位置，[查看排版](models/v3/first-test-all.png)。保持 100% 比例，按层打印；需按说明设置局部支撑并检查细筋。无需再分别打印三组试件。
+
 **Status: engineering prototype. A user printed v2 and reported noticeable movement when carrying it.** The experimental [v2-R retention retrofit](docs/retention.zh-CN.md) adds a screwed tray stack and PCB-edge keepers while reusing the v2 body; **the retrofit is not yet physically tested**. This is not a certified ESD or transport enclosure. V2 offers either plastic mounting pilots or optional metal inserts on the six side holes; bottom and lid pilots still require tapping.
 
 ![Mesh-derived assembly preview](models/v2/case-preview.png)

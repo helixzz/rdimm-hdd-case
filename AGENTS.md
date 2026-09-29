@@ -33,4 +33,6 @@ For v3 run `python src/build_v3.py` (default `build/v3`), or intentionally regen
 V3 operating marks come from `src/operation_marks.py`: original rounded stroke glyphs, 0.55 mm stroke, 0.30 mm recess, about 3.55 mm letter height. No OS fonts. Preserve the physically correct opening direction (-Y) and press direction (-Z), layer pair labels and `LIFT` placement on rigid bars. Never engrave flexures, thin frame strips, locator holes or PCB contacts. The generator asserts each mark lies fully on a solid face. Keep `operation-guides.png`, print plates and the Bambu import report hashes in sync after changes.
 
 ## Provenance and publication
+The v3 first-print entry point is `models/v3/first-test-all.stl`: all seven test pieces on one plate, with >= 10 mm bounding-box gaps and >= 15 mm bed margins. Preserve print orientations and by-layer printing; no nesting inside the gauge. Keep the preview and Bambu report in sync. Separate test files remain for replacement prints only.
+
 Retain dimension citations and distinguish assumptions from measured data. Do not add third-party PDFs, private workspace files, credentials, machine-specific paths, or user conversations. The project uses MIT for original contributions. Do not claim unperformed physical tests or certification.

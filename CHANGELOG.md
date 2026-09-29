@@ -2,6 +2,8 @@
 
 ## v3 — experimental tool-free storage and backplane-clearance design
 
+- Combine all three first-test groups into `first-test-all.stl`: seven pieces on one 256 mm bed, preserving print orientations, with at least 10 mm part gaps and 15 mm bed margins. Keep individual test files for replacements; add a mesh-derived plate preview and Bambu import verification.
+
 - Engrave simple operating instructions directly into the cover, fixed body walls, tray end rails and paired retainer frames: press/open arrows, level icon, layer numbers, lift points and connector-end orientation. Use original 0.55 mm stroke lettering, 0.30 mm recesses and no external font dependency. Regenerate all plates and retainer lettering samples; preserve assembly interfaces and the 26 mm envelope.
 
 - Remove mandatory interior hardware: three trays and three removable keyed PCB-edge retainer frames are captured by a closed sliding cover. Open trays must stay horizontal; they are not independently latching cartridges.

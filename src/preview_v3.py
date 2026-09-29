@@ -89,7 +89,35 @@ def preview(out, parts, assembly, plates, meshof, box, opposite):
     draw.text((30, 642), '100% scale, print by layer. Plate 2: 4 mm part gaps, 5.5 mm bed margin; other plates: >= 8 mm.', font=small, fill='#445566')
     draw.text((30, 679), 'Bodies/latch coupons need local removable support under the latch beam. Inspect thin 0.4 mm frame strips.', font=small, fill='#445566')
     im.save(out/'v3-plates.png')
+    test_plate_preview(out, plates['first-test-all'])
     guide_preview(out, parts, meshof)
+
+
+def test_plate_preview(out, meshes):
+    im = Image.new('RGB', (1250, 900), '#f4f6f8')
+    draw = ImageDraw.Draw(im)
+    font = ImageFont.load_default(size=25)
+    small = ImageFont.load_default(size=20)
+    draw.text((30, 22), 'V3: all first-test parts in ONE print job', font=font, fill='#172c40')
+    draw.text((30, 65), 'first-test-all.stl | 7 separate pieces | 256 x 256 mm bed', font=small, fill='#445566')
+    left, top, scale = 30, 120, 2.6
+    draw.rectangle((left, top, left+256*scale, top+256*scale), fill='white', outline='#81909e', width=2)
+    colors = ('#93b9cc', '#a4c8b4', '#e8c88f', '#b5a2c8', '#b5a2c8', '#cfaaa2', '#cfaaa2')
+    for i, mesh in enumerate(meshes):
+        for tri in mesh.faces:
+            draw.polygon([(left+x*scale, top+(256-y)*scale) for x, y in mesh.vertices[tri, :2]], fill=colors[i])
+        x, y = mesh.bounds[1, 0]-3., mesh.bounds[1, 1]-3.
+        draw.text((left+x*scale, top+(256-y)*scale), str(i+1), font=small, fill='#172c40', anchor='rt')
+    labels = ['1  Empty bay-fit gauge', '2  Single-slot tray', '3  Retainer frame (TEST)',
+              '4  Latch base', '5  Latch slider', '6  Rail base', '7  Rail slider']
+    for i, label in enumerate(labels):
+        draw.text((745, 145+43*i), label, font=small, fill='#172c40')
+    for i, label in enumerate(['100% scale; print BY LAYER.', 'Preserve all part orientations.', 'Part gaps >= 10 mm.',
+                               'Bed margins >= 15 mm.', 'Local latch supports: parts 1 & 4.',
+                               'Check thin frame paths in slicer.', 'Geometry layout; NOT pre-sliced.']):
+        draw.text((745, 490+37*i), label, font=small, fill='#445566')
+    draw.text((30, 824), 'Actual mesh footprints. Colors and numbers identify parts in this preview only.', font=small, fill='#445566')
+    im.save(out/'first-test-all.png')
 
 
 def guide_preview(out, parts, meshof):

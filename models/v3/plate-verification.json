@@ -106,5 +106,23 @@
     ],
     "minimum_part_gap_mm": 8.0,
     "minimum_bed_margin_mm": 8.0
+  },
+  {
+    "file": "first-test-all.stl",
+    "part_count": 7,
+    "bounds_mm": [
+      [
+        15.0,
+        34.20000076293945,
+        0.0
+      ],
+      [
+        241.0,
+        221.8000030517578,
+        26.0
+      ]
+    ],
+    "minimum_part_gap_mm": 10.0,
+    "minimum_bed_margin_mm": 15.0
   }
 ]
