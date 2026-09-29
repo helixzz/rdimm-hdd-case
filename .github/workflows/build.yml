@@ -33,6 +33,7 @@ jobs:
       - run: python src/build_latch_check_rc2.py --output-dir build/v3.2-rc2-latch-check
       - run: python src/build_v4.py --output-dir build/v4.0-rc1
       - run: python src/build_v4_rc2.py --output-dir build/v4.0-rc2
+      - run: python src/build_v4_rc3.py --output-dir build/v4.0-rc3
       - uses: actions/upload-artifact@v7.0.1
         with:
           name: rdimm-case-${{ matrix.os }}

@@ -18,6 +18,7 @@ DEPTH=7.5
 def configure():
     base.VERSION=VERSION
     base.SATA_DEPTH=DEPTH
+    base.SIDE_MARKS=True
 
 
 def build(out):

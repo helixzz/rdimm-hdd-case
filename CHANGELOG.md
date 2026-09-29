@@ -1,5 +1,10 @@
 # Changelog
 
+## v4.0-rc3 — remove exterior side engravings
+
+- Fill vertical PRESS/arrow and SATA END cuts following the first RC2 body surface report. Preserve horizontal operation marks, all internal geometry, and RC2 lid/upper-tray compatibility. No internal fillet or slicing speed change.
+- Geometry differences are confined to the outer 0.3 mm; full assembly/path checks and two-plate slicing/support audit pass. Reference plate 1 saves about 107 seconds. Physical finish improvement and full assembly remain unverified.
+
 ## v4.0-rc2 — standard SATA backplane guide-post depth
 
 - Increase the single connector recess from 6.0 to 7.5 mm after checking SATA-IO 3.3 figures 32/40/42. Reproduce the old cavity collision with the 6.76 mm axial envelope. Width, side and height stay unchanged.

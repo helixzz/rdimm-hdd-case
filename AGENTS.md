@@ -1,6 +1,12 @@
 # Agent collaboration guide
 
-## Current candidate: v4.0-rc2
+## Current candidate: v4.0-rc3
+
+- `src/build_v4_rc3.py`, `models/v4.0-rc3/`, `docs/v4.0-rc3.zh-CN.md`: only fill exterior PRESS/arrow and SATA END engravings (0.3 mm). Boolean checks confirm no interior/interface changes and unchanged RC2 lid/upper trays. Existing RC2 body and current tray print remain usable for first assembly; no reprint required solely for cosmetic feedback.
+- No internal fillet was added: cause of the bottom transition line is unconfirmed, and finish improvement requires a same-settings printed comparison. Never promise that de-lettering cures the broad lower-wall line. RC3 is unprinted; all complete physical-fit/retention checks remain pending.
+- RC3 P2S/PLA Basic/.20/normal reference: 7531 s + 3699 s (~3h07/set), no warnings; 28 support regions and nine free corridors checked. Model/source defaults preserve historical rebuilds. Configured projects stay local under build; repository 3MFs are geometry only.
+
+## Previous candidate and first-body feedback: v4.0-rc2
 
 - First body printed (2026-09-30): user reports side-lettering defects and a floor-to-wall transition line; photo also shows surface variation beyond lettering. Upper trays are about to print. Record in `docs/validation-v4.0-rc2.md`; body support removal, dock fit and full assembly remain unreported. Consider removing vertical side lettering and checking a local internal fillet/chamfer in a later revision; no confirmed cause or guaranteed cure. Preserve current RC2 files and tray settings for the first complete validation. User photo stays private.
 - `src/build_v4_rc2.py`, `models/v4.0-rc2/`, `docs/v4.0-rc2.zh-CN.md` supersede the RC1 body. SATA-IO Revision 3.3 Gold figures 32/40/42 show guide-post axial reach 6.30 mm nominal, 6.76 mm with the listed tolerances conservatively added. The RC1 6.0 mm cavity is insufficient. RC2 depth is 7.5 mm; SINGLE side Y=43.6..90.6 and Z=0..6.2 stay unchanged. Never widen to both sides.

@@ -17,6 +17,7 @@ ROOT=Path(__file__).resolve().parents[1]
 v3=rc.v3
 VERSION='4.0-rc1'
 SATA_DEPTH=6.
+SIDE_MARKS=True
 SATA_Y=v3.W-58.  # TOP view, X=0 connector end: mirror the mistaken bottom-view datum.
 
 
@@ -36,9 +37,10 @@ def parts():
         pin=name.endswith('clearance')
         # Retain the original source defaults so old releases rebuild unchanged.
         a=v3.body(pin,sata_y=SATA_Y,full_rails=False,sata_depth=SATA_DEPTH)
-        front=lettering('PRESS').translate((66.3,12.5))+down_arrow(73.5,16.8,18.7,1.,1.5)
-        a-=front.extrude(DEPTH+.1).rotate((90,0,0)).translate((0,DEPTH,0))
-        a-=lettering('SATA END').extrude(DEPTH+.1).transform([[0,0,-1,DEPTH],[-1,0,0,44.],[0,1,0,9.2]])
+        if SIDE_MARKS:
+            front=lettering('PRESS').translate((66.3,12.5))+down_arrow(73.5,16.8,18.7,1.,1.5)
+            a-=front.extrude(DEPTH+.1).rotate((90,0,0)).translate((0,DEPTH,0))
+            a-=lettering('SATA END').extrude(DEPTH+.1).transform([[0,0,-1,DEPTH],[-1,0,0,44.],[0,1,0,9.2]])
         a-=v3.box((31,1.8,7),(47,0,20))
         for y in (7.,88.6):
             piece=v3.rail(6.).translate((0,y,0))+v3.box((1.6,6.,.02),(0,y,24.39))
