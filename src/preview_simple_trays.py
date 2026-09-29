@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 import build_v3 as v3
 
 
-def preview(out, parts, fixed, leaves, plates, module):
+def preview(out, parts, fixed, leaves, plates, module, version='V3-S'):
     im = Image.new('RGB', (1500, 1070), '#f4f6f8')
     draw = ImageDraw.Draw(im)
     font = ImageFont.load_default(size=26)
@@ -42,7 +42,7 @@ def preview(out, parts, fixed, leaves, plates, module):
                 pixels[ymin:ymax+1, xmin:xmax+1][hit] = (np.array(color)*shade).astype(np.uint8)
         im.paste(Image.fromarray(pixels))
     blue, gold, green = (100, 151, 180), (231, 169, 70), (105, 164, 126)
-    draw.text((35, 22), 'V3-S: 8 RDIMMs, three trays, ZERO loose retainer frames', font=font, fill='#172c40')
+    draw.text((35, 22), version+': 8 RDIMMs, three trays, ZERO loose retainer frames', font=font, fill='#172c40')
     draw.text((35, 64), 'Integral tabs and fixed end slots replace the separate frames. Same 147 x 101.6 x 26 mm shell.', font=small, fill='#445566')
     name = 'tray-top-3'
     render([(fixed[name], blue)]+[(leaf, gold) for _, leaf in leaves[name]], 495, 315, 5.2, [73.5, 50.8, 0])
@@ -66,7 +66,7 @@ def preview(out, parts, fixed, leaves, plates, module):
 
     im = Image.new('RGB', (1250, 800), '#f4f6f8')
     draw = ImageDraw.Draw(im)
-    draw.text((30, 20), 'V3-S: one test plate; complete set uses TWO plates', font=font, fill='#172c40')
+    draw.text((30, 20), version+': one test plate; complete set uses TWO plates', font=font, fill='#172c40')
     for k, (name, label) in enumerate([('first-test-all', 'Test: gauge + integral tray + mechanism coupons'),
                                       ('plate-2-all-trays', 'Full plate 2: all three trays')]):
         left, top, scale = 30+620*k, 135, 2.2

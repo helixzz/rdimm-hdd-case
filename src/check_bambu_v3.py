@@ -65,6 +65,7 @@ if __name__ == '__main__':
     parser.add_argument('--output-dir', type=Path, default=ROOT/'build/v3-bambu-import')
     parser.add_argument('--report', type=Path, default=ROOT/'build/v3-bambu-import/check.json')
     parser.add_argument('--names', nargs='+', help='Optional model basenames for a derived variant')
+    parser.add_argument('--input-format', choices=('stl', '3mf'), default='stl')
     args = parser.parse_args()
     folder = args.output_dir.resolve()
     folder.mkdir(parents=True, exist_ok=True)
@@ -74,18 +75,19 @@ if __name__ == '__main__':
     if args.names:
         names = args.names
     for name in names:
-        source = (args.models/(name+'.stl')).resolve()
+        source = (args.models/(name+'.'+args.input_format)).resolve()
         exported = folder/(name+'.3mf')
         result = subprocess.run([str(args.bambu.resolve()), '--arrange', '0', '--export-3mf', str(exported), str(source)],
                                 cwd=folder, capture_output=True, timeout=60,
                                 creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
         assert result.returncode == 0 and exported.exists(), (name, result.returncode)
-        mesh, original = read_mesh(exported), trimesh.load_mesh(source)
+        mesh = read_mesh(exported)
+        original = trimesh.load_mesh(source) if args.input_format == 'stl' else read_mesh(source)
         assert mesh.is_watertight and mesh.is_winding_consistent, name
         assert np.allclose(mesh.bounds, original.bounds, atol=.0002), name
         assert abs(mesh.volume-original.volume) < .05, name
         assert components(mesh) == components(original), name
-        reports.append({'source_stl': source.name, 'source_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
+        reports.append({'source_'+args.input_format: source.name, 'source_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
                         'closed_after_roundtrip': True, 'component_count': components(mesh),
                         'maximum_bounds_delta_mm': float(np.max(np.abs(mesh.bounds-original.bounds))),
                         'volume_delta_mm3': float(mesh.volume-original.volume)})

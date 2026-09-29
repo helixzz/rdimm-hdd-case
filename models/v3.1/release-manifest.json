@@ -1,0 +1,203 @@
+{
+  "version": "3.1",
+  "release_tag": "v3.1",
+  "status": "prototype awaiting physical validation",
+  "units": "mm",
+  "bed_mm": [
+    256,
+    256
+  ],
+  "scale_percent": 100,
+  "print_sequence": "by layer",
+  "case_plate_count": 2,
+  "case_piece_count": 5,
+  "capacity": 8,
+  "outer_mm": [
+    147,
+    101.6,
+    26
+  ],
+  "minimum_plate_count_basis": "fixed flat orientations, no vertical stacking, non-overlapping XY projections",
+  "part_projection_area_mm2": {
+    "body-pin-clearance": 14935.1997756958,
+    "lid-slide": 14214.259262086547,
+    "tray-bottom-2": 9245.981075782795,
+    "tray-middle-3": 13726.200513982723,
+    "tray-top-3": 13726.200513982723
+  },
+  "total_projection_area_mm2": 65847.84114153059,
+  "bed_area_mm2": 65536,
+  "single_flat_plate_impossible_by_area": true,
+  "default_first_plate": "rdimm-v3.1-plate-1-pin-clearance",
+  "alternate_first_plate": "rdimm-v3.1-plate-1-thread-pilot",
+  "second_plate": "rdimm-v3.1-plate-2-all-trays",
+  "choose_one_format_per_plate": true,
+  "batch_10_sets": {
+    "print_counts": {
+      "rdimm-v3.1-batch-a-body-lid-bottom": 10,
+      "rdimm-v3.1-batch-b-middle-top-2sets": 5
+    },
+    "print_jobs": 15,
+    "not_a_global_minimum_proof": true,
+    "batch_b_gap_mm": 4,
+    "batch_b_bed_margin_mm": 5.5
+  },
+  "sliced": false,
+  "printer_profile_embedded": false,
+  "plates": [
+    {
+      "plate": "rdimm-v3.1-plate-1-pin-clearance",
+      "parts": [
+        "body-pin-clearance",
+        "lid-slide"
+      ],
+      "pieces": 2,
+      "bounds_mm": [
+        [
+          54.5,
+          18.200000762939453,
+          0.0
+        ],
+        [
+          201.5,
+          229.40000915527344,
+          26.0
+        ]
+      ],
+      "files": {
+        "stl": {
+          "file": "rdimm-v3.1-plate-1-pin-clearance.stl",
+          "sha256": "f3223af1155d6bbf01d98f651163c4ea66a76e548564abfbc3df1a0dd950f727"
+        },
+        "3mf": {
+          "file": "rdimm-v3.1-plate-1-pin-clearance.3mf",
+          "sha256": "9326b9e471f2f957231895145e4f6d10dda02aeb7b82b5753165978b6699b348"
+        }
+      }
+    },
+    {
+      "plate": "rdimm-v3.1-plate-1-thread-pilot",
+      "parts": [
+        "body-thread-pilot",
+        "lid-slide"
+      ],
+      "pieces": 2,
+      "bounds_mm": [
+        [
+          54.5,
+          18.200000762939453,
+          0.0
+        ],
+        [
+          201.5,
+          229.40000915527344,
+          26.0
+        ]
+      ],
+      "files": {
+        "stl": {
+          "file": "rdimm-v3.1-plate-1-thread-pilot.stl",
+          "sha256": "c7f6967310ee659802d743b766d04de279adf3728a3e1697bcaf9f4ce514b12a"
+        },
+        "3mf": {
+          "file": "rdimm-v3.1-plate-1-thread-pilot.3mf",
+          "sha256": "63489416e434b94e24e3b499b78d0c2432e2912b874bb7e6da51e95e4a9c76ae"
+        }
+      }
+    },
+    {
+      "plate": "rdimm-v3.1-plate-2-all-trays",
+      "parts": [
+        "tray-bottom-2",
+        "tray-middle-3",
+        "tray-top-3"
+      ],
+      "pieces": 3,
+      "bounds_mm": [
+        [
+          15.0,
+          25.200000762939453,
+          0.0
+        ],
+        [
+          233.60000610351562,
+          230.79998779296875,
+          6.800000190734863
+        ]
+      ],
+      "files": {
+        "stl": {
+          "file": "rdimm-v3.1-plate-2-all-trays.stl",
+          "sha256": "c0a6ed8b25c2cf73461f4543b568c6e51129687ee7905e4bd1c3b122a0c6ddd8"
+        },
+        "3mf": {
+          "file": "rdimm-v3.1-plate-2-all-trays.3mf",
+          "sha256": "9ad0b943e0269eb7e7628520c3bec7130fcc4fc2e85544c675a951dddfd7ccc6"
+        }
+      }
+    },
+    {
+      "plate": "rdimm-v3.1-batch-a-body-lid-bottom",
+      "parts": [
+        "body-pin-clearance",
+        "lid-slide",
+        "tray-bottom-2"
+      ],
+      "pieces": 3,
+      "bounds_mm": [
+        [
+          17.799999237060547,
+          22.399999618530273,
+          0.0
+        ],
+        [
+          238.1999969482422,
+          231.60000610351562,
+          26.0
+        ]
+      ],
+      "files": {
+        "stl": {
+          "file": "rdimm-v3.1-batch-a-body-lid-bottom.stl",
+          "sha256": "80f5cfa62e7ce8fb35fb99b014537aeeb8359d0f1d59723f8f0c439dd2ab0f64"
+        },
+        "3mf": {
+          "file": "rdimm-v3.1-batch-a-body-lid-bottom.3mf",
+          "sha256": "1b8e9bf87ce386c1a28e661c6c1efe939b9726a692e64beaf32ce0fdcb1ee7cd"
+        }
+      }
+    },
+    {
+      "plate": "rdimm-v3.1-batch-b-middle-top-2sets",
+      "parts": [
+        "tray-middle-3",
+        "tray-top-3",
+        "tray-middle-3",
+        "tray-top-3"
+      ],
+      "pieces": 4,
+      "bounds_mm": [
+        [
+          5.5,
+          5.5,
+          0.0
+        ],
+        [
+          250.50001525878906,
+          250.50001525878906,
+          6.800000190734863
+        ]
+      ],
+      "files": {
+        "stl": {
+          "file": "rdimm-v3.1-batch-b-middle-top-2sets.stl",
+          "sha256": "9f974b55fac2d0b5ffb434c860fb6c60ee5f5b5c5c01c9af5e5041a67143dc06"
+        },
+        "3mf": {
+          "file": "rdimm-v3.1-batch-b-middle-top-2sets.3mf",
+          "sha256": "aafef3114cffcd7e2b97d00544a8a3ca5094fa03f8c7ec6a69004ffe76a7c7b2"
+        }
+      }
+    }
+  ]
+}

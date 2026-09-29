@@ -1,0 +1,46 @@
+{
+  "application": "Bambu Studio",
+  "operation": "CLI import/export only; not sliced",
+  "checks": [
+    {
+      "source_stl": "rdimm-v3.1-plate-1-pin-clearance.stl",
+      "source_sha256": "f3223af1155d6bbf01d98f651163c4ea66a76e548564abfbc3df1a0dd950f727",
+      "closed_after_roundtrip": true,
+      "component_count": 2,
+      "maximum_bounds_delta_mm": 1.844726568833721e-06,
+      "volume_delta_mm3": 0.02193914535746444
+    },
+    {
+      "source_stl": "rdimm-v3.1-plate-1-thread-pilot.stl",
+      "source_sha256": "c7f6967310ee659802d743b766d04de279adf3728a3e1697bcaf9f4ce514b12a",
+      "closed_after_roundtrip": true,
+      "component_count": 2,
+      "maximum_bounds_delta_mm": 1.844726568833721e-06,
+      "volume_delta_mm3": 0.021945567379589193
+    },
+    {
+      "source_stl": "rdimm-v3.1-plate-2-all-trays.stl",
+      "source_sha256": "c0a6ed8b25c2cf73461f4543b568c6e51129687ee7905e4bd1c3b122a0c6ddd8",
+      "closed_after_roundtrip": true,
+      "component_count": 3,
+      "maximum_bounds_delta_mm": 5.237060548779482e-06,
+      "volume_delta_mm3": -0.008642095868708566
+    },
+    {
+      "source_stl": "rdimm-v3.1-batch-a-body-lid-bottom.stl",
+      "source_sha256": "80f5cfa62e7ce8fb35fb99b014537aeeb8359d0f1d59723f8f0c439dd2ab0f64",
+      "closed_after_roundtrip": true,
+      "component_count": 3,
+      "maximum_bounds_delta_mm": 5.38146973383391e-06,
+      "volume_delta_mm3": -0.010683003507438116
+    },
+    {
+      "source_stl": "rdimm-v3.1-batch-b-middle-top-2sets.stl",
+      "source_sha256": "9f974b55fac2d0b5ffb434c860fb6c60ee5f5b5c5c01c9af5e5041a67143dc06",
+      "closed_after_roundtrip": true,
+      "component_count": 4,
+      "maximum_bounds_delta_mm": 8.000000008223651e-06,
+      "volume_delta_mm3": -0.004661292470700573
+    }
+  ]
+}

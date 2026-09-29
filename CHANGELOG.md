@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.1 — versioned full-validation release
+
+- Name the v3-S integral-latch design v3.1 without changing part geometry. Publish versioned STL and geometry-only 3MF files, manifests/checksums and an immutable release tag; preserve historical designs.
+- Prove two flat plates are minimal for a single set by actual projected area (65,847.84 mm² > 65,536 mm²). Supply both shell-hole variants and clear five-part packing lists.
+- Add a ten-set batch option: ten body/lid/bottom plates plus five plates with two middle/top pairs, totaling 15 jobs. This is not a global batch minimum proof.
+- Benchmark eight actual CLI slices with P2S 0.4 / PLA Basic profiles. Infill-only tuning saves about 3.6% per set; combined batching/tuning estimates 5.7% machine-time savings for ten sets, plus five fewer plate changes. No physical quality or time guarantee; profiles remain candidates.
+
 ## v3-S — experimental integral-latch trays
 
 - Keep eight modules and the v3 shell/lid, replacing three loose retainer frames with fixed end slots and integral outward-release tabs on three trays. Retain tool-free daily use; lift the tray out before releasing RAM.

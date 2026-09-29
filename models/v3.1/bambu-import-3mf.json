@@ -1,0 +1,46 @@
+{
+  "application": "Bambu Studio",
+  "operation": "CLI import/export only; not sliced",
+  "checks": [
+    {
+      "source_3mf": "rdimm-v3.1-plate-1-pin-clearance.3mf",
+      "source_sha256": "9326b9e471f2f957231895145e4f6d10dda02aeb7b82b5753165978b6699b348",
+      "closed_after_roundtrip": true,
+      "component_count": 2,
+      "maximum_bounds_delta_mm": 1.8400000101337355e-06,
+      "volume_delta_mm3": 0.021926187080680393
+    },
+    {
+      "source_3mf": "rdimm-v3.1-plate-1-thread-pilot.3mf",
+      "source_sha256": "63489416e434b94e24e3b499b78d0c2432e2912b874bb7e6da51e95e4a9c76ae",
+      "closed_after_roundtrip": true,
+      "component_count": 2,
+      "maximum_bounds_delta_mm": 1.8400000101337355e-06,
+      "volume_delta_mm3": 0.021932738280156627
+    },
+    {
+      "source_3mf": "rdimm-v3.1-plate-2-all-trays.3mf",
+      "source_sha256": "9ad0b943e0269eb7e7628520c3bec7130fcc4fc2e85544c675a951dddfd7ccc6",
+      "closed_after_roundtrip": true,
+      "component_count": 3,
+      "maximum_bounds_delta_mm": 5.240000000128475e-06,
+      "volume_delta_mm3": -0.008510685293003917
+    },
+    {
+      "source_3mf": "rdimm-v3.1-batch-a-body-lid-bottom.3mf",
+      "source_sha256": "1b8e9bf87ce386c1a28e661c6c1efe939b9726a692e64beaf32ce0fdcb1ee7cd",
+      "closed_after_roundtrip": true,
+      "component_count": 3,
+      "maximum_bounds_delta_mm": 5.3800000081594135e-06,
+      "volume_delta_mm3": -0.010645414251484908
+    },
+    {
+      "source_3mf": "rdimm-v3.1-batch-b-middle-top-2sets.3mf",
+      "source_sha256": "aafef3114cffcd7e2b97d00544a8a3ca5094fa03f8c7ec6a69004ffe76a7c7b2",
+      "closed_after_roundtrip": true,
+      "component_count": 4,
+      "maximum_bounds_delta_mm": 8.000000008223651e-06,
+      "volume_delta_mm3": -0.004460490716155618
+    }
+  ]
+}

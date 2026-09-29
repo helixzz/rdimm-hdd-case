@@ -1,6 +1,10 @@
 # Agent collaboration guide
 
 ## Project and source of truth
+- Current version is **v3.1**, the formal name of v3-S, with unchanged part geometry: `VERSION`, `src/build_v3_1.py`, `models/v3.1/`, `docs/v3.1.zh-CN.md`. Keep fixed release tags/assets immutable and follow `docs/versions.zh-CN.md`; future model/process changes need a new version. Older sections below document source baselines.
+- Single-set delivery is two plates with five pieces. The alternate first plate replaces the default, never print both. Batch delivery for ten sets uses A ten times and B five times (15 jobs, not a global optimum claim). Batch B has 4 mm gaps/5.5 mm margins and needs brim/support clearance checks.
+- User uses Bambu PLA Basic or PLA Pure and reports about two hours for the shell plate. `src/benchmark_v3_1.py` measures reference CLI slicing with locally installed PLA Basic profiles; never commit full vendor presets, generated G-code or machine paths. Do not promise measured times or preserved quality from slicer estimates. Candidate infill tweaks have no physical validation. One complete real-DIMM/backplane test precedes production decisions; no mandatory extra test plate was imposed.
+- `src/package_v3_1.py` packages a clean committed release into ignored build output with commit ID/checksums. Default geometry 3MFs have no printer/filament/support presets. Keep reference slicing results distinct from pre-sliced print artifacts.
 - This repository designs a printable RDIMM storage enclosure matching a traditional 3.5-inch HDD envelope and mounting positions.
 - `src/build_case.py` is the current v2 source of truth; `models/v2/` contains its printable baseline. `src/build_v1.py` and `models/v1/` preserve v1. Read `docs/v2.zh-CN.md` for v2 printing/assembly and `docs/printing.zh-CN.md` for original dimension references.
 - Work from the latest main branch in a task branch. Read the current diff before editing; preserve other contributors' changes. Keep generated scratch output under ignored `build/`.

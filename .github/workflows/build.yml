@@ -28,6 +28,7 @@ jobs:
       - run: python src/build_retention.py --models build/v2 --output-dir build/v2-retention
       - run: python src/build_v3.py --models build/v2-retention --output-dir build/v3
       - run: python src/build_simple_trays.py --models build/v2-retention --v3-models build/v3 --output-dir build/v3-simple
+      - run: python src/build_v3_1.py --models build/v2-retention --v3-models build/v3 --output-dir build/v3.1
       - uses: actions/upload-artifact@v7.0.1
         with:
           name: rdimm-case-${{ matrix.os }}
