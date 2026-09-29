@@ -1,5 +1,12 @@
 # Agent collaboration guide
 
+## Latest assembly-path finding
+
+- User tried the orange single-slot coupon inside the printed v3.1 body: upper rails block entry; flexing the body allowed entry but it hits the SATA mound. `src/check_loading_paths.py` reproduces straight-down entry collisions for ALL RC1 trays (143.2 mm length vs 140.6 mm top opening), despite collision-free final poses for production trays. Do not recommend shell flexing or claim assembly success from static fits.
+- The single-slot coupon is NOT the bottom assembly tray: it lacks the bottom SATA relief and has additional local locator conflict. Production bottom-tray seated clearance passes the existing geometry check; this does not cure its loading path. See `docs/loading-path-and-integrated-bottom.zh-CN.md` and diagnostic JSON.
+- User proposed an integrated two-module bottom with two removable three-module upper trays. Bare reference module paths at PCB Z=7 have space, but no integrated keeper design is validated. Existing outward-release clips collide with the shell and cannot just be fused to its floor. Study a fully cleared opening/tool-free lid and in-shell-accessible bottom retention, preserving 8 modules and the HDD envelope. Part count could fall 5 to 4; do not promise fewer plates or time without slicing a full new design.
+- Hold further RC1 full sets and additional old-architecture coupons pending unified loading-path/architecture work. RC2 A is only an old-latch fixture correction and does not address tray insertion. No v4 printable model has been created yet. Do not publish supplied user photos.
+
 ## Project and source of truth
 
 - Active printability candidate is **v3.2-rc1** (`src/build_v3_2.py`, `models/v3.2-rc1/`, `docs/v3.2-rc1.zh-CN.md`). Fixed published v3.1 remains immutable. A real v3.1 shell failed: lid leaf fused to frame; tray plate has not been printed. Keep those facts in `docs/validation-v3.1.md`.

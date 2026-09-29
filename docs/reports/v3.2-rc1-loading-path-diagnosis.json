@@ -1,0 +1,97 @@
+{
+  "scope": "Rigid straight-down loading and nominal seated poses only; no physical validation",
+  "upper_opening_x_mm": 140.6,
+  "trays": [
+    {
+      "part": "test-tray-1",
+      "tray_length_mm": 143.2,
+      "tested_base_z": 4.0,
+      "seated_intersection_mm3": 136.26167,
+      "straight_loading_blocked": true,
+      "blocked_sample_count": 55,
+      "highest_blocked_z": 25.8,
+      "max_path_intersection_mm3": 136.26167,
+      "rc1_body_collision_at_same_highest_pose_mm3": 9.29172,
+      "pose_scope": "Hypothetical placement at bottom-tray height; this coupon is not an assembly tray",
+      "seated_collision_bounds": [
+        [
+          1.899999976158142,
+          34.29999923706055,
+          4.0
+        ],
+        [
+          145.10000610351562,
+          67.30000305175781,
+          7.0
+        ]
+      ],
+      "sata_roof_region_intersection_mm3": 134.61602
+    },
+    {
+      "part": "tray-bottom-2",
+      "tray_length_mm": 143.2,
+      "tested_base_z": 4.0,
+      "seated_intersection_mm3": 0.0,
+      "straight_loading_blocked": true,
+      "blocked_sample_count": 40,
+      "highest_blocked_z": 25.8,
+      "max_path_intersection_mm3": 65.82005,
+      "rc1_body_collision_at_same_highest_pose_mm3": 10.59142,
+      "hypothetical_rails_removed_max_path_intersection_mm3": 2e-05,
+      "existing_outward_release_body_collisions_mm3": [
+        1.25344,
+        1.25344
+      ]
+    },
+    {
+      "part": "tray-middle-3",
+      "tray_length_mm": 143.2,
+      "tested_base_z": 10.8,
+      "seated_intersection_mm3": 0.0,
+      "straight_loading_blocked": true,
+      "blocked_sample_count": 57,
+      "highest_blocked_z": 25.9933,
+      "max_path_intersection_mm3": 89.22629,
+      "rc1_body_collision_at_same_highest_pose_mm3": 0.90184,
+      "hypothetical_rails_removed_max_path_intersection_mm3": 2e-05
+    },
+    {
+      "part": "tray-top-3",
+      "tray_length_mm": 143.2,
+      "tested_base_z": 17.6,
+      "seated_intersection_mm3": 0.0,
+      "straight_loading_blocked": true,
+      "blocked_sample_count": 93,
+      "highest_blocked_z": 25.92,
+      "max_path_intersection_mm3": 89.22741,
+      "rc1_body_collision_at_same_highest_pose_mm3": 10.46805,
+      "hypothetical_rails_removed_max_path_intersection_mm3": 2e-05
+    }
+  ],
+  "bare_bottom_reference_modules": [
+    {
+      "pcb_y": 18.899999999999995,
+      "pcb_z_seated": 7.0,
+      "maximum_straight_loading_intersection_mm3": 0.0
+    },
+    {
+      "pcb_y": 51.3,
+      "pcb_z_seated": 7.0,
+      "maximum_straight_loading_intersection_mm3": 0.0
+    }
+  ],
+  "integration_constraints": {
+    "capacity_target": 8,
+    "layout": "2 fixed bottom seats + 3 middle tray + 3 top tray",
+    "part_count_before": 5,
+    "part_count_concept": 4,
+    "plate_count_and_print_time": "Not established; requires full new model and slicing",
+    "connector_body_roof_z_mm": 7.0,
+    "current_bottom_pcb_z_mm": 7.0,
+    "nominal_chip_start_x_mm": 8.6,
+    "connector_body_inner_x_mm": 6.8,
+    "existing_latch_reuse": "Not drop-in: outward release collides with body and its beam foot would join the body floor",
+    "top_opening": "Upper trays still blocked; removing the bottom tray does not fix the lid rails",
+    "claim_limit": "Bare modules are tested against body only. No integrated keepers, handling clearance or finished v4 are validated."
+  }
+}
