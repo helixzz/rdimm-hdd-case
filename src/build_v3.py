@@ -136,7 +136,7 @@ def latch_guard():
     return box((7.5, .6, 4.4), (70.5, 0, 20.))
 
 
-def body(pin_clearance=False, sata_y=11., full_rails=True):
+def body(pin_clearance=False, sata_y=11., full_rails=True, sata_depth=6.):
     a = box((L, W, TOP))-box((L-3.2, W-3.2, TOP+1), (1.6, 1.6, BASE))
     for x in SIDE_X:
         for y in (0., W-6.5):
@@ -151,8 +151,8 @@ def body(pin_clearance=False, sata_y=11., full_rails=True):
     for y in (16.9, 83.9):
         a += box((8, .8, 3.8), (69.5, y, BASE))
     # Connector-end recess is open at X=0 and the bottom. Roof is 0.8 mm.
-    a += box((6.8, 47., 7.), (0, sata_y, 0))
-    pocket = box((6.1, 47., 6.3), (-.1, sata_y, -.1))
+    a += box((sata_depth+.8, 47., 7.), (0, sata_y, 0))
+    pocket = box((sata_depth+.1, 47., 6.3), (-.1, sata_y, -.1))
     a -= pocket
     diameter = 3.6 if pin_clearance else 2.7
     for x in SIDE_X:

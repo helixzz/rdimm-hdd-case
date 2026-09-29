@@ -16,6 +16,7 @@ from operation_marks import lettering, top_cut, down_arrow, DEPTH
 ROOT=Path(__file__).resolve().parents[1]
 v3=rc.v3
 VERSION='4.0-rc1'
+SATA_DEPTH=6.
 SATA_Y=v3.W-58.  # TOP view, X=0 connector end: mirror the mistaken bottom-view datum.
 
 
@@ -34,7 +35,7 @@ def parts():
     for name in ('body-pin-clearance','body-thread-pilot'):
         pin=name.endswith('clearance')
         # Retain the original source defaults so old releases rebuild unchanged.
-        a=v3.body(pin,sata_y=SATA_Y,full_rails=False)
+        a=v3.body(pin,sata_y=SATA_Y,full_rails=False,sata_depth=SATA_DEPTH)
         front=lettering('PRESS').translate((66.3,12.5))+down_arrow(73.5,16.8,18.7,1.,1.5)
         a-=front.extrude(DEPTH+.1).rotate((90,0,0)).translate((0,DEPTH,0))
         a-=lettering('SATA END').extrude(DEPTH+.1).transform([[0,0,-1,DEPTH],[-1,0,0,44.],[0,1,0,9.2]])
@@ -50,7 +51,7 @@ def parts():
             # finger release; no blind support tunnel and no HDD holes here.
             a-=v3.box((5.9,19.,24.),(141.1,y,2.2))
         # Cut after merging so the old tray cannot refill the new socket cavity.
-        a-=v3.box((6.1,47.,6.3),(-.1,SATA_Y,-.1))
+        a-=v3.box((SATA_DEPTH+.1,47.,6.3),(-.1,SATA_Y,-.1))
         fixed[name]=a.set_tolerance(.0001)
         leaves[name]=bottom_leaves
         a+=rc.leaf()
@@ -128,7 +129,7 @@ def verify(p,fixed,leaves):
             for q in poses:
                 clear(q.translate((0,0,4.)),opened,('bottom DIMM removal',i,length,width,pcb))
                 checks['bottom_release_poses']+=1
-    probes=[v3.box((6.,47.,6.2),(0,SATA_Y,0))]
+    probes=[v3.box((SATA_DEPTH,47.,6.2),(0,SATA_Y,0))]
     for x in v3.SIDE_X:
         probes += [v3.cyl(5.,1.8,(x,0,6.35),rot=(-90,0,0)),v3.cyl(5.,1.8,(x,v3.W,6.35),rot=(90,0,0))]
     for x in v3.BOTTOM_X:
@@ -194,13 +195,13 @@ def build(out):
         mesh.export(out/(stem+'.stl'));rc.export_geometry(out/(stem+'.3mf'),mesh)
         path=out/(stem+'.3mf')
         with zipfile.ZipFile(path) as z:data={n:z.read(n) for n in z.namelist()}
-        data['3D/3dmodel.model']=data['3D/3dmodel.model'].replace(b'case v3.1',b'case v4.0-rc1')
+        data['3D/3dmodel.model']=data['3D/3dmodel.model'].replace(b'case v3.1',('case v'+VERSION).encode())
         with zipfile.ZipFile(path,'w',zipfile.ZIP_DEFLATED) as z:
             for n,value in data.items():z.writestr(n,value)
         records.append({'stem':stem,'poses':poses,'bounds':mesh.bounds.tolist()})
     report={'version':VERSION,'status':'candidate, unprinted','capacity':8,'part_count':4,'complete_set_plates':2,
             'plate_count_global_minimum_proven':False,'outer_mm':[147,101.6,26],
-            'sata_cavity_mm':{'min':[0,SATA_Y,0],'max':[6,SATA_Y+47,6.2]},
+            'sata_cavity_mm':{'min':[0,SATA_Y,0],'max':[SATA_DEPTH,SATA_Y+47,6.2]},
             'lid_opening':'Press, slide 8 mm toward -Y, lift; reverse to close',
             'checks':checks,'plate_records':records,'supports_required':True,
             'physical_tested':False,'force_fatigue_verified':False,'geometry_only_3mf':True}

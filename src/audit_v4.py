@@ -6,11 +6,11 @@ from build_v4 import ROOT, v3, rc, SATA_Y
 from audit_v3_2_toolpaths import parse,select,grid,footprint,side_gap,STEP,transformed_rect,check_math
 
 
-def run():
+def run(version='4.0-rc1',depth=6.):
     check_math()
-    folder=ROOT/'build/v4.0-rc1-projects'
-    records=json.loads((ROOT/'models/v4.0-rc1/verification.json').read_text())['plate_records']
-    report={'version':'4.0-rc1','method':'Finite-width nominal G-code bead footprints; variable layer heights; 0.025 mm XY samples',
+    folder=ROOT/('build/v'+version+'-projects')
+    records=json.loads((ROOT/('models/v'+version)/'verification.json').read_text())['plate_records']
+    report={'version':version,'method':'Finite-width nominal G-code bead footprints; variable layer heights; 0.025 mm XY samples',
             'limits':'No thermal, sagging, bond, support removal, force or fatigue simulation','plates':[]}
     for label in ('1-pin-clearance','2-upper-trays'):
         path=folder/label/'plate_1.gcode';segs=parse(path)
@@ -21,7 +21,7 @@ def run():
             if name.startswith('lid'):continue
             local=[];free=[]
             if name.startswith('body'):
-                local += [('shell leaf',[47.5,0,77,1.6],23.),('SATA roof',[0,SATA_Y,6.,SATA_Y+47],6.2)]
+                local += [('shell leaf',[47.5,0,77,1.6],23.),('SATA roof',[0,SATA_Y,depth,SATA_Y+47],6.2)]
                 free += [('shell free end',[77.3,.1,77.7,1.5],23.,26.)]
                 n=2;z=4.
             else:n=3;z=0.
@@ -65,4 +65,9 @@ def run():
     (folder/'finite-width-audit.json').write_text(json.dumps(report,indent=2),encoding='utf8')
 
 
-if __name__=='__main__':run()
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--version',default='4.0-rc1')
+    parser.add_argument('--depth',type=float,default=6.)
+    args=parser.parse_args();run(args.version,args.depth)

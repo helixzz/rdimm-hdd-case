@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.0-rc2 — standard SATA backplane guide-post depth
+
+- Increase the single connector recess from 6.0 to 7.5 mm after checking SATA-IO 3.3 figures 32/40/42. Reproduce the old cavity collision with the 6.76 mm axial envelope. Width, side and height stay unchanged.
+- Extend the 0.8 mm isolation wall; reference chip lateral gap is now 0.2 mm and requires physical checking. Lid and upper trays are unchanged from v4 RC1.
+- Rebuild full meshes, two plate layouts, reference configured projects and previews; geometry and nominal toolpath audits pass. Full physical fit and retention remain pending.
+
 ## v4.0-rc1 — corrected connector side and integrated bottom
 
 - Move the single connector recess from Y=11–58 to Y=43.6–90.6 mm after correcting bottom/end-view interpretation. Preserve its width, mounting datums and published old artifacts.

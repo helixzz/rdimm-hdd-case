@@ -1,6 +1,12 @@
 # Agent collaboration guide
 
-## Current candidate: v4.0-rc1
+## Current candidate: v4.0-rc2
+
+- `src/build_v4_rc2.py`, `models/v4.0-rc2/`, `docs/v4.0-rc2.zh-CN.md` supersede the RC1 body. SATA-IO Revision 3.3 Gold figures 32/40/42 show guide-post axial reach 6.30 mm nominal, 6.76 mm with the listed tolerances conservatively added. The RC1 6.0 mm cavity is insufficient. RC2 depth is 7.5 mm; SINGLE side Y=43.6..90.6 and Z=0..6.2 stay unchanged. Never widen to both sides.
+- The .8 mm wall now reaches X=8.3; reference chips begin X=8.5, leaving only .2 mm lateral gap. Actual full assembly, chip clearance and empty dock fit remain pending. Do not call 7.5 mm a standard dimension or universal tolerance certification.
+- RC1 lid and upper trays are geometrically unchanged/reusable; body must use RC2. Old model directories and fixed releases stay immutable. RC2 references: 7638 s + 3698 s (~3h09), no warnings, 28 support areas and nine corridors pass the nominal bead audit. These are not physical success or strength tests.
+
+## Previous candidate: v4.0-rc1
 
 - `src/build_v4.py`, `models/v4.0-rc1/`, and `docs/v4.0-rc1.zh-CN.md` now supersede the no-v4/hold statements below. Complete candidate: four parts, integrated two-slot bottom, two three-slot upper trays, new slide-8-mm-then-lift lid. Do not mix its body/lid with older versions. Old fixed Release and model artifacts stay immutable.
 - Correct the SINGLE SATA recess to X=0..6, Y=43.6..90.6, Z=0..6.2. User explicitly rejected a dual-side widened recess. Top face upward, connector end away: recess on the right. SFF-8323 Fig 3-1 bottom/end views were previously misinterpreted; this corrects handedness, not universal socket-envelope certification. Empty actual dock fit is still pending.

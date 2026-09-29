@@ -8,12 +8,14 @@ from support_removal_guide import render
 from audit_v3_2_toolpaths import parse
 
 
-def main():
-    p,_,_=parts();out=ROOT/'models/v4.0-rc1'
+def main(version='4.0-rc1',depth=6.):
+    import build_v4 as base
+    base.VERSION=version;base.SATA_DEPTH=depth
+    p,_,_=parts();out=ROOT/('models/v'+version)
     blue=(76,159,181);orange=(233,136,48);green=(64,120,82)
     im=Image.new('RGB',(1440,1170),'#fafafa');d=ImageDraw.Draw(im)
     title=ImageFont.load_default(size=28);font=ImageFont.load_default(size=19)
-    d.text((25,15),'V4.0 RC1 | 8 bare DDR5 RDIMMs | 147 x 101.6 x 26 mm',font=title,fill='#193247')
+    d.text((25,15),f'V{version.upper()} | 8 bare DDR5 RDIMMs | 147 x 101.6 x 26 mm',font=title,fill='#193247')
     d.text((25,55),'CAD preview. New full assembly is NOT physically validated.',font=font,fill='#804327')
     body=v3.meshof(p['body-pin-clearance'])
     im.paste(render([(body,blue)],[1,-.7,1.6],(700,440)),(15,100))
@@ -32,14 +34,14 @@ def main():
     d.text((25,1130),'Supports REQUIRED. Print full set once, verify loading and dock fit, then repeat.',font=font,fill='#804327')
     im.save(out/'v4-overview.png')
     # New integrated flexure has supports below its foot, which must be removed.
-    segs=parse(ROOT/'build/v4.0-rc1-projects/1-pin-clearance/plate_1.gcode')
+    segs=parse(ROOT/f'build/v{version}-projects/1-pin-clearance/plate_1.gcode')
     segs=segs[segs[:,7]==1].copy();segs[:,[0,2]]-=54.5;segs[:,[1,3]]-=20.
     guide=Image.new('RGB',(1440,1110),'#fafafa');gd=ImageDraw.Draw(guide)
-    gd.text((25,15),'V4.0 RC1 | BLUE: keep model    ORANGE: remove supports',font=title,fill='#193247')
+    gd.text((25,15),f'V{version.upper()} | BLUE: keep model    ORANGE: remove supports',font=title,fill='#193247')
     gd.text((25,55),'Actual nominal support paths. Do not cut the long beam, tooth or lower PCB shelf.',font=font,fill='#193247')
     views=[('Bottom release / outside',[136,18.7,0],[147,39.7,12],[1,-.45,.7]),
            ('Fixed PCB hood / inside',[1.6,30,4],[10,42,11],[1,-.3,.9]),
-           ('SATA recess / underside',[0,SATA_Y,0],[8,SATA_Y+47,8],[-1,-.3,-.9])]
+           ('SATA recess / underside',[0,SATA_Y,0],[depth+2,SATA_Y+47,8],[-1,-.3,-.9])]
     for i,(label,lo,hi,camera) in enumerate(views):
         model=v3.meshof(p['body-pin-clearance']^v3.box(np.array(hi)-lo,lo));blocks=[]
         for x,y,qx,qy,z,w,h,_ in segs:
@@ -56,4 +58,9 @@ def main():
     guide.save(out/'v4-support-removal.png')
 
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--version',default='4.0-rc1')
+    parser.add_argument('--depth',type=float,default=6.)
+    args=parser.parse_args();main(args.version,args.depth)
