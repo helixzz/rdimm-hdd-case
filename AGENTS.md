@@ -2,6 +2,7 @@
 
 ## Current candidate: v4.0-rc2
 
+- First body printed (2026-09-30): user reports side-lettering defects and a floor-to-wall transition line; photo also shows surface variation beyond lettering. Upper trays are about to print. Record in `docs/validation-v4.0-rc2.md`; body support removal, dock fit and full assembly remain unreported. Consider removing vertical side lettering and checking a local internal fillet/chamfer in a later revision; no confirmed cause or guaranteed cure. Preserve current RC2 files and tray settings for the first complete validation. User photo stays private.
 - `src/build_v4_rc2.py`, `models/v4.0-rc2/`, `docs/v4.0-rc2.zh-CN.md` supersede the RC1 body. SATA-IO Revision 3.3 Gold figures 32/40/42 show guide-post axial reach 6.30 mm nominal, 6.76 mm with the listed tolerances conservatively added. The RC1 6.0 mm cavity is insufficient. RC2 depth is 7.5 mm; SINGLE side Y=43.6..90.6 and Z=0..6.2 stay unchanged. Never widen to both sides.
 - The .8 mm wall now reaches X=8.3; reference chips begin X=8.5, leaving only .2 mm lateral gap. Actual full assembly, chip clearance and empty dock fit remain pending. Do not call 7.5 mm a standard dimension or universal tolerance certification.
 - RC1 lid and upper trays are geometrically unchanged/reusable; body must use RC2. Old model directories and fixed releases stay immutable. RC2 references: 7638 s + 3698 s (~3h09), no warnings, 28 support areas and nine corridors pass the nominal bead audit. These are not physical success or strength tests.
