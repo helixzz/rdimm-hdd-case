@@ -1,5 +1,11 @@
 # Changelog
 
+## v3-S — experimental integral-latch trays
+
+- Keep eight modules and the v3 shell/lid, replacing three loose retainer frames with fixed end slots and integral outward-release tabs on three trays. Retain tool-free daily use; lift the tray out before releasing RAM.
+- Check reference-module clearances, six-direction PCB stops, illustrative flexure travel and a held-release tilt/withdrawal path. Force, fatigue, actual printing and physical retention remain unverified.
+- Preserve all v3 files. Publish separate `models/v3-simple` files, one combined six-piece test plate, and a two-plate full set. Existing v3 shell/mechanism test parts need not be reprinted.
+
 ## v3 — experimental tool-free storage and backplane-clearance design
 
 - Combine all three first-test groups into `first-test-all.stl`: seven pieces on one 256 mm bed, preserving print orientations, with at least 10 mm part gaps and 15 mm bed margins. Keep individual test files for replacements; add a mesh-derived plate preview and Bambu import verification.

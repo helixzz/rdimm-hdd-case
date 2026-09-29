@@ -10,6 +10,9 @@
 - User confirmed a fixed backplane receptacle must be cleared. V3's X=0..6, Y=11..58, Z=0..6.2 recess is a trial envelope informed by SFF-8323, NOT a verified universal SATA cavity. Require empty gauge fit evidence before claiming the target backplane accepts it. All v3 physical checks remain pending.
 
 ## Established design constraints
+- Latest usability alternative is v3-S: `src/build_simple_trays.py`, `models/v3-simple/`, `docs/v3-simple.zh-CN.md`. User chose to keep eight modules and accept layered access. Do not revert to loose frames or internal screws. Shell/lid and their coupons are unchanged from v3; replace the entire tray set and omit all old frames. Preserve historical v3 artifacts.
+- V3-S integral outward tabs are illustrative prototypes, not validated snap-fit mechanics. Release ONLY after removing the tray. Tested loading path holds the tab open; do not claim automatic snap-in, specific force, fatigue life or independent-cartridge transport safety. Short hood/tooth overhangs may need removable support; the beam slit passes through the floor to avoid trapped support beneath it. All physical checks remain pending.
+- Rebuild with `python src/build_simple_trays.py --models models/v2-retention --v3-models models/v3 --output-dir models/v3-simple`. New tests remain ONE plate (`first-test-all.stl`, six pieces); full set is two plates. Keep source, mesh-derived previews, reports and Bambu SHA hashes in sync.
 - Current outer envelope: 147 x 101.6 x 26 mm. Current capacity: 8, arranged 2+3+3. Units: mm.
 - Reference module: 133.80 x 31.40 x 5.57 mm maximum envelope. This is a reference drawing, not verified exact Samsung M321RAJA0MB2-CCP geometry.
 - The 2 mm component-free short PCB edges are an unverified assumption used by the clearance model. Do not silently turn this into a verified fact.

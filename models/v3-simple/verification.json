@@ -1,0 +1,70 @@
+{
+  "variant": "v3-simple-integral-latch-prototype",
+  "capacity": 8,
+  "outer_mm": [
+    147.0,
+    101.6,
+    26.0
+  ],
+  "loose_retainer_frames": 0,
+  "internal_parts": 3,
+  "required_fasteners": 0,
+  "reference_pcb_blank_short_edge_mm": 2.0,
+  "illustrative_release_travel_mm": 1.5,
+  "physical_tested": false,
+  "sliced": false,
+  "force_or_fatigue_verified": false,
+  "checks": {
+    "module_poses": 576,
+    "pcb_stop_controls": 54,
+    "release_sweep_poses": 3024
+  },
+  "plates": [
+    {
+      "file": "first-test-all.stl",
+      "pieces": 6,
+      "bounds_mm": [
+        [
+          15.0,
+          34.2,
+          0.0
+        ],
+        [
+          241.0,
+          188.00000381469727,
+          26.0
+        ]
+      ],
+      "minimum_gap_mm": 10.0,
+      "minimum_bed_margin_mm": 15.0
+    },
+    {
+      "file": "plate-2-all-trays.stl",
+      "pieces": 3,
+      "bounds_mm": [
+        [
+          15.0,
+          25.2,
+          0.0
+        ],
+        [
+          233.6000015258789,
+          230.79999542236328,
+          6.800000190734863
+        ]
+      ],
+      "minimum_gap_mm": 10.0,
+      "minimum_bed_margin_mm": 15.0
+    }
+  ],
+  "unchanged_v3_sha256": {
+    "body-pin-clearance.stl": "99d749e5e23c92918eaa1a2c4e3b91ee8cec35f2cd1660ffe09229613a5b51fc",
+    "body-thread-pilot.stl": "0730cbc38af74be9fd16f47c352c638e53c01b83cb1f8316d82e2c4dac9194ee",
+    "lid-slide.stl": "e6d779b666a5dd2d0e6f8561d5c162362ffc12d9376f8c3aaf25041eb04f51ca",
+    "empty-fit-gauge-pin.stl": "d8c5be65530c043b7f78439b064a6b49d9906020208849bd8b36048248ddc195",
+    "rail-test-base.stl": "fcabf5e178e3281a8bd13b88662b61125017e98775caebc4d93da65aa47791bc",
+    "rail-test-slider.stl": "a970fcd7ac136e4141b8001c0b576bfd755489a8608ab3de89798d32efda6998",
+    "latch-test-base.stl": "ec650429135e04ad2dfebcc79c8c11ad5dbf344942e4d0a1a66dcf307dc69b4c",
+    "latch-test-slider.stl": "52be45cebb9a6790c60d49c46b0ddff3a12362903968f3806c7ebbd842608393"
+  }
+}

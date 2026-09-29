@@ -4,6 +4,8 @@
 
 为服务器内存设计的硬盘位收纳盒：三层托盘，容量 2 + 3 + 3 条，优先保持标准 3.5 寸硬盘外形。目标参考内存为 Samsung M321RAJA0MB2-CCP / CCPKF，打印机参考为 Bambu Lab P2S。
 
+**最新简化操作原型：[v3-S 一体拨扣托盘](docs/v3-simple.zh-CN.md)**。保留 8 条容量和 v3 外壳，取消三片独立限位框，内部只剩三个托盘；每槽插入固定端、拨扣放下、松手固定。新试件仍[一盘完成](models/v3-simple/first-test-all.stl)，整套缩减为两盘。尚未打印验证卡扣力度、耐用性与实际保持能力；请先试单槽件。[查看实际网格预览](models/v3-simple/simple-tray-preview.png)。
+
 **New experimental v3: [免工具取放与固定背板避让](docs/v3.zh-CN.md).** No mandatory internal screws; sliding lid with a release latch, three keyed retainer frames, 2 mm deeper mounting holes, and a connector-end recess. Remains 147 × 101.6 × 26 mm / 8 modules. Print the mechanism/retainer coupons and empty bay-fit gauge first: **v3 has not been physically tested**, and the connector recess does not establish universal backplane compatibility. Closed cover required for inversion retention. Complete [three-plate STL layouts](models/v3) are supplied; v2 and v2-R remain unchanged and must not be mixed with v3.
 
 V3 now includes [engraved operation guides](models/v3/operation-guides.png): `1 PRESS`, `2 OPEN`, `KEEP LEVEL`, matching layer numbers, `LIFT` at the thick end bars, and `SATA END`. These are shallow recesses in the printable geometry, with no external font dependency; the assembly interfaces remain compatible with the earlier unmarked v3.

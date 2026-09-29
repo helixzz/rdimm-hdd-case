@@ -64,12 +64,15 @@ if __name__ == '__main__':
     parser.add_argument('--models', type=Path, default=ROOT/'models/v3')
     parser.add_argument('--output-dir', type=Path, default=ROOT/'build/v3-bambu-import')
     parser.add_argument('--report', type=Path, default=ROOT/'build/v3-bambu-import/check.json')
+    parser.add_argument('--names', nargs='+', help='Optional model basenames for a derived variant')
     args = parser.parse_args()
     folder = args.output_dir.resolve()
     folder.mkdir(parents=True, exist_ok=True)
     reports = []
     names = ('first-test-all', 'first-test-lid-mechanism', 'first-test-retainer', 'empty-fit-gauge-pin',
              'plate-1-body-pin-clearance-lid', 'plate-1-body-thread-pilot-lid', 'plate-2-middle-top', 'plate-3-bottom-frames')
+    if args.names:
+        names = args.names
     for name in names:
         source = (args.models/(name+'.stl')).resolve()
         exported = folder/(name+'.3mf')
