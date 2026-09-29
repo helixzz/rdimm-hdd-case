@@ -4,6 +4,8 @@
 
 为服务器内存设计的硬盘位收纳盒：三层托盘，容量 2 + 3 + 3 条，优先保持标准 3.5 寸硬盘外形。目标参考内存为 Samsung M321RAJA0MB2-CCP / CCPKF，打印机参考为 Bambu Lab P2S。
 
+**打印反馈与新候选：[v3.2-rc1 打印可靠性修订](docs/v3.2-rc1.zh-CN.md)**。v3.1 首个外壳出现按压锁扣粘连，暂停按旧方案批量制作。RC 修订锁扣、PCB 槽口，并提供明确支撑配置和一盘可选验证件；完整件仍两盘，既有盖板可保留。[候选几何](models/v3.2-rc1/)需要配套工艺，不能继续无支撑打印；本版仍待实物验证，未覆盖旧 Release。
+
 **当前固定版本：[v3.1 完整两盘实测版](docs/v3.1.zh-CN.md) · [下载 Release](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v3.1)**。v3-S 正式命名为 v3.1，单件几何不变；单套两盘（外壳＋盖板、三个托盘），STL / 3MF 二选一。另有十套共 15 次任务的批量排版与实际参考切片时间。状态仍为待实物验证的预发布，不能把时间估计当作质量保证。[版本规则](docs/versions.zh-CN.md)。
 
 **历史工作名称：[v3-S 一体拨扣托盘](docs/v3-simple.zh-CN.md)，当前请使用 v3.1**。保留 8 条容量和 v3 外壳，取消三片独立限位框，内部只剩三个托盘；每槽插入固定端、拨扣放下、松手固定。新试件仍[一盘完成](models/v3-simple/first-test-all.stl)，整套缩减为两盘。尚未打印验证卡扣力度、耐用性与实际保持能力；请先试单槽件。[查看实际网格预览](models/v3-simple/simple-tray-preview.png)。

@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.2-rc1 — supported printability candidate
+
+- Record a real v3.1 shell latch fusion failure; trays have not yet been physically printed. Keep the v3.1 release immutable and mark this revision as awaiting physical validation.
+- Remove the shell's 0.2 mm parallel-guard clearance and widen its release leaf from 0.8 to 1.6 mm. Local support remains required; the changed load path has no force/fatigue validation.
+- Raise tray PCB roofs by 0.1 mm to give 1.6 mm nominal slots and add entry chamfers, keeping the PCB shelf above the connector roof. Recheck reference envelopes, module stops and extraction paths; worst upper component headroom is 0.1 mm.
+- Generate editable P2S / PLA Basic Bambu projects with explicit normal/snug supports. Audit support paths under the shell leaf, connector recess, bottom tray recess, all eight teeth/hoods and finger paddles. Support removal is still untested.
+- Keep the full set at two plates, add a body-only alternate for existing lids, and pack four optional validation pieces onto one plate. Source scripts generate full vendor presets and G-code only in ignored local build output.
+
 ## v3.1 — versioned full-validation release
 
 - Name the v3-S integral-latch design v3.1 without changing part geometry. Publish versioned STL and geometry-only 3MF files, manifests/checksums and an immutable release tag; preserve historical designs.
