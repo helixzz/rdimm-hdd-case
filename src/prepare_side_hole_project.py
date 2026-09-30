@@ -14,11 +14,15 @@ from check_bambu_v3 import read_mesh
 ROOT=Path(__file__).resolve().parents[1]
 
 
-def prepare(bambu,geometry_version,arch_windows=False):
-    if arch_windows:assert geometry_version=='4.1-rc2','Arch paint is specific to RC2 geometry'
-    version=geometry_version+('-p2' if arch_windows else '-p1')
-    source=ROOT/f'build/v{geometry_version}-projects'
+def prepare(bambu,geometry_version,arch_windows=False,source_version=None,release_version=None):
+    if arch_windows:
+        assert geometry_version in ('4.1-rc2','4.2'),'Arch paint requires the verified RC2 body'
+        if geometry_version=='4.2':
+            assert (ROOT/'models/v4.2/body-pin-clearance.stl').read_bytes()==(ROOT/'models/v4.1-rc2/body-pin-clearance.stl').read_bytes()
+    version=release_version or geometry_version+('-p2' if arch_windows else '-p1')
+    source=ROOT/f'build/v{source_version or geometry_version}-projects'
     dest=ROOT/f'build/v{version}-projects';results=[]
+    assert source!=dest,'Keep unpainted positive control separate'
     for plate in ('1-pin-clearance','2-upper-trays'):
         original=next((source/plate).glob('*P2S*.3mf'))
         out=dest/plate;out.mkdir(parents=True,exist_ok=True)
@@ -87,4 +91,6 @@ if __name__=='__main__':
     p.add_argument('--bambu',type=Path,required=True)
     p.add_argument('--geometry-version',default='4.0-rc4')
     p.add_argument('--arch-windows',action='store_true')
-    a=p.parse_args();prepare(a.bambu,a.geometry_version,a.arch_windows)
+    p.add_argument('--source-version')
+    p.add_argument('--release-version')
+    a=p.parse_args();prepare(a.bambu,a.geometry_version,a.arch_windows,a.source_version,a.release_version)

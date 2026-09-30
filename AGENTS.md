@@ -1,5 +1,15 @@
 # Agent collaboration guide
 
+
+## Current complete release: v4.2
+
+- User explicitly required 3 mm first upper-clip anchors and a complete formal GitHub release, NOT another replacement-only hotfix. `VERSION` is 4.2; tag v4.2 and `rdimm-v4.2-complete-P2S.zip` are the single delivery. Do not overwrite old tags/assets. Full release naming is not physical certification.
+- RC1–RC4 upper trays have a first-root web only .2 mm at Y14.3..14.5, reported detached after support removal. V4.2 first root moves to Y17.3 with 3 mm full-height anchor, R1 transition and pillar gap .3. Tooth/paddle unchanged, beam 18 ->15.2 mm; user accepts increased force but actual force/fatigue untested. Six root core/bridge checks and 186 model-only layer connections now supplement simple mesh connectivity.
+- `build_v4_2.py` inherits RC4 lid and RC2 body. Those reusable STL files remain byte-identical; both upper trays change. Do not recommend old upper trays. First flexure's nominal slit audit starts 2.8 mm later. Full geometry/motion tests pass, but not physical shock/ESD qualification.
+- Full two-plate P2S .4/PLA Basic/.2 projects: plate 1 7986.41 s /92.42 g, plate 2 3565.50 s /33.94 g, total 3h12m32 /126.37 g. Normal successful slicing, 361 painted faces, six bore blockers and two upper-arch blockers retained. 36 support regions/9 corridors, six bores, arches and root paths audited.
+- Produce unpainted positive control in `build/v4.2-unpainted-projects`; `prepare_side_hole_project.py --geometry-version 4.2 --arch-windows --source-version 4.2-unpainted --release-version 4.2` creates final projects. Gate arch paint on byte-identical RC2 body. `package_v4_2.py` requires clean tagged source. Keep full presets/G-code outside Git source; package only configured project files, no G-code or private photos.
+- The 1.5 mm RC5 candidate was never issued or committed; archived under ignored build/unissued-rc5 only. Do not publish it or present it as a historical release. Docs/source now use v4.2.
+
 ## Current lid-fit candidate: v4.1-rc4
 
 - User requested immediate near-term implementation. `build_v4_1_rc4.py` continues RC3 neck clearance down to Z23.7, slopes to the old root at Z23.4; removes only 1.509 mm3. Main tongue 1.2/root 1.4/min neck 1.2 and bearing 41.80 mm2 preserved versus RC3, not a strength guarantee. Body/trays unchanged, RC1/RC2 reusable.

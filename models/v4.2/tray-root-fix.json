@@ -1,0 +1,125 @@
+{
+  "version": "4.2",
+  "baseline": "4.1-rc4",
+  "changes": {
+    "body-pin-clearance": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "body-thread-pilot": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "lid-slide-lift": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-middle-3": {
+      "added_mm3": 53.59203530387776,
+      "removed_mm3": 1.8973099646935054e-08
+    },
+    "tray-top-3": {
+      "added_mm3": 53.59203530387776,
+      "removed_mm3": 1.8973099646935054e-08
+    }
+  },
+  "root_checks": [
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "old_root_y": 14.499999999999991,
+      "root_y": 17.3,
+      "core_mm": [
+        1.0,
+        1.0,
+        6.0
+      ],
+      "missing_core_mm3": 0.0,
+      "old_missing_core_mm3": 4.800000000000043
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "old_root_y": 38.89999999999999,
+      "root_y": 38.89999999999999,
+      "core_mm": [
+        0.8,
+        1.0,
+        6.0
+      ],
+      "missing_core_mm3": 0.0,
+      "old_missing_core_mm3": 0.0
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "old_root_y": 68.29999999999998,
+      "root_y": 68.29999999999998,
+      "core_mm": [
+        0.8,
+        1.0,
+        6.0
+      ],
+      "missing_core_mm3": 0.0,
+      "old_missing_core_mm3": 0.0
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "old_root_y": 14.499999999999991,
+      "root_y": 17.3,
+      "core_mm": [
+        1.0,
+        1.0,
+        6.0
+      ],
+      "missing_core_mm3": 0.0,
+      "old_missing_core_mm3": 4.800000000000043
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "old_root_y": 38.89999999999999,
+      "root_y": 38.89999999999999,
+      "core_mm": [
+        0.8,
+        1.0,
+        6.0
+      ],
+      "missing_core_mm3": 0.0,
+      "old_missing_core_mm3": 0.0
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "old_root_y": 68.29999999999998,
+      "root_y": 68.29999999999998,
+      "core_mm": [
+        0.8,
+        1.0,
+        6.0
+      ],
+      "missing_core_mm3": 0.0,
+      "old_missing_core_mm3": 0.0
+    }
+  ],
+  "first_root_web_mm": [
+    0.2,
+    3.0
+  ],
+  "first_free_beam_length_mm": [
+    18.0,
+    15.2
+  ],
+  "tooth_paddle_unchanged": true,
+  "compatible_body": [
+    "4.1-rc1",
+    "4.1-rc2"
+  ],
+  "compatible_lid": [
+    "4.1-rc3",
+    "4.1-rc4"
+  ],
+  "physical_verified": false,
+  "limits": "Shorter beam may increase release force; no fatigue or impact qualification. Root-core checks supplement connectivity, not a strength calculation."
+}

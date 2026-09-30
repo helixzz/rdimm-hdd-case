@@ -1,0 +1,30 @@
+{
+  "method": "Conservative bounding boxes include nominal bead width and layer height; arcs discretized at <=0.05 mm. Zero proves absence in the enclosed bores, not physical roof quality.",
+  "results": [
+    {
+      "version": "4.2-unpainted",
+      "gcode_sha256": "977b8b4d2a581b393f7e139313f9caf191fbb94ed5905c847fa7c5aa360528c0",
+      "support_segments_overlapping_bore_bounding_boxes": {
+        "28.4988-front": 158,
+        "28.4988-back": 155,
+        "70.104-front": 156,
+        "70.104-back": 160,
+        "130.0988-front": 167,
+        "130.0988-back": 159
+      }
+    },
+    {
+      "version": "4.2",
+      "gcode_sha256": "721cebe1dbd3ab478d9c52baf0b9ff117e75a6a80f8c1bf3c6d76f8a40c7ada7",
+      "support_segments_overlapping_bore_bounding_boxes": {
+        "28.4988-front": 0,
+        "28.4988-back": 0,
+        "70.104-front": 0,
+        "70.104-back": 0,
+        "130.0988-front": 0,
+        "130.0988-back": 0
+      }
+    }
+  ],
+  "physical_pin_fit_verified": false
+}
