@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.4-rc1-support-trial — one-plate A/B experiment
+
+- Add two full-length single-slot coupons with three inward-pull sacrificial supports each. Retain automatic paddle supports; include a configured P2S project and removal diagram.
+- A retains v4.3 slot contacts. B locally recesses seat/ceiling by ~0.3 mm while preserving end bearing lands. B keeper is locally thinner; retention and fatigue require physical checks.
+- Geometry and sampled toolpath checks pass, including 198 support extraction poses. P2S reference 31m55 /13.12 g. Removal force, surface quality and actual insertion remain unverified. This prerelease does not replace the complete v4.3 set.
+
+
 ## v4.3 — continuous floor reinforcement with retained ledge
 
 - Preserve the ledge at Z10.4 with R0.4 top edge, and join its inner face to the Z4 floor using a tangent concave R3.5 blend. The first tray remains at Z10.8 with 0.4 mm clearance; this is wall reinforcement, not a tray seat.

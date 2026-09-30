@@ -1,0 +1,12 @@
+{
+  "version": "4.4-rc1-support-trial",
+  "project": "rdimm-4.4-rc1-support-trial-plate-0-support-ab-P2S-PLA-Basic.3mf",
+  "painted_faces": 58,
+  "mesh_unchanged": true,
+  "estimated_seconds": 1915.231201171875,
+  "grams": 13.11962604522705,
+  "warnings": "",
+  "project_sha256": "63ebb573ac584231f2ec1d0633ffe4e78ea07c8ac2e79a775d100c8b04ac1579",
+  "gcode_sha256": "5cf3c77cf822b0cc72c849a5e3cac39a33ff6ce966c19173a2af75bef34869a7",
+  "limits": "Manual sacrificial pieces are model extrusions in preview; physical release force is unknown."
+}

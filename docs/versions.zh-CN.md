@@ -2,6 +2,7 @@
 
 | 名称 | 定位 | 目录 / 固定依据 |
 |---|---|---|
+| **v4.4-rc1-support-trial** | 一盘 A/B 支撑拆除和残留避让试验，非正式替换托盘 | [说明](v4.4-rc1-support-trial.zh-CN.md)、[预发布](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc1-support-trial)；完整版本仍为 v4.3，待试印 |
 | **v4.3** | 完整两盘：保留加强棱＋底部连续圆弧；仅外壳更新 | `models/v4.3/`、[说明](v4.3.zh-CN.md)、[Release](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.3)；v4.2 盖板和托盘复用，强度待实测 |
 | **v4.2** | 完整两盘正式发行版：3 mm 托盘基座、齿头下让 0.5 mm、内凹 R6 底部过渡、RC4 盖板 | `models/v4.2/`、[说明](v4.2.zh-CN.md)、[Release](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.2)；统一包，实物验证待完成 |
 | **v4.1-rc4** | 连续颈部净空、斜面接回根部的替换盖板候选 | `models/v4.1-rc4/`、[说明](v4.1-rc4.zh-CN.md)；仅替换盖板，修正组合位姿局部干涉，实际手感/强度待验证 |

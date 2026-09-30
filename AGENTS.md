@@ -1,5 +1,14 @@
 # Agent collaboration guide
 
+## Current support trial: v4.4-rc1-support-trial
+
+- User reports v4.3 works well but embedded supports are hard to remove and residuals obstruct DIMM insertion. Authorized one-plate A/B test before production changes. Keep VERSION and latest complete release v4.3; trial is a prerelease, never overwrite existing assets.
+- Two full-length single-slot coupons, NOT replacement production trays. A retains slot contacts; B locally recesses ceiling/seat ~.3 mm leaving 1.2 mm bearing lands; B tooth locally thinner and retention/fatigue unverified. Both retain 3 mm root.
+- Three modeled sacrificial pieces per coupon (two fixed-end, one tooth-end), exposed inward grips, pull horizontally toward slot center. These display as MODEL extrusions. Keep automatic outboard paddle supports. Configured project required; reference STLs are not print entries.
+- 198 nominal extraction poses, reference DIMM motion and upward stop pass. Final P2S .4/PLA Basic/.2 one plate 31m55 /13.12 g; 58 blockers retained, sampled nominal gaps >=.2. Controlled .2 mm seat-residue patch interferes with A, clears B. Physical sag, release force, grip strength and retention remain unverified.
+- Build/prepare/audit/preview/package_support_trial_v4_4.py; one versioned ZIP, one configured 3MF, no G-code or private photos. Await physical comparison before any complete v4.4.
+
+
 
 ## Current complete release: v4.3
 
