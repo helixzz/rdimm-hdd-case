@@ -1,5 +1,12 @@
 # Agent collaboration guide
 
+## Current combined trial: v4.4-rc2-combined-trial
+
+- User explicitly requested ONE plate combining all current improvements. Deliver 12 labeled specimens: unchanged RC1 A/B, four capture coupons C1-C4, four bottom+side-hole coupons H31/H32/H33/H36, two corner K1/K2 coupons with obsolete fin AND floor strip removed. Ten modeled temporary supports; keep A/B automatic paddle supports.
+- C coupons crop the actual shell above Z20, shorten pillars with a .8 mm base, preserve layer phase/capture geometry. Each grip pulls toward the engraved C label. Not full-shell strength/assembly tests. H nominal side/bottom depths5.7/5.3; entry radial chamfer .3, diameters3.1/3.2/3.3/3.6. Local coupon rigidity differs from body. Do not claim screw torque or pin fit.
+- Build/prepare/audit/preview/package_combined_trial_v4_4_rc2.py. P2S .4/PLA Basic/.2 reference56m31/22.57g;829 blockers, mesh/settings retained, no warnings. All twelve nominal path checks pass; eight bores empty of support, C support gaps>=.2, grip model-bead connectivity passes. C3/C4 top neck layer has partial infill, so use multi-layer bead connectivity, not assumed solid-fill percentage.
+- Geometry checks: AB198 extraction poses, C204 in full body+204 in coupons, complete corner-modified assembly paths pass; K fin and floor-strips absent. No physical trial yet. Single configured-project ZIP prerelease; preserve v4.3 as latest complete/VERSION4.3, RC1 immutable. Publish no private paths/photos/G-code.
+
 ## Pending v4.4 integration: mounting holes and corner fins
 
 - User approved a next one-plate hole trial: bottom blind-hole supports are difficult to remove; 3.6 mm pin-clearance holes should be reduced for ordinary 6-32 screws. Evaluate 3.1/3.2/3.3 mm in vertical and horizontal orientations, preserve center/depth, test both screws and tray pins. Do not promise self-forming threads or universal pin fit in PLA.

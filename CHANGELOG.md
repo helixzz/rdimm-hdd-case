@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.4-rc2-combined-trial — one plate for all current cleanup changes
+
+- Combine unchanged RC1 A/B DIMM slots, four cropped lid-capture coupons with inward pull supports, four bottom/side-hole coupons (3.1/3.2/3.3/3.6 mm), and two tray corner coupons with obsolete fins AND floor remnants removed. Twelve labeled specimens; ten modeled removable supports.
+- Block automatic support only in intended channels and bores; retain A/B paddle supports. Nominal bead checks pass for all twelve specimens, including grip connectivity and eight empty bores.
+- Configured P2S .4 / PLA Basic /.2 project, 56m31 /22.57 g, with illustrated removal guide. Physical removal, bridging, screw fit and retention remain pending. This prerelease keeps the complete v4.3 release and historical RC1 unchanged.
+
 ## v4.4-rc1-support-trial — one-plate A/B experiment
 
 - Add two full-length single-slot coupons with three inward-pull sacrificial supports each. Retain automatic paddle supports; include a configured P2S project and removal diagram.

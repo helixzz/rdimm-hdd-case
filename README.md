@@ -1,6 +1,6 @@
 # RDIMM HDD Case
 
-**支撑拆除试件：[v4.4 RC1 一盘 A/B](docs/v4.4-rc1-support-trial.zh-CN.md) · [试件下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc1-support-trial)**。约 32 分钟、13.1 g，比较可夹取支撑及局部残留避让。仅为单槽试验，不替代正式托盘，拆除与保持力待实测。
+**综合改进试件：[v4.4 RC2 一盘 12 件](docs/v4.4-rc2-combined-trial.zh-CN.md) · [试件下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc2-combined-trial)**。约 57 分钟、22.6 g，合并 DIMM 槽支撑/残留避让、顶盖支撑抽取、安装孔孔径及托盘角部清理。仅用于局部验证，不替代完整套件。
 
 **当前完整版本：[v4.3](docs/v4.3.zh-CN.md) · [正式下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.3)**。保留侧壁加强棱，并用从底板长出的连续内凹圆弧连接，棱顶圆角、与活动托盘留 0.4 mm 间隙。完整四件两盘，P2S 参考约 3 小时 11 分钟，比 v4.2 增加约 13 秒。仅外壳变化，v4.2 盖板和托盘可复用。完整实物配合与强度仍待验证。
 
