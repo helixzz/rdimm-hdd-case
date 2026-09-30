@@ -22,7 +22,7 @@ def run(version='4.0-rc1',depth=6.,geometry_version=None,plates=None):
             if name.startswith('lid'):
                 if reinforced:
                     for y,length in [(8.,6.),(95.6,4.2)]:
-                        fit_lid=(geometry_version or version)=='4.1-rc3'
+                        fit_lid=(geometry_version or version) in ('4.1-rc3','4.1-rc4')
                         for x in ((3.5,140.8) if fit_lid else (3.4,140.4)):
                             rect=[x,y+(.55 if fit_lid else .2),x+(2.7 if fit_lid else 3.2),y+length-(.85 if fit_lid else .2)]
                             rois.append((name,f'flat tongue {x}/{y}',transformed_rect(rect,t),2.4 if fit_lid else 2.2))

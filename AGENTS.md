@@ -1,5 +1,12 @@
 # Agent collaboration guide
 
+## Current lid-fit candidate: v4.1-rc4
+
+- User requested immediate near-term implementation. `build_v4_1_rc4.py` continues RC3 neck clearance down to Z23.7, slopes to the old root at Z23.4; removes only 1.509 mm3. Main tongue 1.2/root 1.4/min neck 1.2 and bearing 41.80 mm2 preserved versus RC3, not a strength guarantee. Body/trays unchanged, RC1/RC2 reusable.
+- Full geometry checks plus 297 X(-.3,0,.3)/Z(0,.15,.25)/Y(-8..0 step .25) rigid poses pass. RC3 coupled contact reproduced. Downward+sideways probe (-.3,-8,-.15) still hits shell rim in both versions (~.331 mm3), explicitly recorded; do not claim universal tolerance clearance.
+- Only configured `3-replacement-lid` delivered: P2S .4/PLA Basic/.2 ~36m39,24.25 g. Four supports required, nominal Z .2/min XY .159. CLI wrote Success and complete G-code but timed out at shutdown after 90 s; ZIP, import mesh, end marker and support paths independently validated. Do not claim normal CLI exit. Deliver project for re-slicing, no G-code.
+- Docs `v4.1-rc4.zh-CN.md`, preview `preview_lid_fit_rc4.py`, package `package_lid_fit.py --version 4.1-rc4`. Full geometry snapshots are NOT configured full-set projects. Physical fit/strength still pending. Old files/photos unchanged.
+
 ## Lid alternatives review (analysis only, no new printable version)
 
 - User explicitly requested parallel agents to compare alternative lid designs. Three independent roles reviewed retrofit, new architectures and print/operation risks; `docs/lid-options-review.zh-CN.md` records cross-review.

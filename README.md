@@ -1,6 +1,6 @@
 # RDIMM HDD Case
 
-**最新盖板配合修订：[v4.1-rc3 替换盖板](docs/v4.1-rc3.zh-CN.md)**。针对 RC2 刚入槽就卡紧、越推越紧的实测反馈，增加斜面导入和全行程间隙，保留平面承托及按压止退。仅重打盖板约 37 分钟，RC1/RC2 外壳、托盘复用；局部减料影响承托面积，实际松紧和强度待验证。
+**最新盖板配合修订：[v4.1-rc4 替换盖板](docs/v4.1-rc4.zh-CN.md)**。延续斜面导入，将连接颈侧间隙向下连续延伸并平顺接回根部，修正 RC3 横移与上浮组合时的局部干涉。仅重打盖板约 37 分钟，RC1/RC2 外壳、托盘复用；舌片主体厚度和承托面积保持 RC3，实际松紧和强度待验证。
 
 3D-printable storage for **8 bare DDR5 RDIMMs** inside a **147 × 101.6 × 26 mm** envelope, with traditional 3.5-inch HDD side and bottom mounting positions.
 

@@ -1,0 +1,2458 @@
+{
+  "version": "4.1-rc4",
+  "baseline": "4.1-rc3",
+  "changes": {
+    "body-pin-clearance": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "body-thread-pilot": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "lid-slide-lift": {
+      "added_mm3": 0.0,
+      "removed_mm3": 1.5087046946932758
+    },
+    "tray-middle-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-top-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    }
+  },
+  "compatible_existing_body_and_trays": [
+    "4.1-rc1",
+    "4.1-rc2"
+  ],
+  "main_tongue_thickness_mm": 1.2,
+  "root_thickness_mm": 1.4,
+  "upper_riser_min_width_mm": 1.2,
+  "continuous_side_gap_mm": 0.4,
+  "side_relief_bottom_z_mm": 23.7,
+  "root_transition_z_mm": [
+    23.4,
+    23.7
+  ],
+  "main_vertical_clearance_above_mm": 0.4,
+  "main_vertical_clearance_below_mm": 0.3,
+  "leading_ramp_length_mm": 0.6,
+  "flat_bearing_area_mm2": 41.79747900260942,
+  "rc3_bearing_area_mm2": 41.79747900260942,
+  "closed_lid_upward_stop_probe_mm": 0.55,
+  "rc3_combined_pose_intersection_mm3": 0.12456081878577685,
+  "combined_pose_checks": [
+    {
+      "offset_mm": [
+        -0.3,
+        -8.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -0.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -0.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -0.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        0.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -8.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -0.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -0.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -0.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        0.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -8.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -7.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -6.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -5.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -4.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -3.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -2.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -1.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -0.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -0.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        -0.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        0.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -0.75,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -0.25,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -8.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -0.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -0.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -0.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        0.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -8.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -7.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -6.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -5.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -4.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -3.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -2.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -1.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -0.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -0.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        -0.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.0,
+        0.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -8.0,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.75,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.5,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.25,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.0,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.75,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.5,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.25,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.0,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.75,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.5,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.25,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.0,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.75,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.5,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.25,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.0,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.75,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.5,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.25,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.0,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.75,
+        0.0
+      ],
+      "intersection_mm3": 7.219364868702831e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.5,
+        0.0
+      ],
+      "intersection_mm3": 8.32839941326816e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.25,
+        0.0
+      ],
+      "intersection_mm3": 8.280903531485224e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.0,
+        0.0
+      ],
+      "intersection_mm3": 8.23340764886962e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.75,
+        0.0
+      ],
+      "intersection_mm3": 8.185911757927072e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.5,
+        0.0
+      ],
+      "intersection_mm3": 8.138415902372883e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.25,
+        0.0
+      ],
+      "intersection_mm3": 6.962895917769207e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.0,
+        0.0
+      ],
+      "intersection_mm3": 6.91539998051144e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -0.75,
+        0.0
+      ],
+      "intersection_mm3": 6.867904034371888e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -0.5,
+        0.0
+      ],
+      "intersection_mm3": 6.82040807046931e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -0.25,
+        0.0
+      ],
+      "intersection_mm3": 6.772912133211543e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        0.0,
+        0.0
+      ],
+      "intersection_mm3": 6.725416204835289e-07
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -8.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -0.75,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -0.5,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -0.25,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        0.0,
+        0.15
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -8.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -7.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -6.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -5.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -4.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -3.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -2.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -1.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -0.75,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -0.5,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        -0.25,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "offset_mm": [
+        0.3,
+        0.0,
+        0.25
+      ],
+      "intersection_mm3": 0.0
+    }
+  ],
+  "offsets_are_measured": false,
+  "unchanged_sideways_downward_rim_contact": {
+    "offset_mm": [
+      -0.3,
+      -8.0,
+      -0.15
+    ],
+    "scope": "Separate shell-rim contact outside the neck; not fixed in this neck-only revision.",
+    "rc3": {
+      "intersection_mm3": 0.330719175239282,
+      "bounds_mm": [
+        1.4999999523162841,
+        0.1999999999999993,
+        24.249999618530275,
+        138.6,
+        87.3,
+        24.4
+      ]
+    },
+    "rc4": {
+      "intersection_mm3": 0.330719175239282,
+      "bounds_mm": [
+        1.4999999523162841,
+        0.1999999999999993,
+        24.249999618530275,
+        138.6,
+        87.3,
+        24.4
+      ]
+    }
+  },
+  "physical_fit_verified": false,
+  "physical_strength_verified": false,
+  "limits": "Rigid clearance probes do not model warp, surface roughness, force, fatigue or impact. Local neck material removed; unchanged bearing area does not establish unchanged strength."
+}

@@ -1,0 +1,70 @@
+{
+  "version": "4.1-rc4",
+  "overrides": {
+    "layer_height": "0.2",
+    "initial_layer_print_height": "0.2",
+    "wall_loops": "2",
+    "top_shell_layers": "5",
+    "top_shell_thickness": "1",
+    "bottom_shell_layers": "3",
+    "bottom_shell_thickness": "0",
+    "sparse_infill_density": "15%",
+    "sparse_infill_pattern": "grid",
+    "infill_direction": "45",
+    "wall_generator": "classic",
+    "enable_prime_tower": "0",
+    "print_sequence": "by layer",
+    "enable_support": "1",
+    "support_type": "normal(auto)",
+    "support_style": "snug",
+    "support_on_build_plate_only": "0",
+    "support_threshold_angle": "30",
+    "support_top_z_distance": "0.2",
+    "support_bottom_z_distance": "0.2",
+    "support_object_xy_distance": "0.35",
+    "support_interface_top_layers": "3",
+    "support_interface_bottom_layers": "2",
+    "support_interface_spacing": "0.25",
+    "support_filament": "0",
+    "support_interface_filament": "0",
+    "bridge_no_support": "0",
+    "bridge_speed": [
+      "50",
+      "50",
+      "50"
+    ]
+  },
+  "results": [
+    {
+      "plate": "3-replacement-lid",
+      "project": "rdimm-4.1-rc4-plate-3-replacement-lid-P2S-PLA-Basic.3mf",
+      "estimated_seconds": 2198.598388671875,
+      "grams": 24.25188446044922,
+      "feature_seconds": {
+        "Bottom surface": 394.429443359375,
+        "Bridge": 56.867835998535156,
+        "Custom": 403.8637390136719,
+        "Flush": 26.0,
+        "Gap infill": 12.101469993591309,
+        "Inner wall": 48.17372131347656,
+        "Internal solid infill": 802.3062133789062,
+        "Outer wall": 109.78618621826172,
+        "Overhang wall": 7.689664363861084,
+        "Support": 15.888016700744629,
+        "Support interface": 6.185122489929199,
+        "Support transition": 2.6014111042022705,
+        "Top surface": 214.46641540527344,
+        "Travel": 105.9349594116211,
+        "Undefined": 98.14899444580078
+      },
+      "warnings": ""
+    }
+  ],
+  "cli_exit_confirmed": false,
+  "cli_shutdown_timeout_seconds": 90,
+  "recovery": "Slicer wrote Success return_code=0 and complete G-code before failing to exit within 90 seconds. ZIP, project mesh bounds/volume/components, support settings, G-code end marker and nominal support beads independently verified. Delivered project contains no G-code; re-slice in Studio.",
+  "import_mesh_verified": true,
+  "gcode_complete_end_marker": true,
+  "physical_tested": false,
+  "support_removal_verified": false
+}
