@@ -3,11 +3,11 @@
   "changes": {
     "tray-middle-3": {
       "added_mm3": 0.0,
-      "removed_mm3": 14.451159188586525
+      "removed_mm3": 16.663953607502496
     },
     "tray-top-3": {
       "added_mm3": 0.0,
-      "removed_mm3": 14.451159188586525
+      "removed_mm3": 16.663953607502496
     }
   },
   "checks": {
@@ -16,6 +16,7 @@
     "bottom_release_poses": 1520,
     "lid_poses": 132
   },
+  "bottom_remnant_removed": true,
   "old_relief_fins_mm": 0.4,
   "retain_existing_PCB_guides": true,
   "body_and_lid_unchanged": true,

@@ -11,9 +11,14 @@ def modify(p,fixed,leaves):
     p,fixed,leaves=d.modify(p,fixed,leaves)
     for name in ('tray-middle-3','tray-top-3'):
         # Obsolete 0.4 mm web between old and new post-clearance cuts.
-        strip=v.box((4.67,.4,3.91),(1.89,94.9,.6))
+        # Include the 0.6 mm floor remnant so no fragile horizontal whisker
+        # remains after removing the upright web. Stop at the main end rail.
+        strip=v.box((4.661,.402,4.61),(1.89,94.899,-.1))
         cut=strip+strip.mirror((1,0,0)).translate((147,0,0))
         fixed[name]-=cut
+        remnant=v.box((4.65,.398,4.6),(1.9,94.901,-.1))
+        remnant+=remnant.mirror((1,0,0)).translate((147,0,0))
+        assert (fixed[name]^remnant).volume()<1e-7,'floor remnant survives'
         p[name]=fixed[name]
         for _,s in leaves[name]:p[name]+=s
         p[name]=p[name].set_tolerance(.001).simplify(.001)
@@ -45,8 +50,8 @@ def main():
     pen.text((20,610),'One at each short end near Y95; two per tray. Geometry study, physical testing pending.',font=ImageFont.load_default(size=19),fill='#183247')
     im.save(out/'corner-fin-comparison.png')
     result={'status':'geometry-only candidate, not a printable release','changes':rows,'checks':checks,
+            'bottom_remnant_removed':True,
             'old_relief_fins_mm':.4,'retain_existing_PCB_guides':True,'body_and_lid_unchanged':True,
             'physical_strength_verified':False}
     (out/'assessment.json').write_text(json.dumps(result,indent=2));print(json.dumps(result))
 if __name__=='__main__':main()
-
