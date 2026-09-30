@@ -20,12 +20,12 @@ def label(mask):
     return out,n
 
 
-def main():
-    folder=ROOT/'build/v4.2-projects'
+def main(version='4.2'):
+    folder=ROOT/f'build/v{version}-projects'
     segs=parse(folder/'2-upper-trays/plate_1.gcode')
-    records=json.loads((ROOT/'models/v4.2/verification.json').read_text())['plate_records']
+    records=json.loads((ROOT/f'models/v{version}/verification.json').read_text())['plate_records']
     poses=next(r for r in records if r['stem'].endswith('plate-2-upper-trays'))['poses']
-    roots=json.loads((ROOT/'models/v4.2/tray-root-fix.json').read_text())['root_checks']
+    roots=json.loads((ROOT/f'models/v{version}/tray-root-fix.json').read_text())['root_checks']
     checks=[]
     for root in roots:
         pose=next(p for p in poses if p['part']==root['part'])
@@ -44,11 +44,14 @@ def main():
             joined=set(a)&set(b)-{0}
             assert joined,(root['part'],root['clip'],z,'no model-bead path across root')
             checks.append({'part':root['part'],'clip':root['clip'],'layer_top_z':round(float(z),3),'connected_model_only':True})
-    report={'version':'4.2','method':'0.05 mm raster of nominal model extrusion beads, 4-neighbour connectivity; support beads excluded',
+    report={'version':version,'method':'0.05 mm raster of nominal model extrusion beads, 4-neighbour connectivity; support beads excluded',
         'limits':'Nominal bead paths do not measure weld strength, adhesion, cooling or fatigue. Not physical validation.',
         'checks':checks}
     (folder/'root-bead-audit.json').write_text(json.dumps(report,indent=2))
     print(len(checks),'model-only layer/root connections verified')
 
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--version',default='4.2')
+    main(parser.parse_args().version)

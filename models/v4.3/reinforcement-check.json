@@ -1,0 +1,44 @@
+{
+  "version": "4.3",
+  "baseline": "4.2",
+  "changes": {
+    "body-pin-clearance": {
+      "added_mm3": 2503.640287612446,
+      "removed_mm3": 9.903457036052575e-14
+    },
+    "body-thread-pilot": {
+      "added_mm3": 2503.6402876124466,
+      "removed_mm3": 8.721871881494375e-14
+    },
+    "lid-slide-lift": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-middle-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-top-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    }
+  },
+  "floor_z_mm": 4.0,
+  "floor_blend_radius_mm": 3.5,
+  "floor_blend_tangent_top_z_mm": 7.5,
+  "ledge_inner_y_mm": 4.2,
+  "ledge_top_z_mm": 10.4,
+  "ledge_edge_radius_mm": 0.4,
+  "first_tray_bottom_z_mm": 10.8,
+  "vertical_gap_mm": 0.4,
+  "not_a_tray_seat": true,
+  "v4_2_floor_material_retained": true,
+  "mount_voids_preserved": true,
+  "unchanged_parts": [
+    "lid-slide-lift",
+    "tray-middle-3",
+    "tray-top-3"
+  ],
+  "physical_strength_verified": false,
+  "limits": "Geometry and sampled loading paths only; no stiffness, fatigue, impact or surface-quality guarantee."
+}

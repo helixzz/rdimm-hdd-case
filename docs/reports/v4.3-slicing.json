@@ -1,0 +1,45 @@
+{
+  "version": "4.3",
+  "geometry_version": "4.3",
+  "scope": "Pin-clearance bodies only; upper cylindrical side-hole faces blocked; geometry unchanged; RC2 45-degree arch roofs with R1 apex also blocked (maximum apex chord 1.415 mm)",
+  "results": [
+    {
+      "plate": "1-pin-clearance",
+      "project": "rdimm-4.3-plate-1-pin-clearance-P2S-PLA-Basic.3mf",
+      "geometry_version": "4.3",
+      "blocked_faces_per_hole": {
+        "28.4988-front": 172,
+        "28.4988-back": 158,
+        "70.104-front": 146,
+        "70.104-back": 113,
+        "130.0988-front": 178,
+        "130.0988-back": 141,
+        "arch-19.7": 36,
+        "arch-55.1": 36
+      },
+      "roundtrip_blocked_faces": 980,
+      "max_roundtrip_vertex_delta_mm": 0.0,
+      "triangle_indices_identical": true,
+      "changed_global_settings": [
+        "print_settings_id"
+      ],
+      "estimated_seconds": 7874.177734375,
+      "grams": 91.53646850585938,
+      "warnings": "",
+      "project_sha256": "a9c86043344a7fd0536ec651cffdeccc33f30e9e32dbffa73b20fd4f9d5aed4c"
+    },
+    {
+      "plate": "2-upper-trays",
+      "project": "rdimm-4.3-plate-2-upper-trays-P2S-PLA-Basic.3mf",
+      "geometry_version": "4.3",
+      "source_project_bytes_identical": true,
+      "changed_global_settings": [],
+      "estimated_seconds": 3569.709228515625,
+      "grams": 33.9383659362793,
+      "warnings": "",
+      "project_sha256": "e7703cd14f5dafe3b13ff730b98f4903b25e823b216facc299e46dfeee775127"
+    }
+  ],
+  "physical_hole_clearance_verified": false,
+  "limits": "No support extrusion does not establish zero sagging or actual pin fit. Preserve all other supports."
+}

@@ -16,19 +16,19 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def prepare(bambu,geometry_version,arch_windows=False,source_version=None,release_version=None):
     if arch_windows:
-        assert geometry_version in ('4.1-rc2','4.2'),'Arch paint requires the verified RC2 body'
-        if geometry_version=='4.2':
+        assert geometry_version in ('4.1-rc2','4.2','4.3'),'Arch paint requires the verified RC2 body'
+        if geometry_version in ('4.2','4.3'):
             import manifold3d as m
             import trimesh
             def solid(path):
                 mesh=trimesh.load_mesh(path)
                 return m.Manifold(m.Mesh(np.asarray(mesh.vertices,dtype=np.float32),np.asarray(mesh.faces,dtype=np.uint32)))
             old=solid(ROOT/'models/v4.1-rc2/body-pin-clearance.stl')
-            new=solid(ROOT/'models/v4.2/body-pin-clearance.stl')
+            new=solid(ROOT/f'models/v{geometry_version}/body-pin-clearance.stl')
             allowed=m.Manifold()
             for y in (19.7,55.1):
                 allowed+=m.Manifold.cube((.64,5.22,.53)).translate((140.48,y+13.39,7.89))
-            strip=m.Manifold.cube((144.,6.04,6.44)).translate((1.5,1.58,3.98))
+            strip=m.Manifold.cube((144.,6.15,6.44)).translate((1.5,1.58,3.98))
             allowed+=strip+strip.mirror((0,1,0)).translate((0,101.6,0))
             assert ((new-old)-allowed).volume()<.001 and ((old-new)-allowed).volume()<.001,'Body changed outside internal relief/floor strips; requalify arch and hole paint'
     version=release_version or geometry_version+('-p2' if arch_windows else '-p1')
@@ -53,7 +53,10 @@ def prepare(bambu,geometry_version,arch_windows=False,source_version=None,releas
                 'warnings':p['warning_message'],'project_sha256':hashlib.sha256(project.read_bytes()).hexdigest()})
             continue
         seed=out/'painted-input.3mf'
-        counts=paint(original,seed,arch_windows=arch_windows)
+        # New unions split 48-sided bore facets: intermediate points lie on
+        # chords, up to 1.8*(1-cos(pi/48)) = 0.003855 mm inside the radius.
+        # Include these points plus float32 rounding, retaining downward/XYZ gates.
+        counts=paint(original,seed,arch_windows=arch_windows,bore_tolerance=.0041 if geometry_version=='4.3' else .0003)
         with zipfile.ZipFile(seed) as z:data={n:z.read(n) for n in z.namelist()}
         settings=json.loads(data['Metadata/project_settings.config'])
         settings['print_settings_id']='RDIMM '+version+' - six side holes support blocked'

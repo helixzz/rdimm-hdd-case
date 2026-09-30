@@ -8,10 +8,10 @@ from audit_v3_2_toolpaths import parse,select,footprint
 ROOT=Path(__file__).resolve().parents[1]
 
 
-def main():
-    folder=ROOT/'build/v4.2-projects'
-    checks=json.loads((ROOT/'models/v4.2/tray-root-fix.json').read_text())['tooth_frame_clearance_checks']
-    records=json.loads((ROOT/'models/v4.2/verification.json').read_text())['plate_records']
+def main(version='4.2'):
+    folder=ROOT/f'build/v{version}-projects'
+    checks=json.loads((ROOT/f'models/v{version}/tray-root-fix.json').read_text())['tooth_frame_clearance_checks']
+    records=json.loads((ROOT/f'models/v{version}/verification.json').read_text())['plate_records']
     rows=[];sources={}
     for plate in ('1-pin-clearance','2-upper-trays'):
         segs=parse(folder/plate/'plate_1.gcode')
@@ -46,10 +46,13 @@ def main():
                 'support_segments_in_gap':len(support_gaps),
                 'minimum_support_clearance_mm':round(min(min(p) for p in support_gaps),4) if support_gaps else None})
     assert len(rows)==8
-    (folder/'tooth-clearance-audit.json').write_text(json.dumps({'version':'4.2','gcode_sha256':sources,'results':rows,
+    (folder/'tooth-clearance-audit.json').write_text(json.dumps({'version':version,'gcode_sha256':sources,'results':rows,
         'method':'0.05 mm nominal bead raster in the fixed-frame/tooth overlap; model and support separated',
         'limits':'Some gaps contain removable interface strands. This does not simulate sagging, adhesion, removal effort or printed friction.'},indent=2))
     print('Eight tooth/frame regions have >=0.6 mm nominal printed model gap; intermediate supports separated >=0.2 mm')
 
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--version',default='4.2')
+    main(parser.parse_args().version)

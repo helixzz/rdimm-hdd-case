@@ -1,7 +1,15 @@
 # Agent collaboration guide
 
 
-## Current complete release: v4.2
+## Current complete release: v4.3
+
+- User explicitly authorized full v4.3 release retaining wall ledge and smooth floor transition. Keep v4.2 immutable. `build_v4_3.py`, `models/v4.3`, docs/v4.3.zh-CN.md; package_v4_3.py requires clean fixed v4.3 tag.
+- Single continuous section: floor Z4 / R3.5 tangent blend to vertical inner Y4.2 at Z7.5 / ledge top Z10.4 / R0.4 upper inner edge. First tray Z10.8 leaves .4 gap; NOT a tray bearing. Existing v4.2 floor material retained, new body adds ~2503.64 mm3 CAD volume. Only body variants change; v4.2 lid + both trays byte-identical. Default v4.2/older builds preserved.
+- Complete geometry/path checks pass. Explicit manifold simplify(.001) eliminates float32 collinear hole-face artifacts; geometry checks remain enabled. Side bore triangles contain new points on 48-sided polygon chords, radius deviation up to .003855. Support painter uses .0041 radial selection tolerance only for v4.3 (old .0003 unchanged), still gated by normals and bore XYZ bounds. 980 painted faces retained; all six bore support boxes empty. Never globally disable supports.
+- Final P2S .4/PLA Basic/.2: 7874.18 +3569.71 s =3h10m44, 91.54+33.94 g (unrounded sum125.47). About13s above v4.2. 36 support areas/nine corridors/186 root connections/eight tooth gaps/two arches audited. Printed strength, finish, force/fatigue/impact unverified.
+- Full two configured projects, four STLs, report/guide/checksum package. Reuse v4.2 lid/trays; plate1 is a combined mesh so split into objects to omit lid for a body-only reprint. No hotfix release, G-code, private paths, or user photos.
+
+## Previous complete release: v4.2
 
 - User requires a complete formal GitHub release, not hotfixes. Single delivery `rdimm-v4.2-complete-P2S.zip`, fixed tag v4.2; do not overwrite tags/assets. Formal release is not physical certification.
 - First upper-tray root moves Y14.5 ->17.3, permanent anchor 3 mm, R1 root, pillar gap .3. Tooth/paddle unchanged; free beam 18 ->15.2, force/fatigue untested. Six full root cores and 186 model-only layer connections checked.

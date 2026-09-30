@@ -20,7 +20,7 @@ ET.register_namespace('p',PROD)
 ET.register_namespace('BambuStudio','http://schemas.bambulab.com/package/2021')
 
 
-def paint(source,target,arch_windows=False):
+def paint(source,target,arch_windows=False,bore_tolerance=.0003):
     with zipfile.ZipFile(source) as z:data={n:z.read(n) for n in z.namelist()}
     root=ET.fromstring(data['3D/3dmodel.model'])
     items=root.findall(f'{{{CORE}}}build/{{{CORE}}}item')
@@ -52,7 +52,7 @@ def paint(source,target,arch_windows=False):
                     tri.set('paint_supports','8');counts[f'arch-{y}']+=1
         for x in SIDE_X:
             radius=np.linalg.norm(q[:,[0,2]]-[x,6.35],axis=1)
-            if not np.allclose(radius,1.8,atol=.0003):continue
+            if not np.allclose(radius,1.8,atol=bore_tolerance):continue
             for side,lo,hi in [('front',-.001,5.701),('back',W-5.701,W+.001)]:
                 if np.all(q[:,1]>=lo) and np.all(q[:,1]<=hi):
                     assert tri.attrib.get('paint_supports','8')=='8'

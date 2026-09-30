@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.3 — continuous floor reinforcement with retained ledge
+
+- Preserve the ledge at Z10.4 with R0.4 top edge, and join its inner face to the Z4 floor using a tangent concave R3.5 blend. The first tray remains at Z10.8 with 0.4 mm clearance; this is wall reinforcement, not a tray seat.
+- Only bodies change; v4.2 lid and both upper trays are byte-identical. Preserve holes, SATA, module clearance and loading paths; complete two-plate package still provided.
+- Include subdivided cylindrical chord vertices in support blockers; final six bores contain zero support. All other support/clearance audits pass. P2S reference 3h10m44, 125.47 g, approximately 13 s above v4.2. Actual strength and finish remain unverified.
+
+
 ## v4.2 — complete release
 
 - Repair first upper-tray clip anchors with 3 mm full-height bases; preserve keeper positions and R1 root blends.

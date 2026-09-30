@@ -1,0 +1,574 @@
+{
+  "version": "4.3",
+  "method": "Finite-width nominal G-code bead footprints; variable layer heights; 0.025 mm XY samples",
+  "limits": "No thermal, sagging, bond, support removal, force or fatigue simulation",
+  "plates": [
+    {
+      "plate": "1-pin-clearance",
+      "gcode_sha256": "da6bc8245ea47a04593e0097685408c2ba714966017fafd6391a306e69b6c570",
+      "project_sha256": "a9c86043344a7fd0536ec651cffdeccc33f30e9e32dbffa73b20fd4f9d5aed4c",
+      "support_regions": [
+        {
+          "part": "body-pin-clearance",
+          "region": "shell leaf",
+          "rect": [
+            103.5,
+            20.0,
+            131.5,
+            21.6
+          ],
+          "roof_z": 22.8,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": null,
+          "support_overlap_mm2": 40.604
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "SATA roof",
+          "rect": [
+            54.5,
+            63.599999999999994,
+            62.0,
+            110.6
+          ],
+          "roof_z": 6.2,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 298.528
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "flat capture 3.4/8.0",
+          "rect": [
+            57.9,
+            28.2,
+            60.9,
+            33.8
+          ],
+          "roof_z": 24.0,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.216,
+          "support_overlap_mm2": 15.013
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "flat capture 140.6/8.0",
+          "rect": [
+            195.1,
+            28.2,
+            198.1,
+            33.8
+          ],
+          "roof_z": 24.0,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.164,
+          "support_overlap_mm2": 11.688
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "flat capture 3.4/95.6",
+          "rect": [
+            57.9,
+            115.8,
+            60.9,
+            119.6
+          ],
+          "roof_z": 24.0,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 10.181
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "flat capture 140.6/95.6",
+          "rect": [
+            195.1,
+            115.8,
+            198.1,
+            119.6
+          ],
+          "roof_z": 24.0,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 10.178
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "fixed hood 1",
+          "rect": [
+            60.8,
+            50.699999999999996,
+            62.4,
+            58.699999999999996
+          ],
+          "roof_z": 8.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.147
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "tooth 1",
+          "rect": [
+            193.9,
+            53.3,
+            196.5,
+            58.099999999999994
+          ],
+          "roof_z": 8.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.568
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "paddle 1",
+          "rect": [
+            197.5,
+            53.699999999999996,
+            198.8,
+            57.699999999999996
+          ],
+          "roof_z": 9.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 3.681
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "bottom beam foot 1",
+          "rect": [
+            196.5,
+            40.699999999999996,
+            197.3,
+            52.699999999999996
+          ],
+          "roof_z": 4.0,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 9.175
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "fixed hood 2",
+          "rect": [
+            60.8,
+            83.1,
+            62.4,
+            91.1
+          ],
+          "roof_z": 8.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.074
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "tooth 2",
+          "rect": [
+            193.9,
+            88.69999999999999,
+            196.5,
+            93.5
+          ],
+          "roof_z": 8.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.641
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "paddle 2",
+          "rect": [
+            197.5,
+            89.1,
+            198.8,
+            93.1
+          ],
+          "roof_z": 9.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 3.703
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "bottom beam foot 2",
+          "rect": [
+            196.5,
+            76.1,
+            197.3,
+            88.1
+          ],
+          "roof_z": 4.0,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.314,
+          "support_overlap_mm2": 9.181
+        },
+        {
+          "part": "lid-slide-lift",
+          "region": "flat tongue 3.5/8.0",
+          "rect": [
+            58.00000004768371,
+            216.6500030517578,
+            60.700000047683716,
+            221.2500030517578
+          ],
+          "roof_z": 2.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 11.247
+        },
+        {
+          "part": "lid-slide-lift",
+          "region": "flat tongue 140.8/8.0",
+          "rect": [
+            195.30000004768374,
+            216.6500030517578,
+            198.00000004768373,
+            221.2500030517578
+          ],
+          "roof_z": 2.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 8.175
+        },
+        {
+          "part": "lid-slide-lift",
+          "region": "flat tongue 3.5/95.6",
+          "rect": [
+            58.00000004768371,
+            130.85000305175782,
+            60.700000047683716,
+            133.65000305175784
+          ],
+          "roof_z": 2.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.889
+        },
+        {
+          "part": "lid-slide-lift",
+          "region": "flat tongue 140.8/95.6",
+          "rect": [
+            195.30000004768374,
+            130.85000305175782,
+            198.00000004768373,
+            133.65000305175784
+          ],
+          "roof_z": 2.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.811
+        }
+      ],
+      "free_corridors": [
+        {
+          "part": "body-pin-clearance",
+          "region": "shell free end",
+          "intruding_extrusions": 0
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "beam slit 1",
+          "intruding_extrusions": 0
+        },
+        {
+          "part": "body-pin-clearance",
+          "region": "beam slit 2",
+          "intruding_extrusions": 0
+        }
+      ]
+    },
+    {
+      "plate": "2-upper-trays",
+      "gcode_sha256": "9cefff4ed495fd8d78d7b027f55ab40a42574be53e410182b343495ee8fd3e1e",
+      "project_sha256": "e7703cd14f5dafe3b13ff730b98f4903b25e823b216facc299e46dfeee775127",
+      "support_regions": [
+        {
+          "part": "tray-middle-3",
+          "region": "fixed hood 1",
+          "rect": [
+            60.800000023841854,
+            32.60000002384185,
+            62.400000023841855,
+            40.60000002384185
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.056
+        },
+        {
+          "part": "tray-middle-3",
+          "region": "tooth 1",
+          "rect": [
+            193.90000002384187,
+            46.20000002384185,
+            196.50000002384186,
+            51.00000002384185
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 7.079
+        },
+        {
+          "part": "tray-middle-3",
+          "region": "paddle 1",
+          "rect": [
+            197.50000002384186,
+            46.60000002384185,
+            198.80000002384187,
+            50.60000002384185
+          ],
+          "roof_z": 5.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 3.756
+        },
+        {
+          "part": "tray-middle-3",
+          "region": "fixed hood 2",
+          "rect": [
+            60.800000023841854,
+            65.00000002384185,
+            62.400000023841855,
+            73.00000002384185
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.166
+        },
+        {
+          "part": "tray-middle-3",
+          "region": "tooth 2",
+          "rect": [
+            193.90000002384187,
+            70.60000002384186,
+            196.50000002384186,
+            75.40000002384184
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.727
+        },
+        {
+          "part": "tray-middle-3",
+          "region": "paddle 2",
+          "rect": [
+            197.50000002384186,
+            71.00000002384185,
+            198.80000002384187,
+            75.00000002384185
+          ],
+          "roof_z": 5.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.1591,
+          "support_overlap_mm2": 3.663
+        },
+        {
+          "part": "tray-middle-3",
+          "region": "fixed hood 3",
+          "rect": [
+            60.800000023841854,
+            97.40000002384184,
+            62.400000023841855,
+            105.40000002384184
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.012
+        },
+        {
+          "part": "tray-middle-3",
+          "region": "tooth 3",
+          "rect": [
+            193.90000002384187,
+            100.00000002384184,
+            196.50000002384186,
+            104.80000002384185
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.691
+        },
+        {
+          "part": "tray-middle-3",
+          "region": "paddle 3",
+          "rect": [
+            197.50000002384186,
+            100.40000002384184,
+            198.80000002384187,
+            104.40000002384184
+          ],
+          "roof_z": 5.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 3.705
+        },
+        {
+          "part": "tray-top-3",
+          "region": "fixed hood 1",
+          "rect": [
+            60.800000023841854,
+            140.60000002384186,
+            62.400000023841855,
+            148.60000002384186
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.071
+        },
+        {
+          "part": "tray-top-3",
+          "region": "tooth 1",
+          "rect": [
+            193.90000002384187,
+            154.20000002384185,
+            196.50000002384186,
+            159.00000002384184
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.688
+        },
+        {
+          "part": "tray-top-3",
+          "region": "paddle 1",
+          "rect": [
+            197.50000002384186,
+            154.60000002384186,
+            198.80000002384187,
+            158.60000002384186
+          ],
+          "roof_z": 5.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 3.708
+        },
+        {
+          "part": "tray-top-3",
+          "region": "fixed hood 2",
+          "rect": [
+            60.800000023841854,
+            173.00000002384184,
+            62.400000023841855,
+            181.00000002384184
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.147
+        },
+        {
+          "part": "tray-top-3",
+          "region": "tooth 2",
+          "rect": [
+            193.90000002384187,
+            178.60000002384186,
+            196.50000002384186,
+            183.40000002384184
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 7.099
+        },
+        {
+          "part": "tray-top-3",
+          "region": "paddle 2",
+          "rect": [
+            197.50000002384186,
+            179.00000002384184,
+            198.80000002384187,
+            183.00000002384184
+          ],
+          "roof_z": 5.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 3.733
+        },
+        {
+          "part": "tray-top-3",
+          "region": "fixed hood 3",
+          "rect": [
+            60.800000023841854,
+            205.40000002384184,
+            62.400000023841855,
+            213.40000002384184
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.078
+        },
+        {
+          "part": "tray-top-3",
+          "region": "tooth 3",
+          "rect": [
+            193.90000002384187,
+            208.00000002384184,
+            196.50000002384186,
+            212.80000002384185
+          ],
+          "roof_z": 4.6,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.768
+        },
+        {
+          "part": "tray-top-3",
+          "region": "paddle 3",
+          "rect": [
+            197.50000002384186,
+            208.40000002384184,
+            198.80000002384187,
+            212.40000002384184
+          ],
+          "roof_z": 5.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.1629,
+          "support_overlap_mm2": 3.682
+        }
+      ],
+      "free_corridors": [
+        {
+          "part": "tray-middle-3",
+          "region": "beam slit 1",
+          "intruding_extrusions": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "region": "beam slit 2",
+          "intruding_extrusions": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "region": "beam slit 3",
+          "intruding_extrusions": 0
+        },
+        {
+          "part": "tray-top-3",
+          "region": "beam slit 1",
+          "intruding_extrusions": 0
+        },
+        {
+          "part": "tray-top-3",
+          "region": "beam slit 2",
+          "intruding_extrusions": 0
+        },
+        {
+          "part": "tray-top-3",
+          "region": "beam slit 3",
+          "intruding_extrusions": 0
+        }
+      ]
+    }
+  ]
+}
