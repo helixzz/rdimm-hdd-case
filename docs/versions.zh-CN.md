@@ -2,6 +2,7 @@
 
 | 名称 | 定位 | 目录 / 固定依据 |
 |---|---|---|
+| **v4.4-rc3-dual-trial** | 一盘四件：PLA＋Support for PLA 专用接触层、加宽支撑把手、选定 H32 | [说明](v4.4-rc3-dual-trial.zh-CN.md)、[预发布](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc3-dual-trial)；1 小时 03 分 43 秒，完整版本仍为 v4.3 |
 | **v4.4-rc2-combined-trial** | 一盘 12 件：槽支撑、顶盖支撑、孔径及角部清理综合试验 | [说明](v4.4-rc2-combined-trial.zh-CN.md)、[预发布](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc2-combined-trial)；56 分 31 秒，完整版本仍为 v4.3 |
 | **v4.4-rc1-support-trial** | 一盘 A/B 支撑拆除和残留避让试验，非正式替换托盘 | [说明](v4.4-rc1-support-trial.zh-CN.md)、[预发布](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc1-support-trial)；完整版本仍为 v4.3，待试印 |
 | **v4.3** | 完整两盘：保留加强棱＋底部连续圆弧；仅外壳更新 | `models/v4.3/`、[说明](v4.3.zh-CN.md)、[Release](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.3)；v4.2 盖板和托盘复用，强度待实测 |

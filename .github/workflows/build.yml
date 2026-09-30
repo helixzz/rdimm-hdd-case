@@ -44,6 +44,7 @@ jobs:
       - run: python src/build_v4_3.py --output-dir build/v4.3
       - run: python src/build_support_trial_v4_4.py --output-dir build/v4.4-rc1-support-trial
       - run: python src/build_combined_trial_v4_4_rc2.py --output-dir build/v4.4-rc2-combined-trial
+      - run: python src/build_dual_trial_v4_4_rc3.py --output-dir build/v4.4-rc3-dual-trial
       - uses: actions/upload-artifact@v7.0.1
         with:
           name: rdimm-case-${{ matrix.os }}

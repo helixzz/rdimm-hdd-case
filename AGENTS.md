@@ -1,5 +1,15 @@
 # Agent collaboration guide
 
+## Current dual-material trial: v4.4-rc3-dual-trial
+
+- RC2 physical feedback: A/B still need skilled prying but leave fewer residues; C1-C4 grips break before cores release, though prying is easier. Do not describe RC2 as hand-removable. Record in docs/validation-v4.4-trials.zh-CN.md; historical tagged files stay immutable.
+- User confirmed AMS 2 Pro and **Support for PLA**, NOT Support for PLA/PETG. Configured exact Bambu Support For PLA @BBL P2S / GFS02 as logical material 2; PLA Basic/GFA00 as 1. Both preset types say PLA but support flag distinguishes them. Map logical materials to real AMS slots before sending.
+- User tested H31/32/33/36 and selected **3.2 mm**. Use 3.2 mm for BOTH side and bottom mounting holes in the NEXT complete engineering release, retaining centers/depths. Never silently rebuild old releases with the new diameter. RC3 includes H32 only, not a complete revised shell.
+- One plate: A unchanged permanent DIMM slot, C1/C3 long/short captures, H32. Five PLA support cores +17 explicit Support For PLA contact volumes. These modeled interfaces are MODEL paths, not automatic supports. Assign 26 volumes individually;442 downward support blockers. Keep automatic paddle support; interface2/base1,0 top/bottom Z separation,0 interface spacing. C grips widened2.4->4.8/3.4 mm, larger heads, removable parts100% infill. Physical release/strength still unverified.
+- Build/prepare/audit/preview/package_dual_trial_v4_4_rc3.py. Mesh single-connected/watertight, material non-overlap,165 core extraction poses; re-save rounding<.000011 mm. All17 actual interface-material regions checked; report nonuniform bead/seam/chamfer contact gaps rather than claiming uniform zero-gap. H32 holes have no support. Not adhesion, mixing or mechanical simulation.
+- P2S .4/.2 reference1h03m43,10 changes;PLA16.95g +Support5.91g=22.86g including tower/flush. Modeled interface main use .049g. Tower on;800 mm3 each direction, flush-to-infill/objects/support OFF. This purge volume is a conservative trial choice, not certified sufficient or official advice. Do not reduce to save time before testing.
+- One configured project ZIP prerelease; keep latest complete/VERSION4.3. No raw G-code, private photos/paths or installed full vendor presets in release. Preserve exact source/project/report hashes; do not substitute geometry-only 3MF for configured print project.
+
 ## Current combined trial: v4.4-rc2-combined-trial
 
 - User explicitly requested ONE plate combining all current improvements. Deliver 12 labeled specimens: unchanged RC1 A/B, four capture coupons C1-C4, four bottom+side-hole coupons H31/H32/H33/H36, two corner K1/K2 coupons with obsolete fin AND floor strip removed. Ten modeled temporary supports; keep A/B automatic paddle supports.

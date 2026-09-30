@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.4-rc3-dual-trial — Support for PLA contact layers
+
+- Address RC2 feedback: A/B still need prying; C grips break before release. One plate with A, long/short C1/C3 captures and selected H32. Keep A permanent contacts unchanged; widen C grips to4.8/3.4 mm and make removable parts solid.
+- Five PLA cores,17 explicit Support For PLA contact volumes, individually assigned to material2; automatic paddle-support interfaces also use material2. Use official GFS02 Support For PLA preset, AMS mapping, prime tower and800 mm3 flushing in both directions; no flushing into printed parts/supports. Actual material mixing and release remain unverified.
+- P2S .4/.2 reference1h03m43,10 changes,22.86g including flushing/tower. Geometry/extraction checks and all17 actual interface-path audits pass; report bead-contact gaps and preserve correct material identity. H32 holes remain support-free.
+- User selected3.2mm from the printed hole candidates; adopt for future complete side/bottom mounting bores. This numbered prerelease contains coupons only; latest complete release stays v4.3, old assets unchanged.
+
 ## v4.4-rc2-combined-trial — one plate for all current cleanup changes
 
 - Combine unchanged RC1 A/B DIMM slots, four cropped lid-capture coupons with inward pull supports, four bottom/side-hole coupons (3.1/3.2/3.3/3.6 mm), and two tray corner coupons with obsolete fins AND floor remnants removed. Twelve labeled specimens; ten modeled removable supports.

@@ -1,6 +1,8 @@
 # RDIMM HDD Case
 
-**综合改进试件：[v4.4 RC2 一盘 12 件](docs/v4.4-rc2-combined-trial.zh-CN.md) · [试件下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc2-combined-trial)**。约 57 分钟、22.6 g，合并 DIMM 槽支撑/残留避让、顶盖支撑抽取、安装孔孔径及托盘角部清理。仅用于局部验证，不替代完整套件。
+**最新试件：[v4.4 RC3 双材料测试盘](docs/v4.4-rc3-dual-trial.zh-CN.md) · [下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc3-dual-trial)**。P2S＋AMS 2 Pro，PLA Basic＋**Support for PLA**；一盘四件，明确建模上下接触层并加宽支撑把手，约 64 分钟 / 22.86 g（含冲刷及擦料塔）。孔径已选定 **3.2 mm**，用于 H32 及后续完整工程；本版仍是局部试验，非完整替换套件。[上轮实物反馈](docs/validation-v4.4-trials.zh-CN.md)。
+
+**上轮综合试件：[v4.4 RC2 一盘 12 件](docs/v4.4-rc2-combined-trial.zh-CN.md) · [试件下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc2-combined-trial)**。约 57 分钟、22.6 g，合并 DIMM 槽支撑/残留避让、顶盖支撑抽取、安装孔孔径及托盘角部清理。仅用于局部验证，不替代完整套件。
 
 **当前完整版本：[v4.3](docs/v4.3.zh-CN.md) · [正式下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.3)**。保留侧壁加强棱，并用从底板长出的连续内凹圆弧连接，棱顶圆角、与活动托盘留 0.4 mm 间隙。完整四件两盘，P2S 参考约 3 小时 11 分钟，比 v4.2 增加约 13 秒。仅外壳变化，v4.2 盖板和托盘可复用。完整实物配合与强度仍待验证。
 
