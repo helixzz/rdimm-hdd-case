@@ -1,0 +1,23 @@
+{
+  "status": "geometry-only candidate, not a printable release",
+  "changes": {
+    "tray-middle-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 14.451159188586525
+    },
+    "tray-top-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 14.451159188586525
+    }
+  },
+  "checks": {
+    "module_poses": 512,
+    "loaded_tray_entry_poses": 242,
+    "bottom_release_poses": 1520,
+    "lid_poses": 132
+  },
+  "old_relief_fins_mm": 0.4,
+  "retain_existing_PCB_guides": true,
+  "body_and_lid_unchanged": true,
+  "physical_strength_verified": false
+}

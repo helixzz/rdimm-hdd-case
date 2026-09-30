@@ -1,5 +1,13 @@
 # Agent collaboration guide
 
+## Pending v4.4 integration: mounting holes and corner fins
+
+- User approved a next one-plate hole trial: bottom blind-hole supports are difficult to remove; 3.6 mm pin-clearance holes should be reduced for ordinary 6-32 screws. Evaluate 3.1/3.2/3.3 mm in vertical and horizontal orientations, preserve center/depth, test both screws and tray pins. Do not promise self-forming threads or universal pin fit in PLA.
+- Unreleased bottom-roof-only blocker comparison on v4.3: all four bottom support counts fall to zero; six side bores remain support-free. Mesh/global settings unchanged, no slice warning. Plate1 7874.18 ->7833.18 s,91.5365 ->91.4359 g. Physical bridge roof/usable depth unverified; local build/mount-hole-assessment holds projects, not issued files.
+- User clarifies fragile guides are short upright pieces near corners, not long continuous rims. Source inspection identifies TWO obsolete 0.4 mm webs per upper tray at Y94.9..95.3 between old/new post reliefs. Do not claim this identifies every physically broken piece. Removing these above the .6 mm floor passes full geometry checks; original PCB guide faces remain otherwise unchanged.
+- evaluate_tray_corner_fins.py creates an UNRELEASED geometry study and before/after diagram; removes14.4512 mm3 per tray, adds zero, body/lid unchanged. 512 DIMM poses,242 tray-entry poses,1520 bottom release poses,132 lid poses plus inherited stops/sweeps pass. No printed strength claim. Study does not supersede v4.3 or published A/B RC1. Integrate with next trial after identifying any additional broken structures and choosing support design from feedback.
+
+
 ## Current support trial: v4.4-rc1-support-trial
 
 - User reports v4.3 works well but embedded supports are hard to remove and residuals obstruct DIMM insertion. Authorized one-plate A/B test before production changes. Keep VERSION and latest complete release v4.3; trial is a prerelease, never overwrite existing assets.
