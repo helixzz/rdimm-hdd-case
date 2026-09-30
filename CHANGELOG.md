@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.2 — complete release
+
+- Repair first upper-tray clip anchors with 3 mm full-height bases; preserve keeper positions and R1 root blends.
+- Recess fixed frame below all eight DIMM heads by 0.5 mm while preserving PCB seats and moving heads. Nominal sliced model gap 0.6 mm; local support interfaces still require removal.
+- Replace high long-wall triangular ridges and separate R2 fillets with continuous concave R6 floor transitions. Preserve mounting bores and loading paths; first upper tray has 0.8 mm vertical clearance.
+- Complete four-part/two-project release; RC4 lid reusable, shell and trays updated. P2S reference 3h10m31, 125.47 g. Geometry and nominal toolpath checks pass; complete physical fit, force, fatigue and impact remain unverified.
+
+
 ## v4.1-rc3 — replacement lid for tight RC1/RC2 capture slots
 
 - Address reported entry and full-travel jamming with double entry chamfers, small exit chamfers and .2 -> .4 mm upper/lateral gaps. Preserve flat capture and release latch; RC1/RC2 body and trays unchanged.

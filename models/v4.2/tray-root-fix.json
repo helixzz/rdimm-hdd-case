@@ -3,24 +3,24 @@
   "baseline": "4.1-rc4",
   "changes": {
     "body-pin-clearance": {
-      "added_mm3": 0.0,
-      "removed_mm3": 0.0
+      "added_mm3": 1329.4873380083523,
+      "removed_mm3": 707.4713425043794
     },
     "body-thread-pilot": {
-      "added_mm3": 0.0,
-      "removed_mm3": 0.0
+      "added_mm3": 1329.4873380083543,
+      "removed_mm3": 707.4713285186742
     },
     "lid-slide-lift": {
       "added_mm3": 0.0,
       "removed_mm3": 0.0
     },
     "tray-middle-3": {
-      "added_mm3": 53.59203530387776,
-      "removed_mm3": 1.8973099646935054e-08
+      "added_mm3": 53.59203529721883,
+      "removed_mm3": 4.680000616263355
     },
     "tray-top-3": {
-      "added_mm3": 53.59203530387776,
-      "removed_mm3": 1.8973099646935054e-08
+      "added_mm3": 53.59203529721883,
+      "removed_mm3": 4.680000616263355
     }
   },
   "root_checks": [
@@ -107,12 +107,119 @@
     0.2,
     3.0
   ],
+  "tooth_frame_clearance_checks": [
+    {
+      "part": "body-pin-clearance",
+      "clip": 1,
+      "tooth_y": 19.699999999999996,
+      "frame_recess_depth_mm": 0.5,
+      "nominal_gap_mm": [
+        0.2,
+        0.7
+      ],
+      "downward_probe_mm": 0.65,
+      "old_0_3mm_probe_intersection_mm3": 0.28771202288818315
+    },
+    {
+      "part": "body-pin-clearance",
+      "clip": 2,
+      "tooth_y": 55.099999999999994,
+      "frame_recess_depth_mm": 0.5,
+      "nominal_gap_mm": [
+        0.2,
+        0.7
+      ],
+      "downward_probe_mm": 0.65,
+      "old_0_3mm_probe_intersection_mm3": 0.28771202288818387
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "tooth_y": 14.499999999999991,
+      "frame_recess_depth_mm": 0.5,
+      "nominal_gap_mm": [
+        0.2,
+        0.7
+      ],
+      "downward_probe_mm": 0.65,
+      "old_0_3mm_probe_intersection_mm3": 0.28771202288818015
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "tooth_y": 38.89999999999999,
+      "frame_recess_depth_mm": 0.5,
+      "nominal_gap_mm": [
+        0.2,
+        0.7
+      ],
+      "downward_probe_mm": 0.65,
+      "old_0_3mm_probe_intersection_mm3": 0.28771202288818354
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "tooth_y": 68.29999999999998,
+      "frame_recess_depth_mm": 0.5,
+      "nominal_gap_mm": [
+        0.2,
+        0.7
+      ],
+      "downward_probe_mm": 0.65,
+      "old_0_3mm_probe_intersection_mm3": 0.2877120228881835
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "tooth_y": 14.499999999999991,
+      "frame_recess_depth_mm": 0.5,
+      "nominal_gap_mm": [
+        0.2,
+        0.7
+      ],
+      "downward_probe_mm": 0.65,
+      "old_0_3mm_probe_intersection_mm3": 0.28771202288818015
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "tooth_y": 38.89999999999999,
+      "frame_recess_depth_mm": 0.5,
+      "nominal_gap_mm": [
+        0.2,
+        0.7
+      ],
+      "downward_probe_mm": 0.65,
+      "old_0_3mm_probe_intersection_mm3": 0.28771202288818354
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "tooth_y": 68.29999999999998,
+      "frame_recess_depth_mm": 0.5,
+      "nominal_gap_mm": [
+        0.2,
+        0.7
+      ],
+      "downward_probe_mm": 0.65,
+      "old_0_3mm_probe_intersection_mm3": 0.2877120228881835
+    }
+  ],
+  "floor_transition": {
+    "removed_high_triangular_belt": true,
+    "concave_radius_mm": 6.0,
+    "floor_z_mm": 4.0,
+    "top_z_mm": 10.0,
+    "first_removable_tray_z_mm": 10.8,
+    "tray_vertical_clearance_mm": 0.8,
+    "mount_voids_preserved": true
+  },
   "first_free_beam_length_mm": [
     18.0,
     15.2
   ],
   "tooth_paddle_unchanged": true,
-  "compatible_body": [
+  "old_body_interface_compatible_but_missing_frame_relief": [
     "4.1-rc1",
     "4.1-rc2"
   ],

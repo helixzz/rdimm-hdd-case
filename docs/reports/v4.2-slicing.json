@@ -8,25 +8,25 @@
       "project": "rdimm-4.2-plate-1-pin-clearance-P2S-PLA-Basic.3mf",
       "geometry_version": "4.2",
       "blocked_faces_per_hole": {
-        "28.4988-front": 46,
-        "28.4988-back": 54,
-        "70.104-front": 48,
-        "70.104-back": 50,
-        "130.0988-front": 44,
-        "130.0988-back": 47,
+        "28.4988-front": 60,
+        "28.4988-back": 55,
+        "70.104-front": 57,
+        "70.104-back": 61,
+        "130.0988-front": 57,
+        "130.0988-back": 61,
         "arch-19.7": 36,
         "arch-55.1": 36
       },
-      "roundtrip_blocked_faces": 361,
+      "roundtrip_blocked_faces": 423,
       "max_roundtrip_vertex_delta_mm": 0.0,
       "triangle_indices_identical": true,
       "changed_global_settings": [
         "print_settings_id"
       ],
-      "estimated_seconds": 7986.40673828125,
-      "grams": 92.42401885986328,
+      "estimated_seconds": 7861.52978515625,
+      "grams": 91.53267669677734,
       "warnings": "",
-      "project_sha256": "ff11888ed6b95b11a552fc68125f556c4404f2ebb8d232c3c5dc4537aa8a25b0"
+      "project_sha256": "103c344669156485bac11bb0a6d13d225dc6aef5e99f80f92b5e056d5638ed76"
     },
     {
       "plate": "2-upper-trays",
@@ -34,10 +34,10 @@
       "geometry_version": "4.2",
       "source_project_bytes_identical": true,
       "changed_global_settings": [],
-      "estimated_seconds": 3565.4990234375,
-      "grams": 33.9432373046875,
+      "estimated_seconds": 3569.69287109375,
+      "grams": 33.938377380371094,
       "warnings": "",
-      "project_sha256": "e1b869f7bd4f5ca7c4db72ccfab6c8ccf6050a9bd52ada05c84f4c4fedd9a234"
+      "project_sha256": "9be3d45c0dcddbd1ec87a70a2f3a83132983746d937f095b03ec7d4588e846ee"
     }
   ],
   "physical_hole_clearance_verified": false,

@@ -18,7 +18,19 @@ def prepare(bambu,geometry_version,arch_windows=False,source_version=None,releas
     if arch_windows:
         assert geometry_version in ('4.1-rc2','4.2'),'Arch paint requires the verified RC2 body'
         if geometry_version=='4.2':
-            assert (ROOT/'models/v4.2/body-pin-clearance.stl').read_bytes()==(ROOT/'models/v4.1-rc2/body-pin-clearance.stl').read_bytes()
+            import manifold3d as m
+            import trimesh
+            def solid(path):
+                mesh=trimesh.load_mesh(path)
+                return m.Manifold(m.Mesh(np.asarray(mesh.vertices,dtype=np.float32),np.asarray(mesh.faces,dtype=np.uint32)))
+            old=solid(ROOT/'models/v4.1-rc2/body-pin-clearance.stl')
+            new=solid(ROOT/'models/v4.2/body-pin-clearance.stl')
+            allowed=m.Manifold()
+            for y in (19.7,55.1):
+                allowed+=m.Manifold.cube((.64,5.22,.53)).translate((140.48,y+13.39,7.89))
+            strip=m.Manifold.cube((144.,6.04,6.44)).translate((1.5,1.58,3.98))
+            allowed+=strip+strip.mirror((0,1,0)).translate((0,101.6,0))
+            assert ((new-old)-allowed).volume()<.001 and ((old-new)-allowed).volume()<.001,'Body changed outside internal relief/floor strips; requalify arch and hole paint'
     version=release_version or geometry_version+('-p2' if arch_windows else '-p1')
     source=ROOT/f'build/v{source_version or geometry_version}-projects'
     dest=ROOT/f'build/v{version}-projects';results=[]

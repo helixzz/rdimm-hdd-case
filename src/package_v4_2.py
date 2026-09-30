@@ -34,7 +34,7 @@ def main():
     models=ROOT/'models/v4.2'
     for name in ('body-pin-clearance','lid-slide-lift','tray-middle-3','tray-top-3'):
         files['parts/'+name+'.stl']=(models/(name+'.stl')).read_bytes()
-    for name in ('verification.json','tray-root-fix.json','tray-root-preview.png','support-removal.png','reinforcement-preview.png'):
+    for name in ('verification.json','tray-root-fix.json','tray-root-preview.png','support-removal.png','reinforcement-preview.png','floor-transition-preview.png'):
         files[name]=(models/name).read_bytes()
     files['README.zh-CN.md']=(ROOT/'docs/v4.2.zh-CN.md').read_text(encoding='utf8').replace('../models/v4.2/','').encode('utf8')
     files['LICENSE']=(ROOT/'LICENSE').read_bytes()
@@ -43,8 +43,8 @@ def main():
         'scope':'complete four-part eight-DIMM case','complete_set_plates':2,
         'printer':'P2S / 0.4 mm','material':'PLA Basic','layer_height_mm':.2,
         'open_as_project':True,'supports_required':True,'side_holes_and_upper_arch_supports_blocked':True,
-        'compatible_reusable_parts':['v4.1-rc2 body','v4.1-rc4 lid'],
-        'replace_old_upper_trays':True,'physical_complete_set_verified':False,'physical_impact_verified':False,
+        'compatible_reusable_parts':['v4.1-rc4 lid'],
+        'replace_body_and_upper_trays_for_all_fixes':True,'physical_complete_set_verified':False,'physical_impact_verified':False,
         'gcode_included':False},indent=2).encode()
     files['SHA256SUMS.txt']=''.join(hashlib.sha256(b).hexdigest()+'  '+n+'\n' for n,b in files.items()).encode()
     out=ROOT/'build/rdimm-v4.2-complete-P2S.zip'

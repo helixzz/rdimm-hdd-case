@@ -3,12 +3,14 @@
 
 ## Current complete release: v4.2
 
-- User explicitly required 3 mm first upper-clip anchors and a complete formal GitHub release, NOT another replacement-only hotfix. `VERSION` is 4.2; tag v4.2 and `rdimm-v4.2-complete-P2S.zip` are the single delivery. Do not overwrite old tags/assets. Full release naming is not physical certification.
-- RC1–RC4 upper trays have a first-root web only .2 mm at Y14.3..14.5, reported detached after support removal. V4.2 first root moves to Y17.3 with 3 mm full-height anchor, R1 transition and pillar gap .3. Tooth/paddle unchanged, beam 18 ->15.2 mm; user accepts increased force but actual force/fatigue untested. Six root core/bridge checks and 186 model-only layer connections now supplement simple mesh connectivity.
-- `build_v4_2.py` inherits RC4 lid and RC2 body. Those reusable STL files remain byte-identical; both upper trays change. Do not recommend old upper trays. First flexure's nominal slit audit starts 2.8 mm later. Full geometry/motion tests pass, but not physical shock/ESD qualification.
-- Full two-plate P2S .4/PLA Basic/.2 projects: plate 1 7986.41 s /92.42 g, plate 2 3565.50 s /33.94 g, total 3h12m32 /126.37 g. Normal successful slicing, 361 painted faces, six bore blockers and two upper-arch blockers retained. 36 support regions/9 corridors, six bores, arches and root paths audited.
-- Produce unpainted positive control in `build/v4.2-unpainted-projects`; `prepare_side_hole_project.py --geometry-version 4.2 --arch-windows --source-version 4.2-unpainted --release-version 4.2` creates final projects. Gate arch paint on byte-identical RC2 body. `package_v4_2.py` requires clean tagged source. Keep full presets/G-code outside Git source; package only configured project files, no G-code or private photos.
-- The 1.5 mm RC5 candidate was never issued or committed; archived under ignored build/unissued-rc5 only. Do not publish it or present it as a historical release. Docs/source now use v4.2.
+- User requires a complete formal GitHub release, not hotfixes. Single delivery `rdimm-v4.2-complete-P2S.zip`, fixed tag v4.2; do not overwrite tags/assets. Formal release is not physical certification.
+- First upper-tray root moves Y14.5 ->17.3, permanent anchor 3 mm, R1 root, pillar gap .3. Tooth/paddle unchanged; free beam 18 ->15.2, force/fatigue untested. Six full root cores and 186 model-only layer connections checked.
+- All eight teeth: fixed frame below head locally recessed .5, PCB seat and moving head unchanged; CAD gap .2 ->.7, actual nominal sliced model gap .6. One-layer support interfaces may remain, with >=.2 upper/lower gaps; remove before flexing. `audit_tooth_clearance.py` verifies all eight actual toolpath regions.
+- Remove high triangular belt (formerly Z7.79..10.4), replace separate R2 with continuous concave R6 floor-grown transition. Floor Z4, top Z10, first tray Z10.8: .8 gap. Preserve mounting voids and full loading/module paths. Section regression `preview_floor_v4_2.py`; no guaranteed hull-line/impact improvement.
+- Both body variants and both trays updated. ONLY RC4 lid is byte-identical/reusable. Old bodies retain interfaces but lack fixes. Historical `build_v4_1.configure` resets BELT_ENABLED=True; old RC4 rebuild byte-identical.
+- Final P2S .4 / PLA Basic /.2: plate1 7861.53 s /91.53 g, plate2 3569.69 s /33.94 g; total 3h10m31 /125.47 g. 423 painted faces; 36 support regions, nine corridors, six bores, two arches, roots and tooth gaps audited. Physical complete-set/force/fatigue/impact remain pending.
+- Unpainted control `build/v4.2-unpainted-projects`; final `prepare_side_hole_project.py --geometry-version 4.2 --arch-windows --source-version 4.2-unpainted --release-version 4.2`. Body difference gate permits only local tooth recesses and long floor strips, preserving painted arch/bore geometry. `package_v4_2.py` requires clean tagged source. No G-code, private paths or user photos in release.
+- The 1.5 mm RC5 experiment was never issued/committed; ignored build/unissued-rc5 only. Do not publish as historical version.
 
 ## Current lid-fit candidate: v4.1-rc4
 

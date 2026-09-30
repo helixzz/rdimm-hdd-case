@@ -7,8 +7,8 @@
         "55.1": 228
       },
       "closure_spans": [],
-      "gcode_sha256": "977b8b4d2a581b393f7e139313f9caf191fbb94ed5905c847fa7c5aa360528c0",
-      "project_sha256": "3ff226bf022e9b2db5c1737a863516e1d35a02a9dbdee95344106f107a034625"
+      "gcode_sha256": "260496524cb3a2d7c04797db967cc3eb5f062798a1c258048c9904a6e7c25184",
+      "project_sha256": "4643e2009d5f07bf12ca0575c86b0ae8180e4277048faf5e5948642a54e51656"
     },
     {
       "version": "4.2",
@@ -34,8 +34,8 @@
           "sampling_mm": 0.002
         }
       ],
-      "gcode_sha256": "721cebe1dbd3ab478d9c52baf0b9ff117e75a6a80f8c1bf3c6d76f8a40c7ada7",
-      "project_sha256": "ff11888ed6b95b11a552fc68125f556c4404f2ebb8d232c3c5dc4537aa8a25b0"
+      "gcode_sha256": "4bb570a6667c84960e78b88a34f4e22311b053d16a6b863564c83a34d38e3218",
+      "project_sha256": "103c344669156485bac11bb0a6d13d225dc6aef5e99f80f92b5e056d5638ed76"
     }
   ],
   "arch_shoulders_degrees": 45,

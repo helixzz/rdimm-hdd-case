@@ -5,8 +5,8 @@
   "plates": [
     {
       "plate": "1-pin-clearance",
-      "gcode_sha256": "721cebe1dbd3ab478d9c52baf0b9ff117e75a6a80f8c1bf3c6d76f8a40c7ada7",
-      "project_sha256": "ff11888ed6b95b11a552fc68125f556c4404f2ebb8d232c3c5dc4537aa8a25b0",
+      "gcode_sha256": "4bb570a6667c84960e78b88a34f4e22311b053d16a6b863564c83a34d38e3218",
+      "project_sha256": "103c344669156485bac11bb0a6d13d225dc6aef5e99f80f92b5e056d5638ed76",
       "support_regions": [
         {
           "part": "body-pin-clearance",
@@ -47,7 +47,7 @@
           ],
           "roof_z": 24.0,
           "nominal_z_gap_mm": 0.2,
-          "nominal_xy_gap_mm": 0.164,
+          "nominal_xy_gap_mm": 0.216,
           "support_overlap_mm2": 15.013
         },
         {
@@ -61,8 +61,8 @@
           ],
           "roof_z": 24.0,
           "nominal_z_gap_mm": 0.2,
-          "nominal_xy_gap_mm": 0.216,
-          "support_overlap_mm2": 11.674
+          "nominal_xy_gap_mm": 0.164,
+          "support_overlap_mm2": 11.688
         },
         {
           "part": "body-pin-clearance",
@@ -76,7 +76,7 @@
           "roof_z": 24.0,
           "nominal_z_gap_mm": 0.2,
           "nominal_xy_gap_mm": 0.159,
-          "support_overlap_mm2": 10.178
+          "support_overlap_mm2": 10.181
         },
         {
           "part": "body-pin-clearance",
@@ -90,7 +90,7 @@
           "roof_z": 24.0,
           "nominal_z_gap_mm": 0.2,
           "nominal_xy_gap_mm": 0.159,
-          "support_overlap_mm2": 10.159
+          "support_overlap_mm2": 10.178
         },
         {
           "part": "body-pin-clearance",
@@ -118,7 +118,7 @@
           "roof_z": 8.6,
           "nominal_z_gap_mm": 0.2,
           "nominal_xy_gap_mm": 0.159,
-          "support_overlap_mm2": 2.208
+          "support_overlap_mm2": 6.568
         },
         {
           "part": "body-pin-clearance",
@@ -174,7 +174,7 @@
           "roof_z": 8.6,
           "nominal_z_gap_mm": 0.2,
           "nominal_xy_gap_mm": 0.159,
-          "support_overlap_mm2": 2.206
+          "support_overlap_mm2": 6.641
         },
         {
           "part": "body-pin-clearance",
@@ -281,8 +281,8 @@
     },
     {
       "plate": "2-upper-trays",
-      "gcode_sha256": "218b54b9303c29726472fee939af0cc41c2c5a8370ad7e4dccc3ebae52ea30d4",
-      "project_sha256": "e1b869f7bd4f5ca7c4db72ccfab6c8ccf6050a9bd52ada05c84f4c4fedd9a234",
+      "gcode_sha256": "18542177c00d2914c52fa645ec57d82838e8325a045fd5e9ed1e402ca58c576c",
+      "project_sha256": "9be3d45c0dcddbd1ec87a70a2f3a83132983746d937f095b03ec7d4588e846ee",
       "support_regions": [
         {
           "part": "tray-middle-3",
@@ -310,7 +310,7 @@
           "roof_z": 4.6,
           "nominal_z_gap_mm": 0.2,
           "nominal_xy_gap_mm": 0.159,
-          "support_overlap_mm2": 2.21
+          "support_overlap_mm2": 7.079
         },
         {
           "part": "tray-middle-3",
@@ -352,7 +352,7 @@
           "roof_z": 4.6,
           "nominal_z_gap_mm": 0.2,
           "nominal_xy_gap_mm": 0.159,
-          "support_overlap_mm2": 2.162
+          "support_overlap_mm2": 6.727
         },
         {
           "part": "tray-middle-3",
@@ -394,7 +394,7 @@
           "roof_z": 4.6,
           "nominal_z_gap_mm": 0.2,
           "nominal_xy_gap_mm": 0.159,
-          "support_overlap_mm2": 2.199
+          "support_overlap_mm2": 6.691
         },
         {
           "part": "tray-middle-3",
@@ -436,7 +436,7 @@
           "roof_z": 4.6,
           "nominal_z_gap_mm": 0.2,
           "nominal_xy_gap_mm": 0.159,
-          "support_overlap_mm2": 2.203
+          "support_overlap_mm2": 6.688
         },
         {
           "part": "tray-top-3",
@@ -478,7 +478,7 @@
           "roof_z": 4.6,
           "nominal_z_gap_mm": 0.2,
           "nominal_xy_gap_mm": 0.159,
-          "support_overlap_mm2": 2.486
+          "support_overlap_mm2": 7.099
         },
         {
           "part": "tray-top-3",
@@ -520,7 +520,7 @@
           "roof_z": 4.6,
           "nominal_z_gap_mm": 0.2,
           "nominal_xy_gap_mm": 0.159,
-          "support_overlap_mm2": 2.147
+          "support_overlap_mm2": 6.768
         },
         {
           "part": "tray-top-3",

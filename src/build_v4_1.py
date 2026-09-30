@@ -9,6 +9,7 @@ v=base.v3
 m=v.m
 VERSION='4.1-rc1'
 CAPTURES=[(8.,6.),(95.6,4.2)]
+BELT_ENABLED=True
 
 
 def shell_leaf():
@@ -64,7 +65,7 @@ def modify(p,fixed,leaves):
         belt=m.CrossSection([[(1.59,7.79),(4.2,10.4),(1.59,10.4)]]).extrude(143.8)
         belt=belt.transform([[0,0,1,1.6],[1,0,0,0],[0,1,0,0]])
         belt+=belt.mirror((0,1,0)).translate((0,101.6,0))
-        a+=belt-mount_voids(name.endswith('clearance'))
+        if BELT_ENABLED:a+=belt-mount_voids(name.endswith('clearance'))
         # Remove old sloped lips; preserve underlying screw posts.
         a-=pair(v.box((3.3,101.6,1.61),(0,0,24.39)))
         for y,length in CAPTURES:
@@ -104,7 +105,9 @@ def modify(p,fixed,leaves):
 
 
 def configure():
+    global BELT_ENABLED
     previous.configure()
+    BELT_ENABLED=True
     base.VERSION=VERSION
     base.SHELL_LEAF=shell_leaf
     base.PART_MODIFIER=modify

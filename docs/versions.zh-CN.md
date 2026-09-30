@@ -2,7 +2,7 @@
 
 | 名称 | 定位 | 目录 / 固定依据 |
 |---|---|---|
-| **v4.2** | 完整两盘正式发行版：3 mm 托盘基座＋RC4 盖板＋RC2 外壳 | `models/v4.2/`、[说明](v4.2.zh-CN.md)、[Release](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.2)；统一包，实物验证待完成 |
+| **v4.2** | 完整两盘正式发行版：3 mm 托盘基座、齿头下让 0.5 mm、内凹 R6 底部过渡、RC4 盖板 | `models/v4.2/`、[说明](v4.2.zh-CN.md)、[Release](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.2)；统一包，实物验证待完成 |
 | **v4.1-rc4** | 连续颈部净空、斜面接回根部的替换盖板候选 | `models/v4.1-rc4/`、[说明](v4.1-rc4.zh-CN.md)；仅替换盖板，修正组合位姿局部干涉，实际手感/强度待验证 |
 | **v4.1-rc3** | 斜面导入、扩大间隙的替换盖板候选 | `models/v4.1-rc3/`、[说明](v4.1-rc3.zh-CN.md)；兼容 RC1/RC2 外壳与托盘，仅需打一盘盖板，配合及强度待实测 |
 | **v4.1-rc2** | 缩小两处底层拨扣窗口并恢复上方连接壁，配套 p2 支撑配置 | `models/v4.1-rc2/`、[说明](v4.1-rc2.zh-CN.md)；RC1 盖板、托盘兼容，实际操作与抗震待实测 |

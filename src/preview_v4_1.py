@@ -23,7 +23,7 @@ def main(version='4.1-rc1',process='p1'):
     views=[('Flat capture and matching lid tongue',[(p['body-pin-clearance']^v.box((11,23,7),(0,0,19)),blue),(p['lid-slide-lift']^v.box((11,23,7),(0,0,19)),orange)],[1,-.8,1.3]),
         ('Lid underside: four broad tongues',[(p['lid-slide-lift'],orange)],[1,-.7,-1.5]),
         ('1.0 mm DIMM spring + R1 root',[(p['tray-top-3']^v.box((10,24,8),(137,12,0)),blue)],[1,-.6,1.3]),
-        ('Long-wall triangular belt below tray entry',[(p['body-pin-clearance']^v.box((70,12,15),(15,0,0)),blue)],[1,-.8,1.3])]
+        ('Floor-grown R6 concave transition' if version=='4.2' else 'Long-wall triangular belt below tray entry',[(p['body-pin-clearance']^v.box((70,12,15),(15,0,0)),blue)],[1,-.8,1.3])]
     for i,(title,objs,cam) in enumerate(views):
         x=10+(i%2)*700;y=70+(i//2)*440
         d.text((x+10,y),title,font=font,fill='#193247')
