@@ -207,7 +207,8 @@
       }
     ],
     "unexpected_support_material_model_paths": 0,
-    "h32_hole_support_paths": 0
+    "h32_hole_support_paths": 0,
+    "project_settings_identical_to_rc3": true
   },
   "raised-grips": {
     "interfaces": [
@@ -381,7 +382,8 @@
       }
     ],
     "unexpected_support_material_model_paths": 0,
-    "h32_hole_support_paths": 0
+    "h32_hole_support_paths": 0,
+    "project_settings_identical_to_rc3": true
   },
   "combined": {
     "interfaces": [
@@ -555,7 +557,8 @@
       }
     ],
     "unexpected_support_material_model_paths": 0,
-    "h32_hole_support_paths": 0
+    "h32_hole_support_paths": 0,
+    "project_settings_identical_to_rc3": true
   },
   "residue": {
     "rows": [
