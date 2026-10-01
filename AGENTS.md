@@ -1,6 +1,15 @@
 # Agent collaboration guide
 
+## Product optimization objective
+
+- User explicitly clarified: optimize the COMPLETE real product, not coupon metrics. Coupons are only selected physical checks AFTER full-product CAD/slicer comparisons. Rank candidates by full-set print time/materials, surface/fit quality and postprocessing; report whole plates and assembly/extraction paths. Do not substitute coupon savings for product savings or repeatedly ask for test prints before simulation screening. Full quality/strength still requires physical evidence. Preserve versioned releases while studying candidates.
+
 ## Manufacturing study (no new release)
+
+- Full-product follow-up: docs/full-product-optimization.zh-CN.md; evaluate_full_product.py (geometry-only CI), evaluate_full_process.py, evaluate_product_batch.py, audit_full_product.py, preview_product_batch.py, summarize_full_product.py. Integrates 3.2 mm holes, removes old corner fins including floor whiskers. Keeps VERSION/releases immutable. All new 3MFs are ignored research, not production downloads.
+- Whole-set measured seconds: single-control11364.193, single-paddle11288.874, dual-auto21996.466/50 changes, dual-manual19258.494/34, dual-selective15028.990/12. Selective retains64 modeled dedicated interfaces on28 PLA cores, but ordinary automatic support interfaces use PLA/.2 Z gap. Same800mm3 purge/normal tower, no flush into product. Full geometry passes512 module/242 entry/1520 release/132 lid/924 core extraction poses. All10 bore interiors and8 clip corridors checked in actual paths. No physical dual-material evidence.
+- Two COMPLETE products on3 plates (2 shells,2 lids,4 trays):26053.318s total, perproduct3h37m07,136.265g total/3.672g Support;12 swaps for2sets. Actual tower-to-model bbox gap>=3.734mm, footprint inside256bed. This is planar toolpath clearance, not gantry/thermal simulation or proven packing minimum; require real full-plate validation. Still slower than singlePLA3h08; postprocessing benefit unmeasured.
+- Four complete-set process variants: axis0 saves327s with more material; internal .5 widths save354s; sparse infill combination saves299s; both621.9s(~4.1%). Top/outer settings and actual widths/layers preserved; combined sparse layers include.4mm. Quality/stiffness unverified: prioritize selective interfaces/batch, reserve internal-process combo. Do not add separate experiment savings without slicing their combination. All13 selected/process/batch plate audits pass. Raw G-code/presets stay local; public reports contain metrics/hashes only.
 
 - User requests deep geometry/slicing evaluation while Support For PLA is unavailable. See docs/manufacturing-study.zh-CN.md and src/evaluate_dfm_geometry.py, evaluate_dfm_slicing.py, audit_dfm_study.py, preview_dfm_study.py. Preserve v4.3/RC3 assets and VERSION. Do not publish research 3MFs as production files.
 - Exterior paddle 45-degree underside adds32.768mm3 across8 clips; full nominal module/loading/release/lid checks pass. A auto-support disappears without new keep-face blockers. Actual stiffness, finish and fatigue not known.

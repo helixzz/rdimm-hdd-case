@@ -4,11 +4,11 @@ import numpy as np
 import evaluate_dfm_geometry as g
 from audit_dual_trial_v4_4_rc3 import parse_materials,select,grid,footprint
 
-def audit(folder):
+def audit(folder,check_settings=True,check_h32=True,project_name='EXPERIMENT-not-released.3mf'):
     baseline=next((g.ROOT/'build/v4.4-rc3-dual-trial-projects/0-dual').glob('*.3mf'))
     with zipfile.ZipFile(baseline) as z:original_settings=json.loads(z.read('Metadata/project_settings.config'))
-    with zipfile.ZipFile(folder/'EXPERIMENT-not-released.3mf') as z:settings=json.loads(z.read('Metadata/project_settings.config'))
-    assert settings==original_settings,'Global process or filament settings changed'
+    with zipfile.ZipFile(folder/project_name) as z:settings=json.loads(z.read('Metadata/project_settings.config'))
+    if check_settings:assert settings==original_settings,'Global process or filament settings changed'
     segs,_=parse_materials(folder/'plate_1.gcode')
     caps=[p for p in json.loads((folder/'verification.json').read_text())['volumes'] if p['role']=='interface']
     rows=[]
@@ -35,9 +35,9 @@ def audit(folder):
     for q in segs[(segs[:,8]==1)&(segs[:,7]==0)]:
         point=np.array([(q[0]+q[2])/2,(q[1]+q[3])/2,q[4]-q[6]/2])
         assert any(np.all(point>=np.array(c['bounds'][0])-.11) and np.all(point<=np.array(c['bounds'][1])+.11) for c in caps)
-    for rect,lo,hi in [([158.4,116.575,161.6,119.775],0,5.31),([148.1,115,151.9,120.7],4.4,8.3)]:
+    for rect,lo,hi in ([([158.4,116.575,161.6,119.775],0,5.31),([148.1,115,151.9,120.7],4.4,8.3)] if check_h32 else []):
         s=select(segs,rect);assert not len(s[(s[:,7]==1)&(s[:,4]>lo)&(s[:,4]-s[:,6]<hi)])
-    return dict(interfaces=rows,unexpected_support_material_model_paths=0,h32_hole_support_paths=0,project_settings_identical_to_rc3=True)
+    return dict(interfaces=rows,unexpected_support_material_model_paths=0,h32_hole_support_paths=0 if check_h32 else None,project_settings_identical_to_rc3=settings==original_settings)
 
 def residue_study():
     """Controlled local residue blocks; not a prediction of real roughness."""

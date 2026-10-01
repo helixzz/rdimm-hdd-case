@@ -80,7 +80,7 @@ def clear(a,b,label):
     assert volume<.001,(label,volume)
 
 
-def verify(p,fixed,leaves,lid_up_probe=.4):
+def verify(p,fixed,leaves,lid_up_probe=.4,mount_probe_radius=1.8):
     checks={'module_poses':0,'loaded_tray_entry_poses':0,'bottom_release_poses':0,'lid_poses':0}
     body=p['body-pin-clearance'];lid=p['lid-slide-lift']
     assembly=[body,lid,p['tray-middle-3'].translate((0,0,10.8)),p['tray-top-3'].translate((0,0,17.6))]
@@ -139,9 +139,9 @@ def verify(p,fixed,leaves,lid_up_probe=.4):
                 checks['bottom_release_poses']+=1
     probes=[v3.box((SATA_DEPTH,47.,6.2),(0,SATA_Y,0))]
     for x in v3.SIDE_X:
-        probes += [v3.cyl(5.,1.8,(x,0,6.35),rot=(-90,0,0)),v3.cyl(5.,1.8,(x,v3.W,6.35),rot=(90,0,0))]
+        probes += [v3.cyl(5.,mount_probe_radius,(x,0,6.35),rot=(-90,0,0)),v3.cyl(5.,mount_probe_radius,(x,v3.W,6.35),rot=(90,0,0))]
     for x in v3.BOTTOM_X:
-        for y in v3.BOTTOM_Y:probes.append(v3.cyl(5.,1.8,(x,y,0)))
+        for y in v3.BOTTOM_Y:probes.append(v3.cyl(5.,mount_probe_radius,(x,y,0)))
     for probe in probes:
         for a in assembly:clear(a,probe,'mount/socket probe')
     # Upper cartridges retain their RC1 clip release and PCB stops. Test again

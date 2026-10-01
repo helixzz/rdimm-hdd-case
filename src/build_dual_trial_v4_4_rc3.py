@@ -60,7 +60,7 @@ def should_block(q,kind,role,length=0):
     if kind=='mount':return True
     return False
 
-def build(out):
+def build(out,plate_xy_limits=(5.,245.)):
     out.mkdir(parents=True,exist_ok=True);specimens=parts();records=[];rid=0
     E.register_namespace('',NS)
     root=E.Element('{'+NS+'}model',unit='millimeter');E.SubElement(root,'{'+NS+'}metadata',name='Application').text='BambuStudio'
@@ -98,7 +98,7 @@ def build(out):
         z.writestr('[Content_Types].xml','<?xml version="1.0"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="model" ContentType="application/vnd.ms-package.3dmanufacturing-3dmodel+xml"/><Default Extension="config" ContentType="application/xml"/></Types>')
         z.writestr('_rels/.rels','<?xml version="1.0"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Target="/3D/3dmodel.model" Id="rel0" Type="http://schemas.microsoft.com/3dmanufacturing/2013/01/3dmodel"/></Relationships>')
         z.writestr('3D/3dmodel.model',E.tostring(root,encoding='utf-8',xml_declaration=True));z.writestr('Metadata/model_settings.config',E.tostring(config,encoding='utf-8',xml_declaration=True))
-    bb=np.array(bounds);lo=bb[:,0].min(0);hi=bb[:,1].max(0);assert np.all(lo>=[5,5,-.001]) and np.all(hi<=[245,245,26])
+    bb=np.array(bounds);lo=bb[:,0].min(0);hi=bb[:,1].max(0);assert np.all(lo>=[plate_xy_limits[0],plate_xy_limits[0],-.001]) and np.all(hi<=[plate_xy_limits[1],plate_xy_limits[1],26])
     (out/'verification.json').write_text(json.dumps(dict(version=VERSION,specimens=records,volumes=entries,painted_faces=painted,plate_bounds=[lo.tolist(),hi.tolist()],selected_mount_diameter_mm=MOUNT_DIAMETER,modeled_interface_material='Bambu Support For PLA',physical_verified=False,scope='four coupons; not a complete production enclosure'),indent=2))
     print(path)
 

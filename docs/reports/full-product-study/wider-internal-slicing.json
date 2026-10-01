@@ -1,0 +1,98 @@
+[
+  {
+    "mode": "wider-internal",
+    "plate": "1-pin-clearance",
+    "seconds": 10136.2490234375,
+    "filaments": [
+      {
+        "filament_id": "GFA00",
+        "id": 1,
+        "main_used_g": 91.08331298828125,
+        "total_used_g": 102.29812622070312
+      },
+      {
+        "filament_id": "GFS02",
+        "id": 2,
+        "main_used_g": 0.03909908980131149,
+        "total_used_g": 4.817614555358887
+      }
+    ],
+    "changes": 8,
+    "warnings": "",
+    "features": {
+      "Bottom surface": 769.447265625,
+      "Bridge": 704.4328002929688,
+      "Custom": 402.87896728515625,
+      "Flush": 1115.86962890625,
+      "Gap infill": 56.58527374267578,
+      "Inner wall": 690.8779296875,
+      "Internal solid infill": 1658.6787109375,
+      "Outer wall": 1186.8045654296875,
+      "Overhang wall": 37.01905822753906,
+      "Prime tower": 1257.152587890625,
+      "Sparse infill": 555.5422973632812,
+      "Support": 80.34747314453125,
+      "Support interface": 48.08135223388672,
+      "Support transition": 18.00942611694336,
+      "Top surface": 498.3151550292969,
+      "Travel": 1063.3714599609375,
+      "Undefined": 1056.7054443359375
+    },
+    "process_changes": {
+      "internal_solid_infill_line_width": "0.5",
+      "sparse_infill_line_width": "0.5"
+    },
+    "geometry_and_paint_identical": true,
+    "cli_shutdown_timeout": false,
+    "project_sha256": "d3e4a056dab970c0162c1127d3a10d25666e20ddbd8c4b1019155088242f91b1",
+    "gcode_sha256": "e7526d029f287fa0a92fd37f61875d8e8bdcec8a37d5aa6965a076c5d15c21e2"
+  },
+  {
+    "mode": "wider-internal",
+    "plate": "2-upper-trays",
+    "seconds": 4538.65380859375,
+    "filaments": [
+      {
+        "filament_id": "GFA00",
+        "id": 1,
+        "main_used_g": 33.64400863647461,
+        "total_used_g": 37.74772262573242
+      },
+      {
+        "filament_id": "GFS02",
+        "id": 2,
+        "main_used_g": 0.07184714078903198,
+        "total_used_g": 2.41454815864563
+      }
+    ],
+    "changes": 4,
+    "warnings": "",
+    "features": {
+      "Bottom surface": 703.9215087890625,
+      "Bridge": 29.868989944458008,
+      "Custom": 403.8389587402344,
+      "Flush": 570.934814453125,
+      "Gap infill": 87.70394897460938,
+      "Inner wall": 164.48130798339844,
+      "Internal solid infill": 406.9013977050781,
+      "Outer wall": 705.6105346679688,
+      "Overhang wall": 1.524962067604065,
+      "Prime tower": 440.625244140625,
+      "Sparse infill": 86.15772247314453,
+      "Support": 1.1879549026489258,
+      "Support interface": 0.9603762030601501,
+      "Support transition": 0.41814160346984863,
+      "Top surface": 431.1934509277344,
+      "Travel": 511.00048828125,
+      "Undefined": 503.37451171875
+    },
+    "process_changes": {
+      "internal_solid_infill_line_width": "0.5",
+      "sparse_infill_line_width": "0.5"
+    },
+    "geometry_and_paint_identical": true,
+    "cli_shutdown_timeout": false,
+    "project_sha256": "719402ac7cf07db62b97b1352644ac77ce3a3833cfa83683f75232595f991a92",
+    "gcode_sha256": "f03564d655c87a2898d81b4072a81817345152a26b8a35ada0ceda3628121435"
+  }
+]

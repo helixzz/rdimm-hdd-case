@@ -1,0 +1,7287 @@
+[
+  {
+    "mode": "dual-selective",
+    "plate": "1-pin-clearance",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "body-pin-clearance-interface-1",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9958333333333333,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-2",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-3",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9835526315789473,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-4",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-5",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9975961538461539,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-6",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-7",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9973684210526316,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-8",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-9",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9962719298245614,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-10",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-11",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9882211538461538,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-12",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-13",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-14",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-15",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-16",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-17",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9919871794871795,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-18",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            0.9871794871794872
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-19",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9919871794871795,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-20",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-21",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9086538461538461,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-22",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-23",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999198717948718,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-24",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-25",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9983974358974359,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-26",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-27",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9975961538461539,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-28",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [
+        [
+          "body-pin-clearance",
+          "side",
+          28.4988,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          28.4988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          70.104,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          70.104,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          130.0988,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          130.0988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          41.275,
+          3.175
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          41.275,
+          98.425
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          85.725,
+          3.175
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          85.725,
+          98.425
+        ]
+      ],
+      "free_clip_corridors": [
+        [
+          "body-pin-clearance",
+          1
+        ],
+        [
+          "body-pin-clearance",
+          2
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "body-pin-clearance",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "body-pin-clearance",
+          "clip": 2,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          19.389
+        ],
+        [
+          201.515,
+          229.6
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 8.33619794344898,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.378512,
+            0.5
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.45,
+            0.45
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.350099,
+            0.65118
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "dual-selective",
+    "plate": "2-upper-trays",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "tray-middle-3-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9802631578947368,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9557017543859649,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9939903846153846,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.968421052631579,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9962719298245614,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9963942307692307,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9991228070175439,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9901315789473685,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9963942307692307,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9921052631578947,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9620192307692308,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9912280701754386,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9780701754385965,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9800480769230769,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9826754385964912,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9594298245614035,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9699519230769231,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [],
+      "free_clip_corridors": [
+        [
+          "tray-middle-3",
+          1
+        ],
+        [
+          "tray-middle-3",
+          2
+        ],
+        [
+          "tray-middle-3",
+          3
+        ],
+        [
+          "tray-top-3",
+          1
+        ],
+        [
+          "tray-top-3",
+          2
+        ],
+        [
+          "tray-top-3",
+          3
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "tray-middle-3",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "clip": 3,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 3,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          20.0
+        ],
+        [
+          199.6,
+          225.8
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 8.436200232267339,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.42,
+            0.5
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.45,
+            0.45
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.352075,
+            0.64608
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "axis-aligned",
+    "plate": "1-pin-clearance",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "body-pin-clearance-interface-1",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-2",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-3",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-4",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-5",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-6",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-7",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-8",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-9",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-10",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-11",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-12",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-13",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-14",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-15",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-16",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-17",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9919871794871795,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-18",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            0.9871794871794872
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-19",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-20",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-21",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-22",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-23",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-24",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-25",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-26",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-27",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-28",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [
+        [
+          "body-pin-clearance",
+          "side",
+          28.4988,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          28.4988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          70.104,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          70.104,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          130.0988,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          130.0988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          41.275,
+          3.175
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          41.275,
+          98.425
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          85.725,
+          3.175
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          85.725,
+          98.425
+        ]
+      ],
+      "free_clip_corridors": [
+        [
+          "body-pin-clearance",
+          1
+        ],
+        [
+          "body-pin-clearance",
+          2
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "body-pin-clearance",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "body-pin-clearance",
+          "clip": 2,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          19.389
+        ],
+        [
+          201.515,
+          229.6
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 8.33619794344898,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.378512,
+            0.5
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.45,
+            0.45
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.350099,
+            0.65118
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "axis-aligned",
+    "plate": "2-upper-trays",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "tray-middle-3-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9984649122807018,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9993421052631579,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9997807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [],
+      "free_clip_corridors": [
+        [
+          "tray-middle-3",
+          1
+        ],
+        [
+          "tray-middle-3",
+          2
+        ],
+        [
+          "tray-middle-3",
+          3
+        ],
+        [
+          "tray-top-3",
+          1
+        ],
+        [
+          "tray-top-3",
+          2
+        ],
+        [
+          "tray-top-3",
+          3
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "tray-middle-3",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "clip": 3,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 3,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          20.0
+        ],
+        [
+          199.6,
+          225.8
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 8.436200232267339,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.42,
+            0.5
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.45,
+            0.45
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.352075,
+            0.64608
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "wider-internal",
+    "plate": "1-pin-clearance",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "body-pin-clearance-interface-1",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9958333333333333,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-2",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-3",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9835526315789473,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-4",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-5",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9975961538461539,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-6",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-7",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9973684210526316,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-8",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-9",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9962719298245614,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-10",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-11",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9882211538461538,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-12",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-13",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-14",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-15",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-16",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-17",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9919871794871795,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-18",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            0.9871794871794872
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-19",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9919871794871795,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-20",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-21",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9086538461538461,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-22",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-23",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999198717948718,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-24",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-25",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9983974358974359,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-26",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-27",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9975961538461539,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-28",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [
+        [
+          "body-pin-clearance",
+          "side",
+          28.4988,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          28.4988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          70.104,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          70.104,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          130.0988,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          130.0988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          41.275,
+          3.175
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          41.275,
+          98.425
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          85.725,
+          3.175
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          85.725,
+          98.425
+        ]
+      ],
+      "free_clip_corridors": [
+        [
+          "body-pin-clearance",
+          1
+        ],
+        [
+          "body-pin-clearance",
+          2
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "body-pin-clearance",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "body-pin-clearance",
+          "clip": 2,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          19.389
+        ],
+        [
+          201.515,
+          229.6
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 8.33619794344898,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.378512,
+            0.5
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.5,
+            0.5
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.34205,
+            0.651899
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "wider-internal",
+    "plate": "2-upper-trays",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "tray-middle-3-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9802631578947368,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9557017543859649,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9939903846153846,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.968421052631579,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9962719298245614,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9963942307692307,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9991228070175439,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9901315789473685,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9963942307692307,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9921052631578947,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9536057692307692,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9912280701754386,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9780701754385965,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9800480769230769,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9826754385964912,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9594298245614035,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9567307692307693,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [],
+      "free_clip_corridors": [
+        [
+          "tray-middle-3",
+          1
+        ],
+        [
+          "tray-middle-3",
+          2
+        ],
+        [
+          "tray-middle-3",
+          3
+        ],
+        [
+          "tray-top-3",
+          1
+        ],
+        [
+          "tray-top-3",
+          2
+        ],
+        [
+          "tray-top-3",
+          3
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "tray-middle-3",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "clip": 3,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 3,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          20.0
+        ],
+        [
+          199.6,
+          225.8
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 8.436200232267339,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.42,
+            0.5
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.5,
+            0.5
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.37032,
+            0.661267
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "combined-infill",
+    "plate": "1-pin-clearance",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "body-pin-clearance-interface-1",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9958333333333333,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-2",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-3",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9835526315789473,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-4",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-5",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9975961538461539,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-6",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-7",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9973684210526316,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-8",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-9",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9962719298245614,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-10",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-11",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9882211538461538,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-12",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-13",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-14",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-15",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-16",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-17",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9919871794871795,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-18",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            0.9871794871794872
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-19",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9919871794871795,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-20",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-21",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9086538461538461,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-22",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-23",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999198717948718,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-24",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-25",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9983974358974359,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-26",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-27",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9975961538461539,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-28",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [
+        [
+          "body-pin-clearance",
+          "side",
+          28.4988,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          28.4988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          70.104,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          70.104,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          130.0988,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          130.0988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          41.275,
+          3.175
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          41.275,
+          98.425
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          85.725,
+          3.175
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          85.725,
+          98.425
+        ]
+      ],
+      "free_clip_corridors": [
+        [
+          "body-pin-clearance",
+          1
+        ],
+        [
+          "body-pin-clearance",
+          2
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "body-pin-clearance",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "body-pin-clearance",
+          "clip": 2,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          19.389
+        ],
+        [
+          201.515,
+          229.6
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 8.33619794344898,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.378512,
+            0.5
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.45,
+            0.45
+          ],
+          "height_mm": [
+            0.2,
+            0.4
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.350099,
+            0.65118
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "combined-infill",
+    "plate": "2-upper-trays",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "tray-middle-3-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9802631578947368,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9557017543859649,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9939903846153846,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.968421052631579,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9962719298245614,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9963942307692307,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9991228070175439,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9901315789473685,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9963942307692307,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9921052631578947,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9620192307692308,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9912280701754386,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9780701754385965,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9800480769230769,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9826754385964912,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9594298245614035,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9699519230769231,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [],
+      "free_clip_corridors": [
+        [
+          "tray-middle-3",
+          1
+        ],
+        [
+          "tray-middle-3",
+          2
+        ],
+        [
+          "tray-middle-3",
+          3
+        ],
+        [
+          "tray-top-3",
+          1
+        ],
+        [
+          "tray-top-3",
+          2
+        ],
+        [
+          "tray-top-3",
+          3
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "tray-middle-3",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "clip": 3,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 3,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          20.0
+        ],
+        [
+          199.6,
+          225.8
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 8.436200232267339,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.42,
+            0.5
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.45,
+            0.45
+          ],
+          "height_mm": [
+            0.2,
+            0.4
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.352075,
+            0.64608
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "wide-combined",
+    "plate": "1-pin-clearance",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "body-pin-clearance-interface-1",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9958333333333333,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-2",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-3",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9835526315789473,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-4",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-5",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9975961538461539,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-6",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-7",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9973684210526316,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-8",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-9",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9962719298245614,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-10",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-11",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9882211538461538,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-12",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-13",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-14",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-15",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-16",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-17",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9919871794871795,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-18",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            0.9871794871794872
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-19",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9919871794871795,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-20",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-21",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9086538461538461,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-22",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-23",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999198717948718,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-24",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-25",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9983974358974359,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-26",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-27",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9975961538461539,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearance-interface-28",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [
+        [
+          "body-pin-clearance",
+          "side",
+          28.4988,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          28.4988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          70.104,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          70.104,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          130.0988,
+          0.0
+        ],
+        [
+          "body-pin-clearance",
+          "side",
+          130.0988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          41.275,
+          3.175
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          41.275,
+          98.425
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          85.725,
+          3.175
+        ],
+        [
+          "body-pin-clearance",
+          "bottom",
+          85.725,
+          98.425
+        ]
+      ],
+      "free_clip_corridors": [
+        [
+          "body-pin-clearance",
+          1
+        ],
+        [
+          "body-pin-clearance",
+          2
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "body-pin-clearance",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "body-pin-clearance",
+          "clip": 2,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          19.389
+        ],
+        [
+          201.515,
+          229.6
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 8.33619794344898,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.378512,
+            0.5
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.5,
+            0.5
+          ],
+          "height_mm": [
+            0.2,
+            0.4
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.34205,
+            0.651899
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "wide-combined",
+    "plate": "2-upper-trays",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "tray-middle-3-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9802631578947368,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9557017543859649,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9939903846153846,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.968421052631579,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9962719298245614,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9963942307692307,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9991228070175439,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9901315789473685,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9963942307692307,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-3-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9921052631578947,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9536057692307692,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9912280701754386,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9780701754385965,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9800480769230769,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9826754385964912,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9594298245614035,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9567307692307693,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-3-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [],
+      "free_clip_corridors": [
+        [
+          "tray-middle-3",
+          1
+        ],
+        [
+          "tray-middle-3",
+          2
+        ],
+        [
+          "tray-middle-3",
+          3
+        ],
+        [
+          "tray-top-3",
+          1
+        ],
+        [
+          "tray-top-3",
+          2
+        ],
+        [
+          "tray-top-3",
+          3
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "tray-middle-3",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-3",
+          "clip": 3,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-3",
+          "clip": 3,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          20.0
+        ],
+        [
+          199.6,
+          225.8
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 8.436200232267339,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.42,
+            0.5
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.5,
+            0.5
+          ],
+          "height_mm": [
+            0.2,
+            0.4
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.37032,
+            0.661267
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "batch-two",
+    "plate": "2-bodies",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "body-pin-clearancea-interface-1",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9989035087719298,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-2",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-3",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9901315789473685,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-4",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-5",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9959134615384615,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-6",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-7",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9989035087719298,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-8",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-9",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9982456140350877,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-10",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-11",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9800480769230769,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-12",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-13",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-14",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-15",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-16",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-17",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9831730769230769,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-18",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            0.9823717948717948
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-19",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9831730769230769,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-20",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-21",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9375,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-22",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-23",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-24",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-25",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999198717948718,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-26",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-27",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9919871794871795,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearancea-interface-28",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-1",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9703947368421053,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-2",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-3",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9973684210526316,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-4",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-5",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9879807692307693,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-6",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-7",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9657894736842105,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-8",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-9",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-10",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-11",
+          "layers": [
+            7.2,
+            7.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9576923076923077,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-12",
+          "layers": [
+            8.4,
+            8.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-13",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-14",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-15",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999198717948718,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-16",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-17",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9807692307692307,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-18",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            0.9871794871794872
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-19",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9375,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-20",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-21",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9831730769230769,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-22",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-23",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-24",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-25",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-26",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-27",
+          "layers": [
+            22.4,
+            22.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9559294871794872,
+            1.0
+          ]
+        },
+        {
+          "name": "body-pin-clearanceb-interface-28",
+          "layers": [
+            23.8,
+            24.0
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [
+        [
+          "body-pin-clearancea",
+          "side",
+          28.4988,
+          0.0
+        ],
+        [
+          "body-pin-clearancea",
+          "side",
+          28.4988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearancea",
+          "side",
+          70.104,
+          0.0
+        ],
+        [
+          "body-pin-clearancea",
+          "side",
+          70.104,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearancea",
+          "side",
+          130.0988,
+          0.0
+        ],
+        [
+          "body-pin-clearancea",
+          "side",
+          130.0988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearancea",
+          "bottom",
+          41.275,
+          3.175
+        ],
+        [
+          "body-pin-clearancea",
+          "bottom",
+          41.275,
+          98.425
+        ],
+        [
+          "body-pin-clearancea",
+          "bottom",
+          85.725,
+          3.175
+        ],
+        [
+          "body-pin-clearancea",
+          "bottom",
+          85.725,
+          98.425
+        ],
+        [
+          "body-pin-clearanceb",
+          "side",
+          28.4988,
+          0.0
+        ],
+        [
+          "body-pin-clearanceb",
+          "side",
+          28.4988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearanceb",
+          "side",
+          70.104,
+          0.0
+        ],
+        [
+          "body-pin-clearanceb",
+          "side",
+          70.104,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearanceb",
+          "side",
+          130.0988,
+          0.0
+        ],
+        [
+          "body-pin-clearanceb",
+          "side",
+          130.0988,
+          95.89999999999999
+        ],
+        [
+          "body-pin-clearanceb",
+          "bottom",
+          41.275,
+          3.175
+        ],
+        [
+          "body-pin-clearanceb",
+          "bottom",
+          41.275,
+          98.425
+        ],
+        [
+          "body-pin-clearanceb",
+          "bottom",
+          85.725,
+          3.175
+        ],
+        [
+          "body-pin-clearanceb",
+          "bottom",
+          85.725,
+          98.425
+        ]
+      ],
+      "free_clip_corridors": [
+        [
+          "body-pin-clearancea",
+          1
+        ],
+        [
+          "body-pin-clearancea",
+          2
+        ],
+        [
+          "body-pin-clearanceb",
+          1
+        ],
+        [
+          "body-pin-clearanceb",
+          2
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "body-pin-clearancea",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "body-pin-clearancea",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "body-pin-clearanceb",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "body-pin-clearanceb",
+          "clip": 2,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          8.534198706388432,
+          19.389
+        ],
+        [
+          201.515,
+          231.6
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          8.534198706388432,
+          146.54678823753116
+        ],
+        [
+          47.96380129361157,
+          185.061707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 6.536198706388433,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.378512,
+            0.5
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2,
+            0.200001
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.45,
+            0.45
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.34875,
+            0.65118
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "batch-two",
+    "plate": "2-lids",
+    "audit": {
+      "mount_holes_without_support": [],
+      "free_clip_corridors": [],
+      "paddle_support": [],
+      "print_xy_bounds": [
+        [
+          55.9,
+          18.2
+        ],
+        [
+          200.1,
+          229.6
+        ]
+      ],
+      "tower_xy_bounds": null,
+      "tower_min_model_bbox_gap_mm": null,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.42,
+            0.5
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.38318,
+            0.617848
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  },
+  {
+    "mode": "batch-two",
+    "plate": "4-trays",
+    "audit": {
+      "interfaces": [
+        {
+          "name": "tray-middle-30-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9657894736842105,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9956140350877193,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.942548076923077,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9982456140350877,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9883771929824562,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9661057692307692,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9894736842105263,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9747807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9528846153846153,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-30-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9631578947368421,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9846491228070176,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9966346153846154,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.980701754385965,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9932017543859649,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9879807692307693,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9921052631578947,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9585526315789473,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9939903846153846,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-31-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9657894736842105,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9956140350877193,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.942548076923077,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9982456140350877,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9881578947368421,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9663461538461539,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9894736842105263,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9747807017543859,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.953125,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-middle-32-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-1",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9631578947368421,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-2",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-3",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9846491228070176,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-4",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-5",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9966346153846154,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-6",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-7",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.980701754385965,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-8",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-9",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9932017543859649,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-10",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-11",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9879807692307693,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-12",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-13",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9921052631578947,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-14",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-15",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9585526315789473,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-16",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.999561403508772,
+            0.868421052631579
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-17",
+          "layers": [
+            3.2,
+            3.4
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9939903846153846,
+            1.0
+          ]
+        },
+        {
+          "name": "tray-top-33-interface-18",
+          "layers": [
+            4.4,
+            4.6
+          ],
+          "interface_coverage": 1.0,
+          "contact": [
+            0.9995192307692308,
+            0.8072115384615385
+          ]
+        }
+      ],
+      "unexpected_support_material_model_paths": 0,
+      "h32_hole_support_paths": null,
+      "project_settings_identical_to_rc3": false,
+      "mount_holes_without_support": [],
+      "free_clip_corridors": [
+        [
+          "tray-middle-30",
+          1
+        ],
+        [
+          "tray-middle-30",
+          2
+        ],
+        [
+          "tray-middle-30",
+          3
+        ],
+        [
+          "tray-top-31",
+          1
+        ],
+        [
+          "tray-top-31",
+          2
+        ],
+        [
+          "tray-top-31",
+          3
+        ],
+        [
+          "tray-middle-32",
+          1
+        ],
+        [
+          "tray-middle-32",
+          2
+        ],
+        [
+          "tray-middle-32",
+          3
+        ],
+        [
+          "tray-top-33",
+          1
+        ],
+        [
+          "tray-top-33",
+          2
+        ],
+        [
+          "tray-top-33",
+          3
+        ]
+      ],
+      "paddle_support": [
+        {
+          "part": "tray-middle-30",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-30",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-30",
+          "clip": 3,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-31",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-31",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-31",
+          "clip": 3,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-32",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-32",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-middle-32",
+          "clip": 3,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-33",
+          "clip": 1,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-33",
+          "clip": 2,
+          "automatic_support_segments": 0
+        },
+        {
+          "part": "tray-top-33",
+          "clip": 3,
+          "automatic_support_segments": 0
+        }
+      ],
+      "print_xy_bounds": [
+        [
+          5.496775068421189,
+          5.4967792418231305
+        ],
+        [
+          250.50277668279685,
+          250.5027761754
+        ]
+      ],
+      "tower_xy_bounds": [
+        [
+          107.03419870638844,
+          107.04678823753119
+        ],
+        [
+          146.46380129361157,
+          145.561707144303
+        ]
+      ],
+      "tower_min_model_bbox_gap_mm": 3.734203284025156,
+      "bead_dimensions": {
+        "Outer wall": {
+          "width_min_max_mm": [
+            0.42,
+            0.5
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Top surface": {
+          "width_min_max_mm": [
+            0.42,
+            0.42
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Sparse infill": {
+          "width_min_max_mm": [
+            0.45,
+            0.45
+          ],
+          "height_mm": [
+            0.2
+          ]
+        },
+        "Internal solid infill": {
+          "width_min_max_mm": [
+            0.35207,
+            0.64608
+          ],
+          "height_mm": [
+            0.2
+          ]
+        }
+      },
+      "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+    }
+  }
+]

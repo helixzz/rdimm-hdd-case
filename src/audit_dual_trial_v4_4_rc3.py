@@ -4,7 +4,7 @@ import numpy as np
 from build_dual_trial_v4_4_rc3 import ROOT,VERSION
 from audit_v3_2_toolpaths import select,grid,footprint
 
-def parse_materials(path):
+def parse_materials(path,excluded_features=('Custom','Prime tower','Flush')):
     x = y = z = e = 0.
     relative_xyz, relative_e = False, True
     feature, width, height = 'Custom', None, None
@@ -28,7 +28,7 @@ def parse_materials(path):
         nx, ny, nz = (old+d.get(k, 0.) if relative_xyz else d.get(k, old) for k, old in zip('XYZ', [x, y, z]))
         de = d.get('E', 0.) if relative_e else d.get('E', e)-e
         e = e+de
-        if de > 0 and feature not in ('Custom','Prime tower','Flush') and (math.hypot(nx-x, ny-y) > .00001 or op in ['G2', 'G3']):
+        if de > 0 and feature not in excluded_features and (math.hypot(nx-x, ny-y) > .00001 or op in ['G2', 'G3']):
             assert width and height, ('Missing bead metadata', line)
             assert abs(nz-z) < .002, ('Nonplanar deposition unsupported', line)
             points = [(x, y), (nx, ny)]

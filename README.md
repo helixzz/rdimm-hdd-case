@@ -1,5 +1,7 @@
 # RDIMM HDD Case
 
+**完整产品优化研究：[整套切片、材料策略与批量排版](docs/full-product-optimization.zh-CN.md)**。以完整 8 条容量盒子为对象：选择性双材料约 4 小时 10 分钟；两套三盘平均每套约 3 小时 37 分钟 / 专用支撑料 3.67 g。已整合 3.2 mm 安装孔、角部残片清除及支撑改进，完成几何与刀路检查；尚待实物验证，不是新生产版本。
+
 **制造改进研究：[质量、效率与后处理评估](docs/manufacturing-study.zh-CN.md)**。拨片斜撑及支撑把手去底脚的四试件对照盘，参考从 63 分 43 秒降至 49 分 55 秒，少三处底脚接触界面；含材料分配、装卸路径及残留避让检查。尚无双材料实物验证，不是新生产版本。
 
 **最新试件：[v4.4 RC3 双材料测试盘](docs/v4.4-rc3-dual-trial.zh-CN.md) · [下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc3-dual-trial)**。P2S＋AMS 2 Pro，PLA Basic＋**Support for PLA**；一盘四件，明确建模上下接触层并加宽支撑把手，约 64 分钟 / 22.86 g（含冲刷及擦料塔）。孔径已选定 **3.2 mm**，用于 H32 及后续完整工程；本版仍是局部试验，非完整替换套件。[上轮实物反馈](docs/validation-v4.4-trials.zh-CN.md)。
