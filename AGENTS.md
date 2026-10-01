@@ -1,5 +1,12 @@
 # Agent collaboration guide
 
+## Dual-material efficiency study (no new release)
+
+- User has not yet received Support for PLA. Do not claim RC3 physical results. Study in src/evaluate_dual_efficiency.py and docs/dual-material-efficiency.zh-CN.md; source RC3/configured project unchanged.
+- Same-Z two copies:10 changes,5014.69 s,PLA26.26164g+Support5.96280g; per set41m47/2.9814g Support vs63m43/5.9140g. These are FOUR-COUPON sets, not full cases. Same main-use volumes double; tower/flush costs unchanged. Not a batch production qualification.
+- No-sparse-layer tower at original205/165 rejected with slicing conflict -64 for1 and2 copies. Single moved to205/205 slices without warning:3484.91s,PLA15.11322g,Support5.91401g,10 changes. Saves5m38/1.84g PLA, no Support reduction. Official Bambu2.8.2 marks this experimental with placement/oozing risks; do NOT enable by default under reliability-first requirement. Experimental files remain ignored build only.
+- Purge800 each direction, interface thickness/material/geometry unchanged. Future: useful same-height batch packing and consolidate interface Z levels; no promised switch-count reduction without geometry and physical checks. Avoid thinner interfaces, no tower or flushing into functional parts before testing.
+
 ## Current dual-material trial: v4.4-rc3-dual-trial
 
 - RC2 physical feedback: A/B still need skilled prying but leave fewer residues; C1-C4 grips break before cores release, though prying is easier. Do not describe RC2 as hand-removable. Record in docs/validation-v4.4-trials.zh-CN.md; historical tagged files stay immutable.
