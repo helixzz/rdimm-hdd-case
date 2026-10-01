@@ -1,0 +1,260 @@
+{
+  "scope": "Four-coupon comparison, not whole enclosure timing",
+  "physical_verified": false,
+  "settings_unchanged": true,
+  "purge_each_direction_mm3": 800,
+  "comparisons": [
+    {
+      "name": "published-rc3",
+      "estimated_seconds": 3823.095458984375,
+      "filament_changes": 10,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 9.310896873474121,
+          "total_used_g": 16.95073890686035
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.04879096895456314,
+          "total_used_g": 5.914011478424072
+        }
+      ],
+      "warnings": "",
+      "feature_seconds": {
+        "Bottom surface": 184.83160400390625,
+        "Bridge": 29.614593505859375,
+        "Custom": 403.759765625,
+        "Flush": 1388.337158203125,
+        "Gap infill": 20.63680076599121,
+        "Inner wall": 121.13213348388672,
+        "Internal solid infill": 209.564697265625,
+        "Outer wall": 275.75799560546875,
+        "Prime tower": 709.7279663085938,
+        "Sparse infill": 28.04222869873047,
+        "Support": 6.264542579650879,
+        "Support interface": 0.9282039999961853,
+        "Support transition": 0.7298666834831238,
+        "Top surface": 113.03815460205078,
+        "Travel": 338.0950012207031,
+        "Undefined": 330.6490173339844
+      },
+      "project_sha256": "ece27f79d3d3b8f8c4afea8e1531ccd63bb207a5d58da5082576b4d046811abe",
+      "gcode_sha256": "9e385c20fc0ebc211fa33f8dc8b95d0ae28bfdaf9633ab8d4df7826fdc67974b",
+      "paddle_auto_support_layers_mm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0,
+        4.2,
+        4.4,
+        4.6,
+        4.8,
+        5.0,
+        5.2,
+        5.4
+      ],
+      "support_material_print_layers_mm": [
+        0.8,
+        1.0,
+        3.2,
+        3.4,
+        4.4,
+        4.6,
+        4.8,
+        5.0,
+        5.2,
+        5.4
+      ]
+    },
+    {
+      "name": "paddle",
+      "estimated_seconds": 3499.5732421875,
+      "filament_changes": 8,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 9.293547630310059,
+          "total_used_g": 15.823976516723633
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.04536520317196846,
+          "total_used_g": 4.794437408447266
+        }
+      ],
+      "warnings": "",
+      "feature_seconds": {
+        "Bottom surface": 184.83160400390625,
+        "Bridge": 29.323017120361328,
+        "Custom": 403.759765625,
+        "Flush": 1115.86962890625,
+        "Gap infill": 20.851301193237305,
+        "Inner wall": 120.76056671142578,
+        "Internal solid infill": 210.1031036376953,
+        "Outer wall": 276.43682861328125,
+        "Prime tower": 683.4078979492188,
+        "Sparse infill": 27.968563079833984,
+        "Top surface": 113.04467010498047,
+        "Travel": 320.5811462402344,
+        "Undefined": 313.1351623535156
+      },
+      "project_sha256": "b876354425e11cb0b3526af6a3cc4980e19e16bd1086f395f3e4047e5caed6fe",
+      "gcode_sha256": "3a610e42455582c0b15d1f28d074085d201692b5a412d375b96def1ca2690eb4",
+      "paddle_auto_support_layers_mm": [],
+      "support_material_print_layers_mm": [
+        0.8,
+        1.0,
+        3.2,
+        3.4,
+        4.4,
+        4.6,
+        4.8
+      ]
+    },
+    {
+      "name": "raised-grips",
+      "estimated_seconds": 3317.7734375,
+      "filament_changes": 8,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 9.12685775756836,
+          "total_used_g": 15.4493989944458
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.022975308820605278,
+          "total_used_g": 4.671951770782471
+        }
+      ],
+      "warnings": "",
+      "feature_seconds": {
+        "Bottom surface": 184.83197021484375,
+        "Bridge": 29.288427352905273,
+        "Custom": 403.741943359375,
+        "Flush": 1115.86962890625,
+        "Gap infill": 23.971660614013672,
+        "Inner wall": 113.56727600097656,
+        "Internal solid infill": 192.96998596191406,
+        "Outer wall": 267.97039794921875,
+        "Prime tower": 529.4690551757812,
+        "Sparse infill": 28.041658401489258,
+        "Support": 6.256289958953857,
+        "Support interface": 0.9282039999961853,
+        "Support transition": 0.729932963848114,
+        "Top surface": 110.5131607055664,
+        "Travel": 317.027099609375,
+        "Undefined": 309.58111572265625
+      },
+      "project_sha256": "ac7cbac9ccc6a082615cb36023cad008b105279353c36d529e2e125e8fd37ebc",
+      "gcode_sha256": "ba4965bdb2dddf074a298dc68d4c3367f331cbdf3e38c94b64a43ab5bd0f1866",
+      "paddle_auto_support_layers_mm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0,
+        4.2,
+        4.4,
+        4.6,
+        4.8,
+        5.0,
+        5.2,
+        5.4
+      ],
+      "support_material_print_layers_mm": [
+        3.2,
+        3.4,
+        4.4,
+        4.6,
+        4.8,
+        5.0,
+        5.2,
+        5.4
+      ]
+    },
+    {
+      "name": "combined",
+      "estimated_seconds": 2995.31689453125,
+      "filament_changes": 6,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 9.109508514404297,
+          "total_used_g": 14.322636604309082
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.019549544900655746,
+          "total_used_g": 3.5523784160614014
+        }
+      ],
+      "warnings": "",
+      "feature_seconds": {
+        "Bottom surface": 184.83197021484375,
+        "Bridge": 28.99641227722168,
+        "Custom": 403.741943359375,
+        "Flush": 843.4022216796875,
+        "Gap infill": 24.158845901489258,
+        "Inner wall": 113.34700775146484,
+        "Internal solid infill": 198.83819580078125,
+        "Outer wall": 268.8763732910156,
+        "Prime tower": 503.1610107421875,
+        "Sparse infill": 27.967912673950195,
+        "Top surface": 110.50828552246094,
+        "Travel": 294.880615234375,
+        "Undefined": 287.43463134765625
+      },
+      "project_sha256": "dd99b8e140e00623baaa3ebfc202b7b18bb43baa4ab3fcf64609384bd35532a9",
+      "gcode_sha256": "87e150413e4c4dee701a0e2716c488f09cbde5b68609a7b44f65a209dd0483fd",
+      "paddle_auto_support_layers_mm": [],
+      "support_material_print_layers_mm": [
+        3.2,
+        3.4,
+        4.4,
+        4.6,
+        4.8
+      ]
+    }
+  ]
+}

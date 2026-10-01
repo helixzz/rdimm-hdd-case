@@ -1,0 +1,323 @@
+{
+  "paddle": {
+    "passed": true,
+    "checks": {
+      "module_poses": 512,
+      "loaded_tray_entry_poses": 242,
+      "bottom_release_poses": 1520,
+      "lid_poses": 132
+    },
+    "changes": {
+      "body-pin-clearance": {
+        "added_mm3": 8.191999985015817,
+        "removed_mm3": -5.637851296924623e-18
+      },
+      "body-thread-pilot": {
+        "added_mm3": 8.191999985015817,
+        "removed_mm3": -5.637851296924623e-18
+      },
+      "lid-slide-lift": {
+        "added_mm3": 0.0,
+        "removed_mm3": 0.0
+      },
+      "tray-middle-3": {
+        "added_mm3": 12.287999963848977,
+        "removed_mm3": 0.0
+      },
+      "tray-top-3": {
+        "added_mm3": 12.287999963848977,
+        "removed_mm3": 0.0
+      }
+    }
+  },
+  "relief": {
+    "passed": true,
+    "checks": {
+      "module_poses": 512,
+      "loaded_tray_entry_poses": 242,
+      "bottom_release_poses": 1520,
+      "lid_poses": 132
+    },
+    "changes": {
+      "body-pin-clearance": {
+        "added_mm3": -5.637851296924623e-18,
+        "removed_mm3": 12.079549854854651
+      },
+      "body-thread-pilot": {
+        "added_mm3": -5.637851296924623e-18,
+        "removed_mm3": 12.079549854854651
+      },
+      "lid-slide-lift": {
+        "added_mm3": 0.0,
+        "removed_mm3": 0.0
+      },
+      "tray-middle-3": {
+        "added_mm3": 0.0,
+        "removed_mm3": 18.09328503061881
+      },
+      "tray-top-3": {
+        "added_mm3": 0.0,
+        "removed_mm3": 18.09328503061881
+      }
+    }
+  },
+  "paddle-relief": {
+    "passed": true,
+    "checks": {
+      "module_poses": 512,
+      "loaded_tray_entry_poses": 242,
+      "bottom_release_poses": 1520,
+      "lid_poses": 132
+    },
+    "changes": {
+      "body-pin-clearance": {
+        "added_mm3": 8.191999977525555,
+        "removed_mm3": 12.079549854854651
+      },
+      "body-thread-pilot": {
+        "added_mm3": 8.191999977525555,
+        "removed_mm3": 12.079549854854651
+      },
+      "lid-slide-lift": {
+        "added_mm3": 0.0,
+        "removed_mm3": 0.0
+      },
+      "tray-middle-3": {
+        "added_mm3": 12.287999962624362,
+        "removed_mm3": 18.09328503061881
+      },
+      "tray-top-3": {
+        "added_mm3": 12.287999962624362,
+        "removed_mm3": 18.09328503061881
+      }
+    }
+  },
+  "paddle-coupons": {
+    "passed": true,
+    "checks": {
+      "core_extraction_poses": 165,
+      "volume_overlap": 0,
+      "single_connected_parts": 26
+    }
+  },
+  "raised-grips-coupons": {
+    "passed": true,
+    "checks": {
+      "core_extraction_poses": 165,
+      "volume_overlap": 0,
+      "single_connected_parts": 23
+    }
+  },
+  "combined-coupons": {
+    "passed": true,
+    "checks": {
+      "core_extraction_poses": 165,
+      "volume_overlap": 0,
+      "single_connected_parts": 23
+    }
+  },
+  "capture_access": [
+    {
+      "name": "C1",
+      "illustrative_blade_clearance_mm": [
+        5,
+        1,
+        1
+      ],
+      "tool_box_min_mm": [
+        8,
+        4.5,
+        3.8
+      ],
+      "rigid_peel": [
+        {
+          "angle_deg": 0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 1,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 2,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 3,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 4,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 6,
+          "intersection_mm3": 0.005746332173630026
+        },
+        {
+          "angle_deg": 7,
+          "intersection_mm3": 0.09334309045340036
+        },
+        {
+          "angle_deg": 8,
+          "intersection_mm3": 0.2567006128167005
+        },
+        {
+          "angle_deg": 9,
+          "intersection_mm3": 0.471514500978024
+        },
+        {
+          "angle_deg": 10,
+          "intersection_mm3": 0.7233529412675853
+        },
+        {
+          "angle_deg": 11,
+          "intersection_mm3": 1.0120841321646332
+        },
+        {
+          "angle_deg": 12,
+          "intersection_mm3": 1.3357793871217991
+        },
+        {
+          "angle_deg": 13,
+          "intersection_mm3": 1.6857630935846182
+        },
+        {
+          "angle_deg": 14,
+          "intersection_mm3": 2.0496237709308724
+        },
+        {
+          "angle_deg": 15,
+          "intersection_mm3": 2.4507853673539017
+        },
+        {
+          "angle_deg": 16,
+          "intersection_mm3": 2.8978025492660775
+        },
+        {
+          "angle_deg": 17,
+          "intersection_mm3": 3.384111089541138
+        },
+        {
+          "angle_deg": 18,
+          "intersection_mm3": 3.90474160678122
+        },
+        {
+          "angle_deg": 19,
+          "intersection_mm3": 4.455906397149429
+        },
+        {
+          "angle_deg": 20,
+          "intersection_mm3": 5.034710877771378
+        }
+      ],
+      "limitations": "Interface fracture, grip deformation and release force not modeled."
+    },
+    {
+      "name": "C3",
+      "illustrative_blade_clearance_mm": [
+        5,
+        1,
+        1
+      ],
+      "tool_box_min_mm": [
+        8,
+        3.5999999999999996,
+        3.8
+      ],
+      "rigid_peel": [
+        {
+          "angle_deg": 0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 1,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 2,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 3,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 4,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 6,
+          "intersection_mm3": 0.004070318622987968
+        },
+        {
+          "angle_deg": 7,
+          "intersection_mm3": 0.06611802240449263
+        },
+        {
+          "angle_deg": 8,
+          "intersection_mm3": 0.18182960074516202
+        },
+        {
+          "angle_deg": 9,
+          "intersection_mm3": 0.3339894381927667
+        },
+        {
+          "angle_deg": 10,
+          "intersection_mm3": 0.512388113404477
+        },
+        {
+          "angle_deg": 11,
+          "intersection_mm3": 0.7195518009570906
+        },
+        {
+          "angle_deg": 12,
+          "intersection_mm3": 0.9552962504845349
+        },
+        {
+          "angle_deg": 13,
+          "intersection_mm3": 1.2126156697346855
+        },
+        {
+          "angle_deg": 14,
+          "intersection_mm3": 1.4820395171265506
+        },
+        {
+          "angle_deg": 15,
+          "intersection_mm3": 1.776136868378713
+        },
+        {
+          "angle_deg": 16,
+          "intersection_mm3": 2.0993499120843633
+        },
+        {
+          "angle_deg": 17,
+          "intersection_mm3": 2.4476025144199545
+        },
+        {
+          "angle_deg": 18,
+          "intersection_mm3": 2.8178180558727184
+        },
+        {
+          "angle_deg": 19,
+          "intersection_mm3": 3.2076609197874295
+        },
+        {
+          "angle_deg": 20,
+          "intersection_mm3": 3.6153559902025427
+        }
+      ],
+      "limitations": "Interface fracture, grip deformation and release force not modeled."
+    }
+  ],
+  "limits": "Rigid CAD/illustrative flexure geometry, not force, fatigue, adhesion, impact, thermal warpage or surface finish simulation.",
+  "baseline": "v4.3 production geometry / v4.4 RC3 material coupons; original mount diameters retained for controlled comparisons"
+}

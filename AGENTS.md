@@ -1,5 +1,14 @@
 # Agent collaboration guide
 
+## Manufacturing study (no new release)
+
+- User requests deep geometry/slicing evaluation while Support For PLA is unavailable. See docs/manufacturing-study.zh-CN.md and src/evaluate_dfm_geometry.py, evaluate_dfm_slicing.py, audit_dfm_study.py, preview_dfm_study.py. Preserve v4.3/RC3 assets and VERSION. Do not publish research 3MFs as production files.
+- Exterior paddle 45-degree underside adds32.768mm3 across8 clips; full nominal module/loading/release/lid checks pass. A auto-support disappears without new keep-face blockers. Actual stiffness, finish and fatigue not known.
+- A rising grips replace3 low feet, interfaces17->14; caps subtracted from cores to prevent material overlap. All5 extraction paths165poses pass. Baseline3823.095s/10changes/PLA16.95074g+Support5.91401g; paddle3499.573s/8/15.82398+4.79444; grips3317.773s/8/15.44940+4.67195; combined2995.317s/6/14.32264+3.55238. FOUR-COUPON comparison, not full set. Same800mm3 purge each direction and normal tower, no speed changes. Interface path audits17/14/14 pass; grips' actual breakage/removability unverified.
+- Local B-like residue relief applied to complete8slots passes geometry. Controlled .1/.2/.3mm floor-pocket residue clears nominal PCB; .4 collides. Residue on retained bearing lands still interferes. Relief thins local keeper section: reserve pending actual material cleanup, don't claim general residue tolerance or unchanged retention force.
+- C1/C3 illustrative upward pivot about(6.3,0,3.4) negativeY rotation first interferes at6deg sampled. This is not all possible peel paths or force analysis. Keep horizontal removal rather than extending lever blindly.
+- Existing full v4.3 Gap infill111s(~1%total); bridges855s; internal solid2357s. Plate1Z3.2 bridge path~29.1m, length not per-layer time. Do not change global bridges/speed/walls on this evidence. Corner-fin removal incl bottom whisker and3.2mm hole decision remain pending full integration.
+
 ## Dual-material efficiency study (no new release)
 
 - User has not yet received Support for PLA. Do not claim RC3 physical results. Study in src/evaluate_dual_efficiency.py and docs/dual-material-efficiency.zh-CN.md; source RC3/configured project unchanged.
