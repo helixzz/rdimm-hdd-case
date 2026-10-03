@@ -1,5 +1,12 @@
 # Agent collaboration guide
 
+## Latest physical trial: v4.4-rc4-product-trial
+
+- User requested a new one-plate trial for the whole-product study. Six specimens A/C1/C3/H32/P1/P2, five PLA cores +14 modeled Support For PLA interfaces. A uses raised/no-foot grips and45-degree paddle gusset; C captures retain widened RC3 grips;3.2mm bores no auto-support. P1/P2 are actual body crop X35..85/Y0..16/Z0..12, label differences only. P2 uses .5 internal lines + combined sparse infill; all others baseline. One configured project with SIX separate multipart objects, not one merged STL.
+- build/prepare/audit/preview/package_trial_v4_4_rc4.py; P2S .4/.2 PLA Basic + exact Support For PLA/AMS2Pro. Ordinary automatic interfaces use PLA/.2 gap/.25 spacing; dedicated material is explicitly assigned modeled volumes. Preserve800mm3 purge each direction, normal tower and no flush into functional objects. Keep physical_verified false until user feedback. Published releases and VERSION4.3 remain immutable.
+- Slice3795.305s (1h03m15),6swaps,PLA21.449335g+Support3.552378g=25.001714g.14 real interface audits,2empty bores,clear first-tray spring span (skip +2.8mm root offset),zero paddle auto-support. P1 actual sparse .45/.2; P2 .5/.2 and .4. Both top .42/.2, outer widths .42/.5 and .2 height.436 blockers survive import, triangle correspondence error<.000011mm. Tower bbox gap36.534mm.165 coupon extraction poses plus full product512/242/1520/132 checks. Not physical adhesion/warpage/strength proof.
+- Package one ZIP/one configured3MF+guides/reports/hashes, prerelease with immutable source tag. Do not provide geometry-only3MF as printing entry. No G-code/vendor preset dumps/private paths/photos. P1/P2 only screen obvious quality/stiffness defects, cannot qualify full-floor span or batch thermal behavior.
+
 ## Product optimization objective
 
 - User explicitly clarified: optimize the COMPLETE real product, not coupon metrics. Coupons are only selected physical checks AFTER full-product CAD/slicer comparisons. Rank candidates by full-set print time/materials, surface/fit quality and postprocessing; report whole plates and assembly/extraction paths. Do not substitute coupon savings for product savings or repeatedly ask for test prints before simulation screening. Full quality/strength still requires physical evidence. Preserve versioned releases while studying candidates.

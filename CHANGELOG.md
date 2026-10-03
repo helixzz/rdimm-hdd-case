@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.4-rc4-product-trial — one plate selected from full-product studies
+
+- Six specimens: A DIMM slot with no-foot raised grips and an exterior paddle gusset; C1/C3 captures; selected H32; P1/P2 identical full-body floor/sidewall crops apart from labels. P2 alone uses wider internal lines and combined sparse infill. Keep whole-product benefits as the selection criterion.
+- Five PLA cores and14 explicitly assigned Support For PLA interfaces; ordinary automatic interfaces remain PLA with.2mm gaps. Preserve normal tower,800mm3 purge each direction and no flushing into functional parts. One configured project retains six independent objects and P2 overrides.
+- P2S .4/.2 reference1h03m15,6 changes,25.00g including flush/tower. Fourteen interface audits, support-free bores, spring corridor, process variants and tower clearance pass. Geometry and actual toolpaths do not establish physical removal force, surface quality, fatigue or full-plate warpage.
+- Numbered prerelease includes project, removal/plate diagrams, instructions, reports and checksums. Complete release/VERSION remain4.3; earlier assets unchanged.
+
 ## v4.4-rc3-dual-trial — Support for PLA contact layers
 
 - Address RC2 feedback: A/B still need prying; C grips break before release. One plate with A, long/short C1/C3 captures and selected H32. Keep A permanent contacts unchanged; widen C grips to4.8/3.4 mm and make removable parts solid.
