@@ -1,0 +1,652 @@
+{
+  "version": "4.4-rc4-product-trial",
+  "specimens": [
+    {
+      "name": "A",
+      "kind": "dimm",
+      "translation": [
+        45,
+        45,
+        0
+      ]
+    },
+    {
+      "name": "C1",
+      "kind": "capture",
+      "translation": [
+        45,
+        115,
+        0
+      ],
+      "capture_length": 6.0,
+      "grip_width": 4.8
+    },
+    {
+      "name": "C3",
+      "kind": "capture",
+      "translation": [
+        95,
+        115,
+        0
+      ],
+      "capture_length": 4.2,
+      "grip_width": 3.4
+    },
+    {
+      "name": "H32",
+      "kind": "mount",
+      "translation": [
+        145,
+        115,
+        0
+      ],
+      "diameter": 3.2
+    },
+    {
+      "name": "P1",
+      "kind": "process",
+      "translation": [
+        45,
+        170,
+        0
+      ],
+      "source": "full body-pin-clearance",
+      "source_crop": [
+        [
+          35,
+          0,
+          0
+        ],
+        [
+          85,
+          16,
+          12
+        ]
+      ],
+      "process_overrides": {}
+    },
+    {
+      "name": "P2",
+      "kind": "process",
+      "translation": [
+        115,
+        170,
+        0
+      ],
+      "source": "full body-pin-clearance",
+      "source_crop": [
+        [
+          35,
+          0,
+          0
+        ],
+        [
+          85,
+          16,
+          12
+        ]
+      ],
+      "process_overrides": {
+        "internal_solid_infill_line_width": "0.5",
+        "sparse_infill_line_width": "0.5",
+        "infill_combination": "1"
+      }
+    }
+  ],
+  "volumes": [
+    {
+      "id": 1,
+      "name": "A-keep-1",
+      "coupon": "A",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          46.89999997615814,
+          46.89999997615814,
+          0.0
+        ],
+        [
+          190.10000610351562,
+          80.5,
+          6.800000190734863
+        ]
+      ],
+      "volume_mm3": 5095.547092435596,
+      "painted_faces": 8
+    },
+    {
+      "id": 2,
+      "name": "A-core-1",
+      "coupon": "A",
+      "role": "core",
+      "filament": 1,
+      "bounds": [
+        [
+          51.65000009536743,
+          59.85000038146973,
+          3.4000000953674316
+        ],
+        [
+          55.94999980926514,
+          63.14999961853027,
+          6.599999904632568
+        ]
+      ],
+      "volume_mm3": 12.266230295054994,
+      "painted_faces": 6
+    },
+    {
+      "id": 3,
+      "name": "A-core-2",
+      "coupon": "A",
+      "role": "core",
+      "filament": 1,
+      "bounds": [
+        [
+          51.65000009536743,
+          63.75,
+          3.4000000953674316
+        ],
+        [
+          55.94999980926514,
+          67.04999923706055,
+          6.599999904632568
+        ]
+      ],
+      "volume_mm3": 12.266230295054994,
+      "painted_faces": 6
+    },
+    {
+      "id": 4,
+      "name": "A-core-3",
+      "coupon": "A",
+      "role": "core",
+      "filament": 1,
+      "bounds": [
+        [
+          181.35000610351562,
+          73.35000038146973,
+          3.4000000953674316
+        ],
+        [
+          185.35000610351562,
+          77.6500015258789,
+          6.599999904632568
+        ]
+      ],
+      "volume_mm3": 14.95126973801554,
+      "painted_faces": 6
+    },
+    {
+      "id": 5,
+      "name": "A-interface-1",
+      "coupon": "A",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          51.65000009536743,
+          59.85000038146973,
+          3.0
+        ],
+        [
+          52.90000009536743,
+          63.14999961853027,
+          3.4000000953674316
+        ]
+      ],
+      "volume_mm3": 1.6499999999999988,
+      "painted_faces": 2
+    },
+    {
+      "id": 6,
+      "name": "A-interface-2",
+      "coupon": "A",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          51.65000009536743,
+          59.85000038146973,
+          4.199999809265137
+        ],
+        [
+          52.90000009536743,
+          63.14999961853027,
+          4.599999904632568
+        ]
+      ],
+      "volume_mm3": 1.650000000000002,
+      "painted_faces": 2
+    },
+    {
+      "id": 7,
+      "name": "A-interface-3",
+      "coupon": "A",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          51.65000009536743,
+          63.75,
+          3.0
+        ],
+        [
+          52.90000009536743,
+          67.04999923706055,
+          3.4000000953674316
+        ]
+      ],
+      "volume_mm3": 1.6499999999999997,
+      "painted_faces": 2
+    },
+    {
+      "id": 8,
+      "name": "A-interface-4",
+      "coupon": "A",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          51.65000009536743,
+          63.75,
+          4.199999809265137
+        ],
+        [
+          52.90000009536743,
+          67.04999923706055,
+          4.599999904632568
+        ]
+      ],
+      "volume_mm3": 1.650000000000002,
+      "painted_faces": 2
+    },
+    {
+      "id": 9,
+      "name": "A-interface-5",
+      "coupon": "A",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          184.39999389648438,
+          73.35000038146973,
+          3.0
+        ],
+        [
+          185.35000610351562,
+          77.6500015258789,
+          3.4000000953674316
+        ]
+      ],
+      "volume_mm3": 1.6339999999999766,
+      "painted_faces": 2
+    },
+    {
+      "id": 10,
+      "name": "A-interface-6",
+      "coupon": "A",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          184.39999389648438,
+          73.35000038146973,
+          4.199999809265137
+        ],
+        [
+          185.35000610351562,
+          77.6500015258789,
+          4.599999904632568
+        ]
+      ],
+      "volume_mm3": 1.6339999999999781,
+      "painted_faces": 2
+    },
+    {
+      "id": 11,
+      "name": "C1-keep-1",
+      "coupon": "C1",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          45.0,
+          115.0,
+          0.0
+        ],
+        [
+          70.0,
+          125.0,
+          6.800000190734863
+        ]
+      ],
+      "volume_mm3": 422.4206368406608,
+      "painted_faces": 28
+    },
+    {
+      "id": 12,
+      "name": "C1-core-1",
+      "coupon": "C1",
+      "role": "core",
+      "filament": 1,
+      "bounds": [
+        [
+          48.40000009536743,
+          117.29999995231628,
+          3.200000047683716
+        ],
+        [
+          54.0,
+          122.69999980926514,
+          6.400000095367432
+        ]
+      ],
+      "volume_mm3": 32.72699995127321,
+      "painted_faces": 18
+    },
+    {
+      "id": 13,
+      "name": "C1-interface-1",
+      "coupon": "C1",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          48.40000009536743,
+          117.29999995231628,
+          2.9000000953674316
+        ],
+        [
+          51.30000019073486,
+          117.90000009536743,
+          3.4000000953674316
+        ]
+      ],
+      "volume_mm3": 0.87,
+      "painted_faces": 2
+    },
+    {
+      "id": 14,
+      "name": "C1-interface-2",
+      "coupon": "C1",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          48.40000009536743,
+          117.29999995231628,
+          4.400000095367432
+        ],
+        [
+          51.30000019073486,
+          117.90000009536743,
+          4.800000190734863
+        ]
+      ],
+      "volume_mm3": 0.6960000000000007,
+      "painted_faces": 2
+    },
+    {
+      "id": 15,
+      "name": "C1-interface-3",
+      "coupon": "C1",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          48.40000009536743,
+          122.09999990463257,
+          2.9000000953674316
+        ],
+        [
+          51.30000019073486,
+          122.69999980926514,
+          3.4000000953674316
+        ]
+      ],
+      "volume_mm3": 0.8699999999999991,
+      "painted_faces": 2
+    },
+    {
+      "id": 16,
+      "name": "C1-interface-4",
+      "coupon": "C1",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          48.40000009536743,
+          122.09999990463257,
+          4.400000095367432
+        ],
+        [
+          51.30000019073486,
+          122.69999980926514,
+          4.800000190734863
+        ]
+      ],
+      "volume_mm3": 0.696,
+      "painted_faces": 2
+    },
+    {
+      "id": 17,
+      "name": "C3-keep-1",
+      "coupon": "C3",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          95.0,
+          115.0,
+          0.0
+        ],
+        [
+          120.0,
+          123.19999980926514,
+          6.800000190734863
+        ]
+      ],
+      "volume_mm3": 403.4697927595623,
+      "painted_faces": 28
+    },
+    {
+      "id": 18,
+      "name": "C3-core-1",
+      "coupon": "C3",
+      "role": "core",
+      "filament": 1,
+      "bounds": [
+        [
+          98.40000009536743,
+          117.29999995231628,
+          3.200000047683716
+        ],
+        [
+          104.0,
+          120.90000009536743,
+          6.400000095367432
+        ]
+      ],
+      "volume_mm3": 23.152999966770416,
+      "painted_faces": 18
+    },
+    {
+      "id": 19,
+      "name": "C3-interface-1",
+      "coupon": "C3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          98.40000009536743,
+          117.29999995231628,
+          2.9000000953674316
+        ],
+        [
+          101.30000019073486,
+          117.90000009536743,
+          3.4000000953674316
+        ]
+      ],
+      "volume_mm3": 0.87,
+      "painted_faces": 2
+    },
+    {
+      "id": 20,
+      "name": "C3-interface-2",
+      "coupon": "C3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          98.40000009536743,
+          117.29999995231628,
+          4.400000095367432
+        ],
+        [
+          101.30000019073486,
+          117.90000009536743,
+          4.800000190734863
+        ]
+      ],
+      "volume_mm3": 0.6960000000000007,
+      "painted_faces": 2
+    },
+    {
+      "id": 21,
+      "name": "C3-interface-3",
+      "coupon": "C3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          98.40000009536743,
+          120.30000019073486,
+          2.9000000953674316
+        ],
+        [
+          101.30000019073486,
+          120.90000009536743,
+          3.4000000953674316
+        ]
+      ],
+      "volume_mm3": 0.8699999999999996,
+      "painted_faces": 2
+    },
+    {
+      "id": 22,
+      "name": "C3-interface-4",
+      "coupon": "C3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          98.40000009536743,
+          120.30000019073486,
+          4.400000095367432
+        ],
+        [
+          101.30000019073486,
+          120.90000009536743,
+          4.800000190734863
+        ]
+      ],
+      "volume_mm3": 0.6960000000000004,
+      "painted_faces": 2
+    },
+    {
+      "id": 23,
+      "name": "H32-keep-1",
+      "coupon": "H32",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          145.0,
+          115.0,
+          0.0
+        ],
+        [
+          169.0,
+          131.0,
+          10.399999618530273
+        ]
+      ],
+      "volume_mm3": 2058.441841050094,
+      "painted_faces": 290
+    },
+    {
+      "id": 24,
+      "name": "P1-keep-1",
+      "coupon": "P1",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          45.0,
+          170.0,
+          0.0
+        ],
+        [
+          95.0,
+          186.0,
+          12.0
+        ]
+      ],
+      "volume_mm3": 4839.46030546916,
+      "painted_faces": 0
+    },
+    {
+      "id": 25,
+      "name": "P2-keep-1",
+      "coupon": "P2",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          115.0,
+          170.0,
+          0.0
+        ],
+        [
+          165.0,
+          186.0,
+          12.0
+        ]
+      ],
+      "volume_mm3": 4839.053766743413,
+      "painted_faces": 0
+    }
+  ],
+  "painted_faces": 436,
+  "plate_bounds": [
+    [
+      45.0,
+      46.89999997615814,
+      0.0
+    ],
+    [
+      190.10000610351562,
+      186.0,
+      12.0
+    ]
+  ],
+  "selected_mount_diameter_mm": 3.2,
+  "modeled_interface_material": "Bambu Support For PLA",
+  "physical_verified": false,
+  "scope": "Six physical verification specimens selected from full-product studies; not production parts",
+  "complete_product_checks": {
+    "module_poses": 512,
+    "loaded_tray_entry_poses": 242,
+    "bottom_release_poses": 1520,
+    "lid_poses": 132
+  },
+  "coupon_checks": {
+    "core_extraction_poses": 165,
+    "volume_overlap": 0,
+    "single_connected_parts": 25
+  },
+  "process_comparison": "P1 baseline / P2 wider internal lines + combined sparse infill; labels differ only"
+}

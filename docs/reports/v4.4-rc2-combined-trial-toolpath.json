@@ -1,0 +1,349 @@
+{
+  "version": "4.4-rc2-combined-trial",
+  "gcode_sha256": "157afe3191089c6d26dc2a01c100a4f01c6b4d391b7a72d382ec7c61c8d2e87d",
+  "specimens": [
+    {
+      "name": "A",
+      "kind": "dimm",
+      "checks": [
+        {
+          "region": "fixed-land 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "fixed-land 4.5",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "fixed-middle 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "fixed-middle 4.5",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "tooth-land 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "tooth-land 4.5",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "tooth-middle 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "tooth-middle 4.5",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "left-foot",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "right-foot",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "automatic paddle support",
+          "gap_mm": 0.2
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "kind": "dimm",
+      "checks": [
+        {
+          "region": "fixed-land 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "fixed-land 4.5",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "fixed-middle 3.1",
+          "gap_mm": 0.6
+        },
+        {
+          "region": "fixed-middle 4.5",
+          "gap_mm": 0.6
+        },
+        {
+          "region": "tooth-land 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "tooth-land 4.5",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "tooth-middle 3.1",
+          "gap_mm": 0.6
+        },
+        {
+          "region": "tooth-middle 4.5",
+          "gap_mm": 0.6
+        },
+        {
+          "region": "left-foot",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "right-foot",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "automatic paddle support",
+          "gap_mm": 0.2
+        }
+      ]
+    },
+    {
+      "name": "C1",
+      "kind": "capture",
+      "checks": [
+        {
+          "region": "runner 2.3 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 2.3 4.7",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 7.1 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 7.1 4.7",
+          "gap_mm": 0.2
+        },
+        {
+          "duplicated_automatic_support": 0
+        },
+        {
+          "grip_neck_connected_nominal_beads": true,
+          "checked_layer_tops_mm": [
+            3.8,
+            4.0,
+            4.2,
+            4.4,
+            4.6,
+            4.8,
+            5.0,
+            5.2
+          ],
+          "grid_pitch_mm": 0.025
+        }
+      ]
+    },
+    {
+      "name": "C2",
+      "kind": "capture",
+      "checks": [
+        {
+          "region": "runner 2.3 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 2.3 4.7",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 7.1 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 7.1 4.7",
+          "gap_mm": 0.2
+        },
+        {
+          "duplicated_automatic_support": 0
+        },
+        {
+          "grip_neck_connected_nominal_beads": true,
+          "checked_layer_tops_mm": [
+            3.8,
+            4.0,
+            4.2,
+            4.4,
+            4.6,
+            4.8,
+            5.0,
+            5.2
+          ],
+          "grid_pitch_mm": 0.025
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "kind": "capture",
+      "checks": [
+        {
+          "region": "runner 2.3 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 2.3 4.7",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 5.3 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 5.3 4.7",
+          "gap_mm": 0.2
+        },
+        {
+          "duplicated_automatic_support": 0
+        },
+        {
+          "grip_neck_connected_nominal_beads": true,
+          "checked_layer_tops_mm": [
+            3.8,
+            4.0,
+            4.2,
+            4.4,
+            4.6,
+            4.8,
+            5.0,
+            5.2
+          ],
+          "grid_pitch_mm": 0.025
+        }
+      ]
+    },
+    {
+      "name": "C4",
+      "kind": "capture",
+      "checks": [
+        {
+          "region": "runner 2.3 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 2.3 4.7",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 5.3 3.1",
+          "gap_mm": 0.2
+        },
+        {
+          "region": "runner 5.3 4.7",
+          "gap_mm": 0.2
+        },
+        {
+          "duplicated_automatic_support": 0
+        },
+        {
+          "grip_neck_connected_nominal_beads": true,
+          "checked_layer_tops_mm": [
+            3.8,
+            4.0,
+            4.2,
+            4.4,
+            4.6,
+            4.8,
+            5.0,
+            5.2
+          ],
+          "grid_pitch_mm": 0.025
+        }
+      ]
+    },
+    {
+      "name": "H31",
+      "kind": "mount",
+      "checks": [
+        {
+          "hole": "bottom",
+          "support_segments": 0
+        },
+        {
+          "hole": "side",
+          "support_segments": 0
+        },
+        {
+          "bottom_roof_lowest_nominal_bead_bottom_mm": 5.3999999999999995
+        }
+      ]
+    },
+    {
+      "name": "H32",
+      "kind": "mount",
+      "checks": [
+        {
+          "hole": "bottom",
+          "support_segments": 0
+        },
+        {
+          "hole": "side",
+          "support_segments": 0
+        },
+        {
+          "bottom_roof_lowest_nominal_bead_bottom_mm": 5.3999999999999995
+        }
+      ]
+    },
+    {
+      "name": "H33",
+      "kind": "mount",
+      "checks": [
+        {
+          "hole": "bottom",
+          "support_segments": 0
+        },
+        {
+          "hole": "side",
+          "support_segments": 0
+        },
+        {
+          "bottom_roof_lowest_nominal_bead_bottom_mm": 5.3999999999999995
+        }
+      ]
+    },
+    {
+      "name": "H36",
+      "kind": "mount",
+      "checks": [
+        {
+          "hole": "bottom",
+          "support_segments": 0
+        },
+        {
+          "hole": "side",
+          "support_segments": 0
+        },
+        {
+          "bottom_roof_lowest_nominal_bead_bottom_mm": 5.3999999999999995
+        }
+      ]
+    },
+    {
+      "name": "K1",
+      "kind": "corner",
+      "checks": [
+        {
+          "fin_and_floor_remnant_above_first_layer": false
+        }
+      ]
+    },
+    {
+      "name": "K2",
+      "kind": "corner",
+      "checks": [
+        {
+          "fin_and_floor_remnant_above_first_layer": false
+        }
+      ]
+    }
+  ],
+  "limits": "Nominal bead audit, not physical support-release, bridging, screw torque, pin compatibility or strength verification. Fin path check excludes the first layer."
+}

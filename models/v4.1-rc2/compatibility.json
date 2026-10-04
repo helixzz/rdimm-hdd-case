@@ -1,0 +1,60 @@
+{
+  "version": "4.1-rc2",
+  "baseline": "4.1-rc1",
+  "changes": {
+    "body-pin-clearance": {
+      "added_mm3": 514.4507609625766,
+      "removed_mm3": 0.0
+    },
+    "body-thread-pilot": {
+      "added_mm3": 514.4507609625766,
+      "removed_mm3": 0.0
+    },
+    "lid-slide-lift": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-middle-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-top-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    }
+  },
+  "windows": [
+    {
+      "y": 19.699999999999996,
+      "window_width_mm": 19.0,
+      "unchanged_lower_access_z_mm": [
+        2.2,
+        10.8
+      ],
+      "shoulder_z_mm": 11.2,
+      "apex_z_mm": 20.285786437626903,
+      "top_link_min_height_mm": 4.114213562373095
+    },
+    {
+      "y": 55.099999999999994,
+      "window_width_mm": 19.0,
+      "unchanged_lower_access_z_mm": [
+        2.2,
+        10.8
+      ],
+      "shoulder_z_mm": 11.2,
+      "apex_z_mm": 20.285786437626903,
+      "top_link_min_height_mm": 4.114213562373095
+    }
+  ],
+  "apex_radius_mm": 1.0,
+  "shoulder_angle_degrees": 45,
+  "unchanged_parts": [
+    "lid-slide-lift",
+    "tray-middle-3",
+    "tray-top-3"
+  ],
+  "physical_access_verified": false,
+  "physical_impact_verified": false,
+  "limits": "Rigid motion and reserved-space checks do not prove finger ergonomics, support removal or impact strength."
+}

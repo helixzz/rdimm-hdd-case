@@ -1,0 +1,86 @@
+{
+  "version": "4.4-rc3-dual-trial",
+  "project": "rdimm-4.4-rc3-dual-trial-plate-0-dual-P2S-AMS2Pro-PLA-SupportForPLA.3mf",
+  "estimated_seconds": 3823.095458984375,
+  "filaments": [
+    {
+      "filament_id": "GFA00",
+      "id": 1,
+      "main_used_g": 9.310896873474121,
+      "total_used_g": 16.95073890686035
+    },
+    {
+      "filament_id": "GFS02",
+      "id": 2,
+      "main_used_g": 0.04879096895456314,
+      "total_used_g": 5.914011478424072
+    }
+  ],
+  "warnings": "",
+  "painted_faces": 442,
+  "assignments": {
+    "A-keep-1": "1",
+    "A-core-1": "1",
+    "A-core-2": "1",
+    "A-core-3": "1",
+    "A-interface-1": "2",
+    "A-interface-2": "2",
+    "A-interface-3": "2",
+    "A-interface-4": "2",
+    "A-interface-5": "2",
+    "A-interface-6": "2",
+    "A-interface-7": "2",
+    "A-interface-8": "2",
+    "A-interface-9": "2",
+    "C1-keep-1": "1",
+    "C1-core-1": "1",
+    "C1-interface-1": "2",
+    "C1-interface-2": "2",
+    "C1-interface-3": "2",
+    "C1-interface-4": "2",
+    "C3-keep-1": "1",
+    "C3-core-1": "1",
+    "C3-interface-1": "2",
+    "C3-interface-2": "2",
+    "C3-interface-3": "2",
+    "C3-interface-4": "2",
+    "H32-keep-1": "1"
+  },
+  "filament_changes": 10,
+  "max_import_vertex_rounding_mm": 9.725366211910114e-06,
+  "settings": {
+    "filament_settings_id": [
+      "Bambu PLA Basic @BBL P2S",
+      "Bambu Support For PLA @BBL P2S"
+    ],
+    "filament_type": [
+      "PLA",
+      "PLA"
+    ],
+    "nozzle_temperature": [
+      "220",
+      "220",
+      "220",
+      "220",
+      "220",
+      "220"
+    ],
+    "support_interface_filament": "2",
+    "enable_prime_tower": "1",
+    "flush_volumes_matrix": [
+      "0",
+      "800",
+      "800",
+      "0"
+    ],
+    "flush_multiplier": [
+      "1"
+    ],
+    "flush_into_objects": "0",
+    "flush_into_infill": "0",
+    "flush_into_support": "0"
+  },
+  "project_sha256": "ece27f79d3d3b8f8c4afea8e1531ccd63bb207a5d58da5082576b4d046811abe",
+  "gcode_sha256": "9e385c20fc0ebc211fa33f8dc8b95d0ae28bfdaf9633ab8d4df7826fdc67974b",
+  "physical_verified": false
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "mode": "combined-infill",
+    "plate": "1-pin-clearance",
+    "seconds": 10172.47265625,
+    "filaments": [
+      {
+        "filament_id": "GFA00",
+        "id": 1,
+        "main_used_g": 90.03208923339844,
+        "total_used_g": 101.24689483642578
+      },
+      {
+        "filament_id": "GFS02",
+        "id": 2,
+        "main_used_g": 0.03909908980131149,
+        "total_used_g": 4.817614555358887
+      }
+    ],
+    "changes": 8,
+    "warnings": "",
+    "features": {
+      "Bottom surface": 769.447265625,
+      "Bridge": 752.4677734375,
+      "Custom": 402.87896728515625,
+      "Flush": 1115.86962890625,
+      "Gap infill": 57.14983367919922,
+      "Inner wall": 690.8779296875,
+      "Internal solid infill": 1859.748779296875,
+      "Outer wall": 1186.4888916015625,
+      "Overhang wall": 37.01905822753906,
+      "Prime tower": 1257.1767578125,
+      "Sparse infill": 382.07861328125,
+      "Support": 80.34747314453125,
+      "Support interface": 48.08135223388672,
+      "Support transition": 18.00942611694336,
+      "Top surface": 497.8796691894531,
+      "Travel": 1024.246337890625,
+      "Undefined": 1017.5802612304688
+    },
+    "process_changes": {
+      "infill_combination": "1"
+    },
+    "geometry_and_paint_identical": true,
+    "cli_shutdown_timeout": false,
+    "project_sha256": "f18a733174aaecce12eaad47182db4906ff856b4ecd0898d42479c83b42e1062",
+    "gcode_sha256": "bee7a5234968526952f8c2c0c0b3f8a8081a5e99b163eafdb73a6dd0e2efd5e0"
+  },
+  {
+    "mode": "combined-infill",
+    "plate": "2-upper-trays",
+    "seconds": 4557.37451171875,
+    "filaments": [
+      {
+        "filament_id": "GFA00",
+        "id": 1,
+        "main_used_g": 33.55751037597656,
+        "total_used_g": 37.661224365234375
+      },
+      {
+        "filament_id": "GFS02",
+        "id": 2,
+        "main_used_g": 0.07184714078903198,
+        "total_used_g": 2.41454815864563
+      }
+    ],
+    "changes": 4,
+    "warnings": "",
+    "features": {
+      "Bottom surface": 703.9215087890625,
+      "Bridge": 34.81570816040039,
+      "Custom": 403.8389587402344,
+      "Flush": 570.934814453125,
+      "Gap infill": 88.14513397216797,
+      "Inner wall": 164.48130798339844,
+      "Internal solid infill": 467.120849609375,
+      "Outer wall": 705.5404663085938,
+      "Overhang wall": 1.524962067604065,
+      "Prime tower": 440.625244140625,
+      "Sparse infill": 49.52815246582031,
+      "Support": 1.1879549026489258,
+      "Support interface": 0.9603762030601501,
+      "Support transition": 0.41814160346984863,
+      "Top surface": 431.2068786621094,
+      "Travel": 500.8973693847656,
+      "Undefined": 493.2713928222656
+    },
+    "process_changes": {
+      "infill_combination": "1"
+    },
+    "geometry_and_paint_identical": true,
+    "cli_shutdown_timeout": false,
+    "project_sha256": "5a999e3d16459d4ef44c4f151b06677ec0481b3762964769692520a025d1c9a8",
+    "gcode_sha256": "e6874d553a9fe8ffbca691d7910d88bdafd7aaec321c9d449d2bcc52cd943eba"
+  }
+]

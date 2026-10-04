@@ -1,0 +1,263 @@
+{
+  "version": "4.0-rc2",
+  "status": "candidate, unprinted",
+  "capacity": 8,
+  "part_count": 4,
+  "complete_set_plates": 2,
+  "plate_count_global_minimum_proven": false,
+  "outer_mm": [
+    147,
+    101.6,
+    26
+  ],
+  "sata_cavity_mm": {
+    "min": [
+      0,
+      43.599999999999994,
+      0
+    ],
+    "max": [
+      7.5,
+      90.6,
+      6.2
+    ]
+  },
+  "lid_opening": "Press, slide 8 mm toward -Y, lift; reverse to close",
+  "checks": {
+    "module_poses": 512,
+    "loaded_tray_entry_poses": 242,
+    "bottom_release_poses": 1520,
+    "lid_poses": 132
+  },
+  "plate_records": [
+    {
+      "stem": "rdimm-4.0-rc2-plate-1-pin-clearance",
+      "poses": [
+        {
+          "part": "body-pin-clearance",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              20.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "lid-slide-lift",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000004768371
+            ],
+            [
+              0.0,
+              -1.0,
+              -1.2246467991473532e-16,
+              229.8000030517578
+            ],
+            [
+              0.0,
+              1.2246467991473532e-16,
+              -1.0,
+              26.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "bounds": [
+        [
+          54.5,
+          20.0,
+          0.0
+        ],
+        [
+          201.5,
+          229.60000304877758,
+          26.0
+        ]
+      ]
+    },
+    {
+      "stem": "rdimm-4.0-rc2-plate-1-thread-pilot",
+      "poses": [
+        {
+          "part": "body-thread-pilot",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              20.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "lid-slide-lift",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000004768371
+            ],
+            [
+              0.0,
+              -1.0,
+              -1.2246467991473532e-16,
+              229.8000030517578
+            ],
+            [
+              0.0,
+              1.2246467991473532e-16,
+              -1.0,
+              26.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "bounds": [
+        [
+          54.5,
+          20.0,
+          0.0
+        ],
+        [
+          201.5,
+          229.60000304877758,
+          26.0
+        ]
+      ]
+    },
+    {
+      "stem": "rdimm-4.0-rc2-plate-2-upper-trays",
+      "poses": [
+        {
+          "part": "tray-middle-3",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000002384186
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              18.100000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "tray-top-3",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000002384186
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              126.10000002384186
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "bounds": [
+        [
+          56.4,
+          20.0,
+          0.0
+        ],
+        [
+          199.6000061273575,
+          225.79999697208405,
+          6.800000190734863
+        ]
+      ]
+    }
+  ],
+  "supports_required": true,
+  "physical_tested": false,
+  "force_fatigue_verified": false,
+  "geometry_only_3mf": true
+}

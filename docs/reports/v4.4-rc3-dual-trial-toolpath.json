@@ -1,0 +1,369 @@
+{
+  "version": "4.4-rc3-dual-trial",
+  "gcode_sha256": "9e385c20fc0ebc211fa33f8dc8b95d0ae28bfdaf9633ab8d4df7826fdc67974b",
+  "modeled_interfaces": [
+    {
+      "name": "A-interface-1",
+      "support_material_layer_tops_mm": [
+        3.2,
+        3.4
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        0.9936403508771929,
+        0.9991228070175439
+      ],
+      "lower_gap_range_mm": [
+        0.0,
+        2.6
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        1.1999999999999997
+      ]
+    },
+    {
+      "name": "A-interface-2",
+      "support_material_layer_tops_mm": [
+        4.4,
+        4.6
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        0.9991228070175439,
+        0.868421052631579
+      ],
+      "lower_gap_range_mm": [
+        0.0,
+        1.2000000000000002
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.20000000000000018
+      ]
+    },
+    {
+      "name": "A-interface-3",
+      "support_material_layer_tops_mm": [
+        0.8,
+        1.0
+      ],
+      "interface_covered_fraction": 0.9990530303030303,
+      "opposing_PLA_covered_fraction": 0.9990530303030303,
+      "zero_gap_contact_fractions": [
+        0.9913352272727273,
+        0.9990530303030303
+      ],
+      "lower_gap_range_mm": [
+        1.1102230246251565e-16,
+        0.20000000000000007
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "A-interface-4",
+      "support_material_layer_tops_mm": [
+        3.2,
+        3.4
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        0.981140350877193,
+        0.9991228070175439
+      ],
+      "lower_gap_range_mm": [
+        0.0,
+        0.20000000000000018
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        1.1999999999999997
+      ]
+    },
+    {
+      "name": "A-interface-5",
+      "support_material_layer_tops_mm": [
+        4.4,
+        4.6
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        0.9991228070175439,
+        0.868421052631579
+      ],
+      "lower_gap_range_mm": [
+        0.0,
+        1.2000000000000002
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.20000000000000018
+      ]
+    },
+    {
+      "name": "A-interface-6",
+      "support_material_layer_tops_mm": [
+        0.8,
+        1.0
+      ],
+      "interface_covered_fraction": 0.9990530303030303,
+      "opposing_PLA_covered_fraction": 0.9990530303030303,
+      "zero_gap_contact_fractions": [
+        0.998721590909091,
+        0.9990530303030303
+      ],
+      "lower_gap_range_mm": [
+        1.1102230246251565e-16,
+        0.20000000000000007
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "A-interface-7",
+      "support_material_layer_tops_mm": [
+        3.2,
+        3.4
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        0.9771634615384616,
+        0.9995192307692308
+      ],
+      "lower_gap_range_mm": [
+        0.0,
+        0.20000000000000018
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        1.1999999999999997
+      ]
+    },
+    {
+      "name": "A-interface-8",
+      "support_material_layer_tops_mm": [
+        4.4,
+        4.6
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 0.8846153846153846,
+      "zero_gap_contact_fractions": [
+        0.9995192307692308,
+        0.8072115384615385
+      ],
+      "lower_gap_range_mm": [
+        0.0,
+        1.2000000000000002
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.20000000000000018
+      ]
+    },
+    {
+      "name": "A-interface-9",
+      "support_material_layer_tops_mm": [
+        0.8,
+        1.0
+      ],
+      "interface_covered_fraction": 0.9975852272727272,
+      "opposing_PLA_covered_fraction": 0.9975852272727272,
+      "zero_gap_contact_fractions": [
+        0.9955610795454546,
+        0.9975852272727272
+      ],
+      "lower_gap_range_mm": [
+        1.1102230246251565e-16,
+        0.20000000000000007
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "C1-interface-1",
+      "support_material_layer_tops_mm": [
+        3.2,
+        3.4
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        1.0,
+        1.0
+      ],
+      "lower_gap_range_mm": [
+        0.0,
+        0.0
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "C1-interface-2",
+      "support_material_layer_tops_mm": [
+        4.6,
+        4.8
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        1.0,
+        1.0
+      ],
+      "lower_gap_range_mm": [
+        -8.881784197001252e-16,
+        -8.881784197001252e-16
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "C1-interface-3",
+      "support_material_layer_tops_mm": [
+        3.2,
+        3.4
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        1.0,
+        1.0
+      ],
+      "lower_gap_range_mm": [
+        0.0,
+        0.0
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "C1-interface-4",
+      "support_material_layer_tops_mm": [
+        4.6,
+        4.8
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        1.0,
+        1.0
+      ],
+      "lower_gap_range_mm": [
+        -8.881784197001252e-16,
+        -8.881784197001252e-16
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "C3-interface-1",
+      "support_material_layer_tops_mm": [
+        3.2,
+        3.4
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        0.9711538461538461,
+        1.0
+      ],
+      "lower_gap_range_mm": [
+        0.0,
+        0.20000000000000018
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "C3-interface-2",
+      "support_material_layer_tops_mm": [
+        4.6,
+        4.8
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        1.0,
+        1.0
+      ],
+      "lower_gap_range_mm": [
+        -8.881784197001252e-16,
+        -8.881784197001252e-16
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "C3-interface-3",
+      "support_material_layer_tops_mm": [
+        3.2,
+        3.4
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        1.0,
+        1.0
+      ],
+      "lower_gap_range_mm": [
+        0.0,
+        0.0
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "C3-interface-4",
+      "support_material_layer_tops_mm": [
+        4.6,
+        4.8
+      ],
+      "interface_covered_fraction": 1.0,
+      "opposing_PLA_covered_fraction": 1.0,
+      "zero_gap_contact_fractions": [
+        1.0,
+        1.0
+      ],
+      "lower_gap_range_mm": [
+        -8.881784197001252e-16,
+        -8.881784197001252e-16
+      ],
+      "upper_gap_range_mm": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "automatic_support_interface_uses_material_2": true,
+  "dedicated_material_model_paths_outside_interface_volumes": 0,
+  "h32_hole_support_segments": 0,
+  "ams_tool_changes_present": true,
+  "physical_verified": false,
+  "limits": "Nominal bead placement and material identity; does not model mixing, adhesion, shrinkage, release force or strength."
+}

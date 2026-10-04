@@ -1,0 +1,335 @@
+{
+  "interfaces": [
+    {
+      "name": "A-interface-1",
+      "layers": [
+        3.2,
+        3.4
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        0.9982456140350877,
+        1.0
+      ]
+    },
+    {
+      "name": "A-interface-2",
+      "layers": [
+        4.4,
+        4.6
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        0.999561403508772,
+        0.868421052631579
+      ]
+    },
+    {
+      "name": "A-interface-3",
+      "layers": [
+        3.2,
+        3.4
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        0.9881578947368421,
+        1.0
+      ]
+    },
+    {
+      "name": "A-interface-4",
+      "layers": [
+        4.4,
+        4.6
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        0.999561403508772,
+        0.868421052631579
+      ]
+    },
+    {
+      "name": "A-interface-5",
+      "layers": [
+        3.2,
+        3.4
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        0.9663461538461539,
+        1.0
+      ]
+    },
+    {
+      "name": "A-interface-6",
+      "layers": [
+        4.4,
+        4.6
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        0.9995192307692308,
+        0.8072115384615385
+      ]
+    },
+    {
+      "name": "C1-interface-1",
+      "layers": [
+        3.2,
+        3.4
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "C1-interface-2",
+      "layers": [
+        4.6,
+        4.8
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "C1-interface-3",
+      "layers": [
+        3.2,
+        3.4
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        0.9983974358974359,
+        1.0
+      ]
+    },
+    {
+      "name": "C1-interface-4",
+      "layers": [
+        4.6,
+        4.8
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "C3-interface-1",
+      "layers": [
+        3.2,
+        3.4
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        0.8894230769230769,
+        1.0
+      ]
+    },
+    {
+      "name": "C3-interface-2",
+      "layers": [
+        4.6,
+        4.8
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "C3-interface-3",
+      "layers": [
+        3.2,
+        3.4
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "C3-interface-4",
+      "layers": [
+        4.6,
+        4.8
+      ],
+      "interface_coverage": 1.0,
+      "contact": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "unexpected_support_material_model_paths": 0,
+  "h32_hole_support_paths": 0,
+  "project_settings_identical_to_rc3": false,
+  "version": "4.4-rc4-product-trial",
+  "gcode_sha256": "a8c6d937b100d58e19ee10c8a595d18f22cb9e5786443d7416f1273694884b78",
+  "project_sha256": "b76ce4612e30041c7b90176cf6e5a118c0034d0666318bf7d43355aab410289d",
+  "automatic_support_material": "PLA",
+  "automatic_support_under_paddle": 0,
+  "free_spring_corridor": true,
+  "process_samples": {
+    "P1": {
+      "Sparse infill": {
+        "segments": 4577,
+        "widths_mm": [
+          0.45
+        ],
+        "heights_mm": [
+          0.2
+        ]
+      },
+      "Internal solid infill": {
+        "segments": 1894,
+        "widths_mm": [
+          0.35094,
+          0.35612,
+          0.356357,
+          0.36932,
+          0.369549,
+          0.382607,
+          0.38292,
+          0.390327,
+          0.404023,
+          0.40689,
+          0.407323,
+          0.418143,
+          0.418701,
+          0.41999,
+          0.42013,
+          0.42043,
+          0.42051,
+          0.42085,
+          0.421377,
+          0.44405,
+          0.44492,
+          0.454585,
+          0.46286,
+          0.46288,
+          0.47251,
+          0.47423,
+          0.477224,
+          0.481192,
+          0.50625,
+          0.53234,
+          0.54642,
+          0.61258
+        ],
+        "heights_mm": [
+          0.2
+        ]
+      },
+      "Top surface": {
+        "segments": 392,
+        "widths_mm": [
+          0.42
+        ],
+        "heights_mm": [
+          0.2
+        ]
+      },
+      "Outer wall": {
+        "segments": 9047,
+        "widths_mm": [
+          0.42,
+          0.5
+        ],
+        "heights_mm": [
+          0.2
+        ]
+      }
+    },
+    "P2": {
+      "Sparse infill": {
+        "segments": 1963,
+        "widths_mm": [
+          0.5
+        ],
+        "heights_mm": [
+          0.2,
+          0.4
+        ]
+      },
+      "Internal solid infill": {
+        "segments": 1799,
+        "widths_mm": [
+          0.35705,
+          0.36103,
+          0.416732,
+          0.416994,
+          0.423321,
+          0.423567,
+          0.42738,
+          0.43744,
+          0.43836,
+          0.44239,
+          0.45258,
+          0.456978,
+          0.47914,
+          0.48079,
+          0.48158,
+          0.483243,
+          0.497205,
+          0.497424,
+          0.498614,
+          0.498723,
+          0.49999,
+          0.50028,
+          0.50079,
+          0.501234,
+          0.50127,
+          0.501345,
+          0.50244,
+          0.50812,
+          0.55314
+        ],
+        "heights_mm": [
+          0.2
+        ]
+      },
+      "Top surface": {
+        "segments": 398,
+        "widths_mm": [
+          0.42
+        ],
+        "heights_mm": [
+          0.2
+        ]
+      },
+      "Outer wall": {
+        "segments": 9021,
+        "widths_mm": [
+          0.42,
+          0.5
+        ],
+        "heights_mm": [
+          0.2
+        ]
+      }
+    }
+  },
+  "tower_xy_bounds": [
+    [
+      201.53419870638842,
+      161.54678823753116
+    ],
+    [
+      240.96380129361157,
+      200.06170714430303
+    ]
+  ],
+  "tower_min_model_bbox_gap_mm": 36.53419870638842,
+  "ams_changes_present": true,
+  "physical_verified": false,
+  "limits": "Nominal toolpaths and material identity, not removal force, adhesion, warpage, fatigue or strength."
+}

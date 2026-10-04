@@ -1,0 +1,212 @@
+{
+  "version": "4.4-rc1-support-trial",
+  "scope": "two full-length single-slot test coupons, not replacement production trays",
+  "baseline": "4.3",
+  "rows": [
+    {
+      "name": "A",
+      "support_count": 3,
+      "grip_pull_mm_tested": 8,
+      "support_extract_poses": 99,
+      "root_y": 17.3,
+      "pcb_seat_z_mm": 3,
+      "roof_z_mm": 4.6,
+      "relieved_middle_depth_mm": 0,
+      "physical_removal_verified": false
+    },
+    {
+      "name": "B",
+      "support_count": 3,
+      "grip_pull_mm_tested": 8,
+      "support_extract_poses": 99,
+      "root_y": 17.3,
+      "pcb_seat_z_mm": 3,
+      "roof_z_mm": 4.6,
+      "relieved_middle_depth_mm": 0.3,
+      "physical_removal_verified": false
+    }
+  ],
+  "parts": [
+    {
+      "coupon": "A",
+      "kind": "keep",
+      "index": 0,
+      "translation": [
+        54.5,
+        25.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          56.39999997615814,
+          26.899999976158142,
+          0.0
+        ],
+        [
+          199.60000610351562,
+          60.5,
+          6.800000190734863
+        ]
+      ]
+    },
+    {
+      "coupon": "A",
+      "kind": "remove",
+      "index": 0,
+      "translation": [
+        54.5,
+        25.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          61.15000009536743,
+          39.85000038146973,
+          0.800000011920929
+        ],
+        [
+          67.5,
+          43.14999961853027,
+          4.400000095367432
+        ]
+      ]
+    },
+    {
+      "coupon": "A",
+      "kind": "remove",
+      "index": 1,
+      "translation": [
+        54.5,
+        25.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          61.15000009536743,
+          43.75,
+          0.800000011920929
+        ],
+        [
+          67.5,
+          47.04999923706055,
+          4.400000095367432
+        ]
+      ]
+    },
+    {
+      "coupon": "A",
+      "kind": "remove",
+      "index": 2,
+      "translation": [
+        54.5,
+        25.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          188.3000030517578,
+          53.35000038146973,
+          0.800000011920929
+        ],
+        [
+          194.85000610351562,
+          57.650001525878906,
+          4.400000095367432
+        ]
+      ]
+    },
+    {
+      "coupon": "B",
+      "kind": "keep",
+      "index": 0,
+      "translation": [
+        54.5,
+        80.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          56.39999997615814,
+          81.89999997615814,
+          0.0
+        ],
+        [
+          199.60000610351562,
+          115.5,
+          6.800000190734863
+        ]
+      ]
+    },
+    {
+      "coupon": "B",
+      "kind": "remove",
+      "index": 0,
+      "translation": [
+        54.5,
+        80.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          61.15000009536743,
+          94.85000038146973,
+          0.800000011920929
+        ],
+        [
+          67.5,
+          98.14999961853027,
+          4.400000095367432
+        ]
+      ]
+    },
+    {
+      "coupon": "B",
+      "kind": "remove",
+      "index": 1,
+      "translation": [
+        54.5,
+        80.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          61.15000009536743,
+          98.75,
+          0.800000011920929
+        ],
+        [
+          67.5,
+          102.04999923706055,
+          4.400000095367432
+        ]
+      ]
+    },
+    {
+      "coupon": "B",
+      "kind": "remove",
+      "index": 2,
+      "translation": [
+        54.5,
+        80.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          188.3000030517578,
+          108.35000038146973,
+          0.800000011920929
+        ],
+        [
+          194.85000610351562,
+          112.6500015258789,
+          4.400000095367432
+        ]
+      ]
+    }
+  ],
+  "manual_support_top_gap_mm": 0.2,
+  "manual_support_bottom_gap_mm": 0.2,
+  "auto_support_needed_for_paddle": true,
+  "configured_project_required": true,
+  "physical_verified": false
+}

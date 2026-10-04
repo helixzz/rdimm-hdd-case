@@ -1,0 +1,12 @@
+{
+  "section_x_mm": 60,
+  "old_ridge_reproduced": true,
+  "new_ridge_absent": true,
+  "floor_foot_present": true,
+  "floor_z_mm": 4,
+  "fillet_top_z_mm": 10,
+  "tray_bottom_z_mm": 10.8,
+  "nominal_vertical_clearance_mm": 0.8,
+  "method": "Actual CAD section and positive/negative local volume probes; full assembly checked by build_v4_2.",
+  "physical_finish_verified": false
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "mode": "dual-selective",
+    "plate": "1-pin-clearance",
+    "passed": true,
+    "interfaces": 28,
+    "bores": 10,
+    "corridors": 2
+  },
+  {
+    "mode": "dual-selective",
+    "plate": "2-upper-trays",
+    "passed": true,
+    "interfaces": 36,
+    "bores": 0,
+    "corridors": 6
+  },
+  {
+    "mode": "axis-aligned",
+    "plate": "1-pin-clearance",
+    "passed": true,
+    "interfaces": 28,
+    "bores": 10,
+    "corridors": 2
+  },
+  {
+    "mode": "axis-aligned",
+    "plate": "2-upper-trays",
+    "passed": true,
+    "interfaces": 36,
+    "bores": 0,
+    "corridors": 6
+  },
+  {
+    "mode": "wider-internal",
+    "plate": "1-pin-clearance",
+    "passed": true,
+    "interfaces": 28,
+    "bores": 10,
+    "corridors": 2
+  },
+  {
+    "mode": "wider-internal",
+    "plate": "2-upper-trays",
+    "passed": true,
+    "interfaces": 36,
+    "bores": 0,
+    "corridors": 6
+  },
+  {
+    "mode": "combined-infill",
+    "plate": "1-pin-clearance",
+    "passed": true,
+    "interfaces": 28,
+    "bores": 10,
+    "corridors": 2
+  },
+  {
+    "mode": "combined-infill",
+    "plate": "2-upper-trays",
+    "passed": true,
+    "interfaces": 36,
+    "bores": 0,
+    "corridors": 6
+  },
+  {
+    "mode": "wide-combined",
+    "plate": "1-pin-clearance",
+    "passed": true,
+    "interfaces": 28,
+    "bores": 10,
+    "corridors": 2
+  },
+  {
+    "mode": "wide-combined",
+    "plate": "2-upper-trays",
+    "passed": true,
+    "interfaces": 36,
+    "bores": 0,
+    "corridors": 6
+  },
+  {
+    "mode": "batch-two",
+    "plate": "2-bodies",
+    "passed": true,
+    "interfaces": 56,
+    "bores": 20,
+    "corridors": 4
+  },
+  {
+    "mode": "batch-two",
+    "plate": "2-lids",
+    "passed": true,
+    "interfaces": 0,
+    "bores": 0,
+    "corridors": 0
+  },
+  {
+    "mode": "batch-two",
+    "plate": "4-trays",
+    "passed": true,
+    "interfaces": 72,
+    "bores": 0,
+    "corridors": 12
+  }
+]

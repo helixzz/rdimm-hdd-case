@@ -1,0 +1,78 @@
+[
+  {
+    "file": "rdimm-3.2-rc1-plate-0-checks-P2S-PLA-Basic.3mf",
+    "plate": "0-checks",
+    "sha256": "bc5da7de6ed18a764d6c6bc4c2dc8406183749ef79f7fd5c2f8170069572ae3c",
+    "seconds": 1865.3768310546875,
+    "grams": 13.68609619140625,
+    "warnings": "",
+    "settings": {
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_style": "snug",
+      "support_on_build_plate_only": "0",
+      "support_top_z_distance": "0.2",
+      "support_bottom_z_distance": "0.2",
+      "support_object_xy_distance": "0.35",
+      "layer_height": "0.2",
+      "wall_generator": "classic"
+    }
+  },
+  {
+    "file": "rdimm-3.2-rc1-plate-1-body-only-P2S-PLA-Basic.3mf",
+    "plate": "1-body-only",
+    "sha256": "a85ef5917cc78ff48e4a903e6220be0b71ca0c4ccad4c666d5419221ce1414bd",
+    "seconds": 5380.52685546875,
+    "grams": 62.660797119140625,
+    "warnings": "",
+    "settings": {
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_style": "snug",
+      "support_on_build_plate_only": "0",
+      "support_top_z_distance": "0.2",
+      "support_bottom_z_distance": "0.2",
+      "support_object_xy_distance": "0.35",
+      "layer_height": "0.2",
+      "wall_generator": "classic"
+    }
+  },
+  {
+    "file": "rdimm-3.2-rc1-plate-2-all-trays-P2S-PLA-Basic.3mf",
+    "plate": "2-all-trays",
+    "sha256": "a9f7d069c81d4d21c995db6612e7ab8cae6c7e9826d36615eac5858d31a80ec1",
+    "seconds": 4865.82373046875,
+    "grams": 46.70136260986328,
+    "warnings": "",
+    "settings": {
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_style": "snug",
+      "support_on_build_plate_only": "0",
+      "support_top_z_distance": "0.2",
+      "support_bottom_z_distance": "0.2",
+      "support_object_xy_distance": "0.35",
+      "layer_height": "0.2",
+      "wall_generator": "classic"
+    }
+  },
+  {
+    "file": "rdimm-3.2-rc1-plate-1-pin-clearance-P2S-PLA-Basic.3mf",
+    "plate": "1-pin-clearance",
+    "sha256": "771049595fc29085cf0f6535908d3f7edc01822fb581e800d366d6708f13a4e0",
+    "seconds": 7021.2216796875,
+    "grams": 86.96105194091797,
+    "warnings": "",
+    "settings": {
+      "enable_support": "1",
+      "support_type": "normal(auto)",
+      "support_style": "snug",
+      "support_on_build_plate_only": "0",
+      "support_top_z_distance": "0.2",
+      "support_bottom_z_distance": "0.2",
+      "support_object_xy_distance": "0.35",
+      "layer_height": "0.2",
+      "wall_generator": "classic"
+    }
+  }
+]

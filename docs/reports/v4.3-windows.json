@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "version": "4.3-unpainted",
+      "high_window_support_segments": {
+        "19.7": 137,
+        "55.1": 228
+      },
+      "closure_spans": [],
+      "gcode_sha256": "750673477e49cc25607f9b4178064456d857539a16ed1cfe46f6c689268a6330",
+      "project_sha256": "ce01aa9c0b4d5efe863165a3ca9bd5b2be47b515d9edd33fba7aaa9c2b22b926"
+    },
+    {
+      "version": "4.3",
+      "high_window_support_segments": {
+        "19.7": 0,
+        "55.1": 0
+      },
+      "closure_spans": [
+        {
+          "window_y": 19.7,
+          "first_closing_layer_z_mm": 20.4,
+          "previous_layer_z_mm": 20.2,
+          "closure_paths": 4,
+          "max_nominal_previous_layer_gap_mm": 1.158,
+          "sampling_mm": 0.002
+        },
+        {
+          "window_y": 55.1,
+          "first_closing_layer_z_mm": 20.4,
+          "previous_layer_z_mm": 20.2,
+          "closure_paths": 4,
+          "max_nominal_previous_layer_gap_mm": 1.158,
+          "sampling_mm": 0.002
+        }
+      ],
+      "gcode_sha256": "da6bc8245ea47a04593e0097685408c2ba714966017fafd6391a306e69b6c570",
+      "project_sha256": "a9c86043344a7fd0536ec651cffdeccc33f30e9e32dbffa73b20fd4f9d5aed4c"
+    }
+  ],
+  "arch_shoulders_degrees": 45,
+  "rounded_apex_max_chord_mm": 1.415,
+  "method": "Conservative XY bead boxes and layer Z intervals in both windows above Z10.8; unpainted arch positive control.",
+  "limits": "Nominal paths only; first physical arch finish and hand access remain unverified."
+}

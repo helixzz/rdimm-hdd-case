@@ -1,0 +1,53 @@
+[
+  {
+    "file": "upgrade-plate-1-lid-bottom-keepers.stl",
+    "part_count": 8,
+    "bounds_mm": [
+      [
+        17.8,
+        22.4,
+        0.0
+      ],
+      [
+        238.20000152587892,
+        229.79999542236328,
+        6.800000190734863
+      ]
+    ],
+    "minimum_part_gap_mm": 8
+  },
+  {
+    "file": "upgrade-plate-2-middle-top.stl",
+    "part_count": 2,
+    "bounds_mm": [
+      [
+        56.4,
+        26.2,
+        0.0
+      ],
+      [
+        199.60001220703126,
+        229.79999542236328,
+        6.800000190734863
+      ]
+    ],
+    "minimum_part_gap_mm": 8
+  },
+  {
+    "file": "first-test-plate.stl",
+    "part_count": 3,
+    "bounds_mm": [
+      [
+        56.4,
+        85.0,
+        0.0
+      ],
+      [
+        199.60001220703126,
+        168.00000381469727,
+        6.800000190734863
+      ]
+    ],
+    "minimum_part_gap_mm": 8
+  }
+]

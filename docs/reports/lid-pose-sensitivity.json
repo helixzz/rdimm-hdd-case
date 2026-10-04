@@ -1,0 +1,365 @@
+{
+  "cad_source_commit": "e411886c6dbb89e8e83bc4286f2e6babe180b583",
+  "scope": "RC2 fixed body excludes flexible members, to isolate capture friction regions; not a complete released/loaded assembly test.",
+  "offsets_are_measured": false,
+  "physical_failure_proven": false,
+  "new_printable_model_generated": false,
+  "limits": "Exploratory rigid offsets are not a calibrated printer error model. Intersection volume is not force, friction, failure probability or load capacity.",
+  "results": [
+    {
+      "lid": "4.1-rc2",
+      "case": "nominal",
+      "x_offset_mm": 0,
+      "z_offset_mm": 0,
+      "poses": [
+        {
+          "y_slide_mm": 0,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -2,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -4,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -6,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -8,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        }
+      ]
+    },
+    {
+      "lid": "4.1-rc2",
+      "case": "x-only",
+      "x_offset_mm": 0.3,
+      "z_offset_mm": 0,
+      "poses": [
+        {
+          "y_slide_mm": 0,
+          "intersection_mm3": 1.6551770509015746,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.0,
+            145.4999969482422,
+            99.8,
+            26.0
+          ]
+        },
+        {
+          "y_slide_mm": -2,
+          "intersection_mm3": 1.118977288630378,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.0,
+            145.4999969482422,
+            97.80000305175781,
+            26.0
+          ]
+        },
+        {
+          "y_slide_mm": -4,
+          "intersection_mm3": 0.6840557715165527,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.0,
+            145.4999969482422,
+            95.80000305175781,
+            26.0
+          ]
+        },
+        {
+          "y_slide_mm": -6,
+          "intersection_mm3": 0.5689336685959042,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.399999618530273,
+            145.4999969482422,
+            74.10000000149012,
+            26.0
+          ]
+        },
+        {
+          "y_slide_mm": -8,
+          "intersection_mm3": 0.56893366859589,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.399999618530273,
+            145.4999969482422,
+            74.10000000149012,
+            26.0
+          ]
+        }
+      ]
+    },
+    {
+      "lid": "4.1-rc2",
+      "case": "z-only",
+      "x_offset_mm": 0,
+      "z_offset_mm": 0.15,
+      "poses": [
+        {
+          "y_slide_mm": 0,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -2,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -4,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -6,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -8,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        }
+      ]
+    },
+    {
+      "lid": "4.1-rc2",
+      "case": "combined",
+      "x_offset_mm": 0.3,
+      "z_offset_mm": 0.15,
+      "poses": [
+        {
+          "y_slide_mm": 0,
+          "intersection_mm3": 1.643176378359928,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.0,
+            140.70000000000002,
+            99.8,
+            26.0
+          ]
+        },
+        {
+          "y_slide_mm": -2,
+          "intersection_mm3": 1.0946411284971136,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.0,
+            140.70000000000002,
+            97.80000305175781,
+            26.0
+          ]
+        },
+        {
+          "y_slide_mm": -4,
+          "intersection_mm3": 0.6292746040686947,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.0,
+            140.70000000000002,
+            95.80000305175781,
+            26.0
+          ]
+        },
+        {
+          "y_slide_mm": -6,
+          "intersection_mm3": 0.49537212787363893,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.750000381469725,
+            140.70000000000002,
+            14.0,
+            26.0
+          ]
+        },
+        {
+          "y_slide_mm": -8,
+          "intersection_mm3": 0.4953721278736487,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.750000381469725,
+            140.70000000000002,
+            14.0,
+            26.0
+          ]
+        }
+      ]
+    },
+    {
+      "lid": "4.1-rc3",
+      "case": "nominal",
+      "x_offset_mm": 0,
+      "z_offset_mm": 0,
+      "poses": [
+        {
+          "y_slide_mm": 0,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -2,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -4,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -6,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -8,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        }
+      ]
+    },
+    {
+      "lid": "4.1-rc3",
+      "case": "x-only",
+      "x_offset_mm": 0.3,
+      "z_offset_mm": 0,
+      "poses": [
+        {
+          "y_slide_mm": 0,
+          "intersection_mm3": 6.725416204835289e-07,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -2,
+          "intersection_mm3": 8.23340765372138e-07,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -4,
+          "intersection_mm3": 7.219364868702831e-07,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -6,
+          "intersection_mm3": 7.219364868702831e-07,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -8,
+          "intersection_mm3": 7.219364868702831e-07,
+          "bounds_mm": null
+        }
+      ]
+    },
+    {
+      "lid": "4.1-rc3",
+      "case": "z-only",
+      "x_offset_mm": 0,
+      "z_offset_mm": 0.15,
+      "poses": [
+        {
+          "y_slide_mm": 0,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -2,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -4,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -6,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -8,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        }
+      ]
+    },
+    {
+      "lid": "4.1-rc3",
+      "case": "combined",
+      "x_offset_mm": 0.3,
+      "z_offset_mm": 0.15,
+      "poses": [
+        {
+          "y_slide_mm": 0,
+          "intersection_mm3": 0.12456081878577685,
+          "bounds_mm": [
+            140.6,
+            8.2,
+            24.0,
+            140.70000000000002,
+            99.6,
+            24.15
+          ]
+        },
+        {
+          "y_slide_mm": -2,
+          "intersection_mm3": 0.07056081878576126,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.0,
+            140.70000000000002,
+            97.6,
+            24.15
+          ]
+        },
+        {
+          "y_slide_mm": -4,
+          "intersection_mm3": 0.021780409392878487,
+          "bounds_mm": [
+            140.6,
+            8.0,
+            24.0,
+            140.70000000000002,
+            9.546061026497489,
+            24.15
+          ]
+        },
+        {
+          "y_slide_mm": -6,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        },
+        {
+          "y_slide_mm": -8,
+          "intersection_mm3": 0.0,
+          "bounds_mm": null
+        }
+      ]
+    }
+  ]
+}

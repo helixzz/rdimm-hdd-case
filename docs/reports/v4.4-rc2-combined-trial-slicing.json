@@ -1,0 +1,28 @@
+{
+  "version": "4.4-rc2-combined-trial",
+  "project": "rdimm-4.4-rc2-combined-trial-plate-0-combined-P2S-PLA-Basic.3mf",
+  "painted_faces": 829,
+  "paint_counts": {
+    "A": 20,
+    "B": 38,
+    "C1": 40,
+    "C2": 83,
+    "C3": 40,
+    "C4": 40,
+    "H31": 142,
+    "H32": 142,
+    "H33": 142,
+    "H36": 142,
+    "K1": 0,
+    "K2": 0,
+    "bottom_roofs": 184,
+    "side_roofs": 384
+  },
+  "mesh_and_global_settings_unchanged": true,
+  "estimated_seconds": 3390.740966796875,
+  "grams": 22.571733474731445,
+  "warnings": "",
+  "project_sha256": "38b681f5408a51f5244fd6e2ce1384b87a39d05ab40d42d1eeb29e71500bc282",
+  "gcode_sha256": "157afe3191089c6d26dc2a01c100a4f01c6b4d391b7a72d382ec7c61c8d2e87d",
+  "physical_verified": false
+}

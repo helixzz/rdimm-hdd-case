@@ -1,0 +1,38 @@
+{
+  "version": "4.0-rc3",
+  "baseline": "4.0-rc2",
+  "change": "Fill PRESS/arrow and SATA END side engravings only",
+  "changes": {
+    "body-pin-clearance": {
+      "added_mm3": 16.70305,
+      "removed_mm3": 0.0
+    },
+    "body-thread-pilot": {
+      "added_mm3": 16.70305,
+      "removed_mm3": 0.0
+    },
+    "lid-slide-lift": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-middle-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-top-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    }
+  },
+  "unchanged_parts": [
+    "lid-slide-lift",
+    "tray-middle-3",
+    "tray-top-3"
+  ],
+  "side_marks": false,
+  "internal_fillet_added": false,
+  "sata_depth_mm": 7.5,
+  "reference_chip_gap_mm": 0.2,
+  "physical_finish_improvement_verified": false,
+  "limits": "Exterior finish, complete assembly and support removal still need physical verification."
+}

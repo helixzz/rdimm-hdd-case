@@ -1,0 +1,48 @@
+{
+  "version": "4.0-rc4-p1",
+  "geometry_version": "4.0-rc4",
+  "scope": "Pin-clearance bodies only; upper cylindrical side-hole faces blocked; geometry unchanged",
+  "results": [
+    {
+      "plate": "1-pin-clearance",
+      "project": "rdimm-4.0-rc4-p1-plate-1-pin-clearance-P2S-PLA-Basic.3mf",
+      "geometry_version": "4.0-rc4",
+      "blocked_faces_per_hole": {
+        "28.4988-front": 48,
+        "28.4988-back": 48,
+        "70.104-front": 48,
+        "70.104-back": 48,
+        "130.0988-front": 48,
+        "130.0988-back": 48
+      },
+      "roundtrip_blocked_faces": 288,
+      "max_roundtrip_vertex_delta_mm": 0.0,
+      "triangle_indices_identical": true,
+      "changed_global_settings": [
+        "print_settings_id"
+      ],
+      "estimated_seconds": 7478.67626953125,
+      "grams": 89.97919464111328,
+      "warnings": "",
+      "project_sha256": "92d29fd5dbe7bcc3ff39e2ac1b8913463cac06e64753098ff853a4e9deea99a8"
+    },
+    {
+      "plate": "2-upper-trays",
+      "project": "rdimm-4.0-rc4-p1-plate-2-upper-trays-P2S-PLA-Basic.3mf",
+      "geometry_version": "4.0-rc4",
+      "blocked_faces_per_hole": {},
+      "roundtrip_blocked_faces": 0,
+      "max_roundtrip_vertex_delta_mm": 4.00000004674439e-06,
+      "triangle_indices_identical": true,
+      "changed_global_settings": [
+        "print_settings_id"
+      ],
+      "estimated_seconds": 3698.58056640625,
+      "grams": 34.71114730834961,
+      "warnings": "",
+      "project_sha256": "832bdb96d398214e2308f436275d4d5662903ac07129c0ce6f336a1b009e5236"
+    }
+  ],
+  "physical_hole_clearance_verified": false,
+  "limits": "No support extrusion does not establish zero sagging or actual pin fit. Preserve all other supports."
+}

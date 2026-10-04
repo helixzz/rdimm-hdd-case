@@ -1,0 +1,269 @@
+{
+  "products": 2,
+  "plates": 3,
+  "results": [
+    {
+      "plate": "2-bodies",
+      "seconds": 14339.5478515625,
+      "changes": 8,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 134.2650146484375,
+          "total_used_g": 145.4798126220703
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.07819817960262299,
+          "total_used_g": 4.856714248657227
+        }
+      ],
+      "warnings": "",
+      "features": {
+        "Bottom surface": 750.3403930664062,
+        "Bridge": 1396.2540283203125,
+        "Custom": 402.87896728515625,
+        "Flush": 1115.86962890625,
+        "Gap infill": 87.43863677978516,
+        "Inner wall": 1286.44482421875,
+        "Internal solid infill": 2114.768798828125,
+        "Outer wall": 2162.26953125,
+        "Overhang wall": 58.656681060791016,
+        "Prime tower": 1258.1944580078125,
+        "Sparse infill": 1207.041748046875,
+        "Support": 128.25357055664062,
+        "Support interface": 85.1700210571289,
+        "Support transition": 30.790159225463867,
+        "Top surface": 577.5026245117188,
+        "Travel": 1686.427978515625,
+        "Undefined": 1679.761962890625
+      },
+      "project_sha256": "2d97d485a9e9dd30e80617c7947374b5aee36111964c8863638174932dca1ce1",
+      "gcode_sha256": "dddf53e0d0155d3fd736673a5a612edb18ecc5d3b5b7319d0126769127abc597"
+    },
+    {
+      "plate": "2-lids",
+      "seconds": 3945.147216796875,
+      "changes": 0,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 48.50212860107422,
+          "total_used_g": 48.50212860107422
+        }
+      ],
+      "warnings": "",
+      "features": {
+        "Bottom surface": 789.0855712890625,
+        "Bridge": 113.98080444335938,
+        "Custom": 403.7099914550781,
+        "Flush": 26.0,
+        "Gap infill": 28.200672149658203,
+        "Inner wall": 95.30290985107422,
+        "Internal solid infill": 1603.5863037109375,
+        "Outer wall": 213.33509826660156,
+        "Overhang wall": 15.60891342163086,
+        "Support": 31.65229034423828,
+        "Support interface": 11.355905532836914,
+        "Support transition": 5.197769641876221,
+        "Top surface": 418.68804931640625,
+        "Travel": 196.9123077392578,
+        "Undefined": 189.1263427734375
+      },
+      "project_sha256": "02e359e4bcd1b10c14b803f403b69b45d8d86cd4397a177c5b03de3c54f7bd45",
+      "gcode_sha256": "a81829ac64eda9cbbeade9c67e78adb41d85094c1d45ef0c7640dad8f395be7f"
+    },
+    {
+      "plate": "4-trays",
+      "seconds": 7768.623046875,
+      "changes": 4,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 67.1016616821289,
+          "total_used_g": 71.20537567138672
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.14369428157806396,
+          "total_used_g": 2.4863953590393066
+        }
+      ],
+      "warnings": "",
+      "features": {
+        "Bottom surface": 1408.09765625,
+        "Bridge": 69.20043182373047,
+        "Custom": 403.76727294921875,
+        "Flush": 570.934814453125,
+        "Gap infill": 176.23081970214844,
+        "Inner wall": 331.3111572265625,
+        "Internal solid infill": 939.6342163085938,
+        "Outer wall": 1407.71728515625,
+        "Overhang wall": 2.9739129543304443,
+        "Prime tower": 440.6277770996094,
+        "Sparse infill": 170.0569610595703,
+        "Support": 2.104325532913208,
+        "Support interface": 1.8455256223678589,
+        "Support transition": 0.9067433476448059,
+        "Top surface": 868.1435546875,
+        "Travel": 983.3411865234375,
+        "Undefined": 975.7152099609375
+      },
+      "project_sha256": "529b3b20450890b2efd654bc35b6bfdd14e8a39b58d42d16a424339aef3a80fe",
+      "gcode_sha256": "f915bac890842d2f80415ed0306188a96e2b94f86ce3fee6e240e622c6a68bac"
+    }
+  ],
+  "tray_body_margin_mm": 5.499996924400328,
+  "tray_model_gap_mm": 4.0,
+  "checks": {
+    "checks": {
+      "module_poses": 512,
+      "loaded_tray_entry_poses": 242,
+      "bottom_release_poses": 1520,
+      "lid_poses": 132
+    },
+    "mount_diameter_mm": 3.2,
+    "details": [
+      {
+        "part": "body-pin-clearance",
+        "cores": 10,
+        "interfaces": 28,
+        "core_extraction_poses": 330,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            20.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "lid-slide-lift",
+        "cores": 0,
+        "interfaces": 0,
+        "core_extraction_poses": 0,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000004768371
+          ],
+          [
+            0.0,
+            -1.0,
+            -1.2246467991473532e-16,
+            229.8000030517578
+          ],
+          [
+            0.0,
+            1.2246467991473532e-16,
+            -1.0,
+            26.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "tray-middle-3",
+        "cores": 9,
+        "interfaces": 18,
+        "core_extraction_poses": 297,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000002384186
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            18.100000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "tray-top-3",
+        "cores": 9,
+        "interfaces": 18,
+        "core_extraction_poses": 297,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000002384186
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            126.10000002384186
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "outer_mm": [
+      147,
+      101.6,
+      26
+    ],
+    "physical_verified": false
+  },
+  "scope": "Two complete products; unprinted research layout, not a release or proven global packing optimum."
+}

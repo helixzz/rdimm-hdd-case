@@ -1,0 +1,16 @@
+{
+  "version": "4.0-rc1",
+  "sha256": {
+    "body-pin-clearance.stl": "3d5fdc21c177dde21cb6504fcb9e1b3ce289ca5ca00756f95a32b9b01ae5e7eb",
+    "body-thread-pilot.stl": "91478844023b4f39155b09e88fcf2a50eb447c8c8190be28377f601b16252395",
+    "lid-slide-lift.stl": "fa23cae15e63946489b72dfd650ae3832892dcbb206c0aef7c5c29ce09981a54",
+    "rdimm-4.0-rc1-plate-1-pin-clearance.3mf": "2359cceb73cc59b3987c6d88e453377b99de80030675df1ae2c0b75575ca9903",
+    "rdimm-4.0-rc1-plate-1-pin-clearance.stl": "0667961878176d88fbe34d072dd35800ab7fe224777183c3115d58c53a6ede39",
+    "rdimm-4.0-rc1-plate-1-thread-pilot.3mf": "4eac957511e15c7de7bd277c1f24682c4b37975a4a6c6d1f90d113c322d5bddb",
+    "rdimm-4.0-rc1-plate-1-thread-pilot.stl": "b1b19bed473c11a635f87e5f4e45eaff1095219a7ffd1a7d9fb5f7eccbd8e27e",
+    "rdimm-4.0-rc1-plate-2-upper-trays.3mf": "5cf3095c92c2f240b2535b7ffe024cc275a31b97c26aa109814475fddb8502de",
+    "rdimm-4.0-rc1-plate-2-upper-trays.stl": "f530d52516528f50bde2c1d54763e8f8cdfd6b7849942ef10742f955ae50d70b",
+    "tray-middle-3.stl": "431df5dd9c00217e11f34158db930d9f039dc4911bbc957cd6395d31ac091c6c",
+    "tray-top-3.stl": "c87cf8dd4f5955a8a38dfcb36f2226fbcfa6752399060f1665aaf0552501538b"
+  }
+}

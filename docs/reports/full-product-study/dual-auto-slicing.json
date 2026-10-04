@@ -1,0 +1,86 @@
+[
+  {
+    "mode": "dual-auto",
+    "plate": "1-pin-clearance",
+    "seconds": 15645.125,
+    "changes": 36,
+    "filaments": [
+      {
+        "filament_id": "GFA00",
+        "id": 1,
+        "main_used_g": 91.27961730957031,
+        "total_used_g": 118.43612670898438
+      },
+      {
+        "filament_id": "GFS02",
+        "id": 2,
+        "main_used_g": 0.5791781544685364,
+        "total_used_g": 22.115507125854492
+      }
+    ],
+    "warnings": "",
+    "features": {
+      "Bottom surface": 769.6265869140625,
+      "Bridge": 787.2656860351562,
+      "Custom": 402.7167663574219,
+      "Flush": 4930.41259765625,
+      "Gap infill": 43.475303649902344,
+      "Inner wall": 699.1990356445312,
+      "Internal solid infill": 1884.0657958984375,
+      "Outer wall": 1171.77978515625,
+      "Prime tower": 2483.213623046875,
+      "Sparse infill": 566.549560546875,
+      "Support": 98.22185516357422,
+      "Support interface": 102.58354187011719,
+      "Support transition": 81.050537109375,
+      "Top surface": 499.52496337890625,
+      "Travel": 1133.820068359375,
+      "Undefined": 1127.154052734375
+    },
+    "cli_shutdown_timeout": false,
+    "gcode_sha256": "dad07c887c72ed428d6204bb00f84945b9579cda5c456e9d654c473c1edd3b96",
+    "project_sha256": "e4bc041d8b4b3dcbab32425a503f15b2243689f9cd9692f28cbaf2cd52ad113f"
+  },
+  {
+    "mode": "dual-auto",
+    "plate": "2-upper-trays",
+    "seconds": 6351.3408203125,
+    "changes": 14,
+    "filaments": [
+      {
+        "filament_id": "GFA00",
+        "id": 1,
+        "main_used_g": 33.86903762817383,
+        "total_used_g": 43.523197174072266
+      },
+      {
+        "filament_id": "GFS02",
+        "id": 2,
+        "main_used_g": 0.1346406191587448,
+        "total_used_g": 8.309463500976562
+      }
+    ],
+    "warnings": "",
+    "features": {
+      "Bottom surface": 703.921630859375,
+      "Bridge": 67.70291137695312,
+      "Custom": 403.85980224609375,
+      "Flush": 1933.272216796875,
+      "Gap infill": 58.37506866455078,
+      "Inner wall": 169.89260864257812,
+      "Internal solid infill": 471.0585021972656,
+      "Outer wall": 647.6432495117188,
+      "Prime tower": 750.102783203125,
+      "Sparse infill": 87.5938720703125,
+      "Support": 39.82278823852539,
+      "Support interface": 35.785247802734375,
+      "Support transition": 19.027128219604492,
+      "Top surface": 429.2454833984375,
+      "Travel": 541.9859008789062,
+      "Undefined": 534.3599243164062
+    },
+    "cli_shutdown_timeout": false,
+    "gcode_sha256": "b2e9b25422dbc2ea292c079920d15379f7ed8b563eb0a8f178806b07af522868",
+    "project_sha256": "14155f16b6d59893b494cc750827c58796a733a56f98db7a703f0b76527be223"
+  }
+]

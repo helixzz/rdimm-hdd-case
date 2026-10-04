@@ -1,0 +1,75 @@
+{
+  "version": "4.2",
+  "gcode_sha256": {
+    "1-pin-clearance": "4bb570a6667c84960e78b88a34f4e22311b053d16a6b863564c83a34d38e3218",
+    "2-upper-trays": "18542177c00d2914c52fa645ec57d82838e8325a045fd5e9ed1e402ca58c576c"
+  },
+  "results": [
+    {
+      "part": "body-pin-clearance",
+      "clip": 1,
+      "minimum_model_gap_mm": 0.6,
+      "sampled_area_mm2": 1.4,
+      "support_segments_in_gap": 5,
+      "minimum_support_clearance_mm": 0.2
+    },
+    {
+      "part": "body-pin-clearance",
+      "clip": 2,
+      "minimum_model_gap_mm": 0.6,
+      "sampled_area_mm2": 1.4,
+      "support_segments_in_gap": 6,
+      "minimum_support_clearance_mm": 0.2
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "minimum_model_gap_mm": 0.6,
+      "sampled_area_mm2": 1.4,
+      "support_segments_in_gap": 6,
+      "minimum_support_clearance_mm": 0.2
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "minimum_model_gap_mm": 0.6,
+      "sampled_area_mm2": 1.4,
+      "support_segments_in_gap": 7,
+      "minimum_support_clearance_mm": 0.2
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "minimum_model_gap_mm": 0.6,
+      "sampled_area_mm2": 1.4,
+      "support_segments_in_gap": 6,
+      "minimum_support_clearance_mm": 0.2
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "minimum_model_gap_mm": 0.6,
+      "sampled_area_mm2": 1.4,
+      "support_segments_in_gap": 6,
+      "minimum_support_clearance_mm": 0.2
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "minimum_model_gap_mm": 0.6,
+      "sampled_area_mm2": 1.4,
+      "support_segments_in_gap": 7,
+      "minimum_support_clearance_mm": 0.2
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "minimum_model_gap_mm": 0.6,
+      "sampled_area_mm2": 1.4,
+      "support_segments_in_gap": 7,
+      "minimum_support_clearance_mm": 0.2
+    }
+  ],
+  "method": "0.05 mm nominal bead raster in the fixed-frame/tooth overlap; model and support separated",
+  "limits": "Some gaps contain removable interface strands. This does not simulate sagging, adhesion, removal effort or printed friction."
+}

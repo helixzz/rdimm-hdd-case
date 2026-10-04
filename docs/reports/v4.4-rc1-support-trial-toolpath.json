@@ -1,0 +1,149 @@
+{
+  "version": "4.4-rc1-support-trial",
+  "gcode_sha256": "5cf3c77cf822b0cc72c849a5e3cac39a33ff6ce966c19173a2af75bef34869a7",
+  "checks": [
+    {
+      "coupon": "A",
+      "region": "fixed-land",
+      "split_z_mm": 3.1,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "A",
+      "region": "fixed-land",
+      "split_z_mm": 4.5,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "A",
+      "region": "fixed-middle",
+      "split_z_mm": 3.1,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "A",
+      "region": "fixed-middle",
+      "split_z_mm": 4.5,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "A",
+      "region": "tooth-land",
+      "split_z_mm": 3.1,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "A",
+      "region": "tooth-land",
+      "split_z_mm": 4.5,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "A",
+      "region": "tooth-middle",
+      "split_z_mm": 3.1,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "A",
+      "region": "tooth-middle",
+      "split_z_mm": 4.5,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "A",
+      "region": "left-grip-foot",
+      "split_z_mm": 0.7,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "A",
+      "region": "right-grip-foot",
+      "split_z_mm": 0.7,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "A",
+      "region": "automatic-paddle-support",
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "B",
+      "region": "fixed-land",
+      "split_z_mm": 3.1,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "B",
+      "region": "fixed-land",
+      "split_z_mm": 4.5,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "B",
+      "region": "fixed-middle",
+      "split_z_mm": 3.1,
+      "minimum_nominal_gap_mm": 0.6
+    },
+    {
+      "coupon": "B",
+      "region": "fixed-middle",
+      "split_z_mm": 4.5,
+      "minimum_nominal_gap_mm": 0.6
+    },
+    {
+      "coupon": "B",
+      "region": "tooth-land",
+      "split_z_mm": 3.1,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "B",
+      "region": "tooth-land",
+      "split_z_mm": 4.5,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "B",
+      "region": "tooth-middle",
+      "split_z_mm": 3.1,
+      "minimum_nominal_gap_mm": 0.6
+    },
+    {
+      "coupon": "B",
+      "region": "tooth-middle",
+      "split_z_mm": 4.5,
+      "minimum_nominal_gap_mm": 0.6
+    },
+    {
+      "coupon": "B",
+      "region": "left-grip-foot",
+      "split_z_mm": 0.7,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "B",
+      "region": "right-grip-foot",
+      "split_z_mm": 0.7,
+      "minimum_nominal_gap_mm": 0.2
+    },
+    {
+      "coupon": "B",
+      "region": "automatic-paddle-support",
+      "minimum_nominal_gap_mm": 0.2
+    }
+  ],
+  "controlled_seat_residue_test": [
+    {
+      "coupon": "A",
+      "bump_height_mm": 0.2,
+      "module_intersection_mm3": 0.20000000000000007
+    },
+    {
+      "coupon": "B",
+      "bump_height_mm": 0.2,
+      "module_intersection_mm3": 0.0
+    }
+  ],
+  "limits": "One artificial residue patch only. No thermal sagging, adhesion or removal-force simulation; actual removal and retention need testing."
+}
