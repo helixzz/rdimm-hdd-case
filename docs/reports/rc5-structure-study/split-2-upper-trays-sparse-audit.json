@@ -1,0 +1,517 @@
+{
+  "inserts": [
+    {
+      "name": "tray-middle-3-0-moving",
+      "layers": [
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.8552138034508627
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7209302325581395
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8431372549019608
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8641926569285432
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.9390454284071306
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.706049533089728
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.8729689807976366
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.617536534446764
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9345518867924528
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 758,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "tray-middle-3-1-moving",
+      "layers": [
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.856071964017991
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7214710654407788
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8431372549019608
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8641926569285432
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.9390454284071306
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.706049533089728
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.8729689807976366
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.617536534446764
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.934001178550383
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 759,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "tray-middle-3-2-moving",
+      "layers": [
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.8530734632683659
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7214710654407788
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8431372549019608
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8641926569285432
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.9389400921658986
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.7056910569105691
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.8725055432372506
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.6169590643274854
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9335684891240447
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 757,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "tray-top-3-0-moving",
+      "layers": [
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.8538230884557722
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7214710654407788
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8431372549019608
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8641926569285432
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.9389752446747266
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.7056910569105691
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.8728280961182995
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.6162839248434238
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9379157427937915
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 757,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "tray-top-3-1-moving",
+      "layers": [
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.8552138034508627
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7209302325581395
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8431372549019608
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8641926569285432
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.9390454284071306
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.7059301380991064
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.8725055432372506
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.6167014613778705
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9356321839080459
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 756,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "tray-top-3-2-moving",
+      "layers": [
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.8552138034508627
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7213203463203464
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.843065693430657
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8641390205371248
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.9390103567318757
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.7059301380991064
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.8729220539342446
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.6173767752715121
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9379157427937915
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 758,
+      "grid_mm": 0.05
+    }
+  ],
+  "roof_spans": [
+    {
+      "kind": "moving",
+      "roof_support_coverage": 0.727366255144033,
+      "max_uncovered_y_run_mm": 0.4,
+      "grid_mm": 0.05
+    },
+    {
+      "kind": "moving",
+      "roof_support_coverage": 0.727366255144033,
+      "max_uncovered_y_run_mm": 0.4,
+      "grid_mm": 0.05
+    },
+    {
+      "kind": "moving",
+      "roof_support_coverage": 0.727366255144033,
+      "max_uncovered_y_run_mm": 0.4,
+      "grid_mm": 0.05
+    },
+    {
+      "kind": "moving",
+      "roof_support_coverage": 0.727366255144033,
+      "max_uncovered_y_run_mm": 0.4,
+      "grid_mm": 0.05
+    },
+    {
+      "kind": "moving",
+      "roof_support_coverage": 0.727366255144033,
+      "max_uncovered_y_run_mm": 0.4,
+      "grid_mm": 0.05
+    },
+    {
+      "kind": "moving",
+      "roof_support_coverage": 0.727366255144033,
+      "max_uncovered_y_run_mm": 0.4,
+      "grid_mm": 0.05
+    }
+  ],
+  "support_free_keepers": [
+    "keeper-tray-middle-3",
+    "keeper-tray-top-3"
+  ],
+  "whole_plate": {
+    "mount_holes_without_support": [],
+    "free_clip_corridors": [
+      [
+        "tray-middle-3",
+        1
+      ],
+      [
+        "tray-middle-3",
+        2
+      ],
+      [
+        "tray-middle-3",
+        3
+      ],
+      [
+        "tray-top-3",
+        1
+      ],
+      [
+        "tray-top-3",
+        2
+      ],
+      [
+        "tray-top-3",
+        3
+      ]
+    ],
+    "paddle_support": [
+      {
+        "part": "tray-middle-3",
+        "clip": 1,
+        "automatic_support_segments": 0
+      },
+      {
+        "part": "tray-middle-3",
+        "clip": 2,
+        "automatic_support_segments": 0
+      },
+      {
+        "part": "tray-middle-3",
+        "clip": 3,
+        "automatic_support_segments": 0
+      },
+      {
+        "part": "tray-top-3",
+        "clip": 1,
+        "automatic_support_segments": 0
+      },
+      {
+        "part": "tray-top-3",
+        "clip": 2,
+        "automatic_support_segments": 0
+      },
+      {
+        "part": "tray-top-3",
+        "clip": 3,
+        "automatic_support_segments": 0
+      }
+    ],
+    "print_xy_bounds": [
+      [
+        8.534198706388432,
+        20.0
+      ],
+      [
+        234.0,
+        225.8
+      ]
+    ],
+    "tower_xy_bounds": [
+      [
+        8.534198706388432,
+        146.54678823753116
+      ],
+      [
+        47.96380129361157,
+        185.061707144303
+      ]
+    ],
+    "tower_min_model_bbox_gap_mm": 8.436200232267339,
+    "bead_dimensions": {
+      "Outer wall": {
+        "width_min_max_mm": [
+          0.378512,
+          0.5
+        ],
+        "height_mm": [
+          0.2
+        ]
+      },
+      "Top surface": {
+        "width_min_max_mm": [
+          0.42,
+          0.42
+        ],
+        "height_mm": [
+          0.2
+        ]
+      },
+      "Sparse infill": {
+        "width_min_max_mm": [
+          0.45,
+          0.45
+        ],
+        "height_mm": [
+          0.2
+        ]
+      },
+      "Internal solid infill": {
+        "width_min_max_mm": [
+          0.35197,
+          0.64608
+        ],
+        "height_mm": [
+          0.2
+        ]
+      }
+    },
+    "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+  },
+  "physical_verified": false,
+  "limitations": "Nominal material bead connectivity, layer overlap, key interception, bores and free paths; not adhesion/removal force/strength."
+}

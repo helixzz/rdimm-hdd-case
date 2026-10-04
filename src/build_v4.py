@@ -80,7 +80,7 @@ def clear(a,b,label):
     assert volume<.001,(label,volume)
 
 
-def verify(p,fixed,leaves,lid_up_probe=.4,mount_probe_radius=1.8):
+def verify(p,fixed,leaves,lid_up_probe=.4,mount_probe_radius=1.8,component_counts=None):
     checks={'module_poses':0,'loaded_tray_entry_poses':0,'bottom_release_poses':0,'lid_poses':0}
     body=p['body-pin-clearance'];lid=p['lid-slide-lift']
     assembly=[body,lid,p['tray-middle-3'].translate((0,0,10.8)),p['tray-top-3'].translate((0,0,17.6))]
@@ -164,7 +164,7 @@ def verify(p,fixed,leaves,lid_up_probe=.4,mount_probe_radius=1.8):
         for pos in ((6.45,sy+.2,7.),(6.75,sy+.2,7.),(6.6,sy+.05,7.),(6.6,sy+.35,7.),(6.6,sy+.2,6.95),(6.6,sy+.2,7.28)):
             assert (v3.box((133.8,31.4,1.37),pos)^body).volume()>.0001,('bottom PCB stop',pos)
     for name,s in p.items():
-        assert len(s.decompose())==1,(name,'disconnected')
+        assert len(s.decompose())==(component_counts or {}).get(name,1),(name,'disconnected')
         mesh=v3.meshof(s);assert mesh.is_watertight and mesh.is_winding_consistent,name
     bounds=np.array([v3.meshof(a).bounds for a in assembly])
     assert np.allclose(bounds[:,0].min(0),[0,0,0],atol=.0001)

@@ -1,0 +1,692 @@
+{
+  "version": "4.4-rc5-peel-trial",
+  "specimens": [
+    {
+      "name": "A",
+      "kind": "dimm",
+      "translation": [
+        45,
+        20,
+        0
+      ],
+      "insert_records": [
+        {
+          "kind": "fixed",
+          "rib_width_mm": 0.8,
+          "rib_count": 6,
+          "max_clear_gap_mm": 0.4800000000000001,
+          "contact_fraction": 0.6666666666666666,
+          "ribs": [
+            [
+              14.85,
+              0.8
+            ],
+            [
+              16.13,
+              0.8
+            ],
+            [
+              17.41,
+              0.8
+            ],
+            [
+              18.69,
+              0.8
+            ],
+            [
+              19.97,
+              0.8
+            ],
+            [
+              21.25,
+              0.8
+            ]
+          ],
+          "contact_x_mm": [
+            6.65,
+            7.9
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ]
+        },
+        {
+          "kind": "moving",
+          "rib_width_mm": 0.8,
+          "rib_count": 4,
+          "max_clear_gap_mm": 0.36666666666666564,
+          "contact_fraction": 0.7441860465116285,
+          "ribs": [
+            [
+              28.35,
+              0.8
+            ],
+            [
+              29.516666666666666,
+              0.8
+            ],
+            [
+              30.683333333333334,
+              0.8
+            ],
+            [
+              31.849999999999998,
+              0.8
+            ]
+          ],
+          "contact_x_mm": [
+            139.4,
+            140.35
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "kind": "dimm",
+      "translation": [
+        45,
+        70,
+        0
+      ],
+      "insert_records": [
+        {
+          "kind": "moving",
+          "rib_width_mm": 0.8,
+          "rib_count": 4,
+          "max_clear_gap_mm": 0.36666666666666564,
+          "contact_fraction": 0.7441860465116285,
+          "ribs": [
+            [
+              28.35,
+              0.8
+            ],
+            [
+              29.516666666666666,
+              0.8
+            ],
+            [
+              30.683333333333334,
+              0.8
+            ],
+            [
+              31.849999999999998,
+              0.8
+            ]
+          ],
+          "contact_x_mm": [
+            139.4,
+            140.35
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ]
+        }
+      ],
+      "split_keeper": {
+        "start": 14.7,
+        "end": 45.0,
+        "stud_y": [
+          24.7,
+          40.0
+        ],
+        "latch_root": 34.0,
+        "latch_tip": 44.0,
+        "slide_mm": 3.8,
+        "checks": {
+          "assembly_poses": 80,
+          "latch_lift_poses": 11,
+          "positive_stops": 5,
+          "physical_verified": false
+        }
+      }
+    },
+    {
+      "name": "B-KEEPER",
+      "kind": "keeper",
+      "translation": [
+        205,
+        70,
+        0
+      ]
+    },
+    {
+      "name": "C1",
+      "kind": "capture",
+      "translation": [
+        45,
+        125,
+        0
+      ],
+      "capture_length": 6.0,
+      "grip_width": 4.8,
+      "insert_records": [
+        {
+          "kind": "capture",
+          "rib_width_mm": 0.6,
+          "rib_count": 2,
+          "max_clear_gap_mm": 4.2,
+          "contact_fraction": 0.2222222222222222,
+          "ribs": [
+            [
+              2.3,
+              0.6
+            ],
+            [
+              7.1000000000000005,
+              0.6
+            ]
+          ],
+          "contact_x_mm": [
+            3.4,
+            6.3
+          ],
+          "contact_z_mm": [
+            2.9,
+            4.8
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "kind": "capture",
+      "translation": [
+        95,
+        125,
+        0
+      ],
+      "capture_length": 4.2,
+      "grip_width": 3.4,
+      "insert_records": [
+        {
+          "kind": "capture",
+          "rib_width_mm": 0.6,
+          "rib_count": 2,
+          "max_clear_gap_mm": 2.4000000000000004,
+          "contact_fraction": 0.33333333333333326,
+          "ribs": [
+            [
+              2.3,
+              0.6
+            ],
+            [
+              5.300000000000001,
+              0.6
+            ]
+          ],
+          "contact_x_mm": [
+            3.4,
+            6.3
+          ],
+          "contact_z_mm": [
+            2.9,
+            4.8
+          ]
+        }
+      ]
+    },
+    {
+      "name": "H32",
+      "kind": "mount",
+      "translation": [
+        145,
+        125,
+        0
+      ],
+      "diameter": 3.2,
+      "insert_records": []
+    },
+    {
+      "name": "P1",
+      "kind": "process",
+      "translation": [
+        45,
+        170,
+        0
+      ],
+      "source": "full body-pin-clearance",
+      "source_crop": [
+        [
+          35,
+          0,
+          0
+        ],
+        [
+          85,
+          16,
+          12
+        ]
+      ],
+      "process_overrides": {}
+    }
+  ],
+  "volumes": [
+    {
+      "id": 1,
+      "name": "A-keep-1",
+      "coupon": "A",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          46.89999997615814,
+          21.899999976158142,
+          0.0
+        ],
+        [
+          190.10000610351562,
+          55.5,
+          6.800000190734863
+        ]
+      ],
+      "volume_mm3": 5095.547092435596,
+      "painted_faces": 8
+    },
+    {
+      "id": 2,
+      "name": "A-core-1",
+      "coupon": "A",
+      "role": "core",
+      "filament": 1,
+      "bounds": [
+        [
+          52.94999980926514,
+          37.04999923706055,
+          4.0
+        ],
+        [
+          55.25,
+          39.85000038146973,
+          6.599999904632568
+        ]
+      ],
+      "volume_mm3": 3.661500007152555,
+      "painted_faces": 4
+    },
+    {
+      "id": 3,
+      "name": "A-core-2",
+      "coupon": "A",
+      "role": "core",
+      "filament": 1,
+      "bounds": [
+        [
+          182.0500030517578,
+          49.10000038146973,
+          4.0
+        ],
+        [
+          184.35000610351562,
+          51.89999961853027,
+          6.599999904632568
+        ]
+      ],
+      "volume_mm3": 3.6615000071526085,
+      "painted_faces": 4
+    },
+    {
+      "id": 4,
+      "name": "A-interface-1",
+      "coupon": "A",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          51.65000009536743,
+          34.85000038146973,
+          3.0
+        ],
+        [
+          54.55000019073486,
+          42.04999923706055,
+          5.0
+        ]
+      ],
+      "volume_mm3": 20.838899997520443,
+      "painted_faces": 52
+    },
+    {
+      "id": 5,
+      "name": "A-interface-2",
+      "coupon": "A",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          182.75,
+          48.35000038146973,
+          3.0
+        ],
+        [
+          185.35000610351562,
+          52.650001525878906,
+          5.0
+        ]
+      ],
+      "volume_mm3": 10.95889999828947,
+      "painted_faces": 36
+    },
+    {
+      "id": 6,
+      "name": "B-keep-1",
+      "coupon": "B",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          46.89999997615814,
+          71.89999997615814,
+          0.0
+        ],
+        [
+          190.10000610351562,
+          118.9000015258789,
+          6.800000190734863
+        ]
+      ],
+      "volume_mm3": 5118.564202231944,
+      "painted_faces": 4
+    },
+    {
+      "id": 7,
+      "name": "B-core-1",
+      "coupon": "B",
+      "role": "core",
+      "filament": 1,
+      "bounds": [
+        [
+          182.0500030517578,
+          99.10000038146973,
+          4.0
+        ],
+        [
+          184.35000610351562,
+          101.89999961853027,
+          6.599999904632568
+        ]
+      ],
+      "volume_mm3": 3.6615000071526085,
+      "painted_faces": 4
+    },
+    {
+      "id": 8,
+      "name": "B-interface-1",
+      "coupon": "B",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          182.75,
+          98.35000038146973,
+          3.0
+        ],
+        [
+          185.35000610351562,
+          102.6500015258789,
+          5.0
+        ]
+      ],
+      "volume_mm3": 10.95889999828947,
+      "painted_faces": 36
+    },
+    {
+      "id": 9,
+      "name": "B-KEEPER-keep-1",
+      "coupon": "B-KEEPER",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          205.0,
+          70.0,
+          0.0
+        ],
+        [
+          211.0,
+          100.5,
+          2.5
+        ]
+      ],
+      "volume_mm3": 254.71576289991185,
+      "painted_faces": 0
+    },
+    {
+      "id": 10,
+      "name": "C1-keep-1",
+      "coupon": "C1",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          45.0,
+          125.0,
+          0.0
+        ],
+        [
+          70.0,
+          135.0,
+          6.800000190734863
+        ]
+      ],
+      "volume_mm3": 422.4206368406608,
+      "painted_faces": 28
+    },
+    {
+      "id": 11,
+      "name": "C1-core-1",
+      "coupon": "C1",
+      "role": "core",
+      "filament": 1,
+      "bounds": [
+        [
+          51.44999980926514,
+          129.0,
+          4.0
+        ],
+        [
+          53.85000038146973,
+          131.0,
+          6.400000095367432
+        ]
+      ],
+      "volume_mm3": 2.7412500014156094,
+      "painted_faces": 4
+    },
+    {
+      "id": 12,
+      "name": "C1-interface-1",
+      "coupon": "C1",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          48.40000009536743,
+          127.29999995231628,
+          2.9000000953674316
+        ],
+        [
+          53.25,
+          132.69999980926514,
+          5.199999809265137
+        ]
+      ],
+      "volume_mm3": 17.969250013074937,
+      "painted_faces": 22
+    },
+    {
+      "id": 13,
+      "name": "C3-keep-1",
+      "coupon": "C3",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          95.0,
+          125.0,
+          0.0
+        ],
+        [
+          120.0,
+          133.19999980926514,
+          6.800000190734863
+        ]
+      ],
+      "volume_mm3": 403.4697927595623,
+      "painted_faces": 28
+    },
+    {
+      "id": 14,
+      "name": "C3-core-1",
+      "coupon": "C3",
+      "role": "core",
+      "filament": 1,
+      "bounds": [
+        [
+          101.44999980926514,
+          128.09999990463257,
+          4.0
+        ],
+        [
+          103.85000038146973,
+          130.09999990463257,
+          6.400000095367432
+        ]
+      ],
+      "volume_mm3": 2.74125000141561,
+      "painted_faces": 4
+    },
+    {
+      "id": 15,
+      "name": "C3-interface-1",
+      "coupon": "C3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          98.40000009536743,
+          127.29999995231628,
+          2.9000000953674316
+        ],
+        [
+          103.25,
+          130.90000009536743,
+          5.199999809265137
+        ]
+      ],
+      "volume_mm3": 13.640250004760093,
+      "painted_faces": 22
+    },
+    {
+      "id": 16,
+      "name": "H32-keep-1",
+      "coupon": "H32",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          145.0,
+          125.0,
+          0.0
+        ],
+        [
+          169.0,
+          141.0,
+          10.399999618530273
+        ]
+      ],
+      "volume_mm3": 2058.441841050094,
+      "painted_faces": 290
+    },
+    {
+      "id": 17,
+      "name": "P1-keep-1",
+      "coupon": "P1",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          45.0,
+          170.0,
+          0.0
+        ],
+        [
+          95.0,
+          186.0,
+          12.0
+        ]
+      ],
+      "volume_mm3": 4839.46030546916,
+      "painted_faces": 265
+    }
+  ],
+  "painted_faces": 811,
+  "plate_bounds": [
+    [
+      45.0,
+      21.899999976158142,
+      0.0
+    ],
+    [
+      211.0,
+      186.0,
+      12.0
+    ]
+  ],
+  "selected_mount_diameter_mm": 3.2,
+  "modeled_interface_material": "Connected Bambu Support For PLA comb, mechanically captured PLA handle",
+  "physical_verified": false,
+  "scope": "Two structural directions on one plate; A integral and B split keeper, plus captures and bore witnesses; not production parts",
+  "complete_product_checks": {
+    "module_poses": 512,
+    "loaded_tray_entry_poses": 242,
+    "bottom_release_poses": 1520,
+    "lid_poses": 132
+  },
+  "split_product_checks": {
+    "complete_product": {
+      "module_poses": 512,
+      "loaded_tray_entry_poses": 242,
+      "bottom_release_poses": 1520,
+      "lid_poses": 132
+    },
+    "keeper_checks": {
+      "body-pin-clearance": {
+        "assembly_poses": 80,
+        "latch_lift_poses": 11,
+        "positive_stops": 5,
+        "physical_verified": false
+      },
+      "body-thread-pilot": {
+        "assembly_poses": 80,
+        "latch_lift_poses": 11,
+        "positive_stops": 5,
+        "physical_verified": false
+      },
+      "tray-middle-3": {
+        "assembly_poses": 80,
+        "latch_lift_poses": 11,
+        "positive_stops": 5,
+        "physical_verified": false
+      },
+      "tray-top-3": {
+        "assembly_poses": 80,
+        "latch_lift_poses": 11,
+        "positive_stops": 5,
+        "physical_verified": false
+      }
+    }
+  },
+  "coupon_checks": {
+    "single_connected_parts": 17,
+    "connected_insert_extraction_poses": 165
+  },
+  "removable_unit_count": 5,
+  "comparison": "A integral / B separate fixed keeper; DIMM rib gap <=.8 mm; C retains .6 mm end contacts; H32 unchanged; P1 corrected hole blockers"
+}

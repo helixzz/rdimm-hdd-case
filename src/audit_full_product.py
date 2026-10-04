@@ -29,7 +29,7 @@ def check(folder):
     paths=paths[features!='Prime tower'];bores=[];corridors=[];paddles=[]
     for part in manifest['specimens']:
         name=part['name']
-        if name.startswith('lid'):continue
+        if name.startswith('lid') or part.get('kind')=='keeper':continue
         t=np.array(part['inverse']);local=paths.copy()
         for cols in ((0,1),(2,3)):
             xyz=np.c_[paths[:,cols[0]],paths[:,cols[1]],paths[:,4]]@t[:3,:3].T+t[:3,3]

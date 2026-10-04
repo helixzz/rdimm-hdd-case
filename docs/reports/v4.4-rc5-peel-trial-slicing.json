@@ -1,0 +1,105 @@
+{
+  "version": "4.4-rc5-peel-trial",
+  "project": "rdimm-4.4-rc5-peel-trial-plate-0-P2S-AMS2Pro.3mf",
+  "estimated_seconds": 4886.755859375,
+  "filaments": [
+    {
+      "filament_id": "GFA00",
+      "id": 1,
+      "main_used_g": 19.213132858276367,
+      "total_used_g": 27.24472427368164
+    },
+    {
+      "filament_id": "GFS02",
+      "id": 2,
+      "main_used_g": 0.09401565045118332,
+      "total_used_g": 6.8785200119018555
+    }
+  ],
+  "warnings": "",
+  "filament_changes": 12,
+  "painted_faces": 811,
+  "assignments": {
+    "B-KEEPER-keep-1": "1",
+    "B-keep-1": "1",
+    "B-core-1": "1",
+    "B-interface-1": "2",
+    "P1-keep-1": "1",
+    "C1-keep-1": "1",
+    "C1-core-1": "1",
+    "C1-interface-1": "2",
+    "A-keep-1": "1",
+    "A-core-1": "1",
+    "A-core-2": "1",
+    "A-interface-1": "2",
+    "A-interface-2": "2",
+    "C3-keep-1": "1",
+    "C3-core-1": "1",
+    "C3-interface-1": "2",
+    "H32-keep-1": "1"
+  },
+  "object_overrides": {
+    "B-KEEPER": {
+      "name": "B-KEEPER",
+      "extruder": "1"
+    },
+    "B": {
+      "name": "B",
+      "extruder": "1"
+    },
+    "P1": {
+      "name": "P1",
+      "extruder": "1"
+    },
+    "C1": {
+      "name": "C1",
+      "extruder": "1"
+    },
+    "A": {
+      "name": "A",
+      "extruder": "1"
+    },
+    "C3": {
+      "name": "C3",
+      "extruder": "1"
+    },
+    "H32": {
+      "name": "H32",
+      "extruder": "1"
+    }
+  },
+  "max_import_vertex_rounding_mm": 1.5890153484236797e-05,
+  "settings": {
+    "filament_settings_id": [
+      "Bambu PLA Basic @BBL P2S",
+      "Bambu Support For PLA @BBL P2S"
+    ],
+    "filament_is_support": [
+      "0",
+      "1"
+    ],
+    "support_interface_filament": "1",
+    "support_top_z_distance": "0.2",
+    "support_bottom_z_distance": "0.2",
+    "support_interface_spacing": "0.25",
+    "enable_prime_tower": "1",
+    "flush_volumes_matrix": [
+      "0",
+      "800",
+      "800",
+      "0"
+    ],
+    "flush_into_objects": "0",
+    "flush_into_infill": "0",
+    "flush_into_support": "0",
+    "internal_solid_infill_line_width": "0.42",
+    "sparse_infill_line_width": "0.45",
+    "infill_combination": "0",
+    "wall_loops": "2",
+    "top_shell_layers": "5",
+    "bottom_shell_layers": "3"
+  },
+  "project_sha256": "b7a517151ffcdab9d90ee3b7e85aeecac3bc87a0cb5b84f167dc43178786df62",
+  "gcode_sha256": "7d267c1c264bc94c8872e67f5f8dafb42c5d2e8b006655293b1218fa41f81e53",
+  "physical_verified": false
+}
