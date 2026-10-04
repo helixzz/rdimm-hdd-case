@@ -1,5 +1,12 @@
 # Agent collaboration guide
 
+## Latest RC5 physical evidence: 2026-10-05
+
+- Supersedes physical-pending statements below: P1/H32 look good, retain3.2mm/bore blockers. Separate B keeper rejected as preferred route for complexity/ease-of-loss. Integrated DIMM coupon shows loose extrusions BEFORE support removal, confirmed by user; print-stage failure, not removal technique. User calls integral B; RC5 integral is A, identify by structure. Photos private.
+- C group easier to clean but ordinary PLA at mixed boundary has defects; user wrote C3 twice, do not fabricate independent C1 confirmation. Which sacrificial/permanent surface failed is not yet established. Do not claim no-support qualified just because roof completed.
+- Pause thin combs/mixed-material keys. User proposes full solid dedicated-material supports INCLUDING grips, separate from the rejected permanent keeper concept. evaluate_rc5_solid_support.py screens20 one-material sacrificial pieces on complete product,20 extraction paths660poses plus512/242/1520/132 product poses, slicing no warning. Whole5h28m37/46changes/183.38g/Support26.86g including purge; actualSupport~.77g. Research only, full path and physical checks pending, no new release. Report docs/reports/rc5-solid-support-screen.json. OldRC5assets immutable.
+- Do not imply all-Support eliminates permanent PLA/support boundary or guarantees release. Broader footprint may improve stability, but adhesion, peeling and finish unverified. No production speed claim.
+
 ## Current trial: v4.4-rc5-peel-trial
 
 - User accepted comparing integral support and one-time tool-free split keepers. One configured plate: A, B, B-KEEPER (PERMANENT), C1/C3, H32/P1. Seven multipart objects / 17 volumes. B fixed end and separate keeper are support-free; its moving clip retains A support. Do not claim entirely support-free tray. Six trial groups, not replacement production trays.

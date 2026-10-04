@@ -1,5 +1,7 @@
 # RDIMM HDD Case
 
+**2026-10-05 实测更新：[RC5 反馈与整块支撑初筛](docs/validation-v4.4-trials.zh-CN.md)**。DIMM 支撑在拆除前已出现散丝，RC5 一体支撑未通过；分体压条使用复杂，暂不作为首选。C 组较易拆净但仍有交界面瑕疵，P1/H32 观察正常。后续转向简单、整块专用材料牺牲支撑，尚未发布新打印盘。
+
 **最新测试盘：[v4.4 RC5：一体/分体压条对比](docs/v4.4-rc5-peel-trial.zh-CN.md) · [下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc5-peel-trial)**。一盘七件：A 连体稀疏支撑，B＋独立永久压条，C1/C3、H32、修正孔内支撑的 P1。P2S＋AMS 2 Pro，约 **1 小时 21 分 27 秒 / 34.12 g / 12 次换料**。B 固定端和压条无支撑；活动端仍需支撑。仅试件，实际拆除与装配待验证。[整套成本比较](docs/rc5-structure-study.zh-CN.md)：A/B 仍比旧双材料候选慢，尚不能宣称生产提速。
 
 **2026-10-04 实测反馈：[RC4 结果与改进方向](docs/validation-v4.4-trials.zh-CN.md)**。H32 的 3.2 mm 孔表现良好；A 固定端仍难拆，A/C 的 Support for PLA 接触薄片仍有残留，尚未达到免工具拆净目标。P1/P2 漏加孔内禁支撑，已在研究副本修正并复核；原发布附件未覆盖。RC5 已完成整盒候选筛选，现提供一体/分体同盘复核。
