@@ -1,5 +1,12 @@
 # Agent collaboration guide
 
+## Latest evidence: RC4 physical feedback, 2026-10-04
+
+- See docs/validation-v4.4-trials.zh-CN.md. A moving core is hand-removable but leaves 1–2 layers; fixed-end handles break before release. C1/C3 can be removed sideways by hand but sometimes leave layers. User confirms remnants are mainly Support For PLA, not ordinary PLA. Neither A nor C qualifies as clean/no-tool postprocessing. Photos are private; do not publish them.
+- H32 passed user's trial; retain 3.2 mm side/bottom holes. P1/P2 show no obvious observed difference, not proof of strength or whole-plate quality. Both contain unwanted bore support: RC4 process specimens omitted bore paint and old audit checked only H32. Do not repeat the historical blanket claim that all RC4 bores are support-free.
+- src/evaluate_rc4_feedback.py reproduces the omission and corrects an ignored research copy only. Same mesh/settings, 265 added blocker faces per P specimen. All six coupon bores then have zero automatic-support segments; all ten existing complete-product selective-candidate bores rechecked empty. docs/reports/rc4-feedback-bore-audit.json records hashes. Corrected P roof quality not physically verified. Published RC4 assets/tag remain immutable, no RC5 issued.
+- Next prioritize retrievable/peelable dedicated contact films and accessible fixed-end load paths, not handle thickening alone. Screen on full eight-slot product, all four lid captures and ten mounting bores before another coupon. Existing numerical extraction checks do not model adhesion/residue. Historical statements below about no physical dual-material evidence are superseded by this partial-failure trial; full-product validation remains pending.
+
 ## Latest physical trial: v4.4-rc4-product-trial
 
 - User requested a new one-plate trial for the whole-product study. Six specimens A/C1/C3/H32/P1/P2, five PLA cores +14 modeled Support For PLA interfaces. A uses raised/no-foot grips and45-degree paddle gusset; C captures retain widened RC3 grips;3.2mm bores no auto-support. P1/P2 are actual body crop X35..85/Y0..16/Z0..12, label differences only. P2 uses .5 internal lines + combined sparse infill; all others baseline. One configured project with SIX separate multipart objects, not one merged STL.
