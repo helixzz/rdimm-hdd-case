@@ -49,6 +49,7 @@ jobs:
       - run: python src/evaluate_full_product.py --geometry-only
       - run: python src/build_trial_v4_4_rc4.py --output-dir build/v4.4-rc4-product-trial
       - run: python src/build_trial_v4_4_rc5.py --output-dir build/v4.4-rc5-peel-trial
+      - run: python src/build_trial_v4_4_rc6.py --output-dir build/v4.4-rc6-solid-trial
       - uses: actions/upload-artifact@v7.0.1
         with:
           name: rdimm-case-${{ matrix.os }}

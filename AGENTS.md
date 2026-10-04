@@ -1,5 +1,13 @@
 # Agent collaboration guide
 
+## Current trial: v4.4-rc6-solid-trial
+
+- After RC5 print-stage failure, user authorized continued simplification. Solid Support For PLA pads AND broad low grips, no fingers/PLA handles/keys. Permanent product unchanged. Separate permanent keeper dropped. Four coupons A (supported), N (same geometry apart from mark, truly no support), C1/C3. H32/P1 omitted after positive feedback. One configured multipart project/8volumes. Not replacement trays, latest complete4.3 unchanged.
+- study_solid_support_v4_4_rc6.py compares complete two-plate product.5.0mm local grip tops selected:4h51m09/32changes/167.66g/18.78g Support incl purge vs high solid5h28m37/46/183.38g.5.4mm candidate5h01m54/36 failed .5mm roof-gap screen at .60mm, not proof of physical failure. No-local-support full study3h06m54/0changes has not had every automatic support audited: NEVER call complete box support-free based on it.
+- Selected20pads660extraction poses and512/242/1520/132 whole assembly poses pass. audit_solid_support_v4_4_rc6.py verifies first-layer single region and EVERY layer continuous, underlying PLA projection, dense roof coverage; all10mount holes/eight spring corridors clear. Lowest full projected base coverage .856, roof .986, maximum gap .45mm. Still NOT adhesion/drag/thermal proof; wider contacts may stick more.
+- build/prepare/audit/preview/package_trial_v4_4_rc6.py. Final four-coupon plate1h03m14/10changes/PLA20.492132+Support5.781709=26.273841g. All4pads continuous each layer, projected base .971-.999, roof .989-1, longest bead gap .4mm at .05grid. N explicitly zero auto/dedicated support, contact-face first PLA layer has zero underlying overlap in sampled region; roof attaches outside region. N is a diagnostic comparison, not approved printability.
+- Preserve exact Support For PLA/GFS02,800mm3 flush each way, normal prime tower, no flushing into product.141 painted faces; no automatic support disabled globally. Source/report/hash/package tied to immutable RC6 tag. No photos/private paths/G-code/vendor preset files in release. Print failure/residue/functional surfaces must be recorded separately; no production qualification.
+
 ## Latest RC5 physical evidence: 2026-10-05
 
 - Supersedes physical-pending statements below: P1/H32 look good, retain3.2mm/bore blockers. Separate B keeper rejected as preferred route for complexity/ease-of-loss. Integrated DIMM coupon shows loose extrusions BEFORE support removal, confirmed by user; print-stage failure, not removal technique. User calls integral B; RC5 integral is A, identify by structure. Photos private.

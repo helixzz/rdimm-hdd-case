@@ -1,0 +1,185 @@
+{
+  "geometry": {
+    "checks": {
+      "module_poses": 512,
+      "loaded_tray_entry_poses": 242,
+      "bottom_release_poses": 1520,
+      "lid_poses": 132
+    },
+    "mount_diameter_mm": 3.2,
+    "details": [
+      {
+        "part": "body-pin-clearance",
+        "cores": 0,
+        "interfaces": 0,
+        "core_extraction_poses": 0,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            20.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "lid-slide-lift",
+        "cores": 0,
+        "interfaces": 0,
+        "core_extraction_poses": 0,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000004768371
+          ],
+          [
+            0.0,
+            -1.0,
+            -1.2246467991473532e-16,
+            229.8000030517578
+          ],
+          [
+            0.0,
+            1.2246467991473532e-16,
+            -1.0,
+            26.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "tray-middle-3",
+        "cores": 0,
+        "interfaces": 0,
+        "core_extraction_poses": 0,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000002384186
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            18.100000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "tray-top-3",
+        "cores": 0,
+        "interfaces": 0,
+        "core_extraction_poses": 0,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000002384186
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            126.10000002384186
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "outer_mm": [
+      147,
+      101.6,
+      26
+    ],
+    "physical_verified": false,
+    "connected_insert_count": 0,
+    "insert_extraction_poses": 0,
+    "scope": "No modeled local supports; diagnostic control, not qualified"
+  },
+  "plates": [
+    {
+      "plate": "1-pin-clearance",
+      "seconds": 7757.05419921875,
+      "changes": 0,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 91.24600219726562,
+          "total_used_g": 91.24600219726562
+        }
+      ],
+      "warnings": "",
+      "project_sha256": "7dd85cc5bd9a4b2d5abc88101dc5128f34984ff80e44bfe255f18a771f3c6cff",
+      "gcode_sha256": "367a8facda72ed0c7276a3f56d7f961a3fe967e479706a09657e946aecdf4fae"
+    },
+    {
+      "plate": "2-upper-trays",
+      "seconds": 3456.92626953125,
+      "changes": 0,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 33.71360778808594,
+          "total_used_g": 33.71360778808594
+        }
+      ],
+      "warnings": "",
+      "project_sha256": "e461ea5bfa3e25ae3e9de4a25f9c236eb7379ba65c8e09527a6b69173554fdba",
+      "gcode_sha256": "2058ad490484544a42331ef9bcaf0aec46d20b2b283de1694764c07e21690d57"
+    }
+  ],
+  "physical_verified": false
+}
