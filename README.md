@@ -1,5 +1,7 @@
 # RDIMM HDD Case
 
+**RC6 实测更新：[结果与后续方向](docs/validation-v4.4-trials.zh-CN.md)**。N 两端下垂，固定端阻挡 DIMM，免支撑对照未通过。A 基本合格，A/C 支撑均可一次拆净、无残留；A 固定端及 C1/C3 仍需工具用力拆除。该结果取代下方 RC6 的“待验证”状态，不代表完整产品已通过验证。
+
 **最新测试盘：[v4.4 RC6：整块支撑与无支撑对照](docs/v4.4-rc6-solid-trial.zh-CN.md) · [下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc6-solid-trial)**。一盘 A/N/C1/C3 四件，取消细齿与异材锁键，可拆支撑及把手全部 Support For PLA。N 是真正无支撑的诊断对照，非生产承诺。P2S＋AMS 2 Pro 参考 **1:03:14 / 26.27 g / 10 次换料**；[整盒研究](docs/rc6-solid-study.zh-CN.md)筛选低把手候选约 4:51:09 / 32 次。实际打印与拆除仍待验证。
 
 **2026-10-05 实测更新：[RC5 反馈与整块支撑初筛](docs/validation-v4.4-trials.zh-CN.md)**。DIMM 支撑在拆除前已出现散丝，RC5 一体支撑未通过；分体压条使用复杂，暂不作为首选。C 组较易拆净但仍有交界面瑕疵，P1/H32 观察正常。后续转向简单、整块专用材料牺牲支撑，已筛选并发布下列 RC6 对照盘。

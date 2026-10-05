@@ -1,5 +1,11 @@
 # Agent collaboration guide
 
+## Latest RC6 physical evidence
+
+- N fails actual fit: both unsupported undersides sag; fixed end prevents DIMM insertion. Actual first contact layer Z4.8 contains Bridge/Inner wall/Overhang wall at fixed end, Overhang wall only at moving end. Bridge flow alone cannot address all affected paths. Existing overhang slowing/forced cooling already enabled; settings are not measured thermal conditions.
+- A basically acceptable: robust solid supports, fixed end requires force/tools, moving end easier; both removed cleanly without residue in one removal. C1/C3 similarly clean removal but require force/tool prying. No tool-free, full-product or fatigue qualification. Photos private.
+- Retain continuous solid support baseline. Prioritize release access/nonfunctional side relief for fixed/C without losing roof coverage or stable base. No return to failed fine combs. Unsupported sloped geometry remains research requiring PCB/component/loading/release checks. Preserve RC6 tag/assets; see validation-v4.4-trials.zh-CN.md for feedback.
+
 ## Current trial: v4.4-rc6-solid-trial
 
 - After RC5 print-stage failure, user authorized continued simplification. Solid Support For PLA pads AND broad low grips, no fingers/PLA handles/keys. Permanent product unchanged. Separate permanent keeper dropped. Four coupons A (supported), N (same geometry apart from mark, truly no support), C1/C3. H32/P1 omitted after positive feedback. One configured multipart project/8volumes. Not replacement trays, latest complete4.3 unchanged.
