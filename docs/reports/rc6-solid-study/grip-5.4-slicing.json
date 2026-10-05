@@ -1,0 +1,200 @@
+{
+  "geometry": {
+    "checks": {
+      "module_poses": 512,
+      "loaded_tray_entry_poses": 242,
+      "bottom_release_poses": 1520,
+      "lid_poses": 132
+    },
+    "mount_diameter_mm": 3.2,
+    "details": [
+      {
+        "part": "body-pin-clearance",
+        "cores": 0,
+        "interfaces": 8,
+        "core_extraction_poses": 264,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            20.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "lid-slide-lift",
+        "cores": 0,
+        "interfaces": 0,
+        "core_extraction_poses": 0,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000004768371
+          ],
+          [
+            0.0,
+            -1.0,
+            -1.2246467991473532e-16,
+            229.8000030517578
+          ],
+          [
+            0.0,
+            1.2246467991473532e-16,
+            -1.0,
+            26.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "tray-middle-3",
+        "cores": 0,
+        "interfaces": 6,
+        "core_extraction_poses": 198,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000002384186
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            18.100000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "tray-top-3",
+        "cores": 0,
+        "interfaces": 6,
+        "core_extraction_poses": 198,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000002384186
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            126.10000002384186
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "outer_mm": [
+      147,
+      101.6,
+      26
+    ],
+    "physical_verified": false,
+    "connected_insert_count": 20,
+    "insert_extraction_poses": 660
+  },
+  "plates": [
+    {
+      "plate": "1-pin-clearance",
+      "seconds": 12490.8837890625,
+      "changes": 24,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 90.75035858154297,
+          "total_used_g": 109.61636352539062
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.2710864245891571,
+          "total_used_g": 13.99720573425293
+        }
+      ],
+      "warnings": "",
+      "project_sha256": "a3d5894b09119ba59254e6872fea1b08c7c1b5432ca665651efbb6b4b20d4c06",
+      "gcode_sha256": "72ce1e8d449f103c787b913556ab2b9c018baec90f195cd7d6c90b0e71c58f0d"
+    },
+    {
+      "plate": "2-upper-trays",
+      "seconds": 5622.85791015625,
+      "changes": 12,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 33.37095260620117,
+          "total_used_g": 41.446571350097656
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.31864863634109497,
+          "total_used_g": 7.099825382232666
+        }
+      ],
+      "warnings": "",
+      "project_sha256": "8dd0f0ddf15ef25aa1db8c77c951ade39144495a026a241b4f5e527fd851c46b",
+      "gcode_sha256": "c1234c3d92c5aefd372d44af06f098f398b60be08dd6663f99eb486b161feebd"
+    }
+  ],
+  "physical_verified": false,
+  "coupons": {
+    "single_connected_parts": 8,
+    "connected_insert_extraction_poses": 132
+  }
+}

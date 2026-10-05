@@ -1,0 +1,416 @@
+{
+  "variant": "v3-slide-prototype",
+  "outer_mm": [
+    147.0,
+    101.6,
+    26.0
+  ],
+  "capacity": 8,
+  "operation_guides": {
+    "depth_mm": 0.3,
+    "stroke_width_mm": 0.55,
+    "letter_height_mm": 3.55,
+    "method": "recessed geometry; single material; no external fonts",
+    "marks": [
+      {
+        "part": "lid-slide",
+        "mark": "1 PRESS / pointer; 2 OPEN / -Y arrow; KEEP LEVEL / level icon",
+        "surface": "exterior top"
+      },
+      {
+        "part": "body-thread-pilot",
+        "mark": "PRESS / down arrow",
+        "surface": "fixed front wall below latch, not on flexure"
+      },
+      {
+        "part": "body-thread-pilot",
+        "mark": "SATA END",
+        "surface": "connector-end outside wall"
+      },
+      {
+        "part": "body-pin-clearance",
+        "mark": "PRESS / down arrow",
+        "surface": "fixed front wall below latch, not on flexure"
+      },
+      {
+        "part": "body-pin-clearance",
+        "mark": "SATA END",
+        "surface": "connector-end outside wall"
+      },
+      {
+        "part": "tray-bottom-2",
+        "mark": "1 BASE / LIFT, at both rigid ends",
+        "surface": "top of thick end rails"
+      },
+      {
+        "part": "frame-bottom-2",
+        "mark": "1 BASE / LIFT, at both rigid ends",
+        "surface": "top of thick end rails"
+      },
+      {
+        "part": "tray-middle-3",
+        "mark": "2 MID / LIFT, at both rigid ends",
+        "surface": "top of thick end rails"
+      },
+      {
+        "part": "frame-middle-3",
+        "mark": "2 MID / LIFT, at both rigid ends",
+        "surface": "top of thick end rails"
+      },
+      {
+        "part": "tray-top-3",
+        "mark": "3 TOP / LIFT, at both rigid ends",
+        "surface": "top of thick end rails"
+      },
+      {
+        "part": "frame-top-3",
+        "mark": "3 TOP / LIFT, at both rigid ends",
+        "surface": "top of thick end rails"
+      },
+      {
+        "part": "retainer-test-tray",
+        "mark": "TEST",
+        "surface": "thick end rail; lettering sample"
+      },
+      {
+        "part": "retainer-test-frame",
+        "mark": "TEST",
+        "surface": "thick end rail; lettering sample"
+      }
+    ]
+  },
+  "parts": [
+    {
+      "part": "body-thread-pilot",
+      "extents_mm": [
+        147.0,
+        101.5999984741211,
+        26.0
+      ],
+      "volume_cm3": 79.63308918768014,
+      "flip_x_180": false,
+      "translation_for_print": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "body-pin-clearance",
+      "extents_mm": [
+        147.0,
+        101.5999984741211,
+        26.0
+      ],
+      "volume_cm3": 79.38708534810014,
+      "flip_x_180": false,
+      "translation_for_print": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "lid-slide",
+      "extents_mm": [
+        143.39999389648438,
+        99.60000610351562,
+        1.6000003814697266
+      ],
+      "volume_cm3": 19.66144140087706,
+      "flip_x_180": true,
+      "translation_for_print": [
+        -1.7999999523162842,
+        99.80000305175781,
+        26.0
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "tray-bottom-2",
+      "extents_mm": [
+        143.20001220703125,
+        65.4000015258789,
+        6.800000190734863
+      ],
+      "volume_cm3": 9.420542975338407,
+      "flip_x_180": false,
+      "translation_for_print": [
+        -1.899999976158142,
+        -18.100000381469727,
+        -0.0
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "tray-middle-3",
+      "extents_mm": [
+        143.20001220703125,
+        97.79999542236328,
+        6.800000190734863
+      ],
+      "volume_cm3": 14.363072046199804,
+      "flip_x_180": false,
+      "translation_for_print": [
+        -1.899999976158142,
+        -1.899999976158142,
+        -0.0
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "tray-top-3",
+      "extents_mm": [
+        143.20001220703125,
+        97.79999542236328,
+        6.800000190734863
+      ],
+      "volume_cm3": 14.364267009459516,
+      "flip_x_180": false,
+      "translation_for_print": [
+        -1.899999976158142,
+        -1.899999976158142,
+        -0.0
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "frame-bottom-2",
+      "extents_mm": [
+        143.20001220703125,
+        65.4000015258789,
+        2.4000000953674316
+      ],
+      "volume_cm3": 1.321408667017772,
+      "flip_x_180": true,
+      "translation_for_print": [
+        -1.899999976158142,
+        83.5,
+        6.8000001907348615
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "frame-middle-3",
+      "extents_mm": [
+        143.20001220703125,
+        97.79999542236328,
+        2.4000000953674316
+      ],
+      "volume_cm3": 1.721261637425471,
+      "flip_x_180": true,
+      "translation_for_print": [
+        -1.899999976158142,
+        99.69999694824219,
+        6.800000190734863
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "frame-top-3",
+      "extents_mm": [
+        143.20001220703125,
+        97.79999542236328,
+        2.4000000953674316
+      ],
+      "volume_cm3": 1.722456604692773,
+      "flip_x_180": true,
+      "translation_for_print": [
+        -1.899999976158142,
+        99.69999694824219,
+        6.800000190734863
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "retainer-test-tray",
+      "extents_mm": [
+        143.20001220703125,
+        33.000003814697266,
+        6.300000190734863
+      ],
+      "volume_cm3": 5.120671067887068,
+      "flip_x_180": false,
+      "translation_for_print": [
+        -1.899999976158142,
+        -34.29999923706055,
+        -0.0
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "retainer-test-frame",
+      "extents_mm": [
+        143.20001220703125,
+        33.000003814697266,
+        2.4000000953674316
+      ],
+      "volume_cm3": 0.7934282300802166,
+      "flip_x_180": true,
+      "translation_for_print": [
+        -1.899999976158142,
+        67.30000305175781,
+        6.800000190734859
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "empty-fit-gauge-pin",
+      "extents_mm": [
+        147.0,
+        101.5999984741211,
+        26.0
+      ],
+      "volume_cm3": 66.90708534810013,
+      "flip_x_180": false,
+      "translation_for_print": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "rail-test-base",
+      "extents_mm": [
+        12.0,
+        24.0,
+        7.0
+      ],
+      "volume_cm3": 0.5248001979827878,
+      "flip_x_180": false,
+      "translation_for_print": [
+        -0.0,
+        -32.0,
+        -19.0
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "rail-test-slider",
+      "extents_mm": [
+        10.199999809265137,
+        24.0,
+        1.6000003814697266
+      ],
+      "volume_cm3": 0.33119996337890695,
+      "flip_x_180": true,
+      "translation_for_print": [
+        -1.7999999523162842,
+        56.0,
+        25.999999999999996
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "latch-test-base",
+      "extents_mm": [
+        60.0,
+        22.600000381469727,
+        6.799999237060547
+      ],
+      "volume_cm3": 2.7876783778857788,
+      "flip_x_180": false,
+      "translation_for_print": [
+        -33.0,
+        -0.0,
+        -19.200000762939453
+      ],
+      "single_closed_solid": true
+    },
+    {
+      "part": "latch-test-slider",
+      "extents_mm": [
+        56.39999771118164,
+        20.599998474121094,
+        1.6000003814697266
+      ],
+      "volume_cm3": 1.708928205169634,
+      "flip_x_180": true,
+      "translation_for_print": [
+        -34.79999923706055,
+        20.79999923706055,
+        26.0
+      ],
+      "single_closed_solid": true
+    }
+  ],
+  "reference_module_travel_cases": 512,
+  "pcb_stop_checks": 48,
+  "frame_xy_clearance_cases": 2048,
+  "single_slot_coupon_cases": 64,
+  "lid_sweep_samples": 102,
+  "lid_locked_stops_checked": [
+    "outward",
+    "inward",
+    "upward"
+  ],
+  "mount_probe_count": 10,
+  "mount_probe_diameter_mm": 3.6,
+  "mount_probe_depth_mm": 5.0,
+  "blind_hole_depth_mm": {
+    "side": 5.7,
+    "bottom": 5.3
+  },
+  "connector_pocket_mm": {
+    "x": [
+      0,
+      6
+    ],
+    "y": [
+      11,
+      58
+    ],
+    "z": [
+      0,
+      6.2
+    ]
+  },
+  "connector_pocket_is_design_target_not_universal_standard": true,
+  "fasteners_required": {},
+  "closed_lid_required_for_inversion_retention": true,
+  "fasteners_optional": {
+    "M2x8_countersunk_head_max_4mm": 2
+  },
+  "parallel_tilt_study": [
+    {
+      "free_height_mm": 20.4,
+      "free_width_mm": 98.4,
+      "normal_gap_mm": 0.6,
+      "count": 6,
+      "angle_deg": 29.71,
+      "height_mm": 20.399958144876983,
+      "span_mm": 30.03286303890072,
+      "pitch_mm": 12.449298223228652
+    },
+    {
+      "free_height_mm": 22.4,
+      "free_width_mm": 98.4,
+      "normal_gap_mm": 0.6,
+      "count": 7,
+      "angle_deg": 34.56,
+      "height_mm": 22.399321571370486,
+      "span_mm": 29.01861161216866,
+      "pitch_mm": 10.876675004859669
+    }
+  ],
+  "tilt_study_is_global_optimum": false,
+  "pcb_short_edge_keepout_assumption_mm": 2,
+  "physical_tested": false,
+  "sliced": false,
+  "latch_fatigue_verified": false,
+  "backplane_fit_verified": false,
+  "thread_strength_verified": false,
+  "source_sha256": {
+    "keeper-2-print-2.stl": "a073ea955a2c61232158dd3ca8aa05fb86ce4ab528c28a3c751b6562c0dfcc39",
+    "keeper-3-print-4.stl": "890bcd14a6e477e384fc8e8b9f40635096940e2bbde0cc687760c437ecdf92af",
+    "lid-retention.stl": "299085b50a697746421bcea70ebcb920fbd42c5717157cfe1474c76060b67c2b",
+    "test-keeper-1-print-2.stl": "d04f4a114911f0d7a94eafd39922a0e1650c82dbf8e5e5891a8b2b6b8f1583d3",
+    "test-tray-1.stl": "57928ded7ec817fe82738a3383d105db0a0352de1794895b94109db963bbd2f3",
+    "tray-bottom-2.stl": "a0d39c51244d5293d086bfd4986d6e668509652ef55399f0719d497abd775246",
+    "tray-middle-3.stl": "930f5238531a9e62a1c9f166937da79032eeef57b618f39e9bb2b134a0971449",
+    "tray-top-3.stl": "930f5238531a9e62a1c9f166937da79032eeef57b618f39e9bb2b134a0971449"
+  }
+}

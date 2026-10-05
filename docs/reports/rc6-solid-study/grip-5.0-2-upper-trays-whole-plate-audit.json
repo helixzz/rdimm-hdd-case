@@ -1,0 +1,121 @@
+{
+  "mount_holes_without_support": [],
+  "free_clip_corridors": [
+    [
+      "tray-middle-3",
+      1
+    ],
+    [
+      "tray-middle-3",
+      2
+    ],
+    [
+      "tray-middle-3",
+      3
+    ],
+    [
+      "tray-top-3",
+      1
+    ],
+    [
+      "tray-top-3",
+      2
+    ],
+    [
+      "tray-top-3",
+      3
+    ]
+  ],
+  "paddle_support": [
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "automatic_support_segments": 0
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "automatic_support_segments": 0
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "automatic_support_segments": 0
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "automatic_support_segments": 0
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "automatic_support_segments": 0
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "automatic_support_segments": 0
+    }
+  ],
+  "print_xy_bounds": [
+    [
+      8.534198706388432,
+      20.0
+    ],
+    [
+      199.6,
+      225.8
+    ]
+  ],
+  "tower_xy_bounds": [
+    [
+      8.534198706388432,
+      146.54678823753116
+    ],
+    [
+      47.96380129361157,
+      185.061707144303
+    ]
+  ],
+  "tower_min_model_bbox_gap_mm": 8.436200232267339,
+  "bead_dimensions": {
+    "Outer wall": {
+      "width_min_max_mm": [
+        0.378512,
+        0.5
+      ],
+      "height_mm": [
+        0.2
+      ]
+    },
+    "Top surface": {
+      "width_min_max_mm": [
+        0.42,
+        0.42
+      ],
+      "height_mm": [
+        0.2
+      ]
+    },
+    "Sparse infill": {
+      "width_min_max_mm": [
+        0.45,
+        0.45
+      ],
+      "height_mm": [
+        0.2
+      ]
+    },
+    "Internal solid infill": {
+      "width_min_max_mm": [
+        0.35198,
+        0.64608
+      ],
+      "height_mm": [
+        0.2
+      ]
+    }
+  },
+  "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+}

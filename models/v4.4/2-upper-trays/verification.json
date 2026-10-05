@@ -1,0 +1,877 @@
+{
+  "version": "4.4",
+  "specimens": [
+    {
+      "name": "tray-middle-3",
+      "kind": "tray-middle-3",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -54.50000002384186
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -18.100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rois": [
+        [
+          [
+            6.29,
+            14.489999999999991,
+            4.59
+          ],
+          [
+            7.92,
+            22.509999999999994,
+            4.95
+          ]
+        ],
+        [
+          [
+            139.38,
+            28.08999999999999,
+            4.59
+          ],
+          [
+            142.01,
+            32.90999999999999,
+            4.95
+          ]
+        ],
+        [
+          [
+            6.29,
+            46.88999999999999,
+            4.59
+          ],
+          [
+            7.92,
+            54.91,
+            4.95
+          ]
+        ],
+        [
+          [
+            139.38,
+            52.489999999999995,
+            4.59
+          ],
+          [
+            142.01,
+            57.30999999999999,
+            4.95
+          ]
+        ],
+        [
+          [
+            6.29,
+            79.28999999999998,
+            4.59
+          ],
+          [
+            7.92,
+            87.30999999999999,
+            4.95
+          ]
+        ],
+        [
+          [
+            139.38,
+            81.88999999999999,
+            4.59
+          ],
+          [
+            142.01,
+            86.70999999999998,
+            4.95
+          ]
+        ]
+      ],
+      "insert_records": [
+        {
+          "kind": "fixed",
+          "ribs": [
+            [
+              14.85,
+              7.200000000000001
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            6.65,
+            7.9
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            -8.43769498715119e-15,
+            0.0
+          ]
+        },
+        {
+          "kind": "moving",
+          "ribs": [
+            [
+              28.35,
+              4.299999999999997
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            139.4,
+            140.35
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            -8.881784197001252e-15,
+            0.0
+          ]
+        },
+        {
+          "kind": "fixed",
+          "ribs": [
+            [
+              14.85,
+              7.200000000000001
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            6.65,
+            7.9
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            32.39999999999999,
+            0.0
+          ]
+        },
+        {
+          "kind": "moving",
+          "ribs": [
+            [
+              28.35,
+              4.299999999999997
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            139.4,
+            140.35
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            24.39999999999999,
+            0.0
+          ]
+        },
+        {
+          "kind": "fixed",
+          "ribs": [
+            [
+              14.85,
+              7.200000000000001
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            6.65,
+            7.9
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            64.79999999999998,
+            0.0
+          ]
+        },
+        {
+          "kind": "moving",
+          "ribs": [
+            [
+              28.35,
+              4.299999999999997
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            139.4,
+            140.35
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            53.79999999999998,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tray-top-3",
+      "kind": "tray-top-3",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -54.50000002384186
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -126.10000002384186
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rois": [
+        [
+          [
+            6.29,
+            14.489999999999991,
+            4.59
+          ],
+          [
+            7.92,
+            22.509999999999994,
+            4.95
+          ]
+        ],
+        [
+          [
+            139.38,
+            28.08999999999999,
+            4.59
+          ],
+          [
+            142.01,
+            32.90999999999999,
+            4.95
+          ]
+        ],
+        [
+          [
+            6.29,
+            46.88999999999999,
+            4.59
+          ],
+          [
+            7.92,
+            54.91,
+            4.95
+          ]
+        ],
+        [
+          [
+            139.38,
+            52.489999999999995,
+            4.59
+          ],
+          [
+            142.01,
+            57.30999999999999,
+            4.95
+          ]
+        ],
+        [
+          [
+            6.29,
+            79.28999999999998,
+            4.59
+          ],
+          [
+            7.92,
+            87.30999999999999,
+            4.95
+          ]
+        ],
+        [
+          [
+            139.38,
+            81.88999999999999,
+            4.59
+          ],
+          [
+            142.01,
+            86.70999999999998,
+            4.95
+          ]
+        ]
+      ],
+      "insert_records": [
+        {
+          "kind": "fixed",
+          "ribs": [
+            [
+              14.85,
+              7.200000000000001
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            6.65,
+            7.9
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            -8.43769498715119e-15,
+            0.0
+          ]
+        },
+        {
+          "kind": "moving",
+          "ribs": [
+            [
+              28.35,
+              4.299999999999997
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            139.4,
+            140.35
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            -8.881784197001252e-15,
+            0.0
+          ]
+        },
+        {
+          "kind": "fixed",
+          "ribs": [
+            [
+              14.85,
+              7.200000000000001
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            6.65,
+            7.9
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            32.39999999999999,
+            0.0
+          ]
+        },
+        {
+          "kind": "moving",
+          "ribs": [
+            [
+              28.35,
+              4.299999999999997
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            139.4,
+            140.35
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            24.39999999999999,
+            0.0
+          ]
+        },
+        {
+          "kind": "fixed",
+          "ribs": [
+            [
+              14.85,
+              7.200000000000001
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            6.65,
+            7.9
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            64.79999999999998,
+            0.0
+          ]
+        },
+        {
+          "kind": "moving",
+          "ribs": [
+            [
+              28.35,
+              4.299999999999997
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            139.4,
+            140.35
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            53.79999999999998,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "volumes": [
+    {
+      "id": 1,
+      "name": "tray-middle-3-keep-1",
+      "coupon": "tray-middle-3",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          56.400001525878906,
+          20.0,
+          0.0
+        ],
+        [
+          199.60000610351562,
+          117.80000305175781,
+          6.800000190734863
+        ]
+      ],
+      "volume_mm3": 14135.225008092772,
+      "painted_faces": 24
+    },
+    {
+      "id": 2,
+      "name": "tray-middle-3-interface-1",
+      "coupon": "tray-middle-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          61.150001525878906,
+          32.95000076293945,
+          3.0
+        ],
+        [
+          63.25,
+          40.150001525878906,
+          5.0
+        ]
+      ],
+      "volume_mm3": 22.68900001019239,
+      "painted_faces": 6
+    },
+    {
+      "id": 3,
+      "name": "tray-middle-3-interface-2",
+      "coupon": "tray-middle-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          193.0500030517578,
+          46.45000076293945,
+          3.0
+        ],
+        [
+          194.85000610351562,
+          50.75,
+          5.0
+        ]
+      ],
+      "volume_mm3": 11.486375006087178,
+      "painted_faces": 6
+    },
+    {
+      "id": 4,
+      "name": "tray-middle-3-interface-3",
+      "coupon": "tray-middle-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          61.150001525878906,
+          65.3499984741211,
+          3.0
+        ],
+        [
+          63.25,
+          72.55000305175781,
+          5.0
+        ]
+      ],
+      "volume_mm3": 22.689000010192373,
+      "painted_faces": 6
+    },
+    {
+      "id": 5,
+      "name": "tray-middle-3-interface-4",
+      "coupon": "tray-middle-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          193.0500030517578,
+          70.8499984741211,
+          3.0
+        ],
+        [
+          194.85000610351562,
+          75.1500015258789,
+          5.0
+        ]
+      ],
+      "volume_mm3": 11.486375006087203,
+      "painted_faces": 6
+    },
+    {
+      "id": 6,
+      "name": "tray-middle-3-interface-5",
+      "coupon": "tray-middle-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          61.150001525878906,
+          97.75,
+          3.0
+        ],
+        [
+          63.25,
+          104.94999694824219,
+          5.0
+        ]
+      ],
+      "volume_mm3": 22.689000010192395,
+      "painted_faces": 6
+    },
+    {
+      "id": 7,
+      "name": "tray-middle-3-interface-6",
+      "coupon": "tray-middle-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          193.0500030517578,
+          100.25,
+          3.0
+        ],
+        [
+          194.85000610351562,
+          104.55000305175781,
+          5.0
+        ]
+      ],
+      "volume_mm3": 11.486375006087346,
+      "painted_faces": 6
+    },
+    {
+      "id": 8,
+      "name": "tray-top-3-keep-1",
+      "coupon": "tray-top-3",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          56.400001525878906,
+          128.0,
+          0.0
+        ],
+        [
+          199.60000610351562,
+          225.8000030517578,
+          6.800000190734863
+        ]
+      ],
+      "volume_mm3": 14135.231943606414,
+      "painted_faces": 24
+    },
+    {
+      "id": 9,
+      "name": "tray-top-3-interface-1",
+      "coupon": "tray-top-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          61.150001525878906,
+          140.9499969482422,
+          3.0
+        ],
+        [
+          63.25,
+          148.14999389648438,
+          5.0
+        ]
+      ],
+      "volume_mm3": 22.689000010192366,
+      "painted_faces": 6
+    },
+    {
+      "id": 10,
+      "name": "tray-top-3-interface-2",
+      "coupon": "tray-top-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          193.0500030517578,
+          154.4499969482422,
+          3.0
+        ],
+        [
+          194.85000610351562,
+          158.75,
+          5.0
+        ]
+      ],
+      "volume_mm3": 11.48637500608719,
+      "painted_faces": 6
+    },
+    {
+      "id": 11,
+      "name": "tray-top-3-interface-3",
+      "coupon": "tray-top-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          61.150001525878906,
+          173.35000610351562,
+          3.0
+        ],
+        [
+          63.25,
+          180.5500030517578,
+          5.0
+        ]
+      ],
+      "volume_mm3": 22.689000010192352,
+      "painted_faces": 6
+    },
+    {
+      "id": 12,
+      "name": "tray-top-3-interface-4",
+      "coupon": "tray-top-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          193.0500030517578,
+          178.85000610351562,
+          3.0
+        ],
+        [
+          194.85000610351562,
+          183.14999389648438,
+          5.0
+        ]
+      ],
+      "volume_mm3": 11.4863750060872,
+      "painted_faces": 6
+    },
+    {
+      "id": 13,
+      "name": "tray-top-3-interface-5",
+      "coupon": "tray-top-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          61.150001525878906,
+          205.75,
+          3.0
+        ],
+        [
+          63.25,
+          212.9499969482422,
+          5.0
+        ]
+      ],
+      "volume_mm3": 22.68900001019237,
+      "painted_faces": 6
+    },
+    {
+      "id": 14,
+      "name": "tray-top-3-interface-6",
+      "coupon": "tray-top-3",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          193.0500030517578,
+          208.25,
+          3.0
+        ],
+        [
+          194.85000610351562,
+          212.5500030517578,
+          5.0
+        ]
+      ],
+      "volume_mm3": 11.486375006087378,
+      "painted_faces": 6
+    }
+  ],
+  "painted_faces": 120,
+  "plate_bounds": [
+    [
+      56.400001525878906,
+      20.0,
+      0.0
+    ],
+    [
+      199.60000610351562,
+      225.8000030517578,
+      6.800000190734863
+    ]
+  ],
+  "selected_mount_diameter_mm": 3.2,
+  "modeled_interface_material": "Bambu Support For PLA",
+  "physical_verified": false,
+  "scope": "Complete product plate; dedicated supports required",
+  "physical_evidence": "RC6 coupons: clean removal; fixed/C require tools"
+}

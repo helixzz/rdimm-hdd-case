@@ -1,0 +1,1123 @@
+{
+  "version": "4.4",
+  "method": "0.05 mm raster of nominal model extrusion beads, 4-neighbour connectivity; support beads excluded",
+  "limits": "Nominal bead paths do not measure weld strength, adhesion, cooling or fatigue. Not physical validation.",
+  "checks": [
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 0.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 0.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 0.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 0.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 1.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 1.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 1.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 1.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 1.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 2.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 2.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 2.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 2.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 2.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 3.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 3.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 3.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 3.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 3.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 4.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 4.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 4.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 4.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 4.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 5.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 5.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 5.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 5.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 5.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 6.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 1,
+      "layer_top_z": 6.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 0.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 0.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 0.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 0.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 1.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 1.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 1.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 1.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 1.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 2.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 2.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 2.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 2.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 2.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 3.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 3.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 3.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 3.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 3.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 4.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 4.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 4.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 4.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 4.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 5.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 5.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 5.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 5.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 5.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 6.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 2,
+      "layer_top_z": 6.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 0.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 0.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 0.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 0.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 1.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 1.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 1.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 1.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 1.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 2.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 2.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 2.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 2.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 2.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 3.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 3.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 3.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 3.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 3.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 4.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 4.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 4.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 4.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 4.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 5.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 5.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 5.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 5.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 5.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 6.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-middle-3",
+      "clip": 3,
+      "layer_top_z": 6.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 0.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 0.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 0.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 0.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 1.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 1.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 1.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 1.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 1.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 2.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 2.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 2.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 2.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 2.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 3.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 3.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 3.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 3.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 3.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 4.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 4.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 4.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 4.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 4.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 5.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 5.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 5.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 5.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 5.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 6.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 1,
+      "layer_top_z": 6.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 0.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 0.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 0.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 0.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 1.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 1.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 1.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 1.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 1.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 2.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 2.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 2.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 2.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 2.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 3.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 3.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 3.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 3.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 3.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 4.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 4.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 4.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 4.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 4.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 5.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 5.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 5.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 5.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 5.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 6.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 2,
+      "layer_top_z": 6.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 0.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 0.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 0.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 0.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 1.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 1.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 1.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 1.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 1.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 2.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 2.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 2.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 2.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 2.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 3.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 3.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 3.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 3.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 3.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 4.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 4.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 4.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 4.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 4.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 5.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 5.2,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 5.4,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 5.6,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 5.8,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 6.0,
+      "connected_model_only": true
+    },
+    {
+      "part": "tray-top-3",
+      "clip": 3,
+      "layer_top_z": 6.2,
+      "connected_model_only": true
+    }
+  ]
+}

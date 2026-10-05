@@ -1,0 +1,1799 @@
+{
+  "version": "4.4.1",
+  "plates": [
+    {
+      "inserts": [
+        {
+          "name": "body-pin-clearance-0",
+          "layers": [
+            {
+              "z_mm": 7.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 7.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8922961854899027
+            },
+            {
+              "z_mm": 7.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8744277305428385
+            },
+            {
+              "z_mm": 7.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8884369552585706
+            },
+            {
+              "z_mm": 8.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8996340825927862
+            },
+            {
+              "z_mm": 8.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9522150323544052
+            },
+            {
+              "z_mm": 8.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 8.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 8.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9957983193277311
+            },
+            {
+              "z_mm": 9.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "body-pin-clearance-1",
+          "layers": [
+            {
+              "z_mm": 7.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 7.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8621058257616248
+            },
+            {
+              "z_mm": 7.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8446952595936794
+            },
+            {
+              "z_mm": 7.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8655724892536147
+            },
+            {
+              "z_mm": 8.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8815018945918016
+            },
+            {
+              "z_mm": 8.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9440650406504065
+            },
+            {
+              "z_mm": 8.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 8.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 8.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9921383647798742
+            },
+            {
+              "z_mm": 9.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "body-pin-clearance-2",
+          "layers": [
+            {
+              "z_mm": 7.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 7.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8922961854899027
+            },
+            {
+              "z_mm": 7.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8744277305428385
+            },
+            {
+              "z_mm": 7.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8884369552585706
+            },
+            {
+              "z_mm": 8.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8996340825927862
+            },
+            {
+              "z_mm": 8.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9522150323544052
+            },
+            {
+              "z_mm": 8.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 8.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 8.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9953314659197012
+            },
+            {
+              "z_mm": 9.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "body-pin-clearance-3",
+          "layers": [
+            {
+              "z_mm": 7.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 7.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8620320855614974
+            },
+            {
+              "z_mm": 7.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8446251129177959
+            },
+            {
+              "z_mm": 7.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8655199374511336
+            },
+            {
+              "z_mm": 8.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.881461061337009
+            },
+            {
+              "z_mm": 8.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9440468445022772
+            },
+            {
+              "z_mm": 8.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 8.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 8.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9921383647798742
+            },
+            {
+              "z_mm": 9.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "body-pin-clearance-4",
+          "layers": [
+            {
+              "z_mm": 22.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 22.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9825003941352672
+            },
+            {
+              "z_mm": 22.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9351319475158485
+            },
+            {
+              "z_mm": 22.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9401247401247401
+            },
+            {
+              "z_mm": 23.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9434332853214613
+            },
+            {
+              "z_mm": 23.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9452902586953831
+            },
+            {
+              "z_mm": 23.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9739602169981917
+            },
+            {
+              "z_mm": 23.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 23.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 24.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 24.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9943820224719101
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "body-pin-clearance-5",
+          "layers": [
+            {
+              "z_mm": 22.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 22.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9829706717123936
+            },
+            {
+              "z_mm": 22.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9351223827779416
+            },
+            {
+              "z_mm": 22.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9401164402550596
+            },
+            {
+              "z_mm": 23.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9434258774227344
+            },
+            {
+              "z_mm": 23.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.945283486011389
+            },
+            {
+              "z_mm": 23.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9739570774053533
+            },
+            {
+              "z_mm": 23.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9998794309139136
+            },
+            {
+              "z_mm": 23.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 24.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 24.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9937578027465668
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "body-pin-clearance-6",
+          "layers": [
+            {
+              "z_mm": 22.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 22.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9826932195353248
+            },
+            {
+              "z_mm": 22.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.93421926910299
+            },
+            {
+              "z_mm": 22.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9400374765771393
+            },
+            {
+              "z_mm": 23.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9426180514046623
+            },
+            {
+              "z_mm": 23.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9332960685671697
+            },
+            {
+              "z_mm": 23.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9720558882235529
+            },
+            {
+              "z_mm": 23.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 23.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 24.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9978078187796858
+            },
+            {
+              "z_mm": 24.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9905838041431262
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "body-pin-clearance-7",
+          "layers": [
+            {
+              "z_mm": 22.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 22.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.982460298648969
+            },
+            {
+              "z_mm": 22.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9344407530454042
+            },
+            {
+              "z_mm": 22.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9400374765771393
+            },
+            {
+              "z_mm": 23.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9426180514046623
+            },
+            {
+              "z_mm": 23.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9347866592137134
+            },
+            {
+              "z_mm": 23.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9735075303937579
+            },
+            {
+              "z_mm": 23.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 23.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 24.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9978062157221207
+            },
+            {
+              "z_mm": 24.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9915254237288136
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        }
+      ],
+      "starts": [
+        {
+          "name": "body-pin-clearance-0",
+          "first_z_mm": 7.2,
+          "first_layer_area_mm2": 8.947500000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.992735400949986,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "body-pin-clearance-1",
+          "first_z_mm": 7.2,
+          "first_layer_area_mm2": 4.032500000000001,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9969001859888407,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "body-pin-clearance-2",
+          "first_z_mm": 7.2,
+          "first_layer_area_mm2": 8.947500000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9952500698519139,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "body-pin-clearance-3",
+          "first_z_mm": 7.2,
+          "first_layer_area_mm2": 4.030000000000001,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.989454094292804,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "body-pin-clearance-4",
+          "first_z_mm": 22.2,
+          "first_layer_area_mm2": 15.590000000000003,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9996792815907634,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "body-pin-clearance-5",
+          "first_z_mm": 22.2,
+          "first_layer_area_mm2": 15.605000000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.856296058955463,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "body-pin-clearance-6",
+          "first_z_mm": 22.2,
+          "first_layer_area_mm2": 10.372500000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9995179561340082,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "body-pin-clearance-7",
+          "first_z_mm": 22.2,
+          "first_layer_area_mm2": 10.372500000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 1.0,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        }
+      ],
+      "roofs": [
+        {
+          "kind": "fixed",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "moving",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "fixed",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "moving",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "capture",
+          "roof_support_coverage": 0.9921949362269179,
+          "max_uncovered_y_run_mm": 0.4,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "capture",
+          "roof_support_coverage": 0.9950504473634114,
+          "max_uncovered_y_run_mm": 0.2,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "capture",
+          "roof_support_coverage": 0.9941469124963418,
+          "max_uncovered_y_run_mm": 0.25,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "capture",
+          "roof_support_coverage": 0.9862452443664033,
+          "max_uncovered_y_run_mm": 0.45,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        }
+      ],
+      "whole_plate": {
+        "mount_holes_without_support": [
+          [
+            "body-pin-clearance",
+            "side",
+            28.4988,
+            0.0
+          ],
+          [
+            "body-pin-clearance",
+            "side",
+            28.4988,
+            95.89999999999999
+          ],
+          [
+            "body-pin-clearance",
+            "side",
+            70.104,
+            0.0
+          ],
+          [
+            "body-pin-clearance",
+            "side",
+            70.104,
+            95.89999999999999
+          ],
+          [
+            "body-pin-clearance",
+            "side",
+            130.0988,
+            0.0
+          ],
+          [
+            "body-pin-clearance",
+            "side",
+            130.0988,
+            95.89999999999999
+          ],
+          [
+            "body-pin-clearance",
+            "bottom",
+            41.275,
+            3.175
+          ],
+          [
+            "body-pin-clearance",
+            "bottom",
+            41.275,
+            98.425
+          ],
+          [
+            "body-pin-clearance",
+            "bottom",
+            85.725,
+            3.175
+          ],
+          [
+            "body-pin-clearance",
+            "bottom",
+            85.725,
+            98.425
+          ]
+        ],
+        "free_clip_corridors": [
+          [
+            "body-pin-clearance",
+            1
+          ],
+          [
+            "body-pin-clearance",
+            2
+          ]
+        ],
+        "paddle_support": [
+          {
+            "part": "body-pin-clearance",
+            "clip": 1,
+            "automatic_support_segments": 0
+          },
+          {
+            "part": "body-pin-clearance",
+            "clip": 2,
+            "automatic_support_segments": 0
+          }
+        ],
+        "print_xy_bounds": [
+          [
+            8.534198706388432,
+            19.389
+          ],
+          [
+            201.515,
+            229.6
+          ]
+        ],
+        "tower_xy_bounds": [
+          [
+            8.534198706388432,
+            146.54678823753116
+          ],
+          [
+            47.96380129361157,
+            185.061707144303
+          ]
+        ],
+        "tower_min_model_bbox_gap_mm": 8.33619794344898,
+        "bead_dimensions": {
+          "Outer wall": {
+            "width_min_max_mm": [
+              0.378512,
+              0.5
+            ],
+            "height_mm": [
+              0.2,
+              0.200001
+            ]
+          },
+          "Top surface": {
+            "width_min_max_mm": [
+              0.42,
+              0.42
+            ],
+            "height_mm": [
+              0.2,
+              0.200001
+            ]
+          },
+          "Sparse infill": {
+            "width_min_max_mm": [
+              0.45,
+              0.45
+            ],
+            "height_mm": [
+              0.2
+            ]
+          },
+          "Internal solid infill": {
+            "width_min_max_mm": [
+              0.350099,
+              0.65118
+            ],
+            "height_mm": [
+              0.2
+            ]
+          }
+        },
+        "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+      },
+      "gcode_sha256": "91e5814a5b44a49a61c6fcc9920504cc1d590d8524e06c2f350464cb28666834",
+      "physical_verified": false,
+      "plate": "1-pin-clearance",
+      "project_sha256": "5ea773640ce1fc31d715abbffc6983505b60815fbe66405c07c88f650a5bf617"
+    },
+    {
+      "inserts": [
+        {
+          "name": "tray-middle-3-0",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8922961854899027
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8744277305428385
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8884369552585706
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8996340825927862
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9522150323544052
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9327731092436975
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-middle-3-1",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8615713522180652
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8446952595936794
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8655724892536147
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8815018945918016
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9440650406504065
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9921383647798742
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-middle-3-2",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8925187032418953
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8744003488879197
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8884153428903526
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.899616591146741
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9522071025555924
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9998340799734527
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9327731092436975
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-middle-3-3",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8615713522180652
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8446952595936794
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8655724892536147
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8815018945918016
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9440650406504065
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9921383647798742
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-middle-3-4",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8922693266832917
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8744003488879197
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8884153428903526
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.899616591146741
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9522071025555924
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9327731092436975
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-middle-3-5",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8621058257616248
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8446952595936794
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8655724892536147
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8815018945918016
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9440650406504065
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9921383647798742
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-top-3-0",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8922961854899027
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8744277305428385
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8884369552585706
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8996340825927862
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9522150323544052
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9327731092436975
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-top-3-1",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8620320855614974
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8446251129177959
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8655199374511336
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8811574233551498
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9440650406504065
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9921383647798742
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-top-3-2",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8922961854899027
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8744277305428385
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8884369552585706
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8996340825927862
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9522150323544052
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9327731092436975
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-top-3-3",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8615713522180652
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8446952595936794
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8655724892536147
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8815018945918016
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9440650406504065
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9921383647798742
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-top-3-4",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8922693266832917
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8744003488879197
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8884153428903526
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.899616591146741
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9522071025555924
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9323062558356676
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9995331465919701
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        },
+        {
+          "name": "tray-top-3-5",
+          "layers": [
+            {
+              "z_mm": 3.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": null
+            },
+            {
+              "z_mm": 3.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8621058257616248
+            },
+            {
+              "z_mm": 3.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8446952595936794
+            },
+            {
+              "z_mm": 3.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8655724892536147
+            },
+            {
+              "z_mm": 4.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.8815018945918016
+            },
+            {
+              "z_mm": 4.2,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9440650406504065
+            },
+            {
+              "z_mm": 4.4,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.6,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            },
+            {
+              "z_mm": 4.8,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 0.9921383647798742
+            },
+            {
+              "z_mm": 5.0,
+              "dedicated_components": 1,
+              "previous_layer_overlap_fraction": 1.0
+            }
+          ],
+          "connected_3d_dedicated_components": 1,
+          "printed_key_overlap_grid_cells": 0,
+          "grid_mm": 0.05
+        }
+      ],
+      "starts": [
+        {
+          "name": "tray-middle-3-0",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 8.947500000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9779267951941883,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-middle-3-1",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 4.030000000000001,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9913151364764268,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-middle-3-2",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 8.947500000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9879854708019,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-middle-3-3",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 4.030000000000001,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9900744416873449,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-middle-3-4",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 8.945000000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9966461710452766,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-middle-3-5",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 4.032500000000001,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.990700557966522,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-top-3-0",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 8.947500000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9966471081307627,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-top-3-1",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 4.030000000000001,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9708436724565757,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-top-3-2",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 8.947500000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.989103101424979,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-top-3-3",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 4.030000000000001,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9820099255583127,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-top-3-4",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 8.945000000000002,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9826718837339296,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        },
+        {
+          "name": "tray-top-3-5",
+          "first_z_mm": 3.2,
+          "first_layer_area_mm2": 4.032500000000001,
+          "first_layer_components": 1,
+          "underlying_PLA_coverage": 0.9764414135151891,
+          "grid_mm": 0.05,
+          "limitation": "Projected bead overlap, not adhesion or resistance to nozzle drag."
+        }
+      ],
+      "roofs": [
+        {
+          "kind": "fixed",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "moving",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "fixed",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "moving",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "fixed",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "moving",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "fixed",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "moving",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "fixed",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "moving",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "fixed",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        },
+        {
+          "kind": "moving",
+          "roof_support_coverage": 1.0,
+          "max_uncovered_y_run_mm": 0.0,
+          "grid_mm": 0.05,
+          "max_allowed_bead_gap_mm": 0.5
+        }
+      ],
+      "whole_plate": {
+        "mount_holes_without_support": [],
+        "free_clip_corridors": [
+          [
+            "tray-middle-3",
+            1
+          ],
+          [
+            "tray-middle-3",
+            2
+          ],
+          [
+            "tray-middle-3",
+            3
+          ],
+          [
+            "tray-top-3",
+            1
+          ],
+          [
+            "tray-top-3",
+            2
+          ],
+          [
+            "tray-top-3",
+            3
+          ]
+        ],
+        "paddle_support": [
+          {
+            "part": "tray-middle-3",
+            "clip": 1,
+            "automatic_support_segments": 0
+          },
+          {
+            "part": "tray-middle-3",
+            "clip": 2,
+            "automatic_support_segments": 0
+          },
+          {
+            "part": "tray-middle-3",
+            "clip": 3,
+            "automatic_support_segments": 0
+          },
+          {
+            "part": "tray-top-3",
+            "clip": 1,
+            "automatic_support_segments": 0
+          },
+          {
+            "part": "tray-top-3",
+            "clip": 2,
+            "automatic_support_segments": 0
+          },
+          {
+            "part": "tray-top-3",
+            "clip": 3,
+            "automatic_support_segments": 0
+          }
+        ],
+        "print_xy_bounds": [
+          [
+            8.534198706388432,
+            20.0
+          ],
+          [
+            199.6,
+            225.8
+          ]
+        ],
+        "tower_xy_bounds": [
+          [
+            8.534198706388432,
+            146.54678823753116
+          ],
+          [
+            47.96380129361157,
+            185.061707144303
+          ]
+        ],
+        "tower_min_model_bbox_gap_mm": 8.436200232267339,
+        "bead_dimensions": {
+          "Outer wall": {
+            "width_min_max_mm": [
+              0.378512,
+              0.5
+            ],
+            "height_mm": [
+              0.2
+            ]
+          },
+          "Top surface": {
+            "width_min_max_mm": [
+              0.42,
+              0.42
+            ],
+            "height_mm": [
+              0.2
+            ]
+          },
+          "Sparse infill": {
+            "width_min_max_mm": [
+              0.45,
+              0.45
+            ],
+            "height_mm": [
+              0.2
+            ]
+          },
+          "Internal solid infill": {
+            "width_min_max_mm": [
+              0.35198,
+              0.64608
+            ],
+            "height_mm": [
+              0.2
+            ]
+          }
+        },
+        "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+      },
+      "gcode_sha256": "22bec68d26e1f834b0cdd1789bf72b47438d6cec92627949618ebccd6f025532",
+      "physical_verified": false,
+      "plate": "2-upper-trays",
+      "project_sha256": "24d447f613dbf8101c38fa7a69b2cd4f00797c72c985f3b2839c9fbd83cef239"
+    }
+  ],
+  "physical_complete_set_verified": false
+}

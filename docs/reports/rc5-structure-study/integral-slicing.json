@@ -1,0 +1,199 @@
+{
+  "coupons": {
+    "single_connected_parts": 12,
+    "connected_insert_extraction_poses": 132
+  },
+  "complete_geometry": {
+    "checks": {
+      "module_poses": 512,
+      "loaded_tray_entry_poses": 242,
+      "bottom_release_poses": 1520,
+      "lid_poses": 132
+    },
+    "mount_diameter_mm": 3.2,
+    "details": [
+      {
+        "part": "body-pin-clearance",
+        "cores": 8,
+        "interfaces": 8,
+        "core_extraction_poses": 264,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            20.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "lid-slide-lift",
+        "cores": 0,
+        "interfaces": 0,
+        "core_extraction_poses": 0,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000004768371
+          ],
+          [
+            0.0,
+            -1.0,
+            -1.2246467991473532e-16,
+            229.8000030517578
+          ],
+          [
+            0.0,
+            1.2246467991473532e-16,
+            -1.0,
+            26.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "tray-middle-3",
+        "cores": 6,
+        "interfaces": 6,
+        "core_extraction_poses": 198,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000002384186
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            18.100000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "tray-top-3",
+        "cores": 6,
+        "interfaces": 6,
+        "core_extraction_poses": 198,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000002384186
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            126.10000002384186
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "outer_mm": [
+      147,
+      101.6,
+      26
+    ],
+    "physical_verified": false,
+    "connected_insert_count": 20,
+    "insert_extraction_poses": 660
+  },
+  "plates": [
+    {
+      "plate": "1-pin-clearance",
+      "seconds": 12229.681640625,
+      "changes": 22,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 90.8055648803711,
+          "total_used_g": 108.6502456665039
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.15715108811855316,
+          "total_used_g": 12.767123222351074
+        }
+      ],
+      "warnings": "",
+      "project_sha256": "469776510eccb5257d79ce1ac73ad427dc350024d500ace8579efbd64cc783c0",
+      "gcode_sha256": "3424a654a551a96d61298efd54222cca1abf5f4d707e67f36cf50967436c0037"
+    },
+    {
+      "plate": "2-upper-trays",
+      "seconds": 5442.39599609375,
+      "changes": 10,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 33.599159240722656,
+          "total_used_g": 40.56536865234375
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.2350512444972992,
+          "total_used_g": 5.90008020401001
+        }
+      ],
+      "warnings": "",
+      "project_sha256": "fb07fa0106c37a9fd4e6eb0c614369c8b2e7bec63598bf7a5fc5a2ea58ba8020",
+      "gcode_sha256": "d1d6661b0ee3e1d41d63978556fad2035d7f9db21ecafba7e618f96e933ab817"
+    }
+  ]
+}

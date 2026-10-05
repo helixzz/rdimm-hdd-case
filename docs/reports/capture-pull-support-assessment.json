@@ -1,0 +1,44 @@
+{
+  "status": "unreleased geometric study",
+  "permanent_body_lid_geometry_unchanged": true,
+  "nominal_runner_top_z": 23.8,
+  "nominal_runner_bottom_z": 22.4,
+  "flange_bottom_z": 24.0,
+  "pillar_top_z": 22.1,
+  "pieces": [
+    {
+      "side": "left",
+      "capture_y": 8.0,
+      "length": 6.0,
+      "extraction_poses": 51,
+      "tested_travel_mm": 10,
+      "support_volume_mm3": 19.380000010371212
+    },
+    {
+      "side": "right",
+      "capture_y": 8.0,
+      "length": 6.0,
+      "extraction_poses": 51,
+      "tested_travel_mm": 10,
+      "support_volume_mm3": 19.380000010371198
+    },
+    {
+      "side": "left",
+      "capture_y": 95.6,
+      "length": 4.2,
+      "extraction_poses": 51,
+      "tested_travel_mm": 10,
+      "support_volume_mm3": 16.248000010371193
+    },
+    {
+      "side": "right",
+      "capture_y": 95.6,
+      "length": 4.2,
+      "extraction_poses": 51,
+      "tested_travel_mm": 10,
+      "support_volume_mm3": 16.248000010371147
+    }
+  ],
+  "physical_verified": false,
+  "limits": "No thermal sag, grip strength or adhesion simulation. Must use local support blockers and check actual slicing before test printing."
+}

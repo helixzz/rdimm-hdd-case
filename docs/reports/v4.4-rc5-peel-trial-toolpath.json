@@ -1,0 +1,428 @@
+{
+  "version": "4.4-rc5-peel-trial",
+  "project_sha256": "b7a517151ffcdab9d90ee3b7e85aeecac3bc87a0cb5b84f167dc43178786df62",
+  "gcode_sha256": "7d267c1c264bc94c8872e67f5f8dafb42c5d2e8b006655293b1218fa41f81e53",
+  "inserts": [
+    {
+      "name": "A-fixed",
+      "layers": [
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 6,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 6,
+          "previous_layer_overlap_fraction": 0.8882421420256111
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7348160821214713
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8589272593681117
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8762088974854932
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.9171974522292994
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.8102421595871377
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.8953678474114442
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.726182074805928
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9347513653348664
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 759,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "A-moving",
+      "layers": [
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.8558558558558559
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7203893996755003
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8431372549019608
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8641926569285432
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.9389752446747266
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.705237515225335
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.8729689807976366
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.617536534446764
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9345412039742841
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 759,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "B-moving",
+      "layers": [
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.8558558558558559
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7207792207792207
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.843065693430657
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8641390205371248
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 4,
+          "previous_layer_overlap_fraction": 0.9390103567318757
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.7059301380991064
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 3,
+          "previous_layer_overlap_fraction": 0.8729220539342446
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.6173767752715121
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.936145952109464
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 760,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "C1-capture",
+      "layers": [
+        {
+          "z_mm": 3.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9825970548862115
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.632514817950889
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8441744102930665
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8579940417080437
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8748913987836664
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9111570247933884
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.8501344086021505
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.8038897893030794
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7833262801523487
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.8597609561752988
+        },
+        {
+          "z_mm": 5.2,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9336349924585219
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 212,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "C3-capture",
+      "layers": [
+        {
+          "z_mm": 3.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": null
+        },
+        {
+          "z_mm": 3.2,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9825970548862115
+        },
+        {
+          "z_mm": 3.4,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7327121137812653
+        },
+        {
+          "z_mm": 3.6,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8747318747318747
+        },
+        {
+          "z_mm": 3.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8834355828220859
+        },
+        {
+          "z_mm": 4.0,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.8946212952799122
+        },
+        {
+          "z_mm": 4.2,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9445806768023541
+        },
+        {
+          "z_mm": 4.4,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.8709953011533532
+        },
+        {
+          "z_mm": 4.6,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.9183993723028638
+        },
+        {
+          "z_mm": 4.8,
+          "dedicated_components": 1,
+          "previous_layer_overlap_fraction": 0.7430737824438611
+        },
+        {
+          "z_mm": 5.0,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.8336
+        },
+        {
+          "z_mm": 5.2,
+          "dedicated_components": 2,
+          "previous_layer_overlap_fraction": 0.8156167979002624
+        }
+      ],
+      "connected_3d_dedicated_components": 1,
+      "printed_key_overlap_grid_cells": 213,
+      "grid_mm": 0.05
+    }
+  ],
+  "bores": [
+    {
+      "specimen": "H32",
+      "kind": "side",
+      "axis_mm": [
+        150,
+        125,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "H32",
+      "kind": "bottom",
+      "axis_mm": [
+        160,
+        128.175,
+        0
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "P1",
+      "kind": "side",
+      "axis_mm": [
+        80.104,
+        170,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "P1",
+      "kind": "bottom",
+      "axis_mm": [
+        51.275,
+        173.175,
+        0
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    }
+  ],
+  "roof_spans": [
+    {
+      "name": "A-fixed",
+      "kind": "fixed",
+      "roof_support_coverage": 0.6542765787370104,
+      "max_uncovered_y_run_mm": 0.5,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "A-moving",
+      "kind": "moving",
+      "roof_support_coverage": 0.727366255144033,
+      "max_uncovered_y_run_mm": 0.4,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "B-moving",
+      "kind": "moving",
+      "roof_support_coverage": 0.727366255144033,
+      "max_uncovered_y_run_mm": 0.4,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "C1-capture",
+      "kind": "capture",
+      "roof_support_coverage": 0.18427565200837617,
+      "max_uncovered_y_run_mm": 4.25,
+      "grid_mm": 0.05
+    },
+    {
+      "name": "C3-capture",
+      "kind": "capture",
+      "roof_support_coverage": 0.2832894351770559,
+      "max_uncovered_y_run_mm": 2.45,
+      "grid_mm": 0.05
+    }
+  ],
+  "free_spring_corridors": [
+    "A",
+    "B"
+  ],
+  "split_keeper_support": [
+    {
+      "name": "B fixed end",
+      "automatic_support_segments": 0
+    },
+    {
+      "name": "B-KEEPER",
+      "automatic_support_segments": 0
+    }
+  ],
+  "automatic_support_material": "PLA",
+  "tower_xy_bounds": [
+    [
+      201.53419870638842,
+      161.54678823753116
+    ],
+    [
+      240.96380129361157,
+      200.06170714430303
+    ]
+  ],
+  "tower_min_model_bbox_gap_mm": 38.4791449014231,
+  "physical_verified": false,
+  "limits": "Geometry and nominal material paths; no adhesion, removal force, warpage, fit tolerance, strength or fatigue simulation."
+}

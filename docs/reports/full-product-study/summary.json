@@ -1,0 +1,158 @@
+[
+  {
+    "mode": "axis-aligned",
+    "products": 1,
+    "plates": 2,
+    "seconds": 14701.548828125,
+    "seconds_per_product": 14701.548828125,
+    "changes": 12,
+    "grams": {
+      "GFA00": 140.48467254638672,
+      "GFS02": 7.232162714004517
+    },
+    "grams_per_product": {
+      "GFA00": 140.48467254638672,
+      "GFS02": 7.232162714004517
+    }
+  },
+  {
+    "mode": "batch-two",
+    "products": 2,
+    "plates": 3,
+    "seconds": 26053.318115234375,
+    "seconds_per_product": 13026.659057617188,
+    "changes": 12,
+    "grams": {
+      "GFA00": 265.18731689453125,
+      "GFS02": 7.343109607696533
+    },
+    "grams_per_product": {
+      "GFA00": 132.59365844726562,
+      "GFS02": 3.6715548038482666
+    }
+  },
+  {
+    "mode": "combined-infill",
+    "products": 1,
+    "plates": 2,
+    "seconds": 14729.84716796875,
+    "seconds_per_product": 14729.84716796875,
+    "changes": 12,
+    "grams": {
+      "GFA00": 138.90811920166016,
+      "GFS02": 7.232162714004517
+    },
+    "grams_per_product": {
+      "GFA00": 138.90811920166016,
+      "GFS02": 7.232162714004517
+    }
+  },
+  {
+    "mode": "dual-auto",
+    "products": 1,
+    "plates": 2,
+    "seconds": 21996.4658203125,
+    "seconds_per_product": 21996.4658203125,
+    "changes": 50,
+    "grams": {
+      "GFA00": 161.95932388305664,
+      "GFS02": 30.424970626831055
+    },
+    "grams_per_product": {
+      "GFA00": 161.95932388305664,
+      "GFS02": 30.424970626831055
+    }
+  },
+  {
+    "mode": "dual-manual",
+    "products": 1,
+    "plates": 2,
+    "seconds": 19258.494140625,
+    "seconds_per_product": 19258.494140625,
+    "changes": 34,
+    "grams": {
+      "GFA00": 152.70023345947266,
+      "GFS02": 20.917016983032227
+    },
+    "grams_per_product": {
+      "GFA00": 152.70023345947266,
+      "GFS02": 20.917016983032227
+    }
+  },
+  {
+    "mode": "dual-selective",
+    "products": 1,
+    "plates": 2,
+    "seconds": 15028.98974609375,
+    "seconds_per_product": 15028.98974609375,
+    "changes": 12,
+    "grams": {
+      "GFA00": 139.954345703125,
+      "GFS02": 7.232162714004517
+    },
+    "grams_per_product": {
+      "GFA00": 139.954345703125,
+      "GFS02": 7.232162714004517
+    }
+  },
+  {
+    "mode": "single-control",
+    "products": 1,
+    "plates": 2,
+    "seconds": 11364.193115234375,
+    "seconds_per_product": 11364.193115234375,
+    "changes": 0,
+    "grams": {
+      "GFA00": 125.35651397705078
+    },
+    "grams_per_product": {
+      "GFA00": 125.35651397705078
+    }
+  },
+  {
+    "mode": "single-paddle",
+    "products": 1,
+    "plates": 2,
+    "seconds": 11288.874267578125,
+    "seconds_per_product": 11288.874267578125,
+    "changes": 0,
+    "grams": {
+      "GFA00": 125.19111251831055
+    },
+    "grams_per_product": {
+      "GFA00": 125.19111251831055
+    }
+  },
+  {
+    "mode": "wide-combined",
+    "products": 1,
+    "plates": 2,
+    "seconds": 14407.07958984375,
+    "seconds_per_product": 14407.07958984375,
+    "changes": 12,
+    "grams": {
+      "GFA00": 139.09345245361328,
+      "GFS02": 7.232162714004517
+    },
+    "grams_per_product": {
+      "GFA00": 139.09345245361328,
+      "GFS02": 7.232162714004517
+    }
+  },
+  {
+    "mode": "wider-internal",
+    "products": 1,
+    "plates": 2,
+    "seconds": 14674.90283203125,
+    "seconds_per_product": 14674.90283203125,
+    "changes": 12,
+    "grams": {
+      "GFA00": 140.04584884643555,
+      "GFS02": 7.232162714004517
+    },
+    "grams_per_product": {
+      "GFA00": 140.04584884643555,
+      "GFS02": 7.232162714004517
+    }
+  }
+]

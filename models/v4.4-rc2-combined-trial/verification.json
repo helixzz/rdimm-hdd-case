@@ -1,0 +1,382 @@
+{
+  "version": "4.4-rc2-combined-trial",
+  "scope": "one plate, twelve test specimens, not replacement production parts",
+  "specimens": [
+    {
+      "name": "A",
+      "translation": [
+        54.5,
+        25.0,
+        0
+      ],
+      "kind": "dimm",
+      "support_count": 3,
+      "bounds": [
+        [
+          56.39999997615814,
+          26.899999976158142,
+          0.0
+        ],
+        [
+          199.60000610351562,
+          60.5,
+          6.800000190734863
+        ]
+      ]
+    },
+    {
+      "name": "B",
+      "translation": [
+        54.5,
+        80.0,
+        0
+      ],
+      "kind": "dimm",
+      "support_count": 3,
+      "bounds": [
+        [
+          56.39999997615814,
+          81.89999997615814,
+          0.0
+        ],
+        [
+          199.60000610351562,
+          115.5,
+          6.800000190734863
+        ]
+      ]
+    },
+    {
+      "name": "C1",
+      "translation": [
+        35,
+        140,
+        0
+      ],
+      "kind": "capture",
+      "capture_length": 6.0,
+      "original_side": "left",
+      "source_shift": [
+        0,
+        -6.0,
+        -19.2
+      ],
+      "support_count": 1,
+      "bounds": [
+        [
+          35.0,
+          140.0,
+          0.0
+        ],
+        [
+          60.0,
+          150.0,
+          6.800000190734863
+        ]
+      ]
+    },
+    {
+      "name": "C2",
+      "translation": [
+        75,
+        140,
+        0
+      ],
+      "kind": "capture",
+      "capture_length": 6.0,
+      "original_side": "right",
+      "source_shift": [
+        0,
+        -6.0,
+        -19.2
+      ],
+      "support_count": 1,
+      "bounds": [
+        [
+          75.0,
+          140.0,
+          0.0
+        ],
+        [
+          100.0,
+          150.0,
+          6.800000190734863
+        ]
+      ]
+    },
+    {
+      "name": "C3",
+      "translation": [
+        115,
+        140,
+        0
+      ],
+      "kind": "capture",
+      "capture_length": 4.2,
+      "original_side": "left",
+      "source_shift": [
+        0,
+        -93.6,
+        -19.2
+      ],
+      "support_count": 1,
+      "bounds": [
+        [
+          115.0,
+          140.0,
+          0.0
+        ],
+        [
+          140.0,
+          148.19999980926514,
+          6.800000190734863
+        ]
+      ]
+    },
+    {
+      "name": "C4",
+      "translation": [
+        155,
+        140,
+        0
+      ],
+      "kind": "capture",
+      "capture_length": 4.2,
+      "original_side": "right",
+      "source_shift": [
+        0,
+        -93.6,
+        -19.2
+      ],
+      "support_count": 1,
+      "bounds": [
+        [
+          155.0,
+          140.0,
+          0.0
+        ],
+        [
+          180.0,
+          148.19999980926514,
+          6.800000190734863
+        ]
+      ]
+    },
+    {
+      "name": "H31",
+      "translation": [
+        35,
+        170,
+        0
+      ],
+      "kind": "mount",
+      "diameter": 3.1,
+      "support_count": 0,
+      "bounds": [
+        [
+          35.0,
+          170.0,
+          0.0
+        ],
+        [
+          59.0,
+          186.0,
+          10.399999618530273
+        ]
+      ]
+    },
+    {
+      "name": "H32",
+      "translation": [
+        75,
+        170,
+        0
+      ],
+      "kind": "mount",
+      "diameter": 3.2,
+      "support_count": 0,
+      "bounds": [
+        [
+          75.0,
+          170.0,
+          0.0
+        ],
+        [
+          99.0,
+          186.0,
+          10.399999618530273
+        ]
+      ]
+    },
+    {
+      "name": "H33",
+      "translation": [
+        115,
+        170,
+        0
+      ],
+      "kind": "mount",
+      "diameter": 3.3,
+      "support_count": 0,
+      "bounds": [
+        [
+          115.0,
+          170.0,
+          0.0
+        ],
+        [
+          139.0,
+          186.0,
+          10.399999618530273
+        ]
+      ]
+    },
+    {
+      "name": "H36",
+      "translation": [
+        155,
+        170,
+        0
+      ],
+      "kind": "mount",
+      "diameter": 3.6,
+      "support_count": 0,
+      "bounds": [
+        [
+          155.0,
+          170.0,
+          0.0
+        ],
+        [
+          179.0,
+          186.0,
+          10.399999618530273
+        ]
+      ]
+    },
+    {
+      "name": "K1",
+      "translation": [
+        35,
+        205,
+        0
+      ],
+      "kind": "corner",
+      "support_count": 0,
+      "bounds": [
+        [
+          41.55000019073486,
+          205.0,
+          0.0
+        ],
+        [
+          51.0,
+          214.69999980926514,
+          6.800000190734863
+        ]
+      ]
+    },
+    {
+      "name": "K2",
+      "translation": [
+        75,
+        205,
+        0
+      ],
+      "kind": "corner",
+      "support_count": 0,
+      "bounds": [
+        [
+          81.55000019073486,
+          205.0,
+          0.0
+        ],
+        [
+          91.0,
+          214.69999980926514,
+          6.800000190734863
+        ]
+      ]
+    }
+  ],
+  "checks": {
+    "ab": [
+      {
+        "name": "A",
+        "support_count": 3,
+        "grip_pull_mm_tested": 8,
+        "support_extract_poses": 99,
+        "root_y": 17.3,
+        "pcb_seat_z_mm": 3,
+        "roof_z_mm": 4.6,
+        "relieved_middle_depth_mm": 0,
+        "physical_removal_verified": false
+      },
+      {
+        "name": "B",
+        "support_count": 3,
+        "grip_pull_mm_tested": 8,
+        "support_extract_poses": 99,
+        "root_y": 17.3,
+        "pcb_seat_z_mm": 3,
+        "roof_z_mm": 4.6,
+        "relieved_middle_depth_mm": 0.3,
+        "physical_removal_verified": false
+      }
+    ],
+    "capture_full_body": [
+      {
+        "side": "left",
+        "capture_y": 8.0,
+        "length": 6.0,
+        "extraction_poses": 51,
+        "tested_travel_mm": 10,
+        "support_volume_mm3": 19.380000010371212
+      },
+      {
+        "side": "right",
+        "capture_y": 8.0,
+        "length": 6.0,
+        "extraction_poses": 51,
+        "tested_travel_mm": 10,
+        "support_volume_mm3": 19.380000010371198
+      },
+      {
+        "side": "left",
+        "capture_y": 95.6,
+        "length": 4.2,
+        "extraction_poses": 51,
+        "tested_travel_mm": 10,
+        "support_volume_mm3": 16.248000010371193
+      },
+      {
+        "side": "right",
+        "capture_y": 95.6,
+        "length": 4.2,
+        "extraction_poses": 51,
+        "tested_travel_mm": 10,
+        "support_volume_mm3": 16.248000010371147
+      }
+    ],
+    "corner_full_assembly": {
+      "module_poses": 512,
+      "loaded_tray_entry_poses": 242,
+      "bottom_release_poses": 1520,
+      "lid_poses": 132
+    }
+  },
+  "manual_support_pieces": 10,
+  "physical_verified": false,
+  "plate_bounds": [
+    [
+      35.0,
+      26.899999976158142,
+      0.0
+    ],
+    [
+      199.60000610351562,
+      214.69999980926514,
+      10.399999618530273
+    ]
+  ]
+}

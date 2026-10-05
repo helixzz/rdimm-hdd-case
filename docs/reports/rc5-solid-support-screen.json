@@ -1,0 +1,202 @@
+{
+  "coupon_geometry": {
+    "single_connected_parts": 8,
+    "connected_insert_extraction_poses": 132
+  },
+  "complete_geometry": {
+    "checks": {
+      "module_poses": 512,
+      "loaded_tray_entry_poses": 242,
+      "bottom_release_poses": 1520,
+      "lid_poses": 132
+    },
+    "mount_diameter_mm": 3.2,
+    "details": [
+      {
+        "part": "body-pin-clearance",
+        "cores": 0,
+        "interfaces": 8,
+        "core_extraction_poses": 264,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            20.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "lid-slide-lift",
+        "cores": 0,
+        "interfaces": 0,
+        "core_extraction_poses": 0,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000004768371
+          ],
+          [
+            0.0,
+            -1.0,
+            -1.2246467991473532e-16,
+            229.8000030517578
+          ],
+          [
+            0.0,
+            1.2246467991473532e-16,
+            -1.0,
+            26.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "tray-middle-3",
+        "cores": 0,
+        "interfaces": 6,
+        "core_extraction_poses": 198,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000002384186
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            18.100000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "part": "tray-top-3",
+        "cores": 0,
+        "interfaces": 6,
+        "core_extraction_poses": 198,
+        "assembly_to_plate": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            54.50000002384186
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            126.10000002384186
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "outer_mm": [
+      147,
+      101.6,
+      26
+    ],
+    "physical_verified": false,
+    "connected_insert_count": 20,
+    "insert_extraction_poses": 660
+  },
+  "plates": [
+    {
+      "plate": "1-pin-clearance",
+      "seconds": 13744.4609375,
+      "changes": 32,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 90.75052642822266,
+          "total_used_g": 113.96610260009766
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.3675844371318817,
+          "total_used_g": 18.55829620361328
+        }
+      ],
+      "warnings": "",
+      "project_sha256": "89921d76aceb1cdcd97373999b525f6b6323cac27071fc0ac0e1bceadf2195a6",
+      "gcode_sha256": "62c224745ad29905311c60049f72d383b0537dc0d5821eb8ba1e8398c3f8e703"
+    },
+    {
+      "plate": "2-upper-trays",
+      "seconds": 5972.46923828125,
+      "changes": 14,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 33.37095260620117,
+          "total_used_g": 42.55598831176758
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.4059159755706787,
+          "total_used_g": 8.303240776062012
+        }
+      ],
+      "warnings": "",
+      "project_sha256": "d53f9563349e2997bd0c1ea03a322a07f742bd1f55ef908a1550cd5825b3e15b",
+      "gcode_sha256": "a2b948638ab7f7b6875b6d5ac427e2b954350c847dc04008936ea14bfd38b755"
+    }
+  ],
+  "physical_verified": false,
+  "release": false,
+  "limits": "All removable pads and extensions use Support For PLA; product unchanged. Contacts enlarged. Geometry/extraction/slicing only; adhesion, first-layer stability, quality and breakaway force unverified."
+}

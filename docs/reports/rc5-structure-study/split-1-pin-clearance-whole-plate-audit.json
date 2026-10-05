@@ -1,0 +1,148 @@
+{
+  "mount_holes_without_support": [
+    [
+      "body-pin-clearance",
+      "side",
+      28.4988,
+      0.0
+    ],
+    [
+      "body-pin-clearance",
+      "side",
+      28.4988,
+      95.89999999999999
+    ],
+    [
+      "body-pin-clearance",
+      "side",
+      70.104,
+      0.0
+    ],
+    [
+      "body-pin-clearance",
+      "side",
+      70.104,
+      95.89999999999999
+    ],
+    [
+      "body-pin-clearance",
+      "side",
+      130.0988,
+      0.0
+    ],
+    [
+      "body-pin-clearance",
+      "side",
+      130.0988,
+      95.89999999999999
+    ],
+    [
+      "body-pin-clearance",
+      "bottom",
+      41.275,
+      3.175
+    ],
+    [
+      "body-pin-clearance",
+      "bottom",
+      41.275,
+      98.425
+    ],
+    [
+      "body-pin-clearance",
+      "bottom",
+      85.725,
+      3.175
+    ],
+    [
+      "body-pin-clearance",
+      "bottom",
+      85.725,
+      98.425
+    ]
+  ],
+  "free_clip_corridors": [
+    [
+      "body-pin-clearance",
+      1
+    ],
+    [
+      "body-pin-clearance",
+      2
+    ]
+  ],
+  "paddle_support": [
+    {
+      "part": "body-pin-clearance",
+      "clip": 1,
+      "automatic_support_segments": 0
+    },
+    {
+      "part": "body-pin-clearance",
+      "clip": 2,
+      "automatic_support_segments": 0
+    }
+  ],
+  "print_xy_bounds": [
+    [
+      8.534198706388432,
+      19.558
+    ],
+    [
+      222.0,
+      229.6
+    ]
+  ],
+  "tower_xy_bounds": [
+    [
+      8.534198706388432,
+      146.54678823753116
+    ],
+    [
+      47.96380129361157,
+      185.061707144303
+    ]
+  ],
+  "tower_min_model_bbox_gap_mm": 8.33619794344898,
+  "bead_dimensions": {
+    "Outer wall": {
+      "width_min_max_mm": [
+        0.378512,
+        0.5
+      ],
+      "height_mm": [
+        0.2,
+        0.200001
+      ]
+    },
+    "Top surface": {
+      "width_min_max_mm": [
+        0.42,
+        0.42
+      ],
+      "height_mm": [
+        0.2,
+        0.200001
+      ]
+    },
+    "Sparse infill": {
+      "width_min_max_mm": [
+        0.45,
+        0.45
+      ],
+      "height_mm": [
+        0.2
+      ]
+    },
+    "Internal solid infill": {
+      "width_min_max_mm": [
+        0.350099,
+        0.65118
+      ],
+      "height_mm": [
+        0.2
+      ]
+    }
+  },
+  "limits": "Nominal toolpaths only, tower clearance is planar bounding-box clearance, not a nozzle/gantry simulation; no adhesion or thermal warpage proof."
+}

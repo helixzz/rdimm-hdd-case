@@ -1,0 +1,362 @@
+{
+  "scope": "RC4 feedback investigation; unreleased copied project; original release unchanged",
+  "before": [
+    {
+      "specimen": "H32",
+      "kind": "side",
+      "axis_mm": [
+        150,
+        115,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "H32",
+      "kind": "bottom",
+      "axis_mm": [
+        160,
+        118.175,
+        0
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "P1",
+      "kind": "side",
+      "axis_mm": [
+        80.104,
+        170,
+        6.35
+      ],
+      "automatic_support_segments": 559,
+      "support_layer_tops_mm": [
+        5.2,
+        5.4,
+        5.6,
+        5.8,
+        6.0,
+        6.2,
+        6.4,
+        6.6,
+        6.8,
+        7.0,
+        7.2,
+        7.4,
+        7.6,
+        7.8
+      ]
+    },
+    {
+      "specimen": "P1",
+      "kind": "bottom",
+      "axis_mm": [
+        51.275,
+        173.175,
+        0
+      ],
+      "automatic_support_segments": 2708,
+      "support_layer_tops_mm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0,
+        4.2,
+        4.4,
+        4.6,
+        4.8,
+        5.0,
+        5.2
+      ]
+    },
+    {
+      "specimen": "P2",
+      "kind": "side",
+      "axis_mm": [
+        150.10399999999998,
+        170,
+        6.35
+      ],
+      "automatic_support_segments": 565,
+      "support_layer_tops_mm": [
+        5.2,
+        5.4,
+        5.6,
+        5.8,
+        6.0,
+        6.2,
+        6.4,
+        6.6,
+        6.8,
+        7.0,
+        7.2,
+        7.4,
+        7.6,
+        7.8
+      ]
+    },
+    {
+      "specimen": "P2",
+      "kind": "bottom",
+      "axis_mm": [
+        121.275,
+        173.175,
+        0
+      ],
+      "automatic_support_segments": 2710,
+      "support_layer_tops_mm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0,
+        4.2,
+        4.4,
+        4.6,
+        4.8,
+        5.0,
+        5.2
+      ]
+    }
+  ],
+  "after": [
+    {
+      "specimen": "H32",
+      "kind": "side",
+      "axis_mm": [
+        150,
+        115,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "H32",
+      "kind": "bottom",
+      "axis_mm": [
+        160,
+        118.175,
+        0
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "P1",
+      "kind": "side",
+      "axis_mm": [
+        80.104,
+        170,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "P1",
+      "kind": "bottom",
+      "axis_mm": [
+        51.275,
+        173.175,
+        0
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "P2",
+      "kind": "side",
+      "axis_mm": [
+        150.10399999999998,
+        170,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "P2",
+      "kind": "bottom",
+      "axis_mm": [
+        121.275,
+        173.175,
+        0
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    }
+  ],
+  "complete_product": [
+    {
+      "specimen": "full body",
+      "kind": "side",
+      "axis_mm": [
+        28.4988,
+        0,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "full body",
+      "kind": "side",
+      "axis_mm": [
+        28.4988,
+        95.89999999999999,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "full body",
+      "kind": "side",
+      "axis_mm": [
+        70.104,
+        0,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "full body",
+      "kind": "side",
+      "axis_mm": [
+        70.104,
+        95.89999999999999,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "full body",
+      "kind": "side",
+      "axis_mm": [
+        130.0988,
+        0,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "full body",
+      "kind": "side",
+      "axis_mm": [
+        130.0988,
+        95.89999999999999,
+        6.35
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "full body",
+      "kind": "bottom",
+      "axis_mm": [
+        41.275,
+        3.175,
+        0
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "full body",
+      "kind": "bottom",
+      "axis_mm": [
+        41.275,
+        98.425,
+        0
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "full body",
+      "kind": "bottom",
+      "axis_mm": [
+        85.725,
+        3.175,
+        0
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    },
+    {
+      "specimen": "full body",
+      "kind": "bottom",
+      "axis_mm": [
+        85.725,
+        98.425,
+        0
+      ],
+      "automatic_support_segments": 0,
+      "support_layer_tops_mm": []
+    }
+  ],
+  "added_blocker_faces": {
+    "P1": 265,
+    "P2": 265
+  },
+  "geometry_and_global_settings_unchanged": true,
+  "before_seconds": 3795.30517578125,
+  "after_seconds": 3738.24169921875,
+  "after_filaments": [
+    {
+      "filament_id": "GFA00",
+      "id": 1,
+      "main_used_g": 16.15178680419922,
+      "total_used_g": 21.364913940429688
+    },
+    {
+      "filament_id": "GFS02",
+      "id": 2,
+      "main_used_g": 0.019549544900655746,
+      "total_used_g": 3.5523784160614014
+    }
+  ],
+  "warnings": "",
+  "original_project_sha256": "b76ce4612e30041c7b90176cf6e5a118c0034d0666318bf7d43355aab410289d",
+  "research_project_sha256": "e9a1703b923e4bb25db88f7189d00fbf96e126225d80dcaff527c93e74e315d8",
+  "research_gcode_sha256": "335844e70adc33d0c44dbaab2beed8300812b178ab6b70faa5dfa5df253e0e7d",
+  "full_product_gcode_sha256": "1d7c31e0355e5190582120093417c2042d2cf5d4ecba3be98335d83a5d318dc8",
+  "physical_corrected_P1_P2_roof_verified": false
+}

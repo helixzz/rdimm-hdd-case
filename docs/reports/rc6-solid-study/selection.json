@@ -1,0 +1,17 @@
+{
+  "selected_grip_top_mm": 5.0,
+  "physical_verified": false,
+  "permanent_geometry_changed": false,
+  "candidates": [
+    {
+      "height": 5.0,
+      "complete_toolpath_pass": true
+    },
+    {
+      "height": 5.4,
+      "complete_toolpath_pass": false,
+      "reason": "Fixed-end roof gap .60 mm exceeded .50 mm screening limit; also4more changes and~645s extra"
+    }
+  ],
+  "limitations": "Threshold is an engineering screen, not a physical failure limit. Wider solid contacts may increase release force; nozzle drag and adhesive strength not simulated."
+}

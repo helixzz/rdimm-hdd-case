@@ -1,0 +1,127 @@
+{
+  "status": "unreleased slicing study; physical removability unknown",
+  "capture_roof_faces_blocked": 155,
+  "nominal_runner_gaps": [
+    {
+      "y": 8.0,
+      "right": false,
+      "runner_y": 8.3,
+      "split_z": 22.3,
+      "nominal_gap_mm": 0.20000000000000284
+    },
+    {
+      "y": 8.0,
+      "right": false,
+      "runner_y": 8.3,
+      "split_z": 23.9,
+      "nominal_gap_mm": 0.19999899999999826
+    },
+    {
+      "y": 8.0,
+      "right": false,
+      "runner_y": 13.1,
+      "split_z": 22.3,
+      "nominal_gap_mm": 0.20000000000000284
+    },
+    {
+      "y": 8.0,
+      "right": false,
+      "runner_y": 13.1,
+      "split_z": 23.9,
+      "nominal_gap_mm": 0.19999899999999826
+    },
+    {
+      "y": 8.0,
+      "right": true,
+      "runner_y": 8.3,
+      "split_z": 22.3,
+      "nominal_gap_mm": 0.20000000000000284
+    },
+    {
+      "y": 8.0,
+      "right": true,
+      "runner_y": 8.3,
+      "split_z": 23.9,
+      "nominal_gap_mm": 0.19999899999999826
+    },
+    {
+      "y": 8.0,
+      "right": true,
+      "runner_y": 13.1,
+      "split_z": 22.3,
+      "nominal_gap_mm": 0.20000000000000284
+    },
+    {
+      "y": 8.0,
+      "right": true,
+      "runner_y": 13.1,
+      "split_z": 23.9,
+      "nominal_gap_mm": 0.19999899999999826
+    },
+    {
+      "y": 95.6,
+      "right": false,
+      "runner_y": 95.89999999999999,
+      "split_z": 22.3,
+      "nominal_gap_mm": 0.20000000000000284
+    },
+    {
+      "y": 95.6,
+      "right": false,
+      "runner_y": 95.89999999999999,
+      "split_z": 23.9,
+      "nominal_gap_mm": 0.19999899999999826
+    },
+    {
+      "y": 95.6,
+      "right": false,
+      "runner_y": 98.89999999999999,
+      "split_z": 22.3,
+      "nominal_gap_mm": 0.20000000000000284
+    },
+    {
+      "y": 95.6,
+      "right": false,
+      "runner_y": 98.89999999999999,
+      "split_z": 23.9,
+      "nominal_gap_mm": 0.19999899999999826
+    },
+    {
+      "y": 95.6,
+      "right": true,
+      "runner_y": 95.89999999999999,
+      "split_z": 22.3,
+      "nominal_gap_mm": 0.20000000000000284
+    },
+    {
+      "y": 95.6,
+      "right": true,
+      "runner_y": 95.89999999999999,
+      "split_z": 23.9,
+      "nominal_gap_mm": 0.19999899999999826
+    },
+    {
+      "y": 95.6,
+      "right": true,
+      "runner_y": 98.89999999999999,
+      "split_z": 22.3,
+      "nominal_gap_mm": 0.20000000000000284
+    },
+    {
+      "y": 95.6,
+      "right": true,
+      "runner_y": 98.89999999999999,
+      "split_z": 23.9,
+      "nominal_gap_mm": 0.19999899999999826
+    }
+  ],
+  "duplicated_automatic_capture_support": false,
+  "global_settings_unchanged": true,
+  "geometry_resave_matches_seed": true,
+  "seconds": 7884.5703125,
+  "grams": 91.52921295166016,
+  "warnings": "",
+  "project_sha256": "2d596d03972d636b502fa7d041b8f95d35e35047ee2697d27020e3b7c4685ead",
+  "gcode_sha256": "3398861461652508717bedb79bd0e5080bc00a74d9c90dabff3f0e1360169b40",
+  "limits": "Whole plate estimate only. Pad neck strength, removal, flange sag and final lid fit need printing. No full release validation."
+}

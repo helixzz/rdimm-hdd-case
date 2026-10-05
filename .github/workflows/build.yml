@@ -22,7 +22,36 @@ jobs:
           python-version: '3.12'
           cache: pip
       - run: python -m pip install -r requirements.txt
-      - run: python src/build_case.py
+      - run: python src/build_v1.py --output-dir build/v1
+      - run: python src/build_case.py --output-dir build/v2
+      - run: python src/layout_v2.py --models build/v2 --output-dir build/plates-v2
+      - run: python src/build_retention.py --models build/v2 --output-dir build/v2-retention
+      - run: python src/build_v3.py --models build/v2-retention --output-dir build/v3
+      - run: python src/build_simple_trays.py --models build/v2-retention --v3-models build/v3 --output-dir build/v3-simple
+      - run: python src/build_v3_1.py --models build/v2-retention --v3-models build/v3 --output-dir build/v3.1
+      - run: python src/build_v3_2.py --output-dir build/v3.2-rc1
+      - run: python src/build_latch_check_rc2.py --output-dir build/v3.2-rc2-latch-check
+      - run: python src/build_v4.py --output-dir build/v4.0-rc1
+      - run: python src/build_v4_rc2.py --output-dir build/v4.0-rc2
+      - run: python src/build_v4_rc3.py --output-dir build/v4.0-rc3
+      - run: python src/build_v4_rc4.py --output-dir build/v4.0-rc4
+      - run: python src/evaluate_floor_fillet.py
+      - run: python src/build_v4_1.py --output-dir build/v4.1-rc1
+      - run: python src/build_v4_1_rc2.py --output-dir build/v4.1-rc2
+      - run: python src/build_v4_1_rc3.py --output-dir build/v4.1-rc3
+      - run: python src/build_v4_1_rc4.py --output-dir build/v4.1-rc4
+      - run: python src/build_v4_2.py --output-dir build/v4.2
+      - run: python src/build_v4_3.py --output-dir build/v4.3
+      - run: python src/build_support_trial_v4_4.py --output-dir build/v4.4-rc1-support-trial
+      - run: python src/build_combined_trial_v4_4_rc2.py --output-dir build/v4.4-rc2-combined-trial
+      - run: python src/build_dual_trial_v4_4_rc3.py --output-dir build/v4.4-rc3-dual-trial
+      - run: python src/evaluate_dfm_geometry.py
+      - run: python src/evaluate_full_product.py --geometry-only
+      - run: python src/build_trial_v4_4_rc4.py --output-dir build/v4.4-rc4-product-trial
+      - run: python src/build_trial_v4_4_rc5.py --output-dir build/v4.4-rc5-peel-trial
+      - run: python src/build_trial_v4_4_rc6.py --output-dir build/v4.4-rc6-solid-trial
+      - run: python src/build_v4_4.py --output-dir build/v4.4
+      - run: python src/build_v4_4_1.py --output-dir build/v4.4.1
       - uses: actions/upload-artifact@v7.0.1
         with:
           name: rdimm-case-${{ matrix.os }}

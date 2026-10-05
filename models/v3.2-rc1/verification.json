@@ -1,0 +1,491 @@
+{
+  "version": "3.2-rc1",
+  "status": "release candidate; physical validation pending",
+  "capacity": 8,
+  "outer_mm": [
+    147,
+    101.6,
+    26
+  ],
+  "complete_set_plates": 2,
+  "supports_required": true,
+  "projection_area_mm2": 65847.83897097732,
+  "one_flat_plate_impossible": true,
+  "plate_count_scope": "Fixed flat orientations, no stacking, disjoint XY projections; complete five-part set only",
+  "geometry_only_3mf": true,
+  "physical_tested": false,
+  "force_fatigue_retention_verified": false,
+  "checks": {
+    "module_poses": 512,
+    "release_poses": 2688,
+    "pcb_stops": 48
+  },
+  "plate_records": [
+    {
+      "stem": "rdimm-3.2-rc1-plate-1-pin-clearance",
+      "poses": [
+        {
+          "part": "body-pin-clearance",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              20.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "lid-slide",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000004768371
+            ],
+            [
+              0.0,
+              -1.0,
+              -1.2246467991473532e-16,
+              229.8000030517578
+            ],
+            [
+              0.0,
+              1.2246467991473532e-16,
+              -1.0,
+              26.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "bounds": [
+        [
+          54.5,
+          20.0,
+          0.0
+        ],
+        [
+          201.5,
+          229.60000304877758,
+          26.0
+        ]
+      ]
+    },
+    {
+      "stem": "rdimm-3.2-rc1-plate-1-thread-pilot",
+      "poses": [
+        {
+          "part": "body-thread-pilot",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              20.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "lid-slide",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000004768371
+            ],
+            [
+              0.0,
+              -1.0,
+              -1.2246467991473532e-16,
+              229.8000030517578
+            ],
+            [
+              0.0,
+              1.2246467991473532e-16,
+              -1.0,
+              26.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "bounds": [
+        [
+          54.5,
+          20.0,
+          0.0
+        ],
+        [
+          201.5,
+          229.60000304877758,
+          26.0
+        ]
+      ]
+    },
+    {
+      "stem": "rdimm-3.2-rc1-plate-1-body-only",
+      "poses": [
+        {
+          "part": "body-pin-clearance",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              77.2
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "bounds": [
+        [
+          54.5,
+          77.2,
+          0.0
+        ],
+        [
+          201.5,
+          178.79999847412108,
+          26.0
+        ]
+      ]
+    },
+    {
+      "stem": "rdimm-3.2-rc1-plate-2-all-trays",
+      "poses": [
+        {
+          "part": "tray-middle-3",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              13.100000023841858
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              23.300000023841857
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "tray-top-3",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              13.100000023841858
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              131.10000002384186
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "tray-bottom-2",
+          "assembly_to_plate": [
+            [
+              6.123233995736766e-17,
+              -1.0,
+              0.0,
+              251.7
+            ],
+            [
+              1.0,
+              6.123233995736766e-17,
+              0.0,
+              54.50000002384186
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "bounds": [
+        [
+          15.0,
+          25.2,
+          0.0
+        ],
+        [
+          233.59999961853026,
+          230.79999697208405,
+          6.800000190734863
+        ]
+      ]
+    },
+    {
+      "stem": "rdimm-3.2-rc1-plate-0-checks",
+      "poses": [
+        {
+          "part": "test-tray-1",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              43.10000002384186
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              105.70000076293945
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "latch-test-base",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              65.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -19.200000762939453
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "latch-test-slider",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              77.20000076293945
+            ],
+            [
+              0.0,
+              -1.0,
+              -1.2246467991473532e-16,
+              85.79999923706055
+            ],
+            [
+              0.0,
+              1.2246467991473532e-16,
+              -1.0,
+              26.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "bottom-recess-test",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              188.10000002384186
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              46.89999961853027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "bounds": [
+        [
+          35.0,
+          65.0,
+          0.0
+        ],
+        [
+          199.99999964237213,
+          173.00000381469727,
+          6.800000190734863
+        ]
+      ]
+    }
+  ],
+  "pcb_slot_height_mm": 1.6,
+  "component_clearance_below_mm": 0.3,
+  "component_clearance_above_next_floor_mm": 0.1,
+  "unchanged_reference_module_mm": [
+    133.8,
+    31.4,
+    5.57
+  ],
+  "source_v3_1_hashes": {
+    "batch-a-body-lid-bottom.stl": "80f5cfa62e7ce8fb35fb99b014537aeeb8359d0f1d59723f8f0c439dd2ab0f64",
+    "batch-b-middle-top-2sets.stl": "9f974b55fac2d0b5ffb434c860fb6c60ee5f5b5c5c01c9af5e5041a67143dc06",
+    "body-pin-clearance.stl": "99d749e5e23c92918eaa1a2c4e3b91ee8cec35f2cd1660ffe09229613a5b51fc",
+    "body-thread-pilot.stl": "0730cbc38af74be9fd16f47c352c638e53c01b83cb1f8316d82e2c4dac9194ee",
+    "empty-fit-gauge-pin.stl": "d8c5be65530c043b7f78439b064a6b49d9906020208849bd8b36048248ddc195",
+    "first-test-all.stl": "fd2e6b18d20715a1b3a51a9c47392eed755462073d1770336143509ef96e2ab6",
+    "latch-test-base.stl": "ec650429135e04ad2dfebcc79c8c11ad5dbf344942e4d0a1a66dcf307dc69b4c",
+    "latch-test-slider.stl": "52be45cebb9a6790c60d49c46b0ddff3a12362903968f3806c7ebbd842608393",
+    "lid-slide.stl": "e6d779b666a5dd2d0e6f8561d5c162362ffc12d9376f8c3aaf25041eb04f51ca",
+    "plate-1-body-pin-clearance-lid.stl": "f3223af1155d6bbf01d98f651163c4ea66a76e548564abfbc3df1a0dd950f727",
+    "plate-1-body-thread-pilot-lid.stl": "c7f6967310ee659802d743b766d04de279adf3728a3e1697bcaf9f4ce514b12a",
+    "plate-2-all-trays.stl": "c0a6ed8b25c2cf73461f4543b568c6e51129687ee7905e4bd1c3b122a0c6ddd8",
+    "rail-test-base.stl": "fcabf5e178e3281a8bd13b88662b61125017e98775caebc4d93da65aa47791bc",
+    "rail-test-slider.stl": "a970fcd7ac136e4141b8001c0b576bfd755489a8608ab3de89798d32efda6998",
+    "rdimm-v3.1-batch-a-body-lid-bottom.stl": "80f5cfa62e7ce8fb35fb99b014537aeeb8359d0f1d59723f8f0c439dd2ab0f64",
+    "rdimm-v3.1-batch-b-middle-top-2sets.stl": "9f974b55fac2d0b5ffb434c860fb6c60ee5f5b5c5c01c9af5e5041a67143dc06",
+    "rdimm-v3.1-plate-1-pin-clearance.stl": "f3223af1155d6bbf01d98f651163c4ea66a76e548564abfbc3df1a0dd950f727",
+    "rdimm-v3.1-plate-1-thread-pilot.stl": "c7f6967310ee659802d743b766d04de279adf3728a3e1697bcaf9f4ce514b12a",
+    "rdimm-v3.1-plate-2-all-trays.stl": "c0a6ed8b25c2cf73461f4543b568c6e51129687ee7905e4bd1c3b122a0c6ddd8",
+    "test-tray-1.stl": "27bc903c064890f399691d85994fc34e50415dbdc8988e554137caf87e5ebf32",
+    "tray-bottom-2.stl": "9c9447ef1be74e90582e4e9e96eb59751b78762e9630e82e3393a6fad0c1b673",
+    "tray-middle-3.stl": "27e7467d29773fefcbaef7edbdae3d75f5139166864076b653109289a1a80614",
+    "tray-top-3.stl": "a9c8ac7207dca1dae3706be6d23d9b866467f296be4444a1d5691e15895c0c98"
+  }
+}

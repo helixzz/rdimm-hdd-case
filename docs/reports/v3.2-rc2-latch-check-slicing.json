@@ -1,0 +1,25 @@
+{
+  "version": "3.2-rc2",
+  "scope": "A coupon base only",
+  "project": "rdimm-3.2-rc2-plate-A-base-only-P2S-PLA-Basic.3mf",
+  "sha256": "a5c91aadb97ec379281e9df1f26fe689ea5cc485cd1e95c78753cc1b77473604",
+  "estimated_seconds": 780.8180541992188,
+  "grams": 3.542004346847534,
+  "warnings": "",
+  "physical_tested": false,
+  "support_audit": {
+    "channels": [
+      {
+        "rail": "left",
+        "support_intrusions_above_bearing": 0
+      },
+      {
+        "rail": "right",
+        "support_intrusions_above_bearing": 0
+      }
+    ],
+    "leaf_min_nominal_z_gap_mm": 0.2,
+    "leaf_min_local_xy_gap_mm": 0.159,
+    "method": "Actual variable line width/layer height; nominal bead projection, not physical simulation"
+  }
+}

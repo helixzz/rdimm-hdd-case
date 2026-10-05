@@ -1,0 +1,30 @@
+{
+  "version": "4.0-rc2",
+  "source": "https://sata-io.org/system/files/specifications/SerialATA_Revision_3_3_Gold.pdf",
+  "figures": [
+    32,
+    40,
+    42
+  ],
+  "table": 6,
+  "pdf_pages": [
+    100,
+    110,
+    112
+  ],
+  "nominal_guide_reach_mm": 6.3,
+  "linear_axial_tolerance_sum_mm": 0.46,
+  "guide_reach_with_listed_tolerances_mm": 6.76,
+  "cavity_depth_mm": 7.5,
+  "nominal_remaining_depth_allowance_mm": 0.74,
+  "isolation_wall_thickness_mm": 0.8,
+  "wall_inner_x_mm": 8.3,
+  "reference_chip_min_x_mm": 8.5,
+  "reference_chip_to_wall_x_gap_mm": 0.2,
+  "unchanged_parts": [
+    "lid-slide-lift",
+    "tray-middle-3",
+    "tray-top-3"
+  ],
+  "limitations": "Does not include extra chassis/mounting/print errors. Not a complete SATA compliance or physical fit test."
+}

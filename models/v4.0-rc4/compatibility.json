@@ -1,0 +1,39 @@
+{
+  "version": "4.0-rc4",
+  "baseline": "4.0-rc3",
+  "changes": {
+    "body-pin-clearance": {
+      "added_mm3": 174.07182,
+      "removed_mm3": 0.0
+    },
+    "body-thread-pilot": {
+      "added_mm3": 174.07182,
+      "removed_mm3": 0.0
+    },
+    "lid-slide-lift": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-middle-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    },
+    "tray-top-3": {
+      "added_mm3": 0.0,
+      "removed_mm3": 0.0
+    }
+  },
+  "fillet_radius_mm": 2.0,
+  "fillet_top_z_mm": 6.0,
+  "upper_tray_min_z_mm": 10.8,
+  "upper_tray_vertical_gap_mm": 4.8,
+  "location": "Two long inner walls; short ends unchanged; original mounting bore voids preserved",
+  "unchanged_parts": [
+    "lid-slide-lift",
+    "tray-middle-3",
+    "tray-top-3"
+  ],
+  "sata_depth_mm": 7.5,
+  "physical_finish_improvement_verified": false,
+  "limits": "Sampled rigid geometry does not predict thermal deformation, exterior finish or physical strength."
+}

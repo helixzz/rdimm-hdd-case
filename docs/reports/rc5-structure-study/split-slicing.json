@@ -1,0 +1,76 @@
+{
+  "complete_product": {
+    "module_poses": 512,
+    "loaded_tray_entry_poses": 242,
+    "bottom_release_poses": 1520,
+    "lid_poses": 132
+  },
+  "keeper_checks": {
+    "body-pin-clearance": {
+      "assembly_poses": 80,
+      "positive_stops": 5,
+      "physical_verified": false
+    },
+    "body-thread-pilot": {
+      "assembly_poses": 80,
+      "positive_stops": 5,
+      "physical_verified": false
+    },
+    "tray-middle-3": {
+      "assembly_poses": 80,
+      "positive_stops": 5,
+      "physical_verified": false
+    },
+    "tray-top-3": {
+      "assembly_poses": 80,
+      "positive_stops": 5,
+      "physical_verified": false
+    }
+  },
+  "plates": [
+    {
+      "plate": "1-pin-clearance",
+      "seconds": 12253.1533203125,
+      "changes": 22,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 90.84614562988281,
+          "total_used_g": 108.6908187866211
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.10577286034822464,
+          "total_used_g": 12.715744018554688
+        }
+      ],
+      "warnings": "",
+      "project_sha256": "744c9cf3517133b04a64d1d81bcf2767e5907f2cff59ee3fa1bab3174b72059c",
+      "gcode_sha256": "37885e8b1d1000699ef06a78f99463c59f2822d81a9a03f6cbe170459664152f"
+    },
+    {
+      "plate": "2-upper-trays",
+      "seconds": 5477.125,
+      "changes": 10,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 33.9917106628418,
+          "total_used_g": 40.957923889160156
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.08089832216501236,
+          "total_used_g": 5.745927333831787
+        }
+      ],
+      "warnings": "",
+      "project_sha256": "93aaa5032328a9445500be0d45ac899d2829bc9debc922b09a44f27d0224b521",
+      "gcode_sha256": "6dd0d820ef8643a3f48773ceb5d64d877d90a3a5308d32f9140072439d208739"
+    }
+  ]
+}

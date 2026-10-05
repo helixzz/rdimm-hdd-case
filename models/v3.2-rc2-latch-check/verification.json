@@ -1,0 +1,62 @@
+{
+  "version": "3.2-rc2",
+  "scope": "A coupon base ONLY; full enclosure and trays remain RC1",
+  "reuse_slider": "v3.2-rc1 latch-test-slider",
+  "lower_rail_top_z": 24.2,
+  "nominal_lid_bottom_z": 24.4,
+  "lower_clearance_mm": 0.2,
+  "lower_rail_underside_degrees": 45,
+  "failure_controls": [
+    {
+      "pitch_deg": -0.5,
+      "rc1_intersection_mm3": 6.926594318651595e-17,
+      "rc2_intersection_mm3": 6.926594318651595e-17
+    },
+    {
+      "pitch_deg": -1.0,
+      "rc1_intersection_mm3": 1.5721130124076074e-16,
+      "rc2_intersection_mm3": 0.7424263186339226
+    },
+    {
+      "pitch_deg": -2.0,
+      "rc1_intersection_mm3": 3.963267251757207e-16,
+      "rc2_intersection_mm3": 3.0823014005432174
+    },
+    {
+      "pitch_deg": -3.0,
+      "rc1_intersection_mm3": 7.317872615903556e-16,
+      "rc2_intersection_mm3": 3.260969082306986
+    },
+    {
+      "pitch_deg": -5.0,
+      "rc1_intersection_mm3": 1.7504954042085634e-15,
+      "rc2_intersection_mm3": 1.958172001302728
+    }
+  ],
+  "full_body_controls": [
+    {
+      "pitch_deg": -0.1,
+      "full_body_intersection_mm3": 5.145272595153404
+    },
+    {
+      "pitch_deg": -0.5,
+      "full_body_intersection_mm3": 34.570942622286424
+    },
+    {
+      "pitch_deg": -1,
+      "full_body_intersection_mm3": 62.3917755035589
+    },
+    {
+      "pitch_deg": -2,
+      "full_body_intersection_mm3": 69.28333690604198
+    }
+  ],
+  "release_poses": 26,
+  "slide_poses": 93,
+  "physical_tested": false,
+  "files": {
+    "latch-test-base.stl": "cd0d705f46e103be08082912d40b9c5e6ab85a5cbfdf5d41aeca7e6b98efb933",
+    "rdimm-3.2-rc2-plate-A-base-only.3mf": "e16e031d4c1bd432323639b5bed0e43c41e0ba13d0c6fa96f2ff2ec4abdf08ef",
+    "rdimm-3.2-rc2-plate-A-base-only.stl": "a6ad4af49181f9e23537885fbdd20b2c6881f01223d3cbcb72b4ed84bd1b26a5"
+  }
+}

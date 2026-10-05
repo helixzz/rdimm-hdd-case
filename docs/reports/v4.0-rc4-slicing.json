@@ -1,0 +1,91 @@
+{
+  "version": "4.0-rc4",
+  "overrides": {
+    "layer_height": "0.2",
+    "initial_layer_print_height": "0.2",
+    "wall_loops": "2",
+    "top_shell_layers": "5",
+    "top_shell_thickness": "1",
+    "bottom_shell_layers": "3",
+    "bottom_shell_thickness": "0",
+    "sparse_infill_density": "15%",
+    "sparse_infill_pattern": "grid",
+    "infill_direction": "45",
+    "wall_generator": "classic",
+    "enable_prime_tower": "0",
+    "print_sequence": "by layer",
+    "enable_support": "1",
+    "support_type": "normal(auto)",
+    "support_style": "snug",
+    "support_on_build_plate_only": "0",
+    "support_threshold_angle": "30",
+    "support_top_z_distance": "0.2",
+    "support_bottom_z_distance": "0.2",
+    "support_object_xy_distance": "0.35",
+    "support_interface_top_layers": "3",
+    "support_interface_bottom_layers": "2",
+    "support_interface_spacing": "0.25",
+    "support_filament": "0",
+    "support_interface_filament": "0",
+    "bridge_no_support": "0",
+    "bridge_speed": [
+      "50",
+      "50",
+      "50"
+    ]
+  },
+  "results": [
+    {
+      "plate": "1-pin-clearance",
+      "project": "rdimm-4.0-rc4-plate-1-pin-clearance-P2S-PLA-Basic.3mf",
+      "estimated_seconds": 7532.68798828125,
+      "grams": 90.09745788574219,
+      "feature_seconds": {
+        "Bottom surface": 771.479248046875,
+        "Bridge": 777.95263671875,
+        "Custom": 402.65093994140625,
+        "Flush": 26.0,
+        "Gap infill": 41.327205657958984,
+        "Inner wall": 670.49365234375,
+        "Internal solid infill": 1874.412109375,
+        "Outer wall": 1117.112060546875,
+        "Overhang wall": 31.42913246154785,
+        "Sparse infill": 414.12261962890625,
+        "Support": 87.86357879638672,
+        "Support interface": 70.74796295166016,
+        "Support transition": 18.577789306640625,
+        "Top surface": 484.1351318359375,
+        "Travel": 750.95849609375,
+        "Undefined": 744.2925415039062
+      },
+      "warnings": ""
+    },
+    {
+      "plate": "2-upper-trays",
+      "project": "rdimm-4.0-rc4-plate-2-upper-trays-P2S-PLA-Basic.3mf",
+      "estimated_seconds": 3698.58056640625,
+      "grams": 34.71114730834961,
+      "feature_seconds": {
+        "Bottom surface": 707.48046875,
+        "Bridge": 67.57521057128906,
+        "Custom": 403.6300964355469,
+        "Flush": 26.0,
+        "Gap infill": 35.03540802001953,
+        "Inner wall": 179.53329467773438,
+        "Internal solid infill": 525.4417724609375,
+        "Outer wall": 670.682861328125,
+        "Overhang wall": 23.98454475402832,
+        "Sparse infill": 86.67958068847656,
+        "Support": 31.13532829284668,
+        "Support interface": 21.68172264099121,
+        "Support transition": 2.862520456314087,
+        "Top surface": 435.2702331542969,
+        "Travel": 488.9443359375,
+        "Undefined": 481.318359375
+      },
+      "warnings": ""
+    }
+  ],
+  "physical_tested": false,
+  "support_removal_verified": false
+}

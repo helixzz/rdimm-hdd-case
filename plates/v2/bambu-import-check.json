@@ -1,0 +1,36 @@
+{
+  "check": "Bambu Studio CLI import and re-export with arrange disabled",
+  "sliced": false,
+  "printer_profile_embedded_in_deliverable": false,
+  "files": [
+    {
+      "file": "optional-test-plate.3mf",
+      "bambu_cli_return_code": 0,
+      "reexport_success": true,
+      "reexport_mesh_count": 5,
+      "per_part_bounds_preserved": true
+    },
+    {
+      "file": "plate-1-pilot.3mf",
+      "bambu_cli_return_code": 0,
+      "reexport_success": true,
+      "reexport_mesh_count": 3,
+      "per_part_bounds_preserved": true
+    },
+    {
+      "file": "plate-1-side-inserts.3mf",
+      "bambu_cli_return_code": 0,
+      "reexport_success": true,
+      "reexport_mesh_count": 3,
+      "per_part_bounds_preserved": true
+    },
+    {
+      "file": "plate-2-middle-top.3mf",
+      "bambu_cli_return_code": 0,
+      "reexport_success": true,
+      "reexport_mesh_count": 2,
+      "per_part_bounds_preserved": true
+    }
+  ],
+  "bambu_studio_version": "02.08.02.61"
+}

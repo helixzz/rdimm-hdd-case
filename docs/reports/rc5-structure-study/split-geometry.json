@@ -1,0 +1,34 @@
+{
+  "complete_product": {
+    "module_poses": 512,
+    "loaded_tray_entry_poses": 242,
+    "bottom_release_poses": 1520,
+    "lid_poses": 132
+  },
+  "keeper_checks": {
+    "body-pin-clearance": {
+      "assembly_poses": 80,
+      "latch_lift_poses": 11,
+      "positive_stops": 5,
+      "physical_verified": false
+    },
+    "body-thread-pilot": {
+      "assembly_poses": 80,
+      "latch_lift_poses": 11,
+      "positive_stops": 5,
+      "physical_verified": false
+    },
+    "tray-middle-3": {
+      "assembly_poses": 80,
+      "latch_lift_poses": 11,
+      "positive_stops": 5,
+      "physical_verified": false
+    },
+    "tray-top-3": {
+      "assembly_poses": 80,
+      "latch_lift_poses": 11,
+      "positive_stops": 5,
+      "physical_verified": false
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "version": "4.1-rc4",
+  "method": "Finite-width nominal G-code bead footprints; variable layer heights; 0.025 mm XY samples",
+  "limits": "No thermal, sagging, bond, support removal, force or fatigue simulation",
+  "plates": [
+    {
+      "plate": "3-replacement-lid",
+      "gcode_sha256": "3a462850ed31109f4c6ba339963db87884a8c3c06c51d6687576fd6ca243a1cc",
+      "project_sha256": "639300547fb1cc0de53ecb447b8873522dc64ce91f699cfd35e6f90d809631e2",
+      "support_regions": [
+        {
+          "part": "lid-slide-lift",
+          "region": "flat tongue 3.5/8.0",
+          "rect": [
+            58.00000004768371,
+            216.6500030517578,
+            60.700000047683716,
+            221.2500030517578
+          ],
+          "roof_z": 2.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 11.227
+        },
+        {
+          "part": "lid-slide-lift",
+          "region": "flat tongue 140.8/8.0",
+          "rect": [
+            195.30000004768374,
+            216.6500030517578,
+            198.00000004768373,
+            221.2500030517578
+          ],
+          "roof_z": 2.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 8.155
+        },
+        {
+          "part": "lid-slide-lift",
+          "region": "flat tongue 3.5/95.6",
+          "rect": [
+            58.00000004768371,
+            130.85000305175782,
+            60.700000047683716,
+            133.65000305175784
+          ],
+          "roof_z": 2.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.889
+        },
+        {
+          "part": "lid-slide-lift",
+          "region": "flat tongue 140.8/95.6",
+          "rect": [
+            195.30000004768374,
+            130.85000305175782,
+            198.00000004768373,
+            133.65000305175784
+          ],
+          "roof_z": 2.4,
+          "nominal_z_gap_mm": 0.2,
+          "nominal_xy_gap_mm": 0.159,
+          "support_overlap_mm2": 6.81
+        }
+      ],
+      "free_corridors": []
+    }
+  ]
+}

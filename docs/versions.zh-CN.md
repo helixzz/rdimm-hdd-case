@@ -1,0 +1,40 @@
+# 版本管理
+
+| 名称 | 定位 | 目录 / 固定依据 |
+|---|---|---|
+| **v4.4** | 完整双材料两盘：整块专用支撑、3.2 mm 十孔无支撑、清除脆弱角片 | [说明](v4.4.zh-CN.md)、[Release](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4)；RC6 局部能拆净，固定/C 仍需工具，完整套件待实测 |
+| **v4.4-rc3-dual-trial** | 一盘四件：PLA＋Support for PLA 专用接触层、加宽支撑把手、选定 H32 | [说明](v4.4-rc3-dual-trial.zh-CN.md)、[预发布](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc3-dual-trial)；1 小时 03 分 43 秒，完整版本仍为 v4.3 |
+| **v4.4-rc2-combined-trial** | 一盘 12 件：槽支撑、顶盖支撑、孔径及角部清理综合试验 | [说明](v4.4-rc2-combined-trial.zh-CN.md)、[预发布](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc2-combined-trial)；56 分 31 秒，完整版本仍为 v4.3 |
+| **v4.4-rc1-support-trial** | 一盘 A/B 支撑拆除和残留避让试验，非正式替换托盘 | [说明](v4.4-rc1-support-trial.zh-CN.md)、[预发布](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4-rc1-support-trial)；完整版本仍为 v4.3，待试印 |
+| **v4.3** | 完整两盘：保留加强棱＋底部连续圆弧；仅外壳更新 | `models/v4.3/`、[说明](v4.3.zh-CN.md)、[Release](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.3)；v4.2 盖板和托盘复用，强度待实测 |
+| **v4.2** | 完整两盘正式发行版：3 mm 托盘基座、齿头下让 0.5 mm、内凹 R6 底部过渡、RC4 盖板 | `models/v4.2/`、[说明](v4.2.zh-CN.md)、[Release](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.2)；统一包，实物验证待完成 |
+| **v4.1-rc4** | 连续颈部净空、斜面接回根部的替换盖板候选 | `models/v4.1-rc4/`、[说明](v4.1-rc4.zh-CN.md)；仅替换盖板，修正组合位姿局部干涉，实际手感/强度待验证 |
+| **v4.1-rc3** | 斜面导入、扩大间隙的替换盖板候选 | `models/v4.1-rc3/`、[说明](v4.1-rc3.zh-CN.md)；兼容 RC1/RC2 外壳与托盘，仅需打一盘盖板，配合及强度待实测 |
+| **v4.1-rc2** | 缩小两处底层拨扣窗口并恢复上方连接壁，配套 p2 支撑配置 | `models/v4.1-rc2/`、[说明](v4.1-rc2.zh-CN.md)；RC1 盖板、托盘兼容，实际操作与抗震待实测 |
+| **v4.1-rc1** | 平面扣脚、卡扣根部及侧壁加固候选，工艺 p1 保留六孔屏蔽 | `models/v4.1-rc1/`、[说明](v4.1-rc1.zh-CN.md)；必须整套使用，抗震/跌落待实测 |
+| **v4.0-rc4-p1** | RC4 几何的六侧孔支撑屏蔽工艺补丁，孔顶待实测 | [工艺说明](v4.0-rc4-p1.zh-CN.md)；需要带配置的工程，不另建几何目录 |
+| **v4.0-rc4** | 两条长内壁底部 R2 圆角试印候选，保留孔净空 | `models/v4.0-rc4/`、[评估与说明](v4.0-rc4.zh-CN.md)；与 RC2/RC3 配套件兼容 |
+| **v4.0-rc3** | 取消外侧凹刻的待实测候选，未加圆角 | `models/v4.0-rc3/`、[说明](v4.0-rc3.zh-CN.md)；与 RC2 盖板及托盘兼容 |
+| **v4.0-rc2** | 按 SATA 标准补足导向头进深至 7.5 mm，完整待实测候选 | `models/v4.0-rc2/`、[说明](v4.0-rc2.zh-CN.md)；RC1 盖板和上托盘复用，外壳更新 |
+| **v4.0-rc1** | 单侧 SATA 方向修正、底层一体化、短滑抬盖的完整待实测候选版 | `models/v4.0-rc1/`、[说明](v4.0-rc1.zh-CN.md)；新外壳与新盖板成套使用，旧 Release 不变 |
+| v2 | 已有实物反馈的旧托盘方案 | `models/v2`，保留不改 |
+| v2-R | 内部螺丝固定实验 | `models/v2-retention`，不是当前免工具方案 |
+| v3 / v3.0 | 三个托盘 + 三片独立限位框 | `models/v3`，标签 `v3.0` 固定在 `a675a8b3467316f5444930ef6d1a1fd0e53bebea` |
+| v3-S | 一体拨扣方案工作名称 | `models/v3-simple`，几何基准提交 `cc9afd5bc0aef89c80ddbaa6241953b412729875` |
+| **v3.1** | 一体拨扣方案的完整实测发行版 | **`models/v3.1`，标签 `v3.1` 与 GitHub Release** |
+| **v3.2-rc1** | 修订外壳锁扣、托盘槽口并明确配置支撑的待实测候选版 | `src/build_v3_2.py`、`models/v3.2-rc1/`、[说明](v3.2-rc1.zh-CN.md)；不覆盖 v3.1 |
+| **v3.2-rc2（仅 A 试件）** | 修复小盖板倾斜下落，重用 RC1 小盖板；非完整套件发行版 | `models/v3.2-rc2-latch-check/`、[范围与打印说明](v3.2-rc2-latch-check.zh-CN.md)；完整外壳和托盘仍为 RC1 |
+
+v3.1 单件几何与 v3-S 相同，外壳 / 滑盖与 v3 相同；只有托盘方案需要成套替换。v3.1 不使用旧限位框，不能与 v2 / v2-R 零件混装。小样与整盘文件也应取自对应目录，不要凭 `first-test-all.stl` 的同名文件判断版本。
+
+版本号描述设计快照，不表示已经通过实物验证；v3.1 首次发布标记为预发布。几何检查、参考切片、实物装配和批量可靠性是不同阶段，验证表仅填写实际观察。
+
+## 发布规则
+
+1. 修改源代码，生成单件、整盘、预览和清单，再完成几何与导入检查。只在需要时重新跑切片对照。
+2. 将源代码与生成物一起提交；确认对应提交的 Windows / Linux CI。
+3. 创建不移动的标签。以标签对应提交生成 Release 下载包，记录 SHA-256 和提交号。
+4. 发布后不覆盖旧标签或同名附件。模型、公差、功能切片配置改变时发布新编号，如 v3.1.1 / v3.2；兼容性在更新记录明确说明。
+5. 原型反馈写入对应版本实测表，记录机器、材料、层高、文件校验、打印日期和完整结果。不要把后来版本的测试结论回填到旧版本。
+
+最少盘数结论仅针对单套、固定平放方向和不叠印。批量十套的 15 次任务是一种已检查方案，不作全局最优声称。

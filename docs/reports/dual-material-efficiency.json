@@ -1,0 +1,154 @@
+{
+  "source_version": "4.4-rc3-dual-trial",
+  "source_project_sha256": "ece27f79d3d3b8f8c4afea8e1531ccd63bb207a5d58da5082576b4d046811abe",
+  "changed_settings": [
+    "wipe_tower_no_sparse_layers",
+    "wipe_tower_y (far case only:165->205)"
+  ],
+  "two_copy_shift_mm": [
+    0,
+    92,
+    0
+  ],
+  "purge_mm3_each_direction": 800,
+  "physical_verified": false,
+  "release_files_changed": false,
+  "scope": "Slicer estimates on coupons only; not full enclosure timing or print qualification",
+  "comparisons": [
+    {
+      "name": "published-rc3",
+      "copies": 1,
+      "estimated_seconds": 3823.095458984375,
+      "changes": 10,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 9.310896873474121,
+          "total_used_g": 16.95073890686035
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.04879096895456314,
+          "total_used_g": 5.914011478424072
+        }
+      ],
+      "warnings": "",
+      "feature_seconds": {
+        "Bottom surface": 184.83160400390625,
+        "Bridge": 29.614593505859375,
+        "Custom": 403.759765625,
+        "Flush": 1388.337158203125,
+        "Gap infill": 20.63680076599121,
+        "Inner wall": 121.13213348388672,
+        "Internal solid infill": 209.564697265625,
+        "Outer wall": 275.75799560546875,
+        "Prime tower": 709.7279663085938,
+        "Sparse infill": 28.04222869873047,
+        "Support": 6.264542579650879,
+        "Support interface": 0.9282039999961853,
+        "Support transition": 0.7298666834831238,
+        "Top surface": 113.03815460205078,
+        "Travel": 338.0950012207031,
+        "Undefined": 330.6490173339844
+      }
+    },
+    {
+      "name": "skip-idle-tower",
+      "copies": 1,
+      "rejected": true,
+      "return_code": -64,
+      "reason": "Object conflicts were detected. Please verify the slicing of all plates in Bambu Studio before uploading."
+    },
+    {
+      "name": "two-copies",
+      "copies": 2,
+      "estimated_seconds": 5014.6884765625,
+      "changes": 10,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 18.621793746948242,
+          "total_used_g": 26.26163673400879
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.09758193790912628,
+          "total_used_g": 5.962801933288574
+        }
+      ],
+      "warnings": "",
+      "feature_seconds": {
+        "Bottom surface": 369.66229248046875,
+        "Bridge": 59.228607177734375,
+        "Custom": 403.759765625,
+        "Flush": 1388.337158203125,
+        "Gap infill": 41.27301025390625,
+        "Inner wall": 219.6707305908203,
+        "Internal solid infill": 407.46527099609375,
+        "Outer wall": 528.1431884765625,
+        "Prime tower": 709.7279663085938,
+        "Sparse infill": 53.73991012573242,
+        "Support": 12.520337104797363,
+        "Support interface": 1.933495283126831,
+        "Support transition": 1.459788203239441,
+        "Top surface": 225.0667266845703,
+        "Travel": 600.043701171875,
+        "Undefined": 592.5977172851562
+      },
+      "project_sha256": "703b3fec7d4be194ed204be0b2b0d367eb32366b1341b039a9690047ebac04b6",
+      "gcode_sha256": "c558527ec5750a28393c53cfbf186e8d92086072c020b922265d7690dde344ec"
+    },
+    {
+      "name": "two-copies-skip-idle-tower",
+      "copies": 2,
+      "rejected": true,
+      "return_code": -64,
+      "reason": "Object conflicts were detected. Please verify the slicing of all plates in Bambu Studio before uploading."
+    },
+    {
+      "name": "skip-idle-tower-far",
+      "copies": 1,
+      "estimated_seconds": 3484.91064453125,
+      "changes": 10,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 9.310896873474121,
+          "total_used_g": 15.113224983215332
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.04879096895456314,
+          "total_used_g": 5.914011478424072
+        }
+      ],
+      "warnings": "",
+      "feature_seconds": {
+        "Bottom surface": 184.83209228515625,
+        "Bridge": 29.672760009765625,
+        "Custom": 403.5672302246094,
+        "Flush": 1388.337158203125,
+        "Gap infill": 20.753007888793945,
+        "Inner wall": 121.13213348388672,
+        "Internal solid infill": 209.68624877929688,
+        "Outer wall": 275.75799560546875,
+        "Prime tower": 394.81964111328125,
+        "Sparse infill": 28.159080505371094,
+        "Support": 6.378878116607666,
+        "Support interface": 0.9864035248756409,
+        "Support transition": 0.7298666834831238,
+        "Top surface": 113.09626007080078,
+        "Travel": 314.3696594238281,
+        "Undefined": 306.9236755371094
+      },
+      "project_sha256": "640e998fa0d1b5506b666444abe5891238bcbd0048d9d553dcf14a6e2e99260e",
+      "gcode_sha256": "0bdf370ba72229ae4753ab10801761728fc4590d469b2cb7716662be992388c3"
+    }
+  ]
+}

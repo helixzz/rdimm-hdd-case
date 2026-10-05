@@ -1,0 +1,36 @@
+{
+  "scope": "unreleased process-only comparison, diameter still 3.6 mm",
+  "bottom_roof_painted_triangles": {
+    "41.275-3.175": 58,
+    "41.275-98.425": 48,
+    "85.725-3.175": 62,
+    "85.725-98.425": 48
+  },
+  "mesh_and_global_settings_unchanged": true,
+  "checks": [
+    {
+      "case": "v4.3",
+      "bottom_support_segments": {
+        "41.275-3.175": 3040,
+        "41.275-98.425": 3045,
+        "85.725-3.175": 3030,
+        "85.725-98.425": 3058
+      }
+    },
+    {
+      "case": "bottom-blocked",
+      "bottom_support_segments": {
+        "41.275-3.175": 0,
+        "41.275-98.425": 0,
+        "85.725-3.175": 0,
+        "85.725-98.425": 0
+      }
+    }
+  ],
+  "reference_seconds": 7874.177734375,
+  "candidate_seconds": 7833.177734375,
+  "reference_grams": 91.53646850585938,
+  "candidate_grams": 91.43588256835938,
+  "warnings": "",
+  "limits": "No physical bridge-sag or screw-fit verification. Other mechanisms not requalified for release."
+}

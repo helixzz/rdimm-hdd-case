@@ -1,0 +1,72 @@
+[
+  {
+    "mode": "single-control",
+    "plate": "1-pin-clearance",
+    "seconds": 7808.6611328125,
+    "changes": 0,
+    "filaments": [
+      {
+        "filament_id": "GFA00",
+        "id": 1,
+        "main_used_g": 91.44932556152344,
+        "total_used_g": 91.44931030273438
+      }
+    ],
+    "warnings": "",
+    "features": {
+      "Bottom surface": 769.6265869140625,
+      "Bridge": 787.113037109375,
+      "Custom": 402.65093994140625,
+      "Flush": 26.0,
+      "Gap infill": 43.47458267211914,
+      "Inner wall": 683.3096313476562,
+      "Internal solid infill": 1884.1407470703125,
+      "Outer wall": 1139.29541015625,
+      "Overhang wall": 48.264671325683594,
+      "Sparse infill": 566.552734375,
+      "Support": 80.30862426757812,
+      "Support interface": 72.99635314941406,
+      "Support transition": 16.8056583404541,
+      "Top surface": 494.5252380371094,
+      "Travel": 800.6729125976562,
+      "Undefined": 794.0069580078125
+    },
+    "gcode_sha256": "014b1cdac16beacc2e636aac3483ee43bc2815b95cb73de9ea5d1b3b5d67fcc7",
+    "project_sha256": "ff836bddb82b8ec5b963d266c0fc578c991d1a1b071ad2858a592e419a9d5a98"
+  },
+  {
+    "mode": "single-control",
+    "plate": "2-upper-trays",
+    "seconds": 3555.531982421875,
+    "changes": 0,
+    "filaments": [
+      {
+        "filament_id": "GFA00",
+        "id": 1,
+        "main_used_g": 33.907203674316406,
+        "total_used_g": 33.907203674316406
+      }
+    ],
+    "warnings": "",
+    "features": {
+      "Bottom surface": 703.921630859375,
+      "Bridge": 67.70291137695312,
+      "Custom": 403.6300964355469,
+      "Flush": 26.0,
+      "Gap infill": 58.375892639160156,
+      "Inner wall": 157.9922332763672,
+      "Internal solid infill": 471.06011962890625,
+      "Outer wall": 633.3623657226562,
+      "Overhang wall": 25.513795852661133,
+      "Sparse infill": 87.59332275390625,
+      "Support": 32.376991271972656,
+      "Support interface": 24.155794143676758,
+      "Support transition": 2.8691885471343994,
+      "Top surface": 429.2454833984375,
+      "Travel": 439.09661865234375,
+      "Undefined": 431.47064208984375
+    },
+    "gcode_sha256": "ca718fc0532174fc4d99338c5e83ae3c46d4a7fb3eae7b58867f7b5f629ed7e6",
+    "project_sha256": "44a0c3ef5b78ff4b96c35eac5dc84f7a21b01d74d79ad9b73f3cd022b2cf3bab"
+  }
+]
