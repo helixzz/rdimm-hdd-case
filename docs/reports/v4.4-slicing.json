@@ -1,0 +1,82 @@
+{
+  "version": "4.4",
+  "results": [
+    {
+      "plate": "1-pin-clearance",
+      "project": "rdimm-4.4-plate-1-pin-clearance-P2S-AMS2Pro.3mf",
+      "seconds": 12165.9716796875,
+      "changes": 22,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 90.73657989501953,
+          "total_used_g": 108.53722381591797
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.24630537629127502,
+          "total_used_g": 12.859604835510254
+        }
+      ],
+      "warnings": "",
+      "painted_faces": 1357,
+      "assignments": {
+        "body-pin-clearance-keep-1": "1",
+        "body-pin-clearance-interface-1": "2",
+        "body-pin-clearance-interface-2": "2",
+        "body-pin-clearance-interface-3": "2",
+        "body-pin-clearance-interface-4": "2",
+        "body-pin-clearance-interface-5": "2",
+        "body-pin-clearance-interface-6": "2",
+        "body-pin-clearance-interface-7": "2",
+        "body-pin-clearance-interface-8": "2",
+        "lid-slide-lift-keep-1": "1"
+      },
+      "project_sha256": "f28f8ca578509409296438c2f9a419999df2be07de0e8fead877bd96ccf12c7f",
+      "gcode_sha256": "bb459ed14fa7f1d3c99e015c1bc3fb74f4fbf7c66fcd5105d50435ee792df8cf"
+    },
+    {
+      "plate": "2-upper-trays",
+      "project": "rdimm-4.4-plate-2-upper-trays-P2S-AMS2Pro.3mf",
+      "seconds": 5298.10693359375,
+      "changes": 10,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 33.37095260620117,
+          "total_used_g": 40.337162017822266
+        },
+        {
+          "filament_id": "GFS02",
+          "id": 2,
+          "main_used_g": 0.2561717629432678,
+          "total_used_g": 5.921200752258301
+        }
+      ],
+      "warnings": "",
+      "painted_faces": 120,
+      "assignments": {
+        "tray-middle-3-keep-1": "1",
+        "tray-middle-3-interface-1": "2",
+        "tray-middle-3-interface-2": "2",
+        "tray-middle-3-interface-3": "2",
+        "tray-middle-3-interface-4": "2",
+        "tray-middle-3-interface-5": "2",
+        "tray-middle-3-interface-6": "2",
+        "tray-top-3-keep-1": "1",
+        "tray-top-3-interface-1": "2",
+        "tray-top-3-interface-2": "2",
+        "tray-top-3-interface-3": "2",
+        "tray-top-3-interface-4": "2",
+        "tray-top-3-interface-5": "2",
+        "tray-top-3-interface-6": "2"
+      },
+      "project_sha256": "8059bfb5099cea909b5f0f4bb996df485499364bf7fdcdda747af81f94662ea6",
+      "gcode_sha256": "cf7cc3bc8ae669e17604d1b828de0de10544cf1a047d84e2b6b2dfac1c7a1cdd"
+    }
+  ],
+  "physical_complete_set_verified": false
+}

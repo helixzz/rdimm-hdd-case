@@ -1,0 +1,634 @@
+{
+  "version": "4.4",
+  "specimens": [
+    {
+      "name": "body-pin-clearance",
+      "kind": "body-pin-clearance",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -54.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -20.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rois": [
+        [
+          [
+            6.29,
+            30.689999999999998,
+            8.59
+          ],
+          [
+            7.92,
+            38.709999999999994,
+            8.95
+          ]
+        ],
+        [
+          [
+            139.38,
+            33.28999999999999,
+            8.59
+          ],
+          [
+            142.01,
+            38.11,
+            8.95
+          ]
+        ],
+        [
+          [
+            6.29,
+            63.089999999999996,
+            8.59
+          ],
+          [
+            7.92,
+            71.11,
+            8.95
+          ]
+        ],
+        [
+          [
+            139.38,
+            68.69,
+            8.59
+          ],
+          [
+            142.01,
+            73.50999999999999,
+            8.95
+          ]
+        ],
+        [
+          [
+            2.39,
+            7.999,
+            23.189
+          ],
+          [
+            6.401,
+            14.001,
+            24.001
+          ]
+        ],
+        [
+          [
+            140.599,
+            7.999,
+            23.189
+          ],
+          [
+            144.61,
+            14.001,
+            24.001
+          ]
+        ],
+        [
+          [
+            2.39,
+            95.59899999999999,
+            23.189
+          ],
+          [
+            6.401,
+            99.801,
+            24.001
+          ]
+        ],
+        [
+          [
+            140.599,
+            95.59899999999999,
+            23.189
+          ],
+          [
+            144.61,
+            99.801,
+            24.001
+          ]
+        ]
+      ],
+      "insert_records": [
+        {
+          "kind": "fixed",
+          "ribs": [
+            [
+              14.85,
+              7.200000000000001
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            6.65,
+            7.9
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            16.199999999999996,
+            4.0
+          ]
+        },
+        {
+          "kind": "moving",
+          "ribs": [
+            [
+              28.35,
+              4.299999999999997
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            139.4,
+            140.35
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            5.199999999999996,
+            4.0
+          ]
+        },
+        {
+          "kind": "fixed",
+          "ribs": [
+            [
+              14.85,
+              7.200000000000001
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            6.65,
+            7.9
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            48.599999999999994,
+            4.0
+          ]
+        },
+        {
+          "kind": "moving",
+          "ribs": [
+            [
+              28.35,
+              4.299999999999997
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            139.4,
+            140.35
+          ],
+          "contact_z_mm": [
+            3.0,
+            4.6
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.8499999999999996,
+          "shift": [
+            0,
+            40.599999999999994,
+            4.0
+          ]
+        },
+        {
+          "kind": "capture",
+          "ribs": [
+            [
+              2.3,
+              5.4
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            3.4,
+            6.3
+          ],
+          "contact_z_mm": [
+            2.9,
+            4.8
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.9500000000000002,
+          "shift": [
+            0,
+            6.0,
+            19.2
+          ],
+          "mirror": false
+        },
+        {
+          "kind": "capture",
+          "ribs": [
+            [
+              2.3,
+              5.4
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            3.4,
+            6.3
+          ],
+          "contact_z_mm": [
+            2.9,
+            4.8
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.9500000000000002,
+          "shift": [
+            0,
+            6.0,
+            19.2
+          ],
+          "mirror": true
+        },
+        {
+          "kind": "capture",
+          "ribs": [
+            [
+              2.3,
+              3.6000000000000005
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            3.4,
+            6.3
+          ],
+          "contact_z_mm": [
+            2.9,
+            4.8
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.9500000000000002,
+          "shift": [
+            0,
+            93.6,
+            19.2
+          ],
+          "mirror": false
+        },
+        {
+          "kind": "capture",
+          "ribs": [
+            [
+              2.3,
+              3.6000000000000005
+            ]
+          ],
+          "rib_count": 1,
+          "max_clear_gap_mm": 0.0,
+          "contact_fraction": 1.0,
+          "contact_x_mm": [
+            3.4,
+            6.3
+          ],
+          "contact_z_mm": [
+            2.9,
+            4.8
+          ],
+          "grip_height_mm": 5.0,
+          "grip_tip_thickness_mm": 1.0,
+          "grip_projection_mm": 0.9500000000000002,
+          "shift": [
+            0,
+            93.6,
+            19.2
+          ],
+          "mirror": true
+        }
+      ]
+    },
+    {
+      "name": "lid-slide-lift",
+      "kind": "lid-slide-lift",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -54.50000004768371
+        ],
+        [
+          -0.0,
+          -1.0,
+          1.2246467991473532e-16,
+          229.8000030517578
+        ],
+        [
+          -0.0,
+          -1.2246467991473532e-16,
+          -1.0,
+          26.00000000000003
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rois": []
+    }
+  ],
+  "volumes": [
+    {
+      "id": 1,
+      "name": "body-pin-clearance-keep-1",
+      "coupon": "body-pin-clearance",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          54.5,
+          20.0,
+          0.0
+        ],
+        [
+          201.5,
+          121.5999984741211,
+          26.0
+        ]
+      ],
+      "volume_mm3": 87143.63796684044,
+      "painted_faces": 1309
+    },
+    {
+      "id": 2,
+      "name": "body-pin-clearance-interface-1",
+      "coupon": "body-pin-clearance",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          61.150001525878906,
+          51.04999923706055,
+          7.0
+        ],
+        [
+          63.25,
+          58.25,
+          9.0
+        ]
+      ],
+      "volume_mm3": 22.689000010192444,
+      "painted_faces": 6
+    },
+    {
+      "id": 3,
+      "name": "body-pin-clearance-interface-2",
+      "coupon": "body-pin-clearance",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          193.0500030517578,
+          53.54999923706055,
+          7.0
+        ],
+        [
+          194.85000610351562,
+          57.849998474121094,
+          9.0
+        ]
+      ],
+      "volume_mm3": 11.4863750060871,
+      "painted_faces": 6
+    },
+    {
+      "id": 4,
+      "name": "body-pin-clearance-interface-3",
+      "coupon": "body-pin-clearance",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          61.150001525878906,
+          83.44999694824219,
+          7.0
+        ],
+        [
+          63.25,
+          90.6500015258789,
+          9.0
+        ]
+      ],
+      "volume_mm3": 22.689000010192437,
+      "painted_faces": 6
+    },
+    {
+      "id": 5,
+      "name": "body-pin-clearance-interface-4",
+      "coupon": "body-pin-clearance",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          193.0500030517578,
+          88.94999694824219,
+          7.0
+        ],
+        [
+          194.85000610351562,
+          93.25,
+          9.0
+        ]
+      ],
+      "volume_mm3": 11.486375006087197,
+      "painted_faces": 6
+    },
+    {
+      "id": 6,
+      "name": "body-pin-clearance-interface-5",
+      "coupon": "body-pin-clearance",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          57.900001525878906,
+          28.299999237060547,
+          22.100000381469727
+        ],
+        [
+          61.75,
+          33.70000076293945,
+          24.200000762939453
+        ]
+      ],
+      "volume_mm3": 37.05074997505552,
+      "painted_faces": 6
+    },
+    {
+      "id": 7,
+      "name": "body-pin-clearance-interface-6",
+      "coupon": "body-pin-clearance",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          194.25,
+          28.299999237060547,
+          22.100000381469727
+        ],
+        [
+          198.10000610351562,
+          33.70000076293945,
+          24.200000762939453
+        ]
+      ],
+      "volume_mm3": 37.05074997505544,
+      "painted_faces": 6
+    },
+    {
+      "id": 8,
+      "name": "body-pin-clearance-interface-7",
+      "coupon": "body-pin-clearance",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          57.900001525878906,
+          115.9000015258789,
+          22.100000381469727
+        ],
+        [
+          61.75,
+          119.5,
+          24.200000762939453
+        ]
+      ],
+      "volume_mm3": 24.700499983370392,
+      "painted_faces": 6
+    },
+    {
+      "id": 9,
+      "name": "body-pin-clearance-interface-8",
+      "coupon": "body-pin-clearance",
+      "role": "interface",
+      "filament": 2,
+      "bounds": [
+        [
+          194.25,
+          115.9000015258789,
+          22.100000381469727
+        ],
+        [
+          198.10000610351562,
+          119.5,
+          24.200000762939453
+        ]
+      ],
+      "volume_mm3": 24.700499983370364,
+      "painted_faces": 6
+    },
+    {
+      "id": 10,
+      "name": "lid-slide-lift-keep-1",
+      "coupon": "lid-slide-lift",
+      "role": "keep",
+      "filament": 1,
+      "bounds": [
+        [
+          56.29999923706055,
+          130.0,
+          0.0
+        ],
+        [
+          199.6999969482422,
+          229.60000610351562,
+          3.5999999046325684
+        ]
+      ],
+      "volume_mm3": 19549.58577786561,
+      "painted_faces": 0
+    }
+  ],
+  "painted_faces": 1357,
+  "plate_bounds": [
+    [
+      54.5,
+      20.0,
+      0.0
+    ],
+    [
+      201.5,
+      229.60000610351562,
+      26.0
+    ]
+  ],
+  "selected_mount_diameter_mm": 3.2,
+  "modeled_interface_material": "Bambu Support For PLA",
+  "physical_verified": false,
+  "scope": "Complete product plate; dedicated supports required",
+  "physical_evidence": "RC6 coupons: clean removal; fixed/C require tools"
+}

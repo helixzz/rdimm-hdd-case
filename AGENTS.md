@@ -1,5 +1,14 @@
 # Agent collaboration guide
 
+## Current complete release: v4.4
+
+- User explicitly authorized updating complete print projects after RC6 results. VERSION4.4, full two-plate/four-permanent-part package; immutable v4.4 tag. build/prepare/preview/package_v4_4.py, audit_v4_4_details.py. Reuses EXACT RC6 5.0mm solid-support product candidate; no untested peel cuts or N unsupported parts. Prior "latest complete4.3" statements below are historical.
+- 20 connected dedicated Support For PLA blocks (16 DIMM+4capture); eight-slot2+3+3 architecture.3.2mm all10mount bores, all10 support blocked. Corner short fins incl bottom whiskers removed; RC6 exterior paddle gusset retained. Body and trays updated; lid permanent geometry identical to4.3 by zero Boolean difference. Cannot drop configured supports by importing bare STL or auto-dropping separated volumes.
+- Official P2S .4/.2 PLA Basic/GFA00 + exact Support For PLA/GFS02, AMS2Pro.800mm3 flush each way, normal tower, by-layer, no flush into functional parts/support. Remaining ordinary automatic supports use PLA, not dedicated material. No vendor dumps/private photos/Gcode in release.
+- Final reference plate1 12165.97168s/22changes/121.396829g;plate2 5298.10693s/10/46.258363g. Total4h51m04/32/167.655191g;Support18.780806g inclpurge, modeledSupport .502477g. Slower than singlePLA4.3; improve postprocessing, no speedup claim.
+- Fresh geometry512/242/1520/132 poses +660 support-extraction poses;20pad starts/every-layer continuity/roof coverage;10bores/eightDIMM corridors/shell-latch corridor;186 permanentPLAroot layers/eight tooth gaps/eight ordinary support regions pass. Explicit material-aware root audit excludes dedicated model paths. Full printed set/impact/adhesion not qualified. RC6 evidence only: A basically usable, A/Cclean removal but fixed/Ctools needed, Nfails.
+- Complete package two configured3MFs, four referenceSTLs, CAD guides, reports, manifest and hashes. Build from official installed profiles, never treat old research copy as production entry. Gate source-matched Windows/Linux CI before release; preserve older artifacts.
+
 ## Latest RC6 physical evidence
 
 - N fails actual fit: both unsupported undersides sag; fixed end prevents DIMM insertion. Actual first contact layer Z4.8 contains Bridge/Inner wall/Overhang wall at fixed end, Overhang wall only at moving end. Bridge flow alone cannot address all affected paths. Existing overhang slowing/forced cooling already enabled; settings are not measured thermal conditions.

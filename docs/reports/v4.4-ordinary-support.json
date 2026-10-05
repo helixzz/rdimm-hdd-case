@@ -1,0 +1,48 @@
+{
+  "version": "4.4",
+  "gcode_sha256": "bb459ed14fa7f1d3c99e015c1bc3fb74f4fbf7c66fcd5105d50435ee792df8cf",
+  "ordinary_support_regions": [
+    {
+      "region": "shell latch",
+      "nominal_z_gap_mm": 0.1999999999999993,
+      "sampled_overlap_fraction": 0.9063337053571429
+    },
+    {
+      "region": "SATA roof",
+      "nominal_z_gap_mm": 0.20000000000000018,
+      "sampled_overlap_fraction": 0.846895390070922
+    },
+    {
+      "region": "bottom beam foot 1",
+      "nominal_z_gap_mm": 0.20000000000000018,
+      "sampled_overlap_fraction": 0.9069661458333333
+    },
+    {
+      "region": "bottom beam foot 2",
+      "nominal_z_gap_mm": 0.20000000000000018,
+      "sampled_overlap_fraction": 0.9073567708333333
+    },
+    {
+      "region": "lid tongue 3.5/8.0",
+      "nominal_z_gap_mm": 0.19999999999999973,
+      "sampled_overlap_fraction": 0.9055454911433173
+    },
+    {
+      "region": "lid tongue 140.8/8.0",
+      "nominal_z_gap_mm": 0.19999999999999973,
+      "sampled_overlap_fraction": 0.6583635265700483
+    },
+    {
+      "region": "lid tongue 3.5/95.6",
+      "nominal_z_gap_mm": 0.19999999999999973,
+      "sampled_overlap_fraction": 0.9112103174603174
+    },
+    {
+      "region": "lid tongue 140.8/95.6",
+      "nominal_z_gap_mm": 0.19999999999999973,
+      "sampled_overlap_fraction": 0.9010416666666666
+    }
+  ],
+  "shell_latch_free_corridor": true,
+  "limits": "Nominal beads only, not adhesion, force, fatigue or thermal deformation."
+}

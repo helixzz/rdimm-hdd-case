@@ -1,0 +1,318 @@
+{
+  "checks": {
+    "module_poses": 512,
+    "loaded_tray_entry_poses": 242,
+    "bottom_release_poses": 1520,
+    "lid_poses": 132
+  },
+  "mount_diameter_mm": 3.2,
+  "details": [
+    {
+      "part": "body-pin-clearance",
+      "cores": 0,
+      "interfaces": 8,
+      "core_extraction_poses": 264,
+      "assembly_to_plate": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          20.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "lid-slide-lift",
+      "cores": 0,
+      "interfaces": 0,
+      "core_extraction_poses": 0,
+      "assembly_to_plate": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.50000004768371
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.2246467991473532e-16,
+          229.8000030517578
+        ],
+        [
+          0.0,
+          1.2246467991473532e-16,
+          -1.0,
+          26.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "tray-middle-3",
+      "cores": 0,
+      "interfaces": 6,
+      "core_extraction_poses": 198,
+      "assembly_to_plate": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.50000002384186
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          18.100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "tray-top-3",
+      "cores": 0,
+      "interfaces": 6,
+      "core_extraction_poses": 198,
+      "assembly_to_plate": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.50000002384186
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          126.10000002384186
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "outer_mm": [
+    147,
+    101.6,
+    26
+  ],
+  "physical_verified": false,
+  "connected_insert_count": 20,
+  "insert_extraction_poses": 660,
+  "version": "4.4",
+  "plates": [
+    {
+      "plate": "1-pin-clearance",
+      "project": "rdimm-4.4-plate-1-pin-clearance.3mf",
+      "permanent_parts": [
+        "body-pin-clearance",
+        "lid-slide-lift"
+      ],
+      "dedicated_supports": 8
+    },
+    {
+      "plate": "2-upper-trays",
+      "project": "rdimm-4.4-plate-2-upper-trays.3mf",
+      "permanent_parts": [
+        "tray-middle-3",
+        "tray-top-3"
+      ],
+      "dedicated_supports": 12
+    }
+  ],
+  "plate_records": [
+    {
+      "stem": "rdimm-4.4-plate-1-pin-clearance",
+      "poses": [
+        {
+          "part": "body-pin-clearance",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              20.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "lid-slide-lift",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000004768371
+            ],
+            [
+              -0.0,
+              -1.0,
+              -1.2246467991473532e-16,
+              229.8000030517578
+            ],
+            [
+              -0.0,
+              1.2246467991473532e-16,
+              -1.0,
+              26.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "rdimm-4.4-plate-2-upper-trays",
+      "poses": [
+        {
+          "part": "tray-middle-3",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000002384186
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              18.100000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "tray-top-3",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000002384186
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              126.10000002384186
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "changes_from_v4_3": {
+    "body-pin-clearance": {
+      "added_mm3": 122.56914363375726,
+      "removed_mm3": 0.05574604656031425
+    },
+    "lid-slide-lift": {
+      "added_mm3": 2.8541124014573923e-07,
+      "removed_mm3": 7.76606426983211e-14
+    },
+    "tray-middle-3": {
+      "added_mm3": 12.287999963849256,
+      "removed_mm3": 16.666362607502553
+    },
+    "tray-top-3": {
+      "added_mm3": 12.28799996736833,
+      "removed_mm3": 16.666359607741107
+    }
+  },
+  "scope": "Complete four-part eight-DIMM case",
+  "support_baseline": "RC6 solid 5.0 mm grip; no untested peel cuts",
+  "physical_complete_set_verified": false,
+  "physical_impact_verified": false
+}
