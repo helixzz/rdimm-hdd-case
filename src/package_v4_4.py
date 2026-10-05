@@ -2,11 +2,12 @@
 import hashlib,json,subprocess,zipfile
 from build_v4_4 import ROOT,VERSION
 
-def main():
+def main(version=VERSION):
+    VERSION=version
     assert not subprocess.check_output(['git','status','--porcelain'],cwd=ROOT,text=True).strip()
     commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
-    assert commit==subprocess.check_output(['git','rev-parse','v4.4^{commit}'],cwd=ROOT,text=True).strip()
-    folder=ROOT/'build/v4.4-projects';models=ROOT/'models/v4.4'
+    assert commit==subprocess.check_output(['git','rev-parse',f'v{VERSION}^{{commit}}'],cwd=ROOT,text=True).strip()
+    folder=ROOT/f'build/v{VERSION}-projects';models=ROOT/f'models/v{VERSION}'
     report=json.loads((folder/'slicing-report.json').read_text());audit=json.loads((folder/'toolpath-audit.json').read_text())
     assert len(report['results'])==2 and sum(len(a['inserts']) for a in audit['plates'])==20
     files={'LICENSE':(ROOT/'LICENSE').read_bytes()}
@@ -22,13 +23,22 @@ def main():
         files[path.name]=path.read_bytes()
     for name in ('verification.json','tray-root-fix.json','plate-guide.png','support-removal.png'):
         files[name]=(models/name).read_bytes()
+    if (models/'version-marks.png').exists():files['version-marks.png']=(models/'version-marks.png').read_bytes()
     for p in sorted(models.glob('*.stl')):files['geometry-reference-only/'+p.name]=p.read_bytes()
     assert sum(n.endswith('.stl') for n in files)==4
     for public,local in [('slicing','slicing-report'),('toolpath','toolpath-audit'),('roots','root-bead-audit'),('teeth','tooth-clearance-audit'),('ordinary-support','ordinary-support-audit')]:
-        p=ROOT/f'docs/reports/v4.4-{public}.json';assert p.read_bytes()==(folder/(local+'.json')).read_bytes();files['reports/'+p.name]=p.read_bytes()
-    files['README.zh-CN.md']=(ROOT/'docs/v4.4.zh-CN.md').read_text(encoding='utf8').replace('../models/v4.4/','').encode('utf8')
-    files['manifest.json']=json.dumps(dict(version=VERSION,release_tag='v4.4',source_commit=commit,
-        scope='complete four-part eight-DIMM product',complete_set_plates=2,
+        p=ROOT/f'docs/reports/v{VERSION}-{public}.json';assert p.read_bytes()==(folder/(local+'.json')).read_bytes();files['reports/'+p.name]=p.read_bytes()
+    files['README.zh-CN.md']=(ROOT/f'docs/v{VERSION}.zh-CN.md').read_text(encoding='utf8').replace(f'../models/v{VERSION}/','').encode('utf8')
+    mark_report=ROOT/f'docs/reports/v{VERSION}-version-marks.json'
+    if mark_report.exists():
+        assert mark_report.read_bytes()==(folder/'version-mark-audit.json').read_bytes()
+        files['reports/'+mark_report.name]=mark_report.read_bytes()
+    marks=json.loads((models/'verification.json').read_text()).get('physical_version_marks',[])
+    if VERSION!='4.4':
+        assert len({r['part'] for r in marks})==4 and mark_report.exists()
+        assert sum(r['text'].startswith('V'+VERSION) for r in marks)==4
+    files['manifest.json']=json.dumps(dict(version=VERSION,release_tag='v'+VERSION,source_commit=commit,
+        scope='complete four-part eight-DIMM product',complete_set_plates=2,physical_version_marks=marks,
         printer='P2S / 0.4 mm',ams='AMS 2 Pro',layer_height_mm=.2,
         logical_materials={'1':'Bambu PLA Basic / GFA00','2':'Bambu Support For PLA / GFS02'},map_to_actual_AMS_slots=True,
         open_as_project=True,print_sequence='by layer',dedicated_supports=20,automatic_supports_required=True,
@@ -36,7 +46,7 @@ def main():
         coupon_evidence='RC6: clean support removal, tools required at fixed/C',physical_complete_set_verified=False,
         physical_impact_verified=False,gcode_included=False),indent=2).encode()
     files['SHA256SUMS.txt']=''.join(hashlib.sha256(b).hexdigest()+'  '+n+'\n' for n,b in files.items()).encode()
-    target=ROOT/'build/rdimm-v4.4-complete-P2S-AMS2Pro.zip'
+    target=ROOT/f'build/rdimm-v{VERSION}-complete-P2S-AMS2Pro.zip'
     with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED) as z:
         for n,b in files.items():z.writestr(n,b)
     with zipfile.ZipFile(target) as z:

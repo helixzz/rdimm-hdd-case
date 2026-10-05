@@ -1,6 +1,13 @@
 # Agent collaboration guide
 
-## Current complete release: v4.4
+## Current complete release: v4.4.1
+
+- All FOUR permanent pieces physically carry the complete engineering version and a part identifier, starting here. This is a persistent user requirement for every future complete release and coupon. Distinct coupon IDs must accompany the version. Do not substitute object names or filenames for printable marks; disposable supports need no label.
+- v4.4.1 adds recessed V4.4.1 BASE on body underside, V4.4.1 LID on lid exterior, V4.4.1 plus MID/TOP on thick tray end rails. Depth .20mm, stroke .60mm; mirror underside for outside readability. Never engrave thin tray floors, flexures, mating surfaces or component-contact lands. Check backing and actual sliced grooves, not only CAD text.
+- build_v4_4_1.py; manage_v4_4_1.py prepare/audit/preview/package, audit_version_marks.py and preview_version_marks.py. Shared v4.4 tools accept optional version/part factory, defaults remain historical. Four connected permanent solids; only label cuts, same support and mating geometry. Preserve all previous tagged assets.
+- Two plates: 3:24:23 and 1:28:47, total4:53:10,32changes; approximately2m06 slower than4.4. No real-print legibility or complete-set/impact qualification yet. Existing4.4 parts remain mating-compatible and need not be discarded solely for labels.
+
+## Previous complete release: v4.4
 
 - User explicitly authorized updating complete print projects after RC6 results. VERSION4.4, full two-plate/four-permanent-part package; immutable v4.4 tag. build/prepare/preview/package_v4_4.py, audit_v4_4_details.py. Reuses EXACT RC6 5.0mm solid-support product candidate; no untested peel cuts or N unsupported parts. Prior "latest complete4.3" statements below are historical.
 - 20 connected dedicated Support For PLA blocks (16 DIMM+4capture); eight-slot2+3+3 architecture.3.2mm all10mount bores, all10 support blocked. Corner short fins incl bottom whiskers removed; RC6 exterior paddle gusset retained. Body and trays updated; lid permanent geometry identical to4.3 by zero Boolean difference. Cannot drop configured supports by importing bare STL or auto-dropping separated volumes.

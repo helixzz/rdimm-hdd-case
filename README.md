@@ -1,6 +1,8 @@
 # RDIMM HDD Case
 
-**最新完整版本：[v4.4 双材料整套工程](docs/v4.4.zh-CN.md) · [下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4)**。四个永久零件、两盘、8 条裸 DDR5 RDIMM；采用 RC6 实测能拆净的整块 Support For PLA 支撑，统一 3.2 mm 安装孔并屏蔽孔内支撑，移除角部脆弱残片。P2S＋AMS 2 Pro 参考 **4:51:04 / 167.66 g / 32 次换料**，比旧单材料版更慢；固定端和顶盖限位支撑仍需工具，完整套件装配与耐久待实测。以下为历史测试和版本记录。
+**最新完整版本：[v4.4.1 实物版本标记版](docs/v4.4.1.zh-CN.md) · [下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4.1)**。外壳底面、上盖外面及两片托盘厚端梁均刻有 `V4.4.1` 和 BASE/LID/MID/TOP 代号。完整两盘 P2S＋AMS 2 Pro 工程，参考 **4:53:10 / 167.67 g / 32 次换料**；配合尺寸与 v4.4 相同，可复用旧件。专用支撑部分仍需工具，刻字实物效果及完整套件验证待完成。以下为历史测试与版本记录。
+
+**历史完整版本：[v4.4 双材料整套工程](docs/v4.4.zh-CN.md) · [下载](https://github.com/helixzz/rdimm-hdd-case/releases/tag/v4.4)**。四个永久零件、两盘、8 条裸 DDR5 RDIMM；采用 RC6 实测能拆净的整块 Support For PLA 支撑，统一 3.2 mm 安装孔并屏蔽孔内支撑，移除角部脆弱残片。P2S＋AMS 2 Pro 参考 **4:51:04 / 167.66 g / 32 次换料**，比旧单材料版更慢；固定端和顶盖限位支撑仍需工具，完整套件装配与耐久待实测。以下为历史测试和版本记录。
 
 **RC6 实测更新：[结果与后续方向](docs/validation-v4.4-trials.zh-CN.md)**。N 两端下垂，固定端阻挡 DIMM，免支撑对照未通过。A 基本合格，A/C 支撑均可一次拆净、无残留；A 固定端及 C1/C3 仍需工具用力拆除。该结果取代下方 RC6 的“待验证”状态，不代表完整产品已通过验证。
 

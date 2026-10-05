@@ -1,0 +1,475 @@
+{
+  "checks": {
+    "module_poses": 512,
+    "loaded_tray_entry_poses": 242,
+    "bottom_release_poses": 1520,
+    "lid_poses": 132
+  },
+  "mount_diameter_mm": 3.2,
+  "details": [
+    {
+      "part": "body-pin-clearance",
+      "cores": 0,
+      "interfaces": 8,
+      "core_extraction_poses": 264,
+      "assembly_to_plate": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          20.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "lid-slide-lift",
+      "cores": 0,
+      "interfaces": 0,
+      "core_extraction_poses": 0,
+      "assembly_to_plate": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.50000004768371
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.2246467991473532e-16,
+          229.8000030517578
+        ],
+        [
+          0.0,
+          1.2246467991473532e-16,
+          -1.0,
+          26.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "tray-middle-3",
+      "cores": 0,
+      "interfaces": 6,
+      "core_extraction_poses": 198,
+      "assembly_to_plate": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.50000002384186
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          18.100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "tray-top-3",
+      "cores": 0,
+      "interfaces": 6,
+      "core_extraction_poses": 198,
+      "assembly_to_plate": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.50000002384186
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          126.10000002384186
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "outer_mm": [
+    147,
+    101.6,
+    26
+  ],
+  "physical_verified": false,
+  "connected_insert_count": 20,
+  "insert_extraction_poses": 660,
+  "physical_version_marks": [
+    {
+      "part": "body-pin-clearance",
+      "text": "V4.4.1 BASE",
+      "surface": "underside",
+      "depth_mm": 0.2,
+      "stroke_width_mm": 0.6,
+      "minimum_backing_mm": 2.0,
+      "transform": [
+        [
+          1,
+          0,
+          0,
+          50
+        ],
+        [
+          0,
+          -1,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          -1,
+          0.2
+        ]
+      ],
+      "removed_mm3": 7.430174458048427
+    },
+    {
+      "part": "lid-slide-lift",
+      "text": "V4.4.1 LID",
+      "surface": "exterior top",
+      "depth_mm": 0.2,
+      "stroke_width_mm": 0.6,
+      "minimum_backing_mm": 1.0,
+      "transform": [
+        [
+          1,
+          0,
+          0,
+          50
+        ],
+        [
+          0,
+          1,
+          0,
+          80
+        ],
+        [
+          0,
+          0,
+          1,
+          25.8
+        ]
+      ],
+      "removed_mm3": 5.867291170100289
+    },
+    {
+      "part": "tray-middle-3",
+      "text": "V4.4.1",
+      "surface": "thick end rail",
+      "depth_mm": 0.2,
+      "stroke_width_mm": 0.6,
+      "minimum_backing_mm": 1.0,
+      "transform": [
+        [
+          1,
+          0,
+          0,
+          5.6
+        ],
+        [
+          0,
+          1,
+          0,
+          20
+        ],
+        [
+          0,
+          0,
+          1,
+          6.6
+        ]
+      ],
+      "removed_mm3": 3.2520266873990478
+    },
+    {
+      "part": "tray-middle-3",
+      "text": "MID",
+      "surface": "thick end rail",
+      "depth_mm": 0.2,
+      "stroke_width_mm": 0.6,
+      "minimum_backing_mm": 1.0,
+      "transform": [
+        [
+          1,
+          0,
+          0,
+          5.6
+        ],
+        [
+          0,
+          1,
+          0,
+          68
+        ],
+        [
+          0,
+          0,
+          1,
+          6.6
+        ]
+      ],
+      "removed_mm3": 3.0872484037598156
+    },
+    {
+      "part": "tray-top-3",
+      "text": "V4.4.1",
+      "surface": "thick end rail",
+      "depth_mm": 0.2,
+      "stroke_width_mm": 0.6,
+      "minimum_backing_mm": 1.0,
+      "transform": [
+        [
+          1,
+          0,
+          0,
+          5.6
+        ],
+        [
+          0,
+          1,
+          0,
+          20
+        ],
+        [
+          0,
+          0,
+          1,
+          6.6
+        ]
+      ],
+      "removed_mm3": 3.2520266873990478
+    },
+    {
+      "part": "tray-top-3",
+      "text": "TOP",
+      "surface": "thick end rail",
+      "depth_mm": 0.2,
+      "stroke_width_mm": 0.6,
+      "minimum_backing_mm": 1.0,
+      "transform": [
+        [
+          1,
+          0,
+          0,
+          5.6
+        ],
+        [
+          0,
+          1,
+          0,
+          68
+        ],
+        [
+          0,
+          0,
+          1,
+          6.6
+        ]
+      ],
+      "removed_mm3": 2.660264484809897
+    }
+  ],
+  "version": "4.4.1",
+  "plates": [
+    {
+      "plate": "1-pin-clearance",
+      "project": "rdimm-4.4.1-plate-1-pin-clearance.3mf",
+      "permanent_parts": [
+        "body-pin-clearance",
+        "lid-slide-lift"
+      ],
+      "dedicated_supports": 8
+    },
+    {
+      "plate": "2-upper-trays",
+      "project": "rdimm-4.4.1-plate-2-upper-trays.3mf",
+      "permanent_parts": [
+        "tray-middle-3",
+        "tray-top-3"
+      ],
+      "dedicated_supports": 12
+    }
+  ],
+  "plate_records": [
+    {
+      "stem": "rdimm-4.4.1-plate-1-pin-clearance",
+      "poses": [
+        {
+          "part": "body-pin-clearance",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              20.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "lid-slide-lift",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000004768371
+            ],
+            [
+              -0.0,
+              -1.0,
+              -1.2246467991473532e-16,
+              229.8000030517578
+            ],
+            [
+              -0.0,
+              1.2246467991473532e-16,
+              -1.0,
+              26.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "rdimm-4.4.1-plate-2-upper-trays",
+      "poses": [
+        {
+          "part": "tray-middle-3",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000002384186
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              18.100000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "part": "tray-top-3",
+          "assembly_to_plate": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              54.50000002384186
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              126.10000002384186
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "baseline": "4.4; only recessed identification added",
+  "physical_complete_set_verified": false,
+  "physical_impact_verified": false
+}

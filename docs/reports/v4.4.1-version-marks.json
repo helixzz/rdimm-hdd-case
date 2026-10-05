@@ -1,0 +1,60 @@
+{
+  "version": "4.4.1",
+  "marks": [
+    {
+      "part": "body-pin-clearance",
+      "text": "V4.4.1 BASE",
+      "surface": "underside",
+      "samples": 5277,
+      "nominal_bead_coverage": 0.0,
+      "support_in_groove": false,
+      "gcode_sha256": "91e5814a5b44a49a61c6fcc9920504cc1d590d8524e06c2f350464cb28666834"
+    },
+    {
+      "part": "lid-slide-lift",
+      "text": "V4.4.1 LID",
+      "surface": "exterior top",
+      "samples": 4047,
+      "nominal_bead_coverage": 0.0,
+      "support_in_groove": false,
+      "gcode_sha256": "91e5814a5b44a49a61c6fcc9920504cc1d590d8524e06c2f350464cb28666834"
+    },
+    {
+      "part": "tray-middle-3",
+      "text": "V4.4.1",
+      "surface": "thick end rail",
+      "samples": 2211,
+      "nominal_bead_coverage": 0.0,
+      "support_in_groove": false,
+      "gcode_sha256": "22bec68d26e1f834b0cdd1789bf72b47438d6cec92627949618ebccd6f025532"
+    },
+    {
+      "part": "tray-middle-3",
+      "text": "MID",
+      "surface": "thick end rail",
+      "samples": 2194,
+      "nominal_bead_coverage": 0.0,
+      "support_in_groove": false,
+      "gcode_sha256": "22bec68d26e1f834b0cdd1789bf72b47438d6cec92627949618ebccd6f025532"
+    },
+    {
+      "part": "tray-top-3",
+      "text": "V4.4.1",
+      "surface": "thick end rail",
+      "samples": 2211,
+      "nominal_bead_coverage": 0.0,
+      "support_in_groove": false,
+      "gcode_sha256": "22bec68d26e1f834b0cdd1789bf72b47438d6cec92627949618ebccd6f025532"
+    },
+    {
+      "part": "tray-top-3",
+      "text": "TOP",
+      "surface": "thick end rail",
+      "samples": 1850,
+      "nominal_bead_coverage": 0.0,
+      "support_in_groove": false,
+      "gcode_sha256": "22bec68d26e1f834b0cdd1789bf72b47438d6cec92627949618ebccd6f025532"
+    }
+  ],
+  "limits": "Nominal bead footprints; texture, legibility and first-layer spreading require printing."
+}

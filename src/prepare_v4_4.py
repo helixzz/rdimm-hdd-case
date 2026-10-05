@@ -8,7 +8,8 @@ from prepare_v3_2_project import OVERRIDES
 from check_bambu_v3 import read_mesh
 from audit_solid_support_v4_4_rc6 import audit
 
-def main(bambu,profiles):
+def main(bambu,profiles,version=VERSION,part_factory=parts):
+    VERSION=version;parts=part_factory
     def resolve(kind,name):
         d=json.loads((profiles/kind/(name+'.json')).read_text(encoding='utf8'))
         s=resolve(kind,d['inherits']) if d.get('inherits') else {}
@@ -16,7 +17,7 @@ def main(bambu,profiles):
         s.update(d);s.pop('inherits',None);s.pop('include',None);return s
     machine=resolve('machine','Bambu Lab P2S 0.4 nozzle')
     process=resolve('process','0.20mm Standard @BBL P2S');process.update(OVERRIDES)
-    process.update(name='RDIMM v4.4 solid supports',**{'from':'User','print_settings_id':'RDIMM v4.4 solid supports',
+    process.update(name=f'RDIMM v{VERSION} solid supports',**{'from':'User','print_settings_id':f'RDIMM v{VERSION} solid supports',
         'enable_prime_tower':'1','wipe_tower_x':['12'],'wipe_tower_y':['150'],
         'support_filament':'1','support_interface_filament':'1','support_top_z_distance':'0.2','support_bottom_z_distance':'0.2',
         'support_interface_spacing':'0.25','support_bottom_interface_spacing':'0.25','independent_support_layer_height':'0',
@@ -26,13 +27,13 @@ def main(bambu,profiles):
         'internal_solid_infill_line_width':'0.42','sparse_infill_line_width':'0.45','infill_combination':'0'})
     pla=resolve('filament','Bambu PLA Basic @BBL P2S');support=resolve('filament','Bambu Support For PLA @BBL P2S')
     for d in (pla,support):d['override_process_overhang_speed']=['0']
-    out=ROOT/'build/v4.4-projects';out.mkdir(parents=True,exist_ok=True);rows=[];audits=[]
+    out=ROOT/f'build/v{VERSION}-projects';out.mkdir(parents=True,exist_ok=True);rows=[];audits=[]
     plates,_=parts()
     for label,items in plates:
         folder=out/label;folder.mkdir(parents=True,exist_ok=True)
         for name,d in [('machine',machine),('process',process),('pla',pla),('support',support)]:
             (folder/(name+'.json')).write_text(json.dumps(d))
-        source=ROOT/'models/v4.4'/label
+        source=ROOT/f'models/v{VERSION}'/label
         original=source/f'rdimm-{VERSION}-plate-{label}.3mf'
         project=folder/f'rdimm-{VERSION}-plate-{label}-P2S-AMS2Pro.3mf'
         shutil.copyfile(source/'verification.json',folder/'verification.json')

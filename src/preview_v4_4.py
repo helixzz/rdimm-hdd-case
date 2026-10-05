@@ -7,12 +7,13 @@ from support_removal_guide import render
 
 BLUE=(72,139,180);CREAM=(224,196,130)
 
-def main():
-    plates,_=parts();out=ROOT/'models/v4.4';font=ImageFont.load_default(size=25);small=ImageFont.load_default(size=19)
-    report=json.loads((ROOT/'build/v4.4-projects/slicing-report.json').read_text())
-    audits=json.loads((ROOT/'build/v4.4-projects/toolpath-audit.json').read_text())['plates']
+def main(version="4.4",part_factory=parts):
+    parts=part_factory
+    plates,_=parts();out=ROOT/f'models/v{version}';font=ImageFont.load_default(size=25);small=ImageFont.load_default(size=19)
+    report=json.loads((ROOT/f'build/v{version}-projects/slicing-report.json').read_text())
+    audits=json.loads((ROOT/f'build/v{version}-projects/toolpath-audit.json').read_text())['plates']
     im=Image.new('RGB',(1600,1050),'#fafafa');d=ImageDraw.Draw(im)
-    d.text((25,15),'V4.4 | COMPLETE SET | 2 plates / 4 permanent parts / 8 DIMMs',font=font,fill='#193247')
+    d.text((25,15),f'V{version} | COMPLETE SET | 2 plates / 4 permanent parts / 8 DIMMs',font=font,fill='#193247')
     d.text((25,57),'BLUE: permanent PLA | CREAM: dedicated Support For PLA | GREY: prime tower footprint',font=small,fill='#804327')
     for i,(label,items) in enumerate(plates):
         x=25+800*i;scene=[(v.meshof(v.box((256,256,.1),(0,0,-.2))),(239,242,245))]
@@ -27,7 +28,7 @@ def main():
     d.text((25,1010),'Open the configured 3MF as a PROJECT. Keep material assignments, support paint and the prime tower.',font=small,fill='#193247');im.save(out/'plate-guide.png')
     body=plates[0][1][0];tray=plates[1][1][0]
     im=Image.new('RGB',(1500,1620),'#fafafa');d=ImageDraw.Draw(im)
-    d.text((25,15),'V4.4 | Dedicated supports | CAD reference, NOT a printed result',font=font,fill='#193247')
+    d.text((25,15),f'V{version} | Dedicated supports | CAD reference, NOT a printed result',font=font,fill='#193247')
     d.text((25,55),'Keep BLUE. Remove CREAM. Tools may be needed for fixed ends and lid captures.',font=small,fill='#804327')
     cases=[('Body / fixed DIMM end',body,0,[1,-.5,1.1],'Pull into the empty DIMM slot. Hold the rigid frame; do not pry on the roof.'),
            ('Body / moving DIMM end',body,1,[-1,-.5,1.1],'Pull into the empty DIMM slot. Keep the spring, tooth, paddle and root.'),
@@ -43,6 +44,6 @@ def main():
         d.text((25,y+310),'Before removal',font=small,fill='#804327');d.text((780,y+310),'Clean reference',font=small,fill='#193247')
         d.text((25,y+342),note,font=small,fill='#193247')
     d.text((25,1585),'Ordinary automatic PLA supports elsewhere also require removal. Mounting holes have NO support.',font=small,fill='#804327')
-    im.save(out/'support-removal.png');print('Saved v4.4 CAD guides',flush=True)
+    im.save(out/'support-removal.png');print(f'Saved v{version} CAD guides',flush=True)
 
 if __name__=='__main__':main()

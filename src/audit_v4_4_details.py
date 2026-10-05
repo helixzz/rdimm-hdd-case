@@ -12,8 +12,9 @@ def classified(path):
     p[:,7]=np.maximum(p[:,7],p[:,8]==1)
     return p[:,:8]
 
-def main():
-    folder=ROOT/'build/v4.4-projects'
+def main(version=VERSION):
+    VERSION=version
+    folder=ROOT/f'build/v{VERSION}-projects'
     # Dedicated Support is emitted as MODEL by Studio. It must not count as
     # permanent root material or fill an apparent permanent tooth clearance.
     old=roots.parse,teeth.parse
@@ -21,7 +22,7 @@ def main():
         roots.parse=classified;teeth.parse=classified
         roots.main(VERSION);teeth.main(VERSION)
     finally:roots.parse,teeth.parse=old
-    records=json.loads((ROOT/'models/v4.4/verification.json').read_text())['plate_records']
+    records=json.loads((ROOT/f'models/v{VERSION}/verification.json').read_text())['plate_records']
     path=folder/'1-pin-clearance/plate_1.gcode';p=classified(path);checks=[]
     poses=records[0]['poses'];body=next(x for x in poses if x['part'].startswith('body'));lid=next(x for x in poses if x['part'].startswith('lid'))
     t=np.array(body['assembly_to_plate'])
